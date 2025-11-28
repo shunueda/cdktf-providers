@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface RoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Value must be one of `create`, `read`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#alerts_permissions Role#alerts_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#alerts_permissions Role#alerts_permissions}
   */
   readonly alertsPermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#api_keys_permissions Role#api_keys_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#api_keys_permissions Role#api_keys_permissions}
   */
   readonly apiKeysPermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#audits_permissions Role#audits_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#audits_permissions Role#audits_permissions}
   */
   readonly auditsPermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#billing_permissions Role#billing_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#billing_permissions Role#billing_permissions}
   */
   readonly billingPermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#environments_permissions Role#environments_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#environments_permissions Role#environments_permissions}
   */
   readonly environmentsPermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#form_fields_permissions Role#form_fields_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#form_fields_permissions Role#form_fields_permissions}
   */
   readonly formFieldsPermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#functionalities_permissions Role#functionalities_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#functionalities_permissions Role#functionalities_permissions}
   */
   readonly functionalitiesPermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#groups_permissions Role#groups_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#groups_permissions Role#groups_permissions}
   */
   readonly groupsPermissions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#id Role#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#id Role#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,145 +65,145 @@ export interface RoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#incident_causes_permissions Role#incident_causes_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#incident_causes_permissions Role#incident_causes_permissions}
   */
   readonly incidentCausesPermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#incident_feedbacks_permissions Role#incident_feedbacks_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#incident_feedbacks_permissions Role#incident_feedbacks_permissions}
   */
   readonly incidentFeedbacksPermissions?: string[];
   /**
   * Associated incident permissions set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#incident_permission_set_id Role#incident_permission_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#incident_permission_set_id Role#incident_permission_set_id}
   */
   readonly incidentPermissionSetId?: string;
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#incident_roles_permissions Role#incident_roles_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#incident_roles_permissions Role#incident_roles_permissions}
   */
   readonly incidentRolesPermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#incident_types_permissions Role#incident_types_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#incident_types_permissions Role#incident_types_permissions}
   */
   readonly incidentTypesPermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#incidents_permissions Role#incidents_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#incidents_permissions Role#incidents_permissions}
   */
   readonly incidentsPermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#integrations_permissions Role#integrations_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#integrations_permissions Role#integrations_permissions}
   */
   readonly integrationsPermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#invitations_permissions Role#invitations_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#invitations_permissions Role#invitations_permissions}
   */
   readonly invitationsPermissions?: string[];
   /**
   * Whether the role can be deleted.. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#is_deletable Role#is_deletable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#is_deletable Role#is_deletable}
   */
   readonly isDeletable?: boolean | cdktf.IResolvable;
   /**
   * Whether the role can be edited.. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#is_editable Role#is_editable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#is_editable Role#is_editable}
   */
   readonly isEditable?: boolean | cdktf.IResolvable;
   /**
   * The role name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#name Role#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#name Role#name}
   */
   readonly name: string;
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#playbooks_permissions Role#playbooks_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#playbooks_permissions Role#playbooks_permissions}
   */
   readonly playbooksPermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#private_incidents_permissions Role#private_incidents_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#private_incidents_permissions Role#private_incidents_permissions}
   */
   readonly privateIncidentsPermissions?: string[];
   /**
   * Value must be one of `create`, `update`, `read`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#pulses_permissions Role#pulses_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#pulses_permissions Role#pulses_permissions}
   */
   readonly pulsesPermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#retrospective_permissions Role#retrospective_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#retrospective_permissions Role#retrospective_permissions}
   */
   readonly retrospectivePermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#roles_permissions Role#roles_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#roles_permissions Role#roles_permissions}
   */
   readonly rolesPermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#secrets_permissions Role#secrets_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#secrets_permissions Role#secrets_permissions}
   */
   readonly secretsPermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#services_permissions Role#services_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#services_permissions Role#services_permissions}
   */
   readonly servicesPermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#severities_permissions Role#severities_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#severities_permissions Role#severities_permissions}
   */
   readonly severitiesPermissions?: string[];
   /**
   * The role slug.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#slug Role#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#slug Role#slug}
   */
   readonly slug?: string;
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#status_pages_permissions Role#status_pages_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#status_pages_permissions Role#status_pages_permissions}
   */
   readonly statusPagesPermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#webhooks_permissions Role#webhooks_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#webhooks_permissions Role#webhooks_permissions}
   */
   readonly webhooksPermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#workflows_permissions Role#workflows_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#workflows_permissions Role#workflows_permissions}
   */
   readonly workflowsPermissions?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role rootly_role}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role rootly_role}
 */
 export class Role extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class Role extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Role resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Role to import
-  * @param importFromId The id of the existing Role that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Role that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Role to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class Role extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/role rootly_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role rootly_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class Role extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_role',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.8',
-        providerVersionConstraint: '4.3.8'
+        providerVersion: '4.3.9',
+        providerVersionConstraint: '4.3.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

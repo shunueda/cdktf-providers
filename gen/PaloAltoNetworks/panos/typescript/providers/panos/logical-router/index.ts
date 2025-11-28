@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,15 +10,15 @@ export interface LogicalRouterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#location LogicalRouter#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#location LogicalRouter#location}
   */
   readonly location: LogicalRouterLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#vrf LogicalRouter#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#vrf LogicalRouter#vrf}
   */
   readonly vrf?: LogicalRouterVrf[] | cdktf.IResolvable;
 }
@@ -26,7 +26,7 @@ export interface LogicalRouterLocationNgfw {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ngfw_device LogicalRouter#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ngfw_device LogicalRouter#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -122,19 +122,19 @@ export interface LogicalRouterLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ngfw_device LogicalRouter#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ngfw_device LogicalRouter#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#panorama_device LogicalRouter#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#panorama_device LogicalRouter#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -288,19 +288,19 @@ export interface LogicalRouterLocationTemplateStack {
   /**
   * Specific Panorama template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ngfw_device LogicalRouter#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ngfw_device LogicalRouter#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#panorama_device LogicalRouter#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#panorama_device LogicalRouter#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -454,13 +454,13 @@ export interface LogicalRouterLocationVsys {
   /**
   * The Virtual System name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name?: string;
   /**
   * The NGFW device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ngfw_device LogicalRouter#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ngfw_device LogicalRouter#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -585,25 +585,25 @@ export interface LogicalRouterLocation {
   /**
   * Located in a specific NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ngfw LogicalRouter#ngfw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ngfw LogicalRouter#ngfw}
   */
   readonly ngfw?: LogicalRouterLocationNgfw;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#template LogicalRouter#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#template LogicalRouter#template}
   */
   readonly template?: LogicalRouterLocationTemplate;
   /**
   * Located in a specific template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#template_stack LogicalRouter#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#template_stack LogicalRouter#template_stack}
   */
   readonly templateStack?: LogicalRouterLocationTemplateStack;
   /**
   * Located in a specific Virtual System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#vsys LogicalRouter#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#vsys LogicalRouter#vsys}
   */
   readonly vsys?: LogicalRouterLocationVsys;
 }
@@ -786,73 +786,73 @@ export interface LogicalRouterVrfAdministrativeDistances {
   /**
   * Set BGP AS External Routes Administrative Distance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#bgp_external LogicalRouter#bgp_external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#bgp_external LogicalRouter#bgp_external}
   */
   readonly bgpExternal?: number;
   /**
   * Set BGP AS Internal Routes Administrative Distance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#bgp_internal LogicalRouter#bgp_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#bgp_internal LogicalRouter#bgp_internal}
   */
   readonly bgpInternal?: number;
   /**
   * Set BGP Local Routes Administrative Distance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#bgp_local LogicalRouter#bgp_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#bgp_local LogicalRouter#bgp_local}
   */
   readonly bgpLocal?: number;
   /**
   * Set OSPF External Routes Administrative Distance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ospf_ext LogicalRouter#ospf_ext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ospf_ext LogicalRouter#ospf_ext}
   */
   readonly ospfExt?: number;
   /**
   * Set OSPF Inter Area Routes Administrative Distance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ospf_inter LogicalRouter#ospf_inter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ospf_inter LogicalRouter#ospf_inter}
   */
   readonly ospfInter?: number;
   /**
   * Set OSPF Intra Area Routes Administrative Distance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ospf_intra LogicalRouter#ospf_intra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ospf_intra LogicalRouter#ospf_intra}
   */
   readonly ospfIntra?: number;
   /**
   * Set OSPFv3 External Routes Administrative Distance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ospfv3_ext LogicalRouter#ospfv3_ext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ospfv3_ext LogicalRouter#ospfv3_ext}
   */
   readonly ospfv3Ext?: number;
   /**
   * Set OSPFv3 Inter Area Routes Administrative Distance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ospfv3_inter LogicalRouter#ospfv3_inter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ospfv3_inter LogicalRouter#ospfv3_inter}
   */
   readonly ospfv3Inter?: number;
   /**
   * Set OSPFv3 Intra Area Routes Administrative Distance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ospfv3_intra LogicalRouter#ospfv3_intra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ospfv3_intra LogicalRouter#ospfv3_intra}
   */
   readonly ospfv3Intra?: number;
   /**
   * Set RIP Routes Administrative Distance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#rip LogicalRouter#rip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#rip LogicalRouter#rip}
   */
   readonly rip?: number;
   /**
   * Set IPv4 Static Routes Administrative Distance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#static LogicalRouter#static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#static LogicalRouter#static}
   */
   readonly static?: number;
   /**
   * Set IPv6 Static Routes  Administrative Distance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#static_ipv6 LogicalRouter#static_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#static_ipv6 LogicalRouter#static_ipv6}
   */
   readonly staticIpv6?: number;
 }
@@ -1267,23 +1267,23 @@ export interface LogicalRouterVrfBgpAdvertiseNetworkIpv4Network {
   /**
   * Mark network as backdoor route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#backdoor LogicalRouter#backdoor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#backdoor LogicalRouter#backdoor}
   */
   readonly backdoor?: boolean | cdktf.IResolvable;
   /**
   * Multicast Network configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#multicast LogicalRouter#multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#multicast LogicalRouter#multicast}
   */
   readonly multicast?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
   /**
   * Unicast Network configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#unicast LogicalRouter#unicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#unicast LogicalRouter#unicast}
   */
   readonly unicast?: boolean | cdktf.IResolvable;
 }
@@ -1483,7 +1483,7 @@ export class LogicalRouterVrfBgpAdvertiseNetworkIpv4NetworkList extends cdktf.Co
 }
 export interface LogicalRouterVrfBgpAdvertiseNetworkIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#network LogicalRouter#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#network LogicalRouter#network}
   */
   readonly network?: LogicalRouterVrfBgpAdvertiseNetworkIpv4Network[] | cdktf.IResolvable;
 }
@@ -1577,13 +1577,13 @@ export class LogicalRouterVrfBgpAdvertiseNetworkIpv4OutputReference extends cdkt
 }
 export interface LogicalRouterVrfBgpAdvertiseNetworkIpv6Network {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
   /**
   * Unicast Network configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#unicast LogicalRouter#unicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#unicast LogicalRouter#unicast}
   */
   readonly unicast?: boolean | cdktf.IResolvable;
 }
@@ -1725,7 +1725,7 @@ export class LogicalRouterVrfBgpAdvertiseNetworkIpv6NetworkList extends cdktf.Co
 }
 export interface LogicalRouterVrfBgpAdvertiseNetworkIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#network LogicalRouter#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#network LogicalRouter#network}
   */
   readonly network?: LogicalRouterVrfBgpAdvertiseNetworkIpv6Network[] | cdktf.IResolvable;
 }
@@ -1819,11 +1819,11 @@ export class LogicalRouterVrfBgpAdvertiseNetworkIpv6OutputReference extends cdkt
 }
 export interface LogicalRouterVrfBgpAdvertiseNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ipv4 LogicalRouter#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ipv4 LogicalRouter#ipv4}
   */
   readonly ipv4?: LogicalRouterVrfBgpAdvertiseNetworkIpv4;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ipv6 LogicalRouter#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ipv6 LogicalRouter#ipv6}
   */
   readonly ipv6?: LogicalRouterVrfBgpAdvertiseNetworkIpv6;
 }
@@ -1948,19 +1948,19 @@ export interface LogicalRouterVrfBgpAggregateRoutesTypeIpv4 {
   /**
   * Specify Route-Map to set attributes of aggregate prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#attribute_map LogicalRouter#attribute_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#attribute_map LogicalRouter#attribute_map}
   */
   readonly attributeMap?: string;
   /**
   * Aggregating Address Prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#summary_prefix LogicalRouter#summary_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#summary_prefix LogicalRouter#summary_prefix}
   */
   readonly summaryPrefix?: string;
   /**
   * Specify Route-Map to select routes to be suppressed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#suppress_map LogicalRouter#suppress_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#suppress_map LogicalRouter#suppress_map}
   */
   readonly suppressMap?: string;
 }
@@ -2114,19 +2114,19 @@ export interface LogicalRouterVrfBgpAggregateRoutesTypeIpv6 {
   /**
   * Specify Route-Map to set attributes of aggregate prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#attribute_map LogicalRouter#attribute_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#attribute_map LogicalRouter#attribute_map}
   */
   readonly attributeMap?: string;
   /**
   * Aggregating Address Prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#summary_prefix LogicalRouter#summary_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#summary_prefix LogicalRouter#summary_prefix}
   */
   readonly summaryPrefix?: string;
   /**
   * Specify Route-Map to select routes to be suppressed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#suppress_map LogicalRouter#suppress_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#suppress_map LogicalRouter#suppress_map}
   */
   readonly suppressMap?: string;
 }
@@ -2278,11 +2278,11 @@ export class LogicalRouterVrfBgpAggregateRoutesTypeIpv6OutputReference extends c
 }
 export interface LogicalRouterVrfBgpAggregateRoutesType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ipv4 LogicalRouter#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ipv4 LogicalRouter#ipv4}
   */
   readonly ipv4?: LogicalRouterVrfBgpAggregateRoutesTypeIpv4;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ipv6 LogicalRouter#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ipv6 LogicalRouter#ipv6}
   */
   readonly ipv6?: LogicalRouterVrfBgpAggregateRoutesTypeIpv6;
 }
@@ -2407,39 +2407,39 @@ export interface LogicalRouterVrfBgpAggregateRoutes {
   /**
   * Generate AS set path attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#as_set LogicalRouter#as_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#as_set LogicalRouter#as_set}
   */
   readonly asSet?: boolean | cdktf.IResolvable;
   /**
   * Describe Aggregate Route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#description LogicalRouter#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#description LogicalRouter#description}
   */
   readonly description?: string;
   /**
   * Enable Aggregation for this Prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#enable LogicalRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#enable LogicalRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
   /**
   * Aggregate Routes only if they have same MED Attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#same_med LogicalRouter#same_med}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#same_med LogicalRouter#same_med}
   */
   readonly sameMed?: boolean | cdktf.IResolvable;
   /**
   * Send only Summary Route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#summary_only LogicalRouter#summary_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#summary_only LogicalRouter#summary_only}
   */
   readonly summaryOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#type LogicalRouter#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#type LogicalRouter#type}
   */
   readonly type?: LogicalRouterVrfBgpAggregateRoutesType;
 }
@@ -2728,7 +2728,7 @@ export interface LogicalRouterVrfBgpGlobalBfd {
   /**
   * BFD profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#profile LogicalRouter#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#profile LogicalRouter#profile}
   */
   readonly profile?: string;
 }
@@ -2822,25 +2822,25 @@ export class LogicalRouterVrfBgpGlobalBfdOutputReference extends cdktf.ComplexOb
 }
 export interface LogicalRouterVrfBgpGracefulRestart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#enable LogicalRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#enable LogicalRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * local restart time to advertise to peer Default:120 (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#local_restart_time LogicalRouter#local_restart_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#local_restart_time LogicalRouter#local_restart_time}
   */
   readonly localRestartTime?: number;
   /**
   * maximum of peer restart time accepted Default:120 (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#max_peer_restart_time LogicalRouter#max_peer_restart_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#max_peer_restart_time LogicalRouter#max_peer_restart_time}
   */
   readonly maxPeerRestartTime?: number;
   /**
   * time to remove stale routes after peer restart Default:120 (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#stale_route_time LogicalRouter#stale_route_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#stale_route_time LogicalRouter#stale_route_time}
   */
   readonly staleRouteTime?: number;
 }
@@ -3023,13 +3023,13 @@ export interface LogicalRouterVrfBgpMed {
   /**
   * always compare MEDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#always_compare_med LogicalRouter#always_compare_med}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#always_compare_med LogicalRouter#always_compare_med}
   */
   readonly alwaysCompareMed?: boolean | cdktf.IResolvable;
   /**
   * deterministic MEDs comparison
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#deterministic_med_comparison LogicalRouter#deterministic_med_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#deterministic_med_comparison LogicalRouter#deterministic_med_comparison}
   */
   readonly deterministicMedComparison?: boolean | cdktf.IResolvable;
 }
@@ -3154,13 +3154,13 @@ export interface LogicalRouterVrfBgpPeerGroupAddressFamily {
   /**
   * Enable IPv4 route exchange
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ipv4 LogicalRouter#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ipv4 LogicalRouter#ipv4}
   */
   readonly ipv4?: string;
   /**
   * Enable IPv6 route exchange
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ipv6 LogicalRouter#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ipv6 LogicalRouter#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -3285,25 +3285,25 @@ export interface LogicalRouterVrfBgpPeerGroupConnectionOptions {
   /**
   * Authentication Profile Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#authentication LogicalRouter#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#authentication LogicalRouter#authentication}
   */
   readonly authentication?: string;
   /**
   * Dampening Profile Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#dampening LogicalRouter#dampening}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#dampening LogicalRouter#dampening}
   */
   readonly dampening?: string;
   /**
   * Multi-hop value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#multihop LogicalRouter#multihop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#multihop LogicalRouter#multihop}
   */
   readonly multihop?: number;
   /**
   * Timer Profile Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#timers LogicalRouter#timers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#timers LogicalRouter#timers}
   */
   readonly timers?: string;
 }
@@ -3486,13 +3486,13 @@ export interface LogicalRouterVrfBgpPeerGroupFilteringProfile {
   /**
   * IPv4 Filtering Profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ipv4 LogicalRouter#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ipv4 LogicalRouter#ipv4}
   */
   readonly ipv4?: string;
   /**
   * IPv6 Filtering Profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ipv6 LogicalRouter#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ipv6 LogicalRouter#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -3617,7 +3617,7 @@ export interface LogicalRouterVrfBgpPeerGroupPeerBfd {
   /**
   * BFD profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#profile LogicalRouter#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#profile LogicalRouter#profile}
   */
   readonly profile?: string;
 }
@@ -3713,25 +3713,25 @@ export interface LogicalRouterVrfBgpPeerGroupPeerConnectionOptions {
   /**
   * Authentication Profile Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#authentication LogicalRouter#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#authentication LogicalRouter#authentication}
   */
   readonly authentication?: string;
   /**
   * Dampening Profile Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#dampening LogicalRouter#dampening}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#dampening LogicalRouter#dampening}
   */
   readonly dampening?: string;
   /**
   * Multi-hop value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#multihop LogicalRouter#multihop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#multihop LogicalRouter#multihop}
   */
   readonly multihop?: string;
   /**
   * Timer Profile Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#timers LogicalRouter#timers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#timers LogicalRouter#timers}
   */
   readonly timers?: string;
 }
@@ -3914,13 +3914,13 @@ export interface LogicalRouterVrfBgpPeerGroupPeerInheritNoAddressFamily {
   /**
   * Enable IPv4 route exchange
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ipv4 LogicalRouter#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ipv4 LogicalRouter#ipv4}
   */
   readonly ipv4?: string;
   /**
   * Enable IPv6 route exchange
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ipv6 LogicalRouter#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ipv6 LogicalRouter#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -4045,13 +4045,13 @@ export interface LogicalRouterVrfBgpPeerGroupPeerInheritNoFilteringProfile {
   /**
   * IPv4 Filtering Profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ipv4 LogicalRouter#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ipv4 LogicalRouter#ipv4}
   */
   readonly ipv4?: string;
   /**
   * IPv6 Filtering Profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ipv6 LogicalRouter#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ipv6 LogicalRouter#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -4174,11 +4174,11 @@ export class LogicalRouterVrfBgpPeerGroupPeerInheritNoFilteringProfileOutputRefe
 }
 export interface LogicalRouterVrfBgpPeerGroupPeerInheritNo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#address_family LogicalRouter#address_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#address_family LogicalRouter#address_family}
   */
   readonly addressFamily?: LogicalRouterVrfBgpPeerGroupPeerInheritNoAddressFamily;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#filtering_profile LogicalRouter#filtering_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#filtering_profile LogicalRouter#filtering_profile}
   */
   readonly filteringProfile?: LogicalRouterVrfBgpPeerGroupPeerInheritNoFilteringProfile;
 }
@@ -4360,11 +4360,11 @@ export class LogicalRouterVrfBgpPeerGroupPeerInheritYesOutputReference extends c
 }
 export interface LogicalRouterVrfBgpPeerGroupPeerInherit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#no LogicalRouter#no}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#no LogicalRouter#no}
   */
   readonly no?: LogicalRouterVrfBgpPeerGroupPeerInheritNo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#yes LogicalRouter#yes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#yes LogicalRouter#yes}
   */
   readonly yes?: LogicalRouterVrfBgpPeerGroupPeerInheritYes;
 }
@@ -4489,13 +4489,13 @@ export interface LogicalRouterVrfBgpPeerGroupPeerLocalAddress {
   /**
   * interface to accept BGP session
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#interface LogicalRouter#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#interface LogicalRouter#interface}
   */
   readonly interface?: string;
   /**
   * specify exact IP address if interface has multiple addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ip LogicalRouter#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ip LogicalRouter#ip}
   */
   readonly ip?: string;
 }
@@ -4620,13 +4620,13 @@ export interface LogicalRouterVrfBgpPeerGroupPeerPeerAddress {
   /**
   * Peer FQDN Address Object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#fqdn LogicalRouter#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#fqdn LogicalRouter#fqdn}
   */
   readonly fqdn?: string;
   /**
   * peer address configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ip LogicalRouter#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ip LogicalRouter#ip}
   */
   readonly ip?: string;
 }
@@ -4749,47 +4749,47 @@ export class LogicalRouterVrfBgpPeerGroupPeerPeerAddressOutputReference extends 
 }
 export interface LogicalRouterVrfBgpPeerGroupPeer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#bfd LogicalRouter#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#bfd LogicalRouter#bfd}
   */
   readonly bfd?: LogicalRouterVrfBgpPeerGroupPeerBfd;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#connection_options LogicalRouter#connection_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#connection_options LogicalRouter#connection_options}
   */
   readonly connectionOptions?: LogicalRouterVrfBgpPeerGroupPeerConnectionOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#enable LogicalRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#enable LogicalRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#enable_sender_side_loop_detection LogicalRouter#enable_sender_side_loop_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#enable_sender_side_loop_detection LogicalRouter#enable_sender_side_loop_detection}
   */
   readonly enableSenderSideLoopDetection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#inherit LogicalRouter#inherit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#inherit LogicalRouter#inherit}
   */
   readonly inherit?: LogicalRouterVrfBgpPeerGroupPeerInherit;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#local_address LogicalRouter#local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#local_address LogicalRouter#local_address}
   */
   readonly localAddress?: LogicalRouterVrfBgpPeerGroupPeerLocalAddress;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
   /**
   * If enabled, open messages are not sent to this peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#passive LogicalRouter#passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#passive LogicalRouter#passive}
   */
   readonly passive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#peer_address LogicalRouter#peer_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#peer_address LogicalRouter#peer_address}
   */
   readonly peerAddress?: LogicalRouterVrfBgpPeerGroupPeerPeerAddress;
   /**
   * peer AS number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#peer_as LogicalRouter#peer_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#peer_as LogicalRouter#peer_as}
   */
   readonly peerAs?: string;
 }
@@ -5281,11 +5281,11 @@ export class LogicalRouterVrfBgpPeerGroupTypeIbgpOutputReference extends cdktf.C
 }
 export interface LogicalRouterVrfBgpPeerGroupType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ebgp LogicalRouter#ebgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ebgp LogicalRouter#ebgp}
   */
   readonly ebgp?: LogicalRouterVrfBgpPeerGroupTypeEbgp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ibgp LogicalRouter#ibgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ibgp LogicalRouter#ibgp}
   */
   readonly ibgp?: LogicalRouterVrfBgpPeerGroupTypeIbgp;
 }
@@ -5408,31 +5408,31 @@ export class LogicalRouterVrfBgpPeerGroupTypeOutputReference extends cdktf.Compl
 }
 export interface LogicalRouterVrfBgpPeerGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#address_family LogicalRouter#address_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#address_family LogicalRouter#address_family}
   */
   readonly addressFamily?: LogicalRouterVrfBgpPeerGroupAddressFamily;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#connection_options LogicalRouter#connection_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#connection_options LogicalRouter#connection_options}
   */
   readonly connectionOptions?: LogicalRouterVrfBgpPeerGroupConnectionOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#enable LogicalRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#enable LogicalRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#filtering_profile LogicalRouter#filtering_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#filtering_profile LogicalRouter#filtering_profile}
   */
   readonly filteringProfile?: LogicalRouterVrfBgpPeerGroupFilteringProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#peer LogicalRouter#peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#peer LogicalRouter#peer}
   */
   readonly peer?: LogicalRouterVrfBgpPeerGroupPeer[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#type LogicalRouter#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#type LogicalRouter#type}
   */
   readonly type?: LogicalRouterVrfBgpPeerGroupType;
 }
@@ -5721,7 +5721,7 @@ export interface LogicalRouterVrfBgpRedistributionProfileIpv4 {
   /**
   * Redistribution Profile Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#unicast LogicalRouter#unicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#unicast LogicalRouter#unicast}
   */
   readonly unicast?: string;
 }
@@ -5817,7 +5817,7 @@ export interface LogicalRouterVrfBgpRedistributionProfileIpv6 {
   /**
   * Redistribution Profile Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#unicast LogicalRouter#unicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#unicast LogicalRouter#unicast}
   */
   readonly unicast?: string;
 }
@@ -5911,11 +5911,11 @@ export class LogicalRouterVrfBgpRedistributionProfileIpv6OutputReference extends
 }
 export interface LogicalRouterVrfBgpRedistributionProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ipv4 LogicalRouter#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ipv4 LogicalRouter#ipv4}
   */
   readonly ipv4?: LogicalRouterVrfBgpRedistributionProfileIpv4;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ipv6 LogicalRouter#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ipv6 LogicalRouter#ipv6}
   */
   readonly ipv6?: LogicalRouterVrfBgpRedistributionProfileIpv6;
 }
@@ -6038,89 +6038,89 @@ export class LogicalRouterVrfBgpRedistributionProfileOutputReference extends cdk
 }
 export interface LogicalRouterVrfBgp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#advertise_network LogicalRouter#advertise_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#advertise_network LogicalRouter#advertise_network}
   */
   readonly advertiseNetwork?: LogicalRouterVrfBgpAdvertiseNetwork;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#aggregate_routes LogicalRouter#aggregate_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#aggregate_routes LogicalRouter#aggregate_routes}
   */
   readonly aggregateRoutes?: LogicalRouterVrfBgpAggregateRoutes[] | cdktf.IResolvable;
   /**
   * Always advertise network routes even if not present in RIB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#always_advertise_network_route LogicalRouter#always_advertise_network_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#always_advertise_network_route LogicalRouter#always_advertise_network_route}
   */
   readonly alwaysAdvertiseNetworkRoute?: boolean | cdktf.IResolvable;
   /**
   * Global Default Local Preference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#default_local_preference LogicalRouter#default_local_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#default_local_preference LogicalRouter#default_local_preference}
   */
   readonly defaultLocalPreference?: number;
   /**
   * Support multiple AS in ECMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ecmp_multi_as LogicalRouter#ecmp_multi_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ecmp_multi_as LogicalRouter#ecmp_multi_as}
   */
   readonly ecmpMultiAs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#enable LogicalRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#enable LogicalRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Enforce First AS for EBGP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#enforce_first_as LogicalRouter#enforce_first_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#enforce_first_as LogicalRouter#enforce_first_as}
   */
   readonly enforceFirstAs?: boolean | cdktf.IResolvable;
   /**
   * Immediately reset session if a link to a directly connected external peer goes down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#fast_external_failover LogicalRouter#fast_external_failover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#fast_external_failover LogicalRouter#fast_external_failover}
   */
   readonly fastExternalFailover?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#global_bfd LogicalRouter#global_bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#global_bfd LogicalRouter#global_bfd}
   */
   readonly globalBfd?: LogicalRouterVrfBgpGlobalBfd;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#graceful_restart LogicalRouter#graceful_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#graceful_restart LogicalRouter#graceful_restart}
   */
   readonly gracefulRestart?: LogicalRouterVrfBgpGracefulRestart;
   /**
   * Gracefully Shutdown BGP following RFC-8326
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#graceful_shutdown LogicalRouter#graceful_shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#graceful_shutdown LogicalRouter#graceful_shutdown}
   */
   readonly gracefulShutdown?: boolean | cdktf.IResolvable;
   /**
   * Populate BGP learned route to global route table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#install_route LogicalRouter#install_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#install_route LogicalRouter#install_route}
   */
   readonly installRoute?: boolean | cdktf.IResolvable;
   /**
   * local AS number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#local_as LogicalRouter#local_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#local_as LogicalRouter#local_as}
   */
   readonly localAs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#med LogicalRouter#med}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#med LogicalRouter#med}
   */
   readonly med?: LogicalRouterVrfBgpMed;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#peer_group LogicalRouter#peer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#peer_group LogicalRouter#peer_group}
   */
   readonly peerGroup?: LogicalRouterVrfBgpPeerGroup[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#redistribution_profile LogicalRouter#redistribution_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#redistribution_profile LogicalRouter#redistribution_profile}
   */
   readonly redistributionProfile?: LogicalRouterVrfBgpRedistributionProfile;
   /**
   * router id of this BGP instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#router_id LogicalRouter#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#router_id LogicalRouter#router_id}
   */
   readonly routerId?: string;
 }
@@ -6739,19 +6739,19 @@ export interface LogicalRouterVrfEcmpAlgorithmIpHash {
   /**
   * User-specified hash seed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#hash_seed LogicalRouter#hash_seed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#hash_seed LogicalRouter#hash_seed}
   */
   readonly hashSeed?: number;
   /**
   * only use source address for hash
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#src_only LogicalRouter#src_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#src_only LogicalRouter#src_only}
   */
   readonly srcOnly?: boolean | cdktf.IResolvable;
   /**
   * use source/destination port for hash
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#use_port LogicalRouter#use_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#use_port LogicalRouter#use_port}
   */
   readonly usePort?: boolean | cdktf.IResolvable;
 }
@@ -6962,13 +6962,13 @@ export class LogicalRouterVrfEcmpAlgorithmIpModuloOutputReference extends cdktf.
 }
 export interface LogicalRouterVrfEcmpAlgorithmWeightedRoundRobinInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
   /**
   * interface ECMP weight
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#weight LogicalRouter#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#weight LogicalRouter#weight}
   */
   readonly weight?: number;
 }
@@ -7110,7 +7110,7 @@ export class LogicalRouterVrfEcmpAlgorithmWeightedRoundRobinInterfaceList extend
 }
 export interface LogicalRouterVrfEcmpAlgorithmWeightedRoundRobin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#interface LogicalRouter#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#interface LogicalRouter#interface}
   */
   readonly interface?: LogicalRouterVrfEcmpAlgorithmWeightedRoundRobinInterface[] | cdktf.IResolvable;
 }
@@ -7204,19 +7204,19 @@ export class LogicalRouterVrfEcmpAlgorithmWeightedRoundRobinOutputReference exte
 }
 export interface LogicalRouterVrfEcmpAlgorithm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#balanced_round_robin LogicalRouter#balanced_round_robin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#balanced_round_robin LogicalRouter#balanced_round_robin}
   */
   readonly balancedRoundRobin?: LogicalRouterVrfEcmpAlgorithmBalancedRoundRobin;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ip_hash LogicalRouter#ip_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ip_hash LogicalRouter#ip_hash}
   */
   readonly ipHash?: LogicalRouterVrfEcmpAlgorithmIpHash;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ip_modulo LogicalRouter#ip_modulo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ip_modulo LogicalRouter#ip_modulo}
   */
   readonly ipModulo?: LogicalRouterVrfEcmpAlgorithmIpModulo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#weighted_round_robin LogicalRouter#weighted_round_robin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#weighted_round_robin LogicalRouter#weighted_round_robin}
   */
   readonly weightedRoundRobin?: LogicalRouterVrfEcmpAlgorithmWeightedRoundRobin;
 }
@@ -7397,31 +7397,31 @@ export class LogicalRouterVrfEcmpAlgorithmOutputReference extends cdktf.ComplexO
 }
 export interface LogicalRouterVrfEcmp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#algorithm LogicalRouter#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#algorithm LogicalRouter#algorithm}
   */
   readonly algorithm?: LogicalRouterVrfEcmpAlgorithm;
   /**
   * enable Equal Cost Multipath routing, change this configuration will result in a virtual router restart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#enable LogicalRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#enable LogicalRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Maxmum number of ECMP paths supported, change this configuration will result in a virtual router restart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#max_paths LogicalRouter#max_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#max_paths LogicalRouter#max_paths}
   */
   readonly maxPaths?: number;
   /**
   * force VPN traffic to exit interface that the source-ip belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#strict_source_path LogicalRouter#strict_source_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#strict_source_path LogicalRouter#strict_source_path}
   */
   readonly strictSourcePath?: boolean | cdktf.IResolvable;
   /**
   * allows return packets to egress out of the ingress interface of the flow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#symmetric_return LogicalRouter#symmetric_return}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#symmetric_return LogicalRouter#symmetric_return}
   */
   readonly symmetricReturn?: boolean | cdktf.IResolvable;
 }
@@ -7633,47 +7633,47 @@ export interface LogicalRouterVrfMulticastIgmpDynamicInterface {
   /**
   * ASM/SSM Group Access List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#group_filter LogicalRouter#group_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#group_filter LogicalRouter#group_filter}
   */
   readonly groupFilter?: string;
   /**
   * maximum number of groups allowed on this interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#max_groups LogicalRouter#max_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#max_groups LogicalRouter#max_groups}
   */
   readonly maxGroups?: string;
   /**
   * maximum number of source-specific memberships allowed on this interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#max_sources LogicalRouter#max_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#max_sources LogicalRouter#max_sources}
   */
   readonly maxSources?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
   /**
   * IGMP Query Timer Profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#query_profile LogicalRouter#query_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#query_profile LogicalRouter#query_profile}
   */
   readonly queryProfile?: string;
   /**
   * robustness variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#robustness LogicalRouter#robustness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#robustness LogicalRouter#robustness}
   */
   readonly robustness?: string;
   /**
   * drop IGMP packets without Router Alert option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#router_alert_policing LogicalRouter#router_alert_policing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#router_alert_policing LogicalRouter#router_alert_policing}
   */
   readonly routerAlertPolicing?: boolean | cdktf.IResolvable;
   /**
   * IGMP version number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#version LogicalRouter#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#version LogicalRouter#version}
   */
   readonly version?: string;
 }
@@ -7989,7 +7989,7 @@ export class LogicalRouterVrfMulticastIgmpDynamicInterfaceList extends cdktf.Com
 }
 export interface LogicalRouterVrfMulticastIgmpDynamic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#interface LogicalRouter#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#interface LogicalRouter#interface}
   */
   readonly interface?: LogicalRouterVrfMulticastIgmpDynamicInterface[] | cdktf.IResolvable;
 }
@@ -8085,23 +8085,23 @@ export interface LogicalRouterVrfMulticastIgmpStatic {
   /**
   * group-address/prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#group_address LogicalRouter#group_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#group_address LogicalRouter#group_address}
   */
   readonly groupAddress?: string;
   /**
   * multicast interfaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#interface LogicalRouter#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#interface LogicalRouter#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
   /**
   * source-address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#source_address LogicalRouter#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#source_address LogicalRouter#source_address}
   */
   readonly sourceAddress?: string;
 }
@@ -8301,17 +8301,17 @@ export class LogicalRouterVrfMulticastIgmpStaticList extends cdktf.ComplexList {
 }
 export interface LogicalRouterVrfMulticastIgmp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#dynamic LogicalRouter#dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#dynamic LogicalRouter#dynamic}
   */
   readonly dynamic?: LogicalRouterVrfMulticastIgmpDynamic;
   /**
   * enable IGMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#enable LogicalRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#enable LogicalRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#static LogicalRouter#static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#static LogicalRouter#static}
   */
   readonly static?: LogicalRouterVrfMulticastIgmpStatic[] | cdktf.IResolvable;
 }
@@ -8465,13 +8465,13 @@ export interface LogicalRouterVrfMulticastMsdpOriginatorId {
   /**
   * interface of originator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#interface LogicalRouter#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#interface LogicalRouter#interface}
   */
   readonly interface?: string;
   /**
   * specify exact IP address if interface has multiple addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ip LogicalRouter#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ip LogicalRouter#ip}
   */
   readonly ip?: string;
 }
@@ -8596,13 +8596,13 @@ export interface LogicalRouterVrfMulticastMsdpPeerLocalAddress {
   /**
   * interface to accept MSDP connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#interface LogicalRouter#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#interface LogicalRouter#interface}
   */
   readonly interface?: string;
   /**
   * specify exact IP address if interface has multiple addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ip LogicalRouter#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ip LogicalRouter#ip}
   */
   readonly ip?: string;
 }
@@ -8727,13 +8727,13 @@ export interface LogicalRouterVrfMulticastMsdpPeerPeerAddress {
   /**
   * Peer FQDN Address Object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#fqdn LogicalRouter#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#fqdn LogicalRouter#fqdn}
   */
   readonly fqdn?: string;
   /**
   * peer address configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ip LogicalRouter#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ip LogicalRouter#ip}
   */
   readonly ip?: string;
 }
@@ -8858,47 +8858,47 @@ export interface LogicalRouterVrfMulticastMsdpPeer {
   /**
   * Authentication options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#authentication LogicalRouter#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#authentication LogicalRouter#authentication}
   */
   readonly authentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#enable LogicalRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#enable LogicalRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Inbound SA Filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#inbound_sa_filter LogicalRouter#inbound_sa_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#inbound_sa_filter LogicalRouter#inbound_sa_filter}
   */
   readonly inboundSaFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#local_address LogicalRouter#local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#local_address LogicalRouter#local_address}
   */
   readonly localAddress?: LogicalRouterVrfMulticastMsdpPeerLocalAddress;
   /**
   * Maximum number of SA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#max_sa LogicalRouter#max_sa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#max_sa LogicalRouter#max_sa}
   */
   readonly maxSa?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
   /**
   * Outbound SA Filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#outbound_sa_filter LogicalRouter#outbound_sa_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#outbound_sa_filter LogicalRouter#outbound_sa_filter}
   */
   readonly outboundSaFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#peer_address LogicalRouter#peer_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#peer_address LogicalRouter#peer_address}
   */
   readonly peerAddress?: LogicalRouterVrfMulticastMsdpPeerPeerAddress;
   /**
   * peer AS number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#peer_as LogicalRouter#peer_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#peer_as LogicalRouter#peer_as}
   */
   readonly peerAs?: string;
 }
@@ -9243,27 +9243,27 @@ export class LogicalRouterVrfMulticastMsdpPeerList extends cdktf.ComplexList {
 }
 export interface LogicalRouterVrfMulticastMsdp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#enable LogicalRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#enable LogicalRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Global authentication profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#global_authentication LogicalRouter#global_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#global_authentication LogicalRouter#global_authentication}
   */
   readonly globalAuthentication?: string;
   /**
   * Global timer profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#global_timer LogicalRouter#global_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#global_timer LogicalRouter#global_timer}
   */
   readonly globalTimer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#originator_id LogicalRouter#originator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#originator_id LogicalRouter#originator_id}
   */
   readonly originatorId?: LogicalRouterVrfMulticastMsdpOriginatorId;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#peer LogicalRouter#peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#peer LogicalRouter#peer}
   */
   readonly peer?: LogicalRouterVrfMulticastMsdpPeer[] | cdktf.IResolvable;
 }
@@ -9473,35 +9473,35 @@ export class LogicalRouterVrfMulticastMsdpOutputReference extends cdktf.ComplexO
 }
 export interface LogicalRouterVrfMulticastPimInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#description LogicalRouter#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#description LogicalRouter#description}
   */
   readonly description?: string;
   /**
   * Designated Router priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#dr_priority LogicalRouter#dr_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#dr_priority LogicalRouter#dr_priority}
   */
   readonly drPriority?: number;
   /**
   * Interface Timer Profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#if_timer LogicalRouter#if_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#if_timer LogicalRouter#if_timer}
   */
   readonly ifTimer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
   /**
   * Set the filter for neighbor list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#neighbor_filter LogicalRouter#neighbor_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#neighbor_filter LogicalRouter#neighbor_filter}
   */
   readonly neighborFilter?: string;
   /**
   * Send BSM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#send_bsm LogicalRouter#send_bsm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#send_bsm LogicalRouter#send_bsm}
   */
   readonly sendBsm?: boolean | cdktf.IResolvable;
 }
@@ -9761,17 +9761,17 @@ export interface LogicalRouterVrfMulticastPimRpExternalRp {
   /**
   * Group Access List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#group_list LogicalRouter#group_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#group_list LogicalRouter#group_list}
   */
   readonly groupList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
   /**
   * Override learned RP for the same group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#override LogicalRouter#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#override LogicalRouter#override}
   */
   readonly override?: boolean | cdktf.IResolvable;
 }
@@ -9944,31 +9944,31 @@ export interface LogicalRouterVrfMulticastPimRpLocalRpCandidateRp {
   /**
   * candidate RP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#address LogicalRouter#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#address LogicalRouter#address}
   */
   readonly address?: string;
   /**
   * The time interval in seconds between candidate rp advertisements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#advertisement_interval LogicalRouter#advertisement_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#advertisement_interval LogicalRouter#advertisement_interval}
   */
   readonly advertisementInterval?: number;
   /**
   * Group Access List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#group_list LogicalRouter#group_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#group_list LogicalRouter#group_list}
   */
   readonly groupList?: string;
   /**
   * candidate RP interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#interface LogicalRouter#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#interface LogicalRouter#interface}
   */
   readonly interface?: string;
   /**
   * The priority for this candidate rt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#priority LogicalRouter#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#priority LogicalRouter#priority}
   */
   readonly priority?: number;
 }
@@ -10180,25 +10180,25 @@ export interface LogicalRouterVrfMulticastPimRpLocalRpStaticRp {
   /**
   * local RP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#address LogicalRouter#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#address LogicalRouter#address}
   */
   readonly address?: string;
   /**
   * Group Access List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#group_list LogicalRouter#group_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#group_list LogicalRouter#group_list}
   */
   readonly groupList?: string;
   /**
   * local RP interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#interface LogicalRouter#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#interface LogicalRouter#interface}
   */
   readonly interface?: string;
   /**
   * Override learned RP for the same group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#override LogicalRouter#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#override LogicalRouter#override}
   */
   readonly override?: boolean | cdktf.IResolvable;
 }
@@ -10379,11 +10379,11 @@ export class LogicalRouterVrfMulticastPimRpLocalRpStaticRpOutputReference extend
 }
 export interface LogicalRouterVrfMulticastPimRpLocalRp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#candidate_rp LogicalRouter#candidate_rp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#candidate_rp LogicalRouter#candidate_rp}
   */
   readonly candidateRp?: LogicalRouterVrfMulticastPimRpLocalRpCandidateRp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#static_rp LogicalRouter#static_rp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#static_rp LogicalRouter#static_rp}
   */
   readonly staticRp?: LogicalRouterVrfMulticastPimRpLocalRpStaticRp;
 }
@@ -10506,11 +10506,11 @@ export class LogicalRouterVrfMulticastPimRpLocalRpOutputReference extends cdktf.
 }
 export interface LogicalRouterVrfMulticastPimRp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#external_rp LogicalRouter#external_rp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#external_rp LogicalRouter#external_rp}
   */
   readonly externalRp?: LogicalRouterVrfMulticastPimRpExternalRp[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#local_rp LogicalRouter#local_rp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#local_rp LogicalRouter#local_rp}
   */
   readonly localRp?: LogicalRouterVrfMulticastPimRpLocalRp;
 }
@@ -10633,11 +10633,11 @@ export class LogicalRouterVrfMulticastPimRpOutputReference extends cdktf.Complex
 }
 export interface LogicalRouterVrfMulticastPimSptThreshold {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#threshold LogicalRouter#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#threshold LogicalRouter#threshold}
   */
   readonly threshold?: string;
 }
@@ -10781,7 +10781,7 @@ export interface LogicalRouterVrfMulticastPimSsmAddressSpace {
   /**
   * SSM Group Prefix List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#group_list LogicalRouter#group_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#group_list LogicalRouter#group_list}
   */
   readonly groupList?: string;
 }
@@ -10875,47 +10875,47 @@ export class LogicalRouterVrfMulticastPimSsmAddressSpaceOutputReference extends 
 }
 export interface LogicalRouterVrfMulticastPim {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#enable LogicalRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#enable LogicalRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * ASM/SSM group permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#group_permission LogicalRouter#group_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#group_permission LogicalRouter#group_permission}
   */
   readonly groupPermission?: string;
   /**
   * Global Interface Timer Profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#if_timer_global LogicalRouter#if_timer_global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#if_timer_global LogicalRouter#if_timer_global}
   */
   readonly ifTimerGlobal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#interface LogicalRouter#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#interface LogicalRouter#interface}
   */
   readonly interface?: LogicalRouterVrfMulticastPimInterface[] | cdktf.IResolvable;
   /**
   * time to wait before aging out a multicast route after data stops, in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#route_ageout_time LogicalRouter#route_ageout_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#route_ageout_time LogicalRouter#route_ageout_time}
   */
   readonly routeAgeoutTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#rp LogicalRouter#rp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#rp LogicalRouter#rp}
   */
   readonly rp?: LogicalRouterVrfMulticastPimRp;
   /**
   * RPF Lookup Preference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#rpf_lookup_mode LogicalRouter#rpf_lookup_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#rpf_lookup_mode LogicalRouter#rpf_lookup_mode}
   */
   readonly rpfLookupMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#spt_threshold LogicalRouter#spt_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#spt_threshold LogicalRouter#spt_threshold}
   */
   readonly sptThreshold?: LogicalRouterVrfMulticastPimSptThreshold[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ssm_address_space LogicalRouter#ssm_address_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ssm_address_space LogicalRouter#ssm_address_space}
   */
   readonly ssmAddressSpace?: LogicalRouterVrfMulticastPimSsmAddressSpace;
 }
@@ -11243,7 +11243,7 @@ export interface LogicalRouterVrfMulticastStaticRouteNexthop {
   /**
   * Next hop IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ip_address LogicalRouter#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ip_address LogicalRouter#ip_address}
   */
   readonly ipAddress?: string;
 }
@@ -11339,25 +11339,25 @@ export interface LogicalRouterVrfMulticastStaticRoute {
   /**
   * Destination IP address/prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#destination LogicalRouter#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#destination LogicalRouter#destination}
   */
   readonly destination?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#interface LogicalRouter#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#interface LogicalRouter#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#nexthop LogicalRouter#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#nexthop LogicalRouter#nexthop}
   */
   readonly nexthop?: LogicalRouterVrfMulticastStaticRouteNexthop;
   /**
   * administrative distance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#preference LogicalRouter#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#preference LogicalRouter#preference}
   */
   readonly preference?: number;
 }
@@ -11588,23 +11588,23 @@ export interface LogicalRouterVrfMulticast {
   /**
   * enable multicast protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#enable LogicalRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#enable LogicalRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#igmp LogicalRouter#igmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#igmp LogicalRouter#igmp}
   */
   readonly igmp?: LogicalRouterVrfMulticastIgmp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#msdp LogicalRouter#msdp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#msdp LogicalRouter#msdp}
   */
   readonly msdp?: LogicalRouterVrfMulticastMsdp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#pim LogicalRouter#pim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#pim LogicalRouter#pim}
   */
   readonly pim?: LogicalRouterVrfMulticastPim;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#static_route LogicalRouter#static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#static_route LogicalRouter#static_route}
   */
   readonly staticRoute?: LogicalRouterVrfMulticastStaticRoute[] | cdktf.IResolvable;
 }
@@ -11816,7 +11816,7 @@ export interface LogicalRouterVrfOspfAreaInterfaceBfd {
   /**
   * BFD profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#profile LogicalRouter#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#profile LogicalRouter#profile}
   */
   readonly profile?: string;
 }
@@ -11969,13 +11969,13 @@ export class LogicalRouterVrfOspfAreaInterfaceLinkTypeBroadcastOutputReference e
 }
 export interface LogicalRouterVrfOspfAreaInterfaceLinkTypeP2MpNeighbor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
   /**
   * Neighbor priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#priority LogicalRouter#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#priority LogicalRouter#priority}
   */
   readonly priority?: number;
 }
@@ -12117,7 +12117,7 @@ export class LogicalRouterVrfOspfAreaInterfaceLinkTypeP2MpNeighborList extends c
 }
 export interface LogicalRouterVrfOspfAreaInterfaceLinkTypeP2Mp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#neighbor LogicalRouter#neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#neighbor LogicalRouter#neighbor}
   */
   readonly neighbor?: LogicalRouterVrfOspfAreaInterfaceLinkTypeP2MpNeighbor[] | cdktf.IResolvable;
 }
@@ -12270,15 +12270,15 @@ export class LogicalRouterVrfOspfAreaInterfaceLinkTypeP2POutputReference extends
 }
 export interface LogicalRouterVrfOspfAreaInterfaceLinkType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#broadcast LogicalRouter#broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#broadcast LogicalRouter#broadcast}
   */
   readonly broadcast?: LogicalRouterVrfOspfAreaInterfaceLinkTypeBroadcast;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#p2mp LogicalRouter#p2mp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#p2mp LogicalRouter#p2mp}
   */
   readonly p2Mp?: LogicalRouterVrfOspfAreaInterfaceLinkTypeP2Mp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#p2p LogicalRouter#p2p}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#p2p LogicalRouter#p2p}
   */
   readonly p2P?: LogicalRouterVrfOspfAreaInterfaceLinkTypeP2P;
 }
@@ -12432,55 +12432,55 @@ export interface LogicalRouterVrfOspfAreaInterface {
   /**
   * Authentication options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#authentication LogicalRouter#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#authentication LogicalRouter#authentication}
   */
   readonly authentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#bfd LogicalRouter#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#bfd LogicalRouter#bfd}
   */
   readonly bfd?: LogicalRouterVrfOspfAreaInterfaceBfd;
   /**
   * Enable OSPF on this interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#enable LogicalRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#enable LogicalRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#link_type LogicalRouter#link_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#link_type LogicalRouter#link_type}
   */
   readonly linkType?: LogicalRouterVrfOspfAreaInterfaceLinkType;
   /**
   * Cost of OSPF interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#metric LogicalRouter#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#metric LogicalRouter#metric}
   */
   readonly metric?: number;
   /**
   * Ignore mtu when try to establish adjacency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#mtu_ignore LogicalRouter#mtu_ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#mtu_ignore LogicalRouter#mtu_ignore}
   */
   readonly mtuIgnore?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
   /**
   * Suppress the sending of hello packets in this interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#passive LogicalRouter#passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#passive LogicalRouter#passive}
   */
   readonly passive?: boolean | cdktf.IResolvable;
   /**
   * Priority for OSPF designated router selection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#priority LogicalRouter#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#priority LogicalRouter#priority}
   */
   readonly priority?: number;
   /**
   * Protocol timer setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#timing LogicalRouter#timing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#timing LogicalRouter#timing}
   */
   readonly timing?: string;
 }
@@ -12856,11 +12856,11 @@ export interface LogicalRouterVrfOspfAreaRange {
   /**
   * do summarization and advertise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#advertise LogicalRouter#advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#advertise LogicalRouter#advertise}
   */
   readonly advertise?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
 }
@@ -13004,25 +13004,25 @@ export interface LogicalRouterVrfOspfAreaTypeNormalAbr {
   /**
   * Set the filter for networks announced to other areas
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#export_list LogicalRouter#export_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#export_list LogicalRouter#export_list}
   */
   readonly exportList?: string;
   /**
   * Set the filter for networks announced from other areas
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#import_list LogicalRouter#import_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#import_list LogicalRouter#import_list}
   */
   readonly importList?: string;
   /**
   * Inbound filter list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#inbound_filter_list LogicalRouter#inbound_filter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#inbound_filter_list LogicalRouter#inbound_filter_list}
   */
   readonly inboundFilterList?: string;
   /**
   * Outbound filter list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#outbound_filter_list LogicalRouter#outbound_filter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#outbound_filter_list LogicalRouter#outbound_filter_list}
   */
   readonly outboundFilterList?: string;
 }
@@ -13203,7 +13203,7 @@ export class LogicalRouterVrfOspfAreaTypeNormalAbrOutputReference extends cdktf.
 }
 export interface LogicalRouterVrfOspfAreaTypeNormal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#abr LogicalRouter#abr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#abr LogicalRouter#abr}
   */
   readonly abr?: LogicalRouterVrfOspfAreaTypeNormalAbr;
 }
@@ -13299,11 +13299,11 @@ export interface LogicalRouterVrfOspfAreaTypeNssaAbrNssaExtRange {
   /**
   * do summarization and advertise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#advertise LogicalRouter#advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#advertise LogicalRouter#advertise}
   */
   readonly advertise?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
 }
@@ -13447,29 +13447,29 @@ export interface LogicalRouterVrfOspfAreaTypeNssaAbr {
   /**
   * Set the filter for networks announced to other areas
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#export_list LogicalRouter#export_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#export_list LogicalRouter#export_list}
   */
   readonly exportList?: string;
   /**
   * Set the filter for networks announced from other areas
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#import_list LogicalRouter#import_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#import_list LogicalRouter#import_list}
   */
   readonly importList?: string;
   /**
   * Inbound filter list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#inbound_filter_list LogicalRouter#inbound_filter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#inbound_filter_list LogicalRouter#inbound_filter_list}
   */
   readonly inboundFilterList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#nssa_ext_range LogicalRouter#nssa_ext_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#nssa_ext_range LogicalRouter#nssa_ext_range}
   */
   readonly nssaExtRange?: LogicalRouterVrfOspfAreaTypeNssaAbrNssaExtRange[] | cdktf.IResolvable;
   /**
   * Outbound filter list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#outbound_filter_list LogicalRouter#outbound_filter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#outbound_filter_list LogicalRouter#outbound_filter_list}
   */
   readonly outboundFilterList?: string;
 }
@@ -13679,13 +13679,13 @@ export class LogicalRouterVrfOspfAreaTypeNssaAbrOutputReference extends cdktf.Co
 }
 export interface LogicalRouterVrfOspfAreaTypeNssaDefaultInformationOriginate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#metric LogicalRouter#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#metric LogicalRouter#metric}
   */
   readonly metric?: number;
   /**
   * metric type to be used when redistribute default route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#metric_type LogicalRouter#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#metric_type LogicalRouter#metric_type}
   */
   readonly metricType?: string;
 }
@@ -13808,15 +13808,15 @@ export class LogicalRouterVrfOspfAreaTypeNssaDefaultInformationOriginateOutputRe
 }
 export interface LogicalRouterVrfOspfAreaTypeNssa {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#abr LogicalRouter#abr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#abr LogicalRouter#abr}
   */
   readonly abr?: LogicalRouterVrfOspfAreaTypeNssaAbr;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#default_information_originate LogicalRouter#default_information_originate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#default_information_originate LogicalRouter#default_information_originate}
   */
   readonly defaultInformationOriginate?: LogicalRouterVrfOspfAreaTypeNssaDefaultInformationOriginate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#no_summary LogicalRouter#no_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#no_summary LogicalRouter#no_summary}
   */
   readonly noSummary?: boolean | cdktf.IResolvable;
 }
@@ -13970,25 +13970,25 @@ export interface LogicalRouterVrfOspfAreaTypeStubAbr {
   /**
   * Set the filter for networks announced to other areas
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#export_list LogicalRouter#export_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#export_list LogicalRouter#export_list}
   */
   readonly exportList?: string;
   /**
   * Set the filter for networks announced from other areas
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#import_list LogicalRouter#import_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#import_list LogicalRouter#import_list}
   */
   readonly importList?: string;
   /**
   * Inbound filter list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#inbound_filter_list LogicalRouter#inbound_filter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#inbound_filter_list LogicalRouter#inbound_filter_list}
   */
   readonly inboundFilterList?: string;
   /**
   * Outbound filter list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#outbound_filter_list LogicalRouter#outbound_filter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#outbound_filter_list LogicalRouter#outbound_filter_list}
   */
   readonly outboundFilterList?: string;
 }
@@ -14169,15 +14169,15 @@ export class LogicalRouterVrfOspfAreaTypeStubAbrOutputReference extends cdktf.Co
 }
 export interface LogicalRouterVrfOspfAreaTypeStub {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#abr LogicalRouter#abr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#abr LogicalRouter#abr}
   */
   readonly abr?: LogicalRouterVrfOspfAreaTypeStubAbr;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#default_route_metric LogicalRouter#default_route_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#default_route_metric LogicalRouter#default_route_metric}
   */
   readonly defaultRouteMetric?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#no_summary LogicalRouter#no_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#no_summary LogicalRouter#no_summary}
   */
   readonly noSummary?: boolean | cdktf.IResolvable;
 }
@@ -14329,15 +14329,15 @@ export class LogicalRouterVrfOspfAreaTypeStubOutputReference extends cdktf.Compl
 }
 export interface LogicalRouterVrfOspfAreaType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#normal LogicalRouter#normal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#normal LogicalRouter#normal}
   */
   readonly normal?: LogicalRouterVrfOspfAreaTypeNormal;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#nssa LogicalRouter#nssa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#nssa LogicalRouter#nssa}
   */
   readonly nssa?: LogicalRouterVrfOspfAreaTypeNssa;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#stub LogicalRouter#stub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#stub LogicalRouter#stub}
   */
   readonly stub?: LogicalRouterVrfOspfAreaTypeStub;
 }
@@ -14491,7 +14491,7 @@ export interface LogicalRouterVrfOspfAreaVirtualLinkBfd {
   /**
   * BFD profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#profile LogicalRouter#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#profile LogicalRouter#profile}
   */
   readonly profile?: string;
 }
@@ -14587,45 +14587,45 @@ export interface LogicalRouterVrfOspfAreaVirtualLink {
   /**
   * Authentication options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#authentication LogicalRouter#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#authentication LogicalRouter#authentication}
   */
   readonly authentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#bfd LogicalRouter#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#bfd LogicalRouter#bfd}
   */
   readonly bfd?: LogicalRouterVrfOspfAreaVirtualLinkBfd;
   /**
   * Enable this virtual link
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#enable LogicalRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#enable LogicalRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * OSPF instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#instance_id LogicalRouter#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#instance_id LogicalRouter#instance_id}
   */
   readonly instanceId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
   /**
   * neighbor router id for virtual link
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#neighbor_id LogicalRouter#neighbor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#neighbor_id LogicalRouter#neighbor_id}
   */
   readonly neighborId?: string;
   /**
   * Protocol timer setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#timing LogicalRouter#timing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#timing LogicalRouter#timing}
   */
   readonly timing?: string;
   /**
   * id of transit area, cannot be backbone, stub or NSSA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#transit_area_id LogicalRouter#transit_area_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#transit_area_id LogicalRouter#transit_area_id}
   */
   readonly transitAreaId?: string;
 }
@@ -14943,27 +14943,27 @@ export interface LogicalRouterVrfOspfArea {
   /**
   * Authentication profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#authentication LogicalRouter#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#authentication LogicalRouter#authentication}
   */
   readonly authentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#interface LogicalRouter#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#interface LogicalRouter#interface}
   */
   readonly interface?: LogicalRouterVrfOspfAreaInterface[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#range LogicalRouter#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#range LogicalRouter#range}
   */
   readonly range?: LogicalRouterVrfOspfAreaRange[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#type LogicalRouter#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#type LogicalRouter#type}
   */
   readonly type?: LogicalRouterVrfOspfAreaType;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#virtual_link LogicalRouter#virtual_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#virtual_link LogicalRouter#virtual_link}
   */
   readonly virtualLink?: LogicalRouterVrfOspfAreaVirtualLink[] | cdktf.IResolvable;
 }
@@ -15223,7 +15223,7 @@ export interface LogicalRouterVrfOspfGlobalBfd {
   /**
   * BFD profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#profile LogicalRouter#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#profile LogicalRouter#profile}
   */
   readonly profile?: string;
 }
@@ -15317,31 +15317,31 @@ export class LogicalRouterVrfOspfGlobalBfdOutputReference extends cdktf.ComplexO
 }
 export interface LogicalRouterVrfOspfGracefulRestart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#enable LogicalRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#enable LogicalRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * maximum local restarting time (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#grace_period LogicalRouter#grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#grace_period LogicalRouter#grace_period}
   */
   readonly gracePeriod?: number;
   /**
   * enable/disable helping neighboring routers to graceful restart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#helper_enable LogicalRouter#helper_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#helper_enable LogicalRouter#helper_enable}
   */
   readonly helperEnable?: boolean | cdktf.IResolvable;
   /**
   * maximum of neighbor restart time accepted (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#max_neighbor_restart_time LogicalRouter#max_neighbor_restart_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#max_neighbor_restart_time LogicalRouter#max_neighbor_restart_time}
   */
   readonly maxNeighborRestartTime?: number;
   /**
   * enable/disable strict LSA checking. Abort GR if lsa change is detected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#strict_lsa_checking LogicalRouter#strict_lsa_checking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#strict_lsa_checking LogicalRouter#strict_lsa_checking}
   */
   readonly strictLsaChecking?: boolean | cdktf.IResolvable;
 }
@@ -15551,49 +15551,49 @@ export class LogicalRouterVrfOspfGracefulRestartOutputReference extends cdktf.Co
 }
 export interface LogicalRouterVrfOspf {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#area LogicalRouter#area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#area LogicalRouter#area}
   */
   readonly area?: LogicalRouterVrfOspfArea[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#enable LogicalRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#enable LogicalRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#global_bfd LogicalRouter#global_bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#global_bfd LogicalRouter#global_bfd}
   */
   readonly globalBfd?: LogicalRouterVrfOspfGlobalBfd;
   /**
   * Global protocol timer setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#global_if_timer LogicalRouter#global_if_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#global_if_timer LogicalRouter#global_if_timer}
   */
   readonly globalIfTimer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#graceful_restart LogicalRouter#graceful_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#graceful_restart LogicalRouter#graceful_restart}
   */
   readonly gracefulRestart?: LogicalRouterVrfOspfGracefulRestart;
   /**
   * Redistribution profile setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#redistribution_profile LogicalRouter#redistribution_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#redistribution_profile LogicalRouter#redistribution_profile}
   */
   readonly redistributionProfile?: string;
   /**
   * rfc-1583 compatibility
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#rfc1583 LogicalRouter#rfc1583}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#rfc1583 LogicalRouter#rfc1583}
   */
   readonly rfc1583?: boolean | cdktf.IResolvable;
   /**
   * router id of this OSPF instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#router_id LogicalRouter#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#router_id LogicalRouter#router_id}
   */
   readonly routerId?: string;
   /**
   * SPF timer setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#spf_timer LogicalRouter#spf_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#spf_timer LogicalRouter#spf_timer}
   */
   readonly spfTimer?: string;
 }
@@ -15921,7 +15921,7 @@ export interface LogicalRouterVrfOspfv3AreaInterfaceBfd {
   /**
   * BFD profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#profile LogicalRouter#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#profile LogicalRouter#profile}
   */
   readonly profile?: string;
 }
@@ -16074,13 +16074,13 @@ export class LogicalRouterVrfOspfv3AreaInterfaceLinkTypeBroadcastOutputReference
 }
 export interface LogicalRouterVrfOspfv3AreaInterfaceLinkTypeP2MpNeighbor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
   /**
   * Neighbor priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#priority LogicalRouter#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#priority LogicalRouter#priority}
   */
   readonly priority?: number;
 }
@@ -16222,7 +16222,7 @@ export class LogicalRouterVrfOspfv3AreaInterfaceLinkTypeP2MpNeighborList extends
 }
 export interface LogicalRouterVrfOspfv3AreaInterfaceLinkTypeP2Mp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#neighbor LogicalRouter#neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#neighbor LogicalRouter#neighbor}
   */
   readonly neighbor?: LogicalRouterVrfOspfv3AreaInterfaceLinkTypeP2MpNeighbor[] | cdktf.IResolvable;
 }
@@ -16375,15 +16375,15 @@ export class LogicalRouterVrfOspfv3AreaInterfaceLinkTypeP2POutputReference exten
 }
 export interface LogicalRouterVrfOspfv3AreaInterfaceLinkType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#broadcast LogicalRouter#broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#broadcast LogicalRouter#broadcast}
   */
   readonly broadcast?: LogicalRouterVrfOspfv3AreaInterfaceLinkTypeBroadcast;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#p2mp LogicalRouter#p2mp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#p2mp LogicalRouter#p2mp}
   */
   readonly p2Mp?: LogicalRouterVrfOspfv3AreaInterfaceLinkTypeP2Mp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#p2p LogicalRouter#p2p}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#p2p LogicalRouter#p2p}
   */
   readonly p2P?: LogicalRouterVrfOspfv3AreaInterfaceLinkTypeP2P;
 }
@@ -16537,61 +16537,61 @@ export interface LogicalRouterVrfOspfv3AreaInterface {
   /**
   * Authentication options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#authentication LogicalRouter#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#authentication LogicalRouter#authentication}
   */
   readonly authentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#bfd LogicalRouter#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#bfd LogicalRouter#bfd}
   */
   readonly bfd?: LogicalRouterVrfOspfv3AreaInterfaceBfd;
   /**
   * Enable OSPF in this interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#enable LogicalRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#enable LogicalRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * OSPFv3 instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#instance_id LogicalRouter#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#instance_id LogicalRouter#instance_id}
   */
   readonly instanceId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#link_type LogicalRouter#link_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#link_type LogicalRouter#link_type}
   */
   readonly linkType?: LogicalRouterVrfOspfv3AreaInterfaceLinkType;
   /**
   * Cost of OSPF interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#metric LogicalRouter#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#metric LogicalRouter#metric}
   */
   readonly metric?: number;
   /**
   * Ignore mtu when try to establish adjacency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#mtu_ignore LogicalRouter#mtu_ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#mtu_ignore LogicalRouter#mtu_ignore}
   */
   readonly mtuIgnore?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
   /**
   * Suppress the sending of hello packets in this interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#passive LogicalRouter#passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#passive LogicalRouter#passive}
   */
   readonly passive?: boolean | cdktf.IResolvable;
   /**
   * Priority for OSPF designated router selection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#priority LogicalRouter#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#priority LogicalRouter#priority}
   */
   readonly priority?: number;
   /**
   * Protocol timer setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#timing LogicalRouter#timing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#timing LogicalRouter#timing}
   */
   readonly timing?: string;
 }
@@ -16996,11 +16996,11 @@ export interface LogicalRouterVrfOspfv3AreaRange {
   /**
   * do summarization and advertise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#advertise LogicalRouter#advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#advertise LogicalRouter#advertise}
   */
   readonly advertise?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
 }
@@ -17144,25 +17144,25 @@ export interface LogicalRouterVrfOspfv3AreaTypeNormalAbr {
   /**
   * Set the filter for networks announced to other areas
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#export_list LogicalRouter#export_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#export_list LogicalRouter#export_list}
   */
   readonly exportList?: string;
   /**
   * Set the filter for networks announced from other areas
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#import_list LogicalRouter#import_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#import_list LogicalRouter#import_list}
   */
   readonly importList?: string;
   /**
   * Inbound filter list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#inbound_filter_list LogicalRouter#inbound_filter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#inbound_filter_list LogicalRouter#inbound_filter_list}
   */
   readonly inboundFilterList?: string;
   /**
   * Outbound filter list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#outbound_filter_list LogicalRouter#outbound_filter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#outbound_filter_list LogicalRouter#outbound_filter_list}
   */
   readonly outboundFilterList?: string;
 }
@@ -17343,7 +17343,7 @@ export class LogicalRouterVrfOspfv3AreaTypeNormalAbrOutputReference extends cdkt
 }
 export interface LogicalRouterVrfOspfv3AreaTypeNormal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#abr LogicalRouter#abr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#abr LogicalRouter#abr}
   */
   readonly abr?: LogicalRouterVrfOspfv3AreaTypeNormalAbr;
 }
@@ -17439,11 +17439,11 @@ export interface LogicalRouterVrfOspfv3AreaTypeNssaAbrNssaExtRange {
   /**
   * do summarization and advertise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#advertise LogicalRouter#advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#advertise LogicalRouter#advertise}
   */
   readonly advertise?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
 }
@@ -17587,29 +17587,29 @@ export interface LogicalRouterVrfOspfv3AreaTypeNssaAbr {
   /**
   * Set the filter for networks announced to other areas
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#export_list LogicalRouter#export_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#export_list LogicalRouter#export_list}
   */
   readonly exportList?: string;
   /**
   * Set the filter for networks announced from other areas
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#import_list LogicalRouter#import_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#import_list LogicalRouter#import_list}
   */
   readonly importList?: string;
   /**
   * Inbound filter list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#inbound_filter_list LogicalRouter#inbound_filter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#inbound_filter_list LogicalRouter#inbound_filter_list}
   */
   readonly inboundFilterList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#nssa_ext_range LogicalRouter#nssa_ext_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#nssa_ext_range LogicalRouter#nssa_ext_range}
   */
   readonly nssaExtRange?: LogicalRouterVrfOspfv3AreaTypeNssaAbrNssaExtRange[] | cdktf.IResolvable;
   /**
   * Outbound filter list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#outbound_filter_list LogicalRouter#outbound_filter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#outbound_filter_list LogicalRouter#outbound_filter_list}
   */
   readonly outboundFilterList?: string;
 }
@@ -17819,13 +17819,13 @@ export class LogicalRouterVrfOspfv3AreaTypeNssaAbrOutputReference extends cdktf.
 }
 export interface LogicalRouterVrfOspfv3AreaTypeNssaDefaultInformationOriginate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#metric LogicalRouter#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#metric LogicalRouter#metric}
   */
   readonly metric?: number;
   /**
   * metric type to be used when redistribute default route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#metric_type LogicalRouter#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#metric_type LogicalRouter#metric_type}
   */
   readonly metricType?: string;
 }
@@ -17948,15 +17948,15 @@ export class LogicalRouterVrfOspfv3AreaTypeNssaDefaultInformationOriginateOutput
 }
 export interface LogicalRouterVrfOspfv3AreaTypeNssa {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#abr LogicalRouter#abr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#abr LogicalRouter#abr}
   */
   readonly abr?: LogicalRouterVrfOspfv3AreaTypeNssaAbr;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#default_information_originate LogicalRouter#default_information_originate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#default_information_originate LogicalRouter#default_information_originate}
   */
   readonly defaultInformationOriginate?: LogicalRouterVrfOspfv3AreaTypeNssaDefaultInformationOriginate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#no_summary LogicalRouter#no_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#no_summary LogicalRouter#no_summary}
   */
   readonly noSummary?: boolean | cdktf.IResolvable;
 }
@@ -18110,25 +18110,25 @@ export interface LogicalRouterVrfOspfv3AreaTypeStubAbr {
   /**
   * Set the filter for networks announced to other areas
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#export_list LogicalRouter#export_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#export_list LogicalRouter#export_list}
   */
   readonly exportList?: string;
   /**
   * Set the filter for networks announced from other areas
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#import_list LogicalRouter#import_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#import_list LogicalRouter#import_list}
   */
   readonly importList?: string;
   /**
   * Inbound filter list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#inbound_filter_list LogicalRouter#inbound_filter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#inbound_filter_list LogicalRouter#inbound_filter_list}
   */
   readonly inboundFilterList?: string;
   /**
   * Outbound filter list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#outbound_filter_list LogicalRouter#outbound_filter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#outbound_filter_list LogicalRouter#outbound_filter_list}
   */
   readonly outboundFilterList?: string;
 }
@@ -18309,15 +18309,15 @@ export class LogicalRouterVrfOspfv3AreaTypeStubAbrOutputReference extends cdktf.
 }
 export interface LogicalRouterVrfOspfv3AreaTypeStub {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#abr LogicalRouter#abr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#abr LogicalRouter#abr}
   */
   readonly abr?: LogicalRouterVrfOspfv3AreaTypeStubAbr;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#default_route_metric LogicalRouter#default_route_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#default_route_metric LogicalRouter#default_route_metric}
   */
   readonly defaultRouteMetric?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#no_summary LogicalRouter#no_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#no_summary LogicalRouter#no_summary}
   */
   readonly noSummary?: boolean | cdktf.IResolvable;
 }
@@ -18469,15 +18469,15 @@ export class LogicalRouterVrfOspfv3AreaTypeStubOutputReference extends cdktf.Com
 }
 export interface LogicalRouterVrfOspfv3AreaType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#normal LogicalRouter#normal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#normal LogicalRouter#normal}
   */
   readonly normal?: LogicalRouterVrfOspfv3AreaTypeNormal;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#nssa LogicalRouter#nssa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#nssa LogicalRouter#nssa}
   */
   readonly nssa?: LogicalRouterVrfOspfv3AreaTypeNssa;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#stub LogicalRouter#stub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#stub LogicalRouter#stub}
   */
   readonly stub?: LogicalRouterVrfOspfv3AreaTypeStub;
 }
@@ -18631,41 +18631,41 @@ export interface LogicalRouterVrfOspfv3AreaVirtualLink {
   /**
   * Authentication options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#authentication LogicalRouter#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#authentication LogicalRouter#authentication}
   */
   readonly authentication?: string;
   /**
   * Enable this virtual link
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#enable LogicalRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#enable LogicalRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * OSPFv3 instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#instance_id LogicalRouter#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#instance_id LogicalRouter#instance_id}
   */
   readonly instanceId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
   /**
   * neighbor router id for virtual link
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#neighbor_id LogicalRouter#neighbor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#neighbor_id LogicalRouter#neighbor_id}
   */
   readonly neighborId?: string;
   /**
   * Protocol timer setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#timing LogicalRouter#timing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#timing LogicalRouter#timing}
   */
   readonly timing?: string;
   /**
   * id of transit area, cannot be backbone, stub or NSSA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#transit_area_id LogicalRouter#transit_area_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#transit_area_id LogicalRouter#transit_area_id}
   */
   readonly transitAreaId?: string;
 }
@@ -18954,27 +18954,27 @@ export interface LogicalRouterVrfOspfv3Area {
   /**
   * Authentication profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#authentication LogicalRouter#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#authentication LogicalRouter#authentication}
   */
   readonly authentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#interface LogicalRouter#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#interface LogicalRouter#interface}
   */
   readonly interface?: LogicalRouterVrfOspfv3AreaInterface[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#range LogicalRouter#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#range LogicalRouter#range}
   */
   readonly range?: LogicalRouterVrfOspfv3AreaRange[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#type LogicalRouter#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#type LogicalRouter#type}
   */
   readonly type?: LogicalRouterVrfOspfv3AreaType;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#virtual_link LogicalRouter#virtual_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#virtual_link LogicalRouter#virtual_link}
   */
   readonly virtualLink?: LogicalRouterVrfOspfv3AreaVirtualLink[] | cdktf.IResolvable;
 }
@@ -19234,7 +19234,7 @@ export interface LogicalRouterVrfOspfv3GlobalBfd {
   /**
   * BFD profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#profile LogicalRouter#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#profile LogicalRouter#profile}
   */
   readonly profile?: string;
 }
@@ -19328,31 +19328,31 @@ export class LogicalRouterVrfOspfv3GlobalBfdOutputReference extends cdktf.Comple
 }
 export interface LogicalRouterVrfOspfv3GracefulRestart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#enable LogicalRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#enable LogicalRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * maximum local restarting time (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#grace_period LogicalRouter#grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#grace_period LogicalRouter#grace_period}
   */
   readonly gracePeriod?: number;
   /**
   * enable/disable helping neighboring routers to graceful restart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#helper_enable LogicalRouter#helper_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#helper_enable LogicalRouter#helper_enable}
   */
   readonly helperEnable?: boolean | cdktf.IResolvable;
   /**
   * maximum of neighbor restart time accepted (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#max_neighbor_restart_time LogicalRouter#max_neighbor_restart_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#max_neighbor_restart_time LogicalRouter#max_neighbor_restart_time}
   */
   readonly maxNeighborRestartTime?: number;
   /**
   * enable/disable strict LSA checking. Abort GR if lsa change is detected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#strict_lsa_checking LogicalRouter#strict_lsa_checking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#strict_lsa_checking LogicalRouter#strict_lsa_checking}
   */
   readonly strictLsaChecking?: boolean | cdktf.IResolvable;
 }
@@ -19562,49 +19562,49 @@ export class LogicalRouterVrfOspfv3GracefulRestartOutputReference extends cdktf.
 }
 export interface LogicalRouterVrfOspfv3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#area LogicalRouter#area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#area LogicalRouter#area}
   */
   readonly area?: LogicalRouterVrfOspfv3Area[] | cdktf.IResolvable;
   /**
   * whether OSPFv3 should set the R- and V6-bits in its Router-LSAs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#disable_transit_traffic LogicalRouter#disable_transit_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#disable_transit_traffic LogicalRouter#disable_transit_traffic}
   */
   readonly disableTransitTraffic?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#enable LogicalRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#enable LogicalRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#global_bfd LogicalRouter#global_bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#global_bfd LogicalRouter#global_bfd}
   */
   readonly globalBfd?: LogicalRouterVrfOspfv3GlobalBfd;
   /**
   * Global protocol timer setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#global_if_timer LogicalRouter#global_if_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#global_if_timer LogicalRouter#global_if_timer}
   */
   readonly globalIfTimer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#graceful_restart LogicalRouter#graceful_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#graceful_restart LogicalRouter#graceful_restart}
   */
   readonly gracefulRestart?: LogicalRouterVrfOspfv3GracefulRestart;
   /**
   * Redistribution profile setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#redistribution_profile LogicalRouter#redistribution_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#redistribution_profile LogicalRouter#redistribution_profile}
   */
   readonly redistributionProfile?: string;
   /**
   * router id of this OSPFv3 instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#router_id LogicalRouter#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#router_id LogicalRouter#router_id}
   */
   readonly routerId?: string;
   /**
   * SPF timer setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#spf_timer LogicalRouter#spf_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#spf_timer LogicalRouter#spf_timer}
   */
   readonly spfTimer?: string;
 }
@@ -19932,7 +19932,7 @@ export interface LogicalRouterVrfRibFilterIpv4Bgp {
   /**
   * Apply Route-Map on BGP Routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#route_map LogicalRouter#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#route_map LogicalRouter#route_map}
   */
   readonly routeMap?: string;
 }
@@ -20028,7 +20028,7 @@ export interface LogicalRouterVrfRibFilterIpv4Ospf {
   /**
   * Apply Route-Map on OSPF Routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#route_map LogicalRouter#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#route_map LogicalRouter#route_map}
   */
   readonly routeMap?: string;
 }
@@ -20124,7 +20124,7 @@ export interface LogicalRouterVrfRibFilterIpv4Rip {
   /**
   * Apply Route-Map on RIP Routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#route_map LogicalRouter#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#route_map LogicalRouter#route_map}
   */
   readonly routeMap?: string;
 }
@@ -20220,7 +20220,7 @@ export interface LogicalRouterVrfRibFilterIpv4Static {
   /**
   * Apply Route-Map on Static Routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#route_map LogicalRouter#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#route_map LogicalRouter#route_map}
   */
   readonly routeMap?: string;
 }
@@ -20314,19 +20314,19 @@ export class LogicalRouterVrfRibFilterIpv4StaticOutputReference extends cdktf.Co
 }
 export interface LogicalRouterVrfRibFilterIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#bgp LogicalRouter#bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#bgp LogicalRouter#bgp}
   */
   readonly bgp?: LogicalRouterVrfRibFilterIpv4Bgp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ospf LogicalRouter#ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ospf LogicalRouter#ospf}
   */
   readonly ospf?: LogicalRouterVrfRibFilterIpv4Ospf;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#rip LogicalRouter#rip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#rip LogicalRouter#rip}
   */
   readonly rip?: LogicalRouterVrfRibFilterIpv4Rip;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#static LogicalRouter#static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#static LogicalRouter#static}
   */
   readonly static?: LogicalRouterVrfRibFilterIpv4Static;
 }
@@ -20509,7 +20509,7 @@ export interface LogicalRouterVrfRibFilterIpv6Bgp {
   /**
   * Apply Route-Map on BGP Routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#route_map LogicalRouter#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#route_map LogicalRouter#route_map}
   */
   readonly routeMap?: string;
 }
@@ -20605,7 +20605,7 @@ export interface LogicalRouterVrfRibFilterIpv6Ospfv3 {
   /**
   * Apply Route-Map on OSPFv3 Routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#route_map LogicalRouter#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#route_map LogicalRouter#route_map}
   */
   readonly routeMap?: string;
 }
@@ -20701,7 +20701,7 @@ export interface LogicalRouterVrfRibFilterIpv6Static {
   /**
   * Apply Route-Map on Static Routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#route_map LogicalRouter#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#route_map LogicalRouter#route_map}
   */
   readonly routeMap?: string;
 }
@@ -20795,15 +20795,15 @@ export class LogicalRouterVrfRibFilterIpv6StaticOutputReference extends cdktf.Co
 }
 export interface LogicalRouterVrfRibFilterIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#bgp LogicalRouter#bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#bgp LogicalRouter#bgp}
   */
   readonly bgp?: LogicalRouterVrfRibFilterIpv6Bgp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ospfv3 LogicalRouter#ospfv3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ospfv3 LogicalRouter#ospfv3}
   */
   readonly ospfv3?: LogicalRouterVrfRibFilterIpv6Ospfv3;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#static LogicalRouter#static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#static LogicalRouter#static}
   */
   readonly static?: LogicalRouterVrfRibFilterIpv6Static;
 }
@@ -20955,11 +20955,11 @@ export class LogicalRouterVrfRibFilterIpv6OutputReference extends cdktf.ComplexO
 }
 export interface LogicalRouterVrfRibFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ipv4 LogicalRouter#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ipv4 LogicalRouter#ipv4}
   */
   readonly ipv4?: LogicalRouterVrfRibFilterIpv4;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ipv6 LogicalRouter#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ipv6 LogicalRouter#ipv6}
   */
   readonly ipv6?: LogicalRouterVrfRibFilterIpv6;
 }
@@ -21084,7 +21084,7 @@ export interface LogicalRouterVrfRipGlobalBfd {
   /**
   * BFD profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#profile LogicalRouter#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#profile LogicalRouter#profile}
   */
   readonly profile?: string;
 }
@@ -21180,7 +21180,7 @@ export interface LogicalRouterVrfRipGlobalInboundDistributeListStruct {
   /**
   * access-list name from filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#access_list LogicalRouter#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#access_list LogicalRouter#access_list}
   */
   readonly accessList?: string;
 }
@@ -21276,7 +21276,7 @@ export interface LogicalRouterVrfRipGlobalOutboundDistributeListStruct {
   /**
   * access-list name from filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#access_list LogicalRouter#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#access_list LogicalRouter#access_list}
   */
   readonly accessList?: string;
 }
@@ -21372,7 +21372,7 @@ export interface LogicalRouterVrfRipInterfacesBfd {
   /**
   * BFD profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#profile LogicalRouter#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#profile LogicalRouter#profile}
   */
   readonly profile?: string;
 }
@@ -21468,13 +21468,13 @@ export interface LogicalRouterVrfRipInterfacesInterfaceInboundDistributeListStru
   /**
   * access-list name from filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#access_list LogicalRouter#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#access_list LogicalRouter#access_list}
   */
   readonly accessList?: string;
   /**
   * metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#metric LogicalRouter#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#metric LogicalRouter#metric}
   */
   readonly metric?: number;
 }
@@ -21599,13 +21599,13 @@ export interface LogicalRouterVrfRipInterfacesInterfaceOutboundDistributeListStr
   /**
   * access-list name from filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#access_list LogicalRouter#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#access_list LogicalRouter#access_list}
   */
   readonly accessList?: string;
   /**
   * metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#metric LogicalRouter#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#metric LogicalRouter#metric}
   */
   readonly metric?: number;
 }
@@ -21730,39 +21730,39 @@ export interface LogicalRouterVrfRipInterfaces {
   /**
   * Authentication options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#authentication LogicalRouter#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#authentication LogicalRouter#authentication}
   */
   readonly authentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#bfd LogicalRouter#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#bfd LogicalRouter#bfd}
   */
   readonly bfd?: LogicalRouterVrfRipInterfacesBfd;
   /**
   * Enable RIP on this interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#enable LogicalRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#enable LogicalRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#interface_inbound_distribute_list LogicalRouter#interface_inbound_distribute_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#interface_inbound_distribute_list LogicalRouter#interface_inbound_distribute_list}
   */
   readonly interfaceInboundDistributeList?: LogicalRouterVrfRipInterfacesInterfaceInboundDistributeListStruct;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#interface_outbound_distribute_list LogicalRouter#interface_outbound_distribute_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#interface_outbound_distribute_list LogicalRouter#interface_outbound_distribute_list}
   */
   readonly interfaceOutboundDistributeList?: LogicalRouterVrfRipInterfacesInterfaceOutboundDistributeListStruct;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#mode LogicalRouter#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#mode LogicalRouter#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
   /**
   * Split horizon options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#split_horizon LogicalRouter#split_horizon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#split_horizon LogicalRouter#split_horizon}
   */
   readonly splitHorizon?: string;
 }
@@ -22080,45 +22080,45 @@ export interface LogicalRouterVrfRip {
   /**
   * Authentication profile setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#auth_profile LogicalRouter#auth_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#auth_profile LogicalRouter#auth_profile}
   */
   readonly authProfile?: string;
   /**
   * advertise default route in RIP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#default_information_originate LogicalRouter#default_information_originate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#default_information_originate LogicalRouter#default_information_originate}
   */
   readonly defaultInformationOriginate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#enable LogicalRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#enable LogicalRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#global_bfd LogicalRouter#global_bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#global_bfd LogicalRouter#global_bfd}
   */
   readonly globalBfd?: LogicalRouterVrfRipGlobalBfd;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#global_inbound_distribute_list LogicalRouter#global_inbound_distribute_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#global_inbound_distribute_list LogicalRouter#global_inbound_distribute_list}
   */
   readonly globalInboundDistributeList?: LogicalRouterVrfRipGlobalInboundDistributeListStruct;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#global_outbound_distribute_list LogicalRouter#global_outbound_distribute_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#global_outbound_distribute_list LogicalRouter#global_outbound_distribute_list}
   */
   readonly globalOutboundDistributeList?: LogicalRouterVrfRipGlobalOutboundDistributeListStruct;
   /**
   * timer setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#global_timer LogicalRouter#global_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#global_timer LogicalRouter#global_timer}
   */
   readonly globalTimer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#interfaces LogicalRouter#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#interfaces LogicalRouter#interfaces}
   */
   readonly interfaces?: LogicalRouterVrfRipInterfaces[] | cdktf.IResolvable;
   /**
   * Redistribution profile setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#redistribution_profile LogicalRouter#redistribution_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#redistribution_profile LogicalRouter#redistribution_profile}
   */
   readonly redistributionProfile?: string;
 }
@@ -22446,7 +22446,7 @@ export interface LogicalRouterVrfRoutingTableIpStaticRouteBfd {
   /**
   * BFD profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#profile LogicalRouter#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#profile LogicalRouter#profile}
   */
   readonly profile?: string;
 }
@@ -22599,25 +22599,25 @@ export class LogicalRouterVrfRoutingTableIpStaticRouteNexthopDiscardOutputRefere
 }
 export interface LogicalRouterVrfRoutingTableIpStaticRouteNexthop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#discard LogicalRouter#discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#discard LogicalRouter#discard}
   */
   readonly discard?: LogicalRouterVrfRoutingTableIpStaticRouteNexthopDiscard;
   /**
   * nexthop address FQDN address object configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#fqdn LogicalRouter#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#fqdn LogicalRouter#fqdn}
   */
   readonly fqdn?: string;
   /**
   * Next hop IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ip_address LogicalRouter#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ip_address LogicalRouter#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Next-Hop Logical Router
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#next_lr LogicalRouter#next_lr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#next_lr LogicalRouter#next_lr}
   */
   readonly nextLr?: string;
 }
@@ -22800,33 +22800,33 @@ export interface LogicalRouterVrfRoutingTableIpStaticRoutePathMonitorMonitorDest
   /**
   * ping count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#count LogicalRouter#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#count LogicalRouter#count}
   */
   readonly count?: number;
   /**
   * Destination IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#destination LogicalRouter#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#destination LogicalRouter#destination}
   */
   readonly destination?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#enable LogicalRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#enable LogicalRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * ping interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#interval LogicalRouter#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#interval LogicalRouter#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
   /**
   * Source IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#source LogicalRouter#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#source LogicalRouter#source}
   */
   readonly source?: string;
 }
@@ -23084,23 +23084,23 @@ export class LogicalRouterVrfRoutingTableIpStaticRoutePathMonitorMonitorDestinat
 }
 export interface LogicalRouterVrfRoutingTableIpStaticRoutePathMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#enable LogicalRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#enable LogicalRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * failure condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#failure_condition LogicalRouter#failure_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#failure_condition LogicalRouter#failure_condition}
   */
   readonly failureCondition?: string;
   /**
   * hold time (minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#hold_time LogicalRouter#hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#hold_time LogicalRouter#hold_time}
   */
   readonly holdTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#monitor_destinations LogicalRouter#monitor_destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#monitor_destinations LogicalRouter#monitor_destinations}
   */
   readonly monitorDestinations?: LogicalRouterVrfRoutingTableIpStaticRoutePathMonitorMonitorDestinations[] | cdktf.IResolvable;
 }
@@ -23283,39 +23283,39 @@ export interface LogicalRouterVrfRoutingTableIpStaticRoute {
   /**
   * adminitrative distance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#administrative_distance LogicalRouter#administrative_distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#administrative_distance LogicalRouter#administrative_distance}
   */
   readonly administrativeDistance?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#bfd LogicalRouter#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#bfd LogicalRouter#bfd}
   */
   readonly bfd?: LogicalRouterVrfRoutingTableIpStaticRouteBfd;
   /**
   * Destination IP address/prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#destination LogicalRouter#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#destination LogicalRouter#destination}
   */
   readonly destination?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#interface LogicalRouter#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#interface LogicalRouter#interface}
   */
   readonly interface?: string;
   /**
   * metric value (path cost)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#metric LogicalRouter#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#metric LogicalRouter#metric}
   */
   readonly metric?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#nexthop LogicalRouter#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#nexthop LogicalRouter#nexthop}
   */
   readonly nexthop?: LogicalRouterVrfRoutingTableIpStaticRouteNexthop;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#path_monitor LogicalRouter#path_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#path_monitor LogicalRouter#path_monitor}
   */
   readonly pathMonitor?: LogicalRouterVrfRoutingTableIpStaticRoutePathMonitor;
 }
@@ -23631,7 +23631,7 @@ export class LogicalRouterVrfRoutingTableIpStaticRouteList extends cdktf.Complex
 }
 export interface LogicalRouterVrfRoutingTableIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#static_route LogicalRouter#static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#static_route LogicalRouter#static_route}
   */
   readonly staticRoute?: LogicalRouterVrfRoutingTableIpStaticRoute[] | cdktf.IResolvable;
 }
@@ -23727,7 +23727,7 @@ export interface LogicalRouterVrfRoutingTableIpv6StaticRouteBfd {
   /**
   * BFD profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#profile LogicalRouter#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#profile LogicalRouter#profile}
   */
   readonly profile?: string;
 }
@@ -23880,25 +23880,25 @@ export class LogicalRouterVrfRoutingTableIpv6StaticRouteNexthopDiscardOutputRefe
 }
 export interface LogicalRouterVrfRoutingTableIpv6StaticRouteNexthop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#discard LogicalRouter#discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#discard LogicalRouter#discard}
   */
   readonly discard?: LogicalRouterVrfRoutingTableIpv6StaticRouteNexthopDiscard;
   /**
   * nexthop address FQDN address object configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#fqdn LogicalRouter#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#fqdn LogicalRouter#fqdn}
   */
   readonly fqdn?: string;
   /**
   * Next hop IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ipv6_address LogicalRouter#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ipv6_address LogicalRouter#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * Next-Hop Logical Router
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#next_lr LogicalRouter#next_lr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#next_lr LogicalRouter#next_lr}
   */
   readonly nextLr?: string;
 }
@@ -24081,33 +24081,33 @@ export interface LogicalRouterVrfRoutingTableIpv6StaticRoutePathMonitorMonitorDe
   /**
   * ping count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#count LogicalRouter#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#count LogicalRouter#count}
   */
   readonly count?: number;
   /**
   * Destination IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#destination LogicalRouter#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#destination LogicalRouter#destination}
   */
   readonly destination?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#enable LogicalRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#enable LogicalRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * ping interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#interval LogicalRouter#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#interval LogicalRouter#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
   /**
   * Source IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#source LogicalRouter#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#source LogicalRouter#source}
   */
   readonly source?: string;
 }
@@ -24365,23 +24365,23 @@ export class LogicalRouterVrfRoutingTableIpv6StaticRoutePathMonitorMonitorDestin
 }
 export interface LogicalRouterVrfRoutingTableIpv6StaticRoutePathMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#enable LogicalRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#enable LogicalRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * failure condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#failure_condition LogicalRouter#failure_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#failure_condition LogicalRouter#failure_condition}
   */
   readonly failureCondition?: string;
   /**
   * hold time (minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#hold_time LogicalRouter#hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#hold_time LogicalRouter#hold_time}
   */
   readonly holdTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#monitor_destinations LogicalRouter#monitor_destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#monitor_destinations LogicalRouter#monitor_destinations}
   */
   readonly monitorDestinations?: LogicalRouterVrfRoutingTableIpv6StaticRoutePathMonitorMonitorDestinations[] | cdktf.IResolvable;
 }
@@ -24564,39 +24564,39 @@ export interface LogicalRouterVrfRoutingTableIpv6StaticRoute {
   /**
   * adminitrative distance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#administrative_distance LogicalRouter#administrative_distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#administrative_distance LogicalRouter#administrative_distance}
   */
   readonly administrativeDistance?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#bfd LogicalRouter#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#bfd LogicalRouter#bfd}
   */
   readonly bfd?: LogicalRouterVrfRoutingTableIpv6StaticRouteBfd;
   /**
   * Destination IP address/prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#destination LogicalRouter#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#destination LogicalRouter#destination}
   */
   readonly destination?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#interface LogicalRouter#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#interface LogicalRouter#interface}
   */
   readonly interface?: string;
   /**
   * metric value (path cost)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#metric LogicalRouter#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#metric LogicalRouter#metric}
   */
   readonly metric?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#nexthop LogicalRouter#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#nexthop LogicalRouter#nexthop}
   */
   readonly nexthop?: LogicalRouterVrfRoutingTableIpv6StaticRouteNexthop;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#path_monitor LogicalRouter#path_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#path_monitor LogicalRouter#path_monitor}
   */
   readonly pathMonitor?: LogicalRouterVrfRoutingTableIpv6StaticRoutePathMonitor;
 }
@@ -24912,7 +24912,7 @@ export class LogicalRouterVrfRoutingTableIpv6StaticRouteList extends cdktf.Compl
 }
 export interface LogicalRouterVrfRoutingTableIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#static_route LogicalRouter#static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#static_route LogicalRouter#static_route}
   */
   readonly staticRoute?: LogicalRouterVrfRoutingTableIpv6StaticRoute[] | cdktf.IResolvable;
 }
@@ -25006,11 +25006,11 @@ export class LogicalRouterVrfRoutingTableIpv6OutputReference extends cdktf.Compl
 }
 export interface LogicalRouterVrfRoutingTable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ip LogicalRouter#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ip LogicalRouter#ip}
   */
   readonly ip?: LogicalRouterVrfRoutingTableIp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ipv6 LogicalRouter#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ipv6 LogicalRouter#ipv6}
   */
   readonly ipv6?: LogicalRouterVrfRoutingTableIpv6;
 }
@@ -25133,47 +25133,47 @@ export class LogicalRouterVrfRoutingTableOutputReference extends cdktf.ComplexOb
 }
 export interface LogicalRouterVrf {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#administrative_distances LogicalRouter#administrative_distances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#administrative_distances LogicalRouter#administrative_distances}
   */
   readonly administrativeDistances?: LogicalRouterVrfAdministrativeDistances;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#bgp LogicalRouter#bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#bgp LogicalRouter#bgp}
   */
   readonly bgp?: LogicalRouterVrfBgp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ecmp LogicalRouter#ecmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ecmp LogicalRouter#ecmp}
   */
   readonly ecmp?: LogicalRouterVrfEcmp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#interface LogicalRouter#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#interface LogicalRouter#interface}
   */
   readonly interface?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#multicast LogicalRouter#multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#multicast LogicalRouter#multicast}
   */
   readonly multicast?: LogicalRouterVrfMulticast;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ospf LogicalRouter#ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ospf LogicalRouter#ospf}
   */
   readonly ospf?: LogicalRouterVrfOspf;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#ospfv3 LogicalRouter#ospfv3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#ospfv3 LogicalRouter#ospfv3}
   */
   readonly ospfv3?: LogicalRouterVrfOspfv3;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#rib_filter LogicalRouter#rib_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#rib_filter LogicalRouter#rib_filter}
   */
   readonly ribFilter?: LogicalRouterVrfRibFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#rip LogicalRouter#rip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#rip LogicalRouter#rip}
   */
   readonly rip?: LogicalRouterVrfRip;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#routing_table LogicalRouter#routing_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#routing_table LogicalRouter#routing_table}
   */
   readonly routingTable?: LogicalRouterVrfRoutingTable;
 }
@@ -25576,7 +25576,7 @@ export class LogicalRouterVrfList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router panos_logical_router}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router panos_logical_router}
 */
 export class LogicalRouter extends cdktf.TerraformResource {
 
@@ -25592,7 +25592,7 @@ export class LogicalRouter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogicalRouter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogicalRouter to import
-  * @param importFromId The id of the existing LogicalRouter that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogicalRouter that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogicalRouter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -25604,7 +25604,7 @@ export class LogicalRouter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/logical_router panos_logical_router} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/logical_router panos_logical_router} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -25615,8 +25615,8 @@ export class LogicalRouter extends cdktf.TerraformResource {
       terraformResourceType: 'panos_logical_router',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

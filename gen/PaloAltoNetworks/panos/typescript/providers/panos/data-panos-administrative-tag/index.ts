@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/administrative_tag
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/administrative_tag
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface DataPanosAdministrativeTagConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/administrative_tag#color DataPanosAdministrativeTag#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/administrative_tag#color DataPanosAdministrativeTag#color}
   */
   readonly color?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/administrative_tag#comments DataPanosAdministrativeTag#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/administrative_tag#comments DataPanosAdministrativeTag#comments}
   */
   readonly comments?: string;
   /**
   * disable object override in child device groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/administrative_tag#disable_override DataPanosAdministrativeTag#disable_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/administrative_tag#disable_override DataPanosAdministrativeTag#disable_override}
   */
   readonly disableOverride?: string;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/administrative_tag#location DataPanosAdministrativeTag#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/administrative_tag#location DataPanosAdministrativeTag#location}
   */
   readonly location: DataPanosAdministrativeTagLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/administrative_tag#name DataPanosAdministrativeTag#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/administrative_tag#name DataPanosAdministrativeTag#name}
   */
   readonly name: string;
 }
@@ -36,13 +36,13 @@ export interface DataPanosAdministrativeTagLocationDeviceGroup {
   /**
   * Device Group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/administrative_tag#name DataPanosAdministrativeTag#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/administrative_tag#name DataPanosAdministrativeTag#name}
   */
   readonly name?: string;
   /**
   * Panorama device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/administrative_tag#panorama_device DataPanosAdministrativeTag#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/administrative_tag#panorama_device DataPanosAdministrativeTag#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -226,13 +226,13 @@ export interface DataPanosAdministrativeTagLocationVsys {
   /**
   * The Virtual System name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/administrative_tag#name DataPanosAdministrativeTag#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/administrative_tag#name DataPanosAdministrativeTag#name}
   */
   readonly name?: string;
   /**
   * The NGFW device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/administrative_tag#ngfw_device DataPanosAdministrativeTag#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/administrative_tag#ngfw_device DataPanosAdministrativeTag#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -357,19 +357,19 @@ export interface DataPanosAdministrativeTagLocation {
   /**
   * Located in a specific Device Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/administrative_tag#device_group DataPanosAdministrativeTag#device_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/administrative_tag#device_group DataPanosAdministrativeTag#device_group}
   */
   readonly deviceGroup?: DataPanosAdministrativeTagLocationDeviceGroup;
   /**
   * Panorama shared object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/administrative_tag#shared DataPanosAdministrativeTag#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/administrative_tag#shared DataPanosAdministrativeTag#shared}
   */
   readonly shared?: DataPanosAdministrativeTagLocationShared;
   /**
   * Located in a specific Virtual System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/administrative_tag#vsys DataPanosAdministrativeTag#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/administrative_tag#vsys DataPanosAdministrativeTag#vsys}
   */
   readonly vsys?: DataPanosAdministrativeTagLocationVsys;
 }
@@ -521,7 +521,7 @@ export class DataPanosAdministrativeTagLocationOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/administrative_tag panos_administrative_tag}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/administrative_tag panos_administrative_tag}
 */
 export class DataPanosAdministrativeTag extends cdktf.TerraformDataSource {
 
@@ -537,7 +537,7 @@ export class DataPanosAdministrativeTag extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPanosAdministrativeTag resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPanosAdministrativeTag to import
-  * @param importFromId The id of the existing DataPanosAdministrativeTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/administrative_tag#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPanosAdministrativeTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/administrative_tag#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPanosAdministrativeTag to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -549,7 +549,7 @@ export class DataPanosAdministrativeTag extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/administrative_tag panos_administrative_tag} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/administrative_tag panos_administrative_tag} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -560,8 +560,8 @@ export class DataPanosAdministrativeTag extends cdktf.TerraformDataSource {
       terraformResourceType: 'panos_administrative_tag',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/data-sources/webhooks_endpoint
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/data-sources/webhooks_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktf from 'cdktf';
 
 export interface DataRootlyWebhooksEndpointConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/data-sources/webhooks_endpoint#name DataRootlyWebhooksEndpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/data-sources/webhooks_endpoint#name DataRootlyWebhooksEndpoint#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/data-sources/webhooks_endpoint#slug DataRootlyWebhooksEndpoint#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/data-sources/webhooks_endpoint#slug DataRootlyWebhooksEndpoint#slug}
   */
   readonly slug?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/data-sources/webhooks_endpoint rootly_webhooks_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/data-sources/webhooks_endpoint rootly_webhooks_endpoint}
 */
 export class DataRootlyWebhooksEndpoint extends cdktf.TerraformDataSource {
 
@@ -34,7 +34,7 @@ export class DataRootlyWebhooksEndpoint extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRootlyWebhooksEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRootlyWebhooksEndpoint to import
-  * @param importFromId The id of the existing DataRootlyWebhooksEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/data-sources/webhooks_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRootlyWebhooksEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/data-sources/webhooks_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRootlyWebhooksEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -46,7 +46,7 @@ export class DataRootlyWebhooksEndpoint extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/data-sources/webhooks_endpoint rootly_webhooks_endpoint} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/data-sources/webhooks_endpoint rootly_webhooks_endpoint} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -57,8 +57,8 @@ export class DataRootlyWebhooksEndpoint extends cdktf.TerraformDataSource {
       terraformResourceType: 'rootly_webhooks_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.8',
-        providerVersionConstraint: '4.3.8'
+        providerVersion: '4.3.9',
+        providerVersionConstraint: '4.3.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

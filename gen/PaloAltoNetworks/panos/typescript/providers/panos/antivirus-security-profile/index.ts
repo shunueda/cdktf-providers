@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface AntivirusSecurityProfileConfig extends cdktf.TerraformMetaArgum
   /**
   * Application exceptions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#application_exceptions AntivirusSecurityProfile#application_exceptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#application_exceptions AntivirusSecurityProfile#application_exceptions}
   */
   readonly applicationExceptions?: AntivirusSecurityProfileApplicationExceptions[] | cdktf.IResolvable;
   /**
   * Protocol decoders
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#decoders AntivirusSecurityProfile#decoders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#decoders AntivirusSecurityProfile#decoders}
   */
   readonly decoders?: AntivirusSecurityProfileDecoders[] | cdktf.IResolvable;
   /**
   * Profile description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#description AntivirusSecurityProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#description AntivirusSecurityProfile#description}
   */
   readonly description?: string;
   /**
   * Disable object override in child device groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#disable_override AntivirusSecurityProfile#disable_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#disable_override AntivirusSecurityProfile#disable_override}
   */
   readonly disableOverride?: string;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#location AntivirusSecurityProfile#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#location AntivirusSecurityProfile#location}
   */
   readonly location: AntivirusSecurityProfileLocation;
   /**
   * Exceptions for ML based file scans.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#machine_learning_exceptions AntivirusSecurityProfile#machine_learning_exceptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#machine_learning_exceptions AntivirusSecurityProfile#machine_learning_exceptions}
   */
   readonly machineLearningExceptions?: AntivirusSecurityProfileMachineLearningExceptions[] | cdktf.IResolvable;
   /**
   * Machine learning models
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#machine_learning_models AntivirusSecurityProfile#machine_learning_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#machine_learning_models AntivirusSecurityProfile#machine_learning_models}
   */
   readonly machineLearningModels?: AntivirusSecurityProfileMachineLearningModels[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#name AntivirusSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#name AntivirusSecurityProfile#name}
   */
   readonly name: string;
   /**
   * Enable packet capture
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#packet_capture AntivirusSecurityProfile#packet_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#packet_capture AntivirusSecurityProfile#packet_capture}
   */
   readonly packetCapture?: boolean | cdktf.IResolvable;
   /**
   * Exceptions for specific threats
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#threat_exceptions AntivirusSecurityProfile#threat_exceptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#threat_exceptions AntivirusSecurityProfile#threat_exceptions}
   */
   readonly threatExceptions?: AntivirusSecurityProfileThreatExceptions[] | cdktf.IResolvable;
   /**
   * Enable hold mode for WildFire real time signature lookup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#wfrt_hold_mode AntivirusSecurityProfile#wfrt_hold_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#wfrt_hold_mode AntivirusSecurityProfile#wfrt_hold_mode}
   */
   readonly wfrtHoldMode?: boolean | cdktf.IResolvable;
 }
@@ -76,11 +76,11 @@ export interface AntivirusSecurityProfileApplicationExceptions {
   /**
   * Action for application exception. Valid values are: `default` (default), `allow`, `alert`, `drop`, `reset-client`, `reset-server`, or `reset-both`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#action AntivirusSecurityProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#action AntivirusSecurityProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#name AntivirusSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#name AntivirusSecurityProfile#name}
   */
   readonly name: string;
 }
@@ -224,23 +224,23 @@ export interface AntivirusSecurityProfileDecoders {
   /**
   * Action for standard antivirus signatures. Valid values are: `default` (default), `allow`, `alert`, `drop`, `reset-client`, `reset-server`, or `reset-both`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#action AntivirusSecurityProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#action AntivirusSecurityProfile#action}
   */
   readonly action?: string;
   /**
   * Action for malicious threats detected in real-time by the WildFire Inline ML models. Valid values are: `default` (default), `allow`, `alert`, `drop`, `reset-client`, `reset-server`, or `reset-both`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#ml_action AntivirusSecurityProfile#ml_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#ml_action AntivirusSecurityProfile#ml_action}
   */
   readonly mlAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#name AntivirusSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#name AntivirusSecurityProfile#name}
   */
   readonly name: string;
   /**
   * Action for signatures generated by the WildFire system. Valid values are: `default` (default), `allow`, `alert`, `drop`, `reset-client`, `reset-server`, or `reset-both`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#wildfire_action AntivirusSecurityProfile#wildfire_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#wildfire_action AntivirusSecurityProfile#wildfire_action}
   */
   readonly wildfireAction?: string;
 }
@@ -442,13 +442,13 @@ export interface AntivirusSecurityProfileLocationDeviceGroup {
   /**
   * Device Group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#name AntivirusSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#name AntivirusSecurityProfile#name}
   */
   readonly name?: string;
   /**
   * Panorama device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#panorama_device AntivirusSecurityProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#panorama_device AntivirusSecurityProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -632,13 +632,13 @@ export interface AntivirusSecurityProfileLocationVsys {
   /**
   * The Virtual System name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#name AntivirusSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#name AntivirusSecurityProfile#name}
   */
   readonly name?: string;
   /**
   * The NGFW device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#ngfw_device AntivirusSecurityProfile#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#ngfw_device AntivirusSecurityProfile#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -763,19 +763,19 @@ export interface AntivirusSecurityProfileLocation {
   /**
   * Located in a specific Device Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#device_group AntivirusSecurityProfile#device_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#device_group AntivirusSecurityProfile#device_group}
   */
   readonly deviceGroup?: AntivirusSecurityProfileLocationDeviceGroup;
   /**
   * Panorama shared object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#shared AntivirusSecurityProfile#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#shared AntivirusSecurityProfile#shared}
   */
   readonly shared?: AntivirusSecurityProfileLocationShared;
   /**
   * Located in a specific Virtual System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#vsys AntivirusSecurityProfile#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#vsys AntivirusSecurityProfile#vsys}
   */
   readonly vsys?: AntivirusSecurityProfileLocationVsys;
 }
@@ -929,17 +929,17 @@ export interface AntivirusSecurityProfileMachineLearningExceptions {
   /**
   * Exception description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#description AntivirusSecurityProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#description AntivirusSecurityProfile#description}
   */
   readonly description?: string;
   /**
   * File name to exclude from enforcement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#filename AntivirusSecurityProfile#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#filename AntivirusSecurityProfile#filename}
   */
   readonly filename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#name AntivirusSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#name AntivirusSecurityProfile#name}
   */
   readonly name: string;
 }
@@ -1112,11 +1112,11 @@ export interface AntivirusSecurityProfileMachineLearningModels {
   /**
   * Action for ML model antivirus signatures. Valid values are: `enable`, `enable(alert-only)`, or `disable`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#action AntivirusSecurityProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#action AntivirusSecurityProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#name AntivirusSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#name AntivirusSecurityProfile#name}
   */
   readonly name: string;
 }
@@ -1258,7 +1258,7 @@ export class AntivirusSecurityProfileMachineLearningModelsList extends cdktf.Com
 }
 export interface AntivirusSecurityProfileThreatExceptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#name AntivirusSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#name AntivirusSecurityProfile#name}
   */
   readonly name: string;
 }
@@ -1371,7 +1371,7 @@ export class AntivirusSecurityProfileThreatExceptionsList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile panos_antivirus_security_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile panos_antivirus_security_profile}
 */
 export class AntivirusSecurityProfile extends cdktf.TerraformResource {
 
@@ -1387,7 +1387,7 @@ export class AntivirusSecurityProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AntivirusSecurityProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AntivirusSecurityProfile to import
-  * @param importFromId The id of the existing AntivirusSecurityProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AntivirusSecurityProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AntivirusSecurityProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1399,7 +1399,7 @@ export class AntivirusSecurityProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/antivirus_security_profile panos_antivirus_security_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/antivirus_security_profile panos_antivirus_security_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1410,8 +1410,8 @@ export class AntivirusSecurityProfile extends cdktf.TerraformResource {
       terraformResourceType: 'panos_antivirus_security_profile',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

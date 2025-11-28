@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/service_group
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/service_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataPanosServiceGroupConfig extends cdktf.TerraformMetaArgument
   /**
   * disable object override in child device groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/service_group#disable_override DataPanosServiceGroup#disable_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/service_group#disable_override DataPanosServiceGroup#disable_override}
   */
   readonly disableOverride?: string;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/service_group#location DataPanosServiceGroup#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/service_group#location DataPanosServiceGroup#location}
   */
   readonly location: DataPanosServiceGroupLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/service_group#members DataPanosServiceGroup#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/service_group#members DataPanosServiceGroup#members}
   */
   readonly members?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/service_group#name DataPanosServiceGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/service_group#name DataPanosServiceGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/service_group#tags DataPanosServiceGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/service_group#tags DataPanosServiceGroup#tags}
   */
   readonly tags?: string[];
 }
@@ -36,13 +36,13 @@ export interface DataPanosServiceGroupLocationDeviceGroup {
   /**
   * Device Group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/service_group#name DataPanosServiceGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/service_group#name DataPanosServiceGroup#name}
   */
   readonly name?: string;
   /**
   * Panorama device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/service_group#panorama_device DataPanosServiceGroup#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/service_group#panorama_device DataPanosServiceGroup#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -226,13 +226,13 @@ export interface DataPanosServiceGroupLocationVsys {
   /**
   * The Virtual System name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/service_group#name DataPanosServiceGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/service_group#name DataPanosServiceGroup#name}
   */
   readonly name?: string;
   /**
   * The NGFW device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/service_group#ngfw_device DataPanosServiceGroup#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/service_group#ngfw_device DataPanosServiceGroup#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -357,19 +357,19 @@ export interface DataPanosServiceGroupLocation {
   /**
   * Located in a specific Device Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/service_group#device_group DataPanosServiceGroup#device_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/service_group#device_group DataPanosServiceGroup#device_group}
   */
   readonly deviceGroup?: DataPanosServiceGroupLocationDeviceGroup;
   /**
   * Panorama shared object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/service_group#shared DataPanosServiceGroup#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/service_group#shared DataPanosServiceGroup#shared}
   */
   readonly shared?: DataPanosServiceGroupLocationShared;
   /**
   * Located in a specific Virtual System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/service_group#vsys DataPanosServiceGroup#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/service_group#vsys DataPanosServiceGroup#vsys}
   */
   readonly vsys?: DataPanosServiceGroupLocationVsys;
 }
@@ -521,7 +521,7 @@ export class DataPanosServiceGroupLocationOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/service_group panos_service_group}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/service_group panos_service_group}
 */
 export class DataPanosServiceGroup extends cdktf.TerraformDataSource {
 
@@ -537,7 +537,7 @@ export class DataPanosServiceGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPanosServiceGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPanosServiceGroup to import
-  * @param importFromId The id of the existing DataPanosServiceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/service_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPanosServiceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/service_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPanosServiceGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -549,7 +549,7 @@ export class DataPanosServiceGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/service_group panos_service_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/service_group panos_service_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -560,8 +560,8 @@ export class DataPanosServiceGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'panos_service_group',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

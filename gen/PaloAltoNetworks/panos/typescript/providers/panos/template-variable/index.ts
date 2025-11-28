@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_variable
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_variable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface TemplateVariableConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_variable#description TemplateVariable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_variable#description TemplateVariable#description}
   */
   readonly description?: string;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_variable#location TemplateVariable#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_variable#location TemplateVariable#location}
   */
   readonly location: TemplateVariableLocation;
   /**
   * The name of the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_variable#name TemplateVariable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_variable#name TemplateVariable#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_variable#type TemplateVariable#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_variable#type TemplateVariable#type}
   */
   readonly type?: TemplateVariableType;
 }
@@ -32,13 +32,13 @@ export interface TemplateVariableLocationTemplate {
   /**
   * The template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_variable#name TemplateVariable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_variable#name TemplateVariable#name}
   */
   readonly name?: string;
   /**
   * The panorama device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_variable#panorama_device TemplateVariable#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_variable#panorama_device TemplateVariable#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -163,13 +163,13 @@ export interface TemplateVariableLocationTemplateStack {
   /**
   * Specific Panorama Template Stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_variable#name TemplateVariable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_variable#name TemplateVariable#name}
   */
   readonly name?: string;
   /**
   * The panorama device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_variable#panorama_device TemplateVariable#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_variable#panorama_device TemplateVariable#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -294,13 +294,13 @@ export interface TemplateVariableLocation {
   /**
   * Located in a specific template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_variable#template TemplateVariable#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_variable#template TemplateVariable#template}
   */
   readonly template?: TemplateVariableLocationTemplate;
   /**
   * Located in a specific template stack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_variable#template_stack TemplateVariable#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_variable#template_stack TemplateVariable#template_stack}
   */
   readonly templateStack?: TemplateVariableLocationTemplateStack;
 }
@@ -423,47 +423,47 @@ export class TemplateVariableLocationOutputReference extends cdktf.ComplexObject
 }
 export interface TemplateVariableType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_variable#as_number TemplateVariable#as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_variable#as_number TemplateVariable#as_number}
   */
   readonly asNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_variable#device_id TemplateVariable#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_variable#device_id TemplateVariable#device_id}
   */
   readonly deviceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_variable#device_priority TemplateVariable#device_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_variable#device_priority TemplateVariable#device_priority}
   */
   readonly devicePriority?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_variable#egress_max TemplateVariable#egress_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_variable#egress_max TemplateVariable#egress_max}
   */
   readonly egressMax?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_variable#fqdn TemplateVariable#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_variable#fqdn TemplateVariable#fqdn}
   */
   readonly fqdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_variable#group_id TemplateVariable#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_variable#group_id TemplateVariable#group_id}
   */
   readonly groupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_variable#interface TemplateVariable#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_variable#interface TemplateVariable#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_variable#ip_netmask TemplateVariable#ip_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_variable#ip_netmask TemplateVariable#ip_netmask}
   */
   readonly ipNetmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_variable#ip_range TemplateVariable#ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_variable#ip_range TemplateVariable#ip_range}
   */
   readonly ipRange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_variable#link_tag TemplateVariable#link_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_variable#link_tag TemplateVariable#link_tag}
   */
   readonly linkTag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_variable#qos_profile TemplateVariable#qos_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_variable#qos_profile TemplateVariable#qos_profile}
   */
   readonly qosProfile?: string;
 }
@@ -847,7 +847,7 @@ export class TemplateVariableTypeOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_variable panos_template_variable}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_variable panos_template_variable}
 */
 export class TemplateVariable extends cdktf.TerraformResource {
 
@@ -863,7 +863,7 @@ export class TemplateVariable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TemplateVariable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TemplateVariable to import
-  * @param importFromId The id of the existing TemplateVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_variable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TemplateVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_variable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TemplateVariable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -875,7 +875,7 @@ export class TemplateVariable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_variable panos_template_variable} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_variable panos_template_variable} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -886,8 +886,8 @@ export class TemplateVariable extends cdktf.TerraformResource {
       terraformResourceType: 'panos_template_variable',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

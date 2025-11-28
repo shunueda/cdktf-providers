@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,55 +8,55 @@ import * as cdktf from 'cdktf';
 
 export interface DataPanosUseridLogSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#actions DataPanosUseridLogSettings#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#actions DataPanosUseridLogSettings#actions}
   */
   readonly actions?: DataPanosUseridLogSettingsActions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#description DataPanosUseridLogSettings#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#description DataPanosUseridLogSettings#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#email_profiles DataPanosUseridLogSettings#email_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#email_profiles DataPanosUseridLogSettings#email_profiles}
   */
   readonly emailProfiles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#filter DataPanosUseridLogSettings#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#filter DataPanosUseridLogSettings#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#http_profiles DataPanosUseridLogSettings#http_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#http_profiles DataPanosUseridLogSettings#http_profiles}
   */
   readonly httpProfiles?: string[];
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#location DataPanosUseridLogSettings#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#location DataPanosUseridLogSettings#location}
   */
   readonly location: DataPanosUseridLogSettingsLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#name DataPanosUseridLogSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#name DataPanosUseridLogSettings#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#quarantine DataPanosUseridLogSettings#quarantine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#quarantine DataPanosUseridLogSettings#quarantine}
   */
   readonly quarantine?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#send_to_panorama DataPanosUseridLogSettings#send_to_panorama}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#send_to_panorama DataPanosUseridLogSettings#send_to_panorama}
   */
   readonly sendToPanorama?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#snmp_profiles DataPanosUseridLogSettings#snmp_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#snmp_profiles DataPanosUseridLogSettings#snmp_profiles}
   */
   readonly snmpProfiles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#syslog_profiles DataPanosUseridLogSettings#syslog_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#syslog_profiles DataPanosUseridLogSettings#syslog_profiles}
   */
   readonly syslogProfiles?: string[];
 }
 export interface DataPanosUseridLogSettingsActionsTypeIntegration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#action DataPanosUseridLogSettings#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#action DataPanosUseridLogSettings#action}
   */
   readonly action?: string;
 }
@@ -268,7 +268,7 @@ export class DataPanosUseridLogSettingsActionsTypeTaggingRegistrationPanoramaOut
 }
 export interface DataPanosUseridLogSettingsActionsTypeTaggingRegistrationRemote {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#http_profile DataPanosUseridLogSettings#http_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#http_profile DataPanosUseridLogSettings#http_profile}
   */
   readonly httpProfile?: string;
 }
@@ -362,15 +362,15 @@ export class DataPanosUseridLogSettingsActionsTypeTaggingRegistrationRemoteOutpu
 }
 export interface DataPanosUseridLogSettingsActionsTypeTaggingRegistration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#localhost DataPanosUseridLogSettings#localhost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#localhost DataPanosUseridLogSettings#localhost}
   */
   readonly localhost?: DataPanosUseridLogSettingsActionsTypeTaggingRegistrationLocalhost;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#panorama DataPanosUseridLogSettings#panorama}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#panorama DataPanosUseridLogSettings#panorama}
   */
   readonly panorama?: DataPanosUseridLogSettingsActionsTypeTaggingRegistrationPanorama;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#remote DataPanosUseridLogSettings#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#remote DataPanosUseridLogSettings#remote}
   */
   readonly remote?: DataPanosUseridLogSettingsActionsTypeTaggingRegistrationRemote;
 }
@@ -522,25 +522,25 @@ export class DataPanosUseridLogSettingsActionsTypeTaggingRegistrationOutputRefer
 }
 export interface DataPanosUseridLogSettingsActionsTypeTagging {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#action DataPanosUseridLogSettings#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#action DataPanosUseridLogSettings#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#registration DataPanosUseridLogSettings#registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#registration DataPanosUseridLogSettings#registration}
   */
   readonly registration?: DataPanosUseridLogSettingsActionsTypeTaggingRegistration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#tags DataPanosUseridLogSettings#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#tags DataPanosUseridLogSettings#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#target DataPanosUseridLogSettings#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#target DataPanosUseridLogSettings#target}
   */
   readonly target?: string;
   /**
   * timeout in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#timeout DataPanosUseridLogSettings#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#timeout DataPanosUseridLogSettings#timeout}
   */
   readonly timeout?: number;
 }
@@ -750,11 +750,11 @@ export class DataPanosUseridLogSettingsActionsTypeTaggingOutputReference extends
 }
 export interface DataPanosUseridLogSettingsActionsType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#integration DataPanosUseridLogSettings#integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#integration DataPanosUseridLogSettings#integration}
   */
   readonly integration?: DataPanosUseridLogSettingsActionsTypeIntegration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#tagging DataPanosUseridLogSettings#tagging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#tagging DataPanosUseridLogSettings#tagging}
   */
   readonly tagging?: DataPanosUseridLogSettingsActionsTypeTagging;
 }
@@ -877,11 +877,11 @@ export class DataPanosUseridLogSettingsActionsTypeOutputReference extends cdktf.
 }
 export interface DataPanosUseridLogSettingsActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#name DataPanosUseridLogSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#name DataPanosUseridLogSettings#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#type DataPanosUseridLogSettings#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#type DataPanosUseridLogSettings#type}
   */
   readonly type?: DataPanosUseridLogSettingsActionsType;
 }
@@ -1084,13 +1084,13 @@ export interface DataPanosUseridLogSettingsLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#name DataPanosUseridLogSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#name DataPanosUseridLogSettings#name}
   */
   readonly name?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#panorama_device DataPanosUseridLogSettings#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#panorama_device DataPanosUseridLogSettings#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -1215,13 +1215,13 @@ export interface DataPanosUseridLogSettingsLocationTemplateStack {
   /**
   * The template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#name DataPanosUseridLogSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#name DataPanosUseridLogSettings#name}
   */
   readonly name?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#panorama_device DataPanosUseridLogSettings#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#panorama_device DataPanosUseridLogSettings#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -1346,25 +1346,25 @@ export interface DataPanosUseridLogSettingsLocationTemplateStackVsys {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#ngfw_device DataPanosUseridLogSettings#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#ngfw_device DataPanosUseridLogSettings#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#panorama_device DataPanosUseridLogSettings#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#panorama_device DataPanosUseridLogSettings#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
   * The template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#template_stack DataPanosUseridLogSettings#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#template_stack DataPanosUseridLogSettings#template_stack}
   */
   readonly templateStack?: string;
   /**
   * The vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#vsys DataPanosUseridLogSettings#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#vsys DataPanosUseridLogSettings#vsys}
   */
   readonly vsys?: string;
 }
@@ -1547,25 +1547,25 @@ export interface DataPanosUseridLogSettingsLocationTemplateVsys {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#ngfw_device DataPanosUseridLogSettings#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#ngfw_device DataPanosUseridLogSettings#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#panorama_device DataPanosUseridLogSettings#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#panorama_device DataPanosUseridLogSettings#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#template DataPanosUseridLogSettings#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#template DataPanosUseridLogSettings#template}
   */
   readonly template?: string;
   /**
   * The vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#vsys DataPanosUseridLogSettings#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#vsys DataPanosUseridLogSettings#vsys}
   */
   readonly vsys?: string;
 }
@@ -1748,31 +1748,31 @@ export interface DataPanosUseridLogSettingsLocation {
   /**
   * Located in a panorama.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#panorama DataPanosUseridLogSettings#panorama}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#panorama DataPanosUseridLogSettings#panorama}
   */
   readonly panorama?: DataPanosUseridLogSettingsLocationPanorama;
   /**
   * A shared resource located within a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#template DataPanosUseridLogSettings#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#template DataPanosUseridLogSettings#template}
   */
   readonly template?: DataPanosUseridLogSettingsLocationTemplate;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#template_stack DataPanosUseridLogSettings#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#template_stack DataPanosUseridLogSettings#template_stack}
   */
   readonly templateStack?: DataPanosUseridLogSettingsLocationTemplateStack;
   /**
   * Located in a specific template, device and vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#template_stack_vsys DataPanosUseridLogSettings#template_stack_vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#template_stack_vsys DataPanosUseridLogSettings#template_stack_vsys}
   */
   readonly templateStackVsys?: DataPanosUseridLogSettingsLocationTemplateStackVsys;
   /**
   * Located in a specific template, device and vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#template_vsys DataPanosUseridLogSettings#template_vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#template_vsys DataPanosUseridLogSettings#template_vsys}
   */
   readonly templateVsys?: DataPanosUseridLogSettingsLocationTemplateVsys;
 }
@@ -1982,7 +1982,7 @@ export class DataPanosUseridLogSettingsLocationOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings panos_userid_log_settings}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings panos_userid_log_settings}
 */
 export class DataPanosUseridLogSettings extends cdktf.TerraformDataSource {
 
@@ -1998,7 +1998,7 @@ export class DataPanosUseridLogSettings extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPanosUseridLogSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPanosUseridLogSettings to import
-  * @param importFromId The id of the existing DataPanosUseridLogSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPanosUseridLogSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPanosUseridLogSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2010,7 +2010,7 @@ export class DataPanosUseridLogSettings extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/userid_log_settings panos_userid_log_settings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/userid_log_settings panos_userid_log_settings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2021,8 +2021,8 @@ export class DataPanosUseridLogSettings extends cdktf.TerraformDataSource {
       terraformResourceType: 'panos_userid_log_settings',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

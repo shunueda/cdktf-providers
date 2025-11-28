@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,51 +8,51 @@ import * as cdktf from 'cdktf';
 
 export interface DataPanosCorrelationLogSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#actions DataPanosCorrelationLogSettings#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#actions DataPanosCorrelationLogSettings#actions}
   */
   readonly actions?: DataPanosCorrelationLogSettingsActions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#description DataPanosCorrelationLogSettings#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#description DataPanosCorrelationLogSettings#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#email_profiles DataPanosCorrelationLogSettings#email_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#email_profiles DataPanosCorrelationLogSettings#email_profiles}
   */
   readonly emailProfiles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#filter DataPanosCorrelationLogSettings#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#filter DataPanosCorrelationLogSettings#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#http_profiles DataPanosCorrelationLogSettings#http_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#http_profiles DataPanosCorrelationLogSettings#http_profiles}
   */
   readonly httpProfiles?: string[];
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#location DataPanosCorrelationLogSettings#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#location DataPanosCorrelationLogSettings#location}
   */
   readonly location: DataPanosCorrelationLogSettingsLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#name DataPanosCorrelationLogSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#name DataPanosCorrelationLogSettings#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#quarantine DataPanosCorrelationLogSettings#quarantine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#quarantine DataPanosCorrelationLogSettings#quarantine}
   */
   readonly quarantine?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#snmp_profiles DataPanosCorrelationLogSettings#snmp_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#snmp_profiles DataPanosCorrelationLogSettings#snmp_profiles}
   */
   readonly snmpProfiles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#syslog_profiles DataPanosCorrelationLogSettings#syslog_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#syslog_profiles DataPanosCorrelationLogSettings#syslog_profiles}
   */
   readonly syslogProfiles?: string[];
 }
 export interface DataPanosCorrelationLogSettingsActionsTypeIntegration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#action DataPanosCorrelationLogSettings#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#action DataPanosCorrelationLogSettings#action}
   */
   readonly action?: string;
 }
@@ -264,7 +264,7 @@ export class DataPanosCorrelationLogSettingsActionsTypeTaggingRegistrationPanora
 }
 export interface DataPanosCorrelationLogSettingsActionsTypeTaggingRegistrationRemote {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#http_profile DataPanosCorrelationLogSettings#http_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#http_profile DataPanosCorrelationLogSettings#http_profile}
   */
   readonly httpProfile?: string;
 }
@@ -358,15 +358,15 @@ export class DataPanosCorrelationLogSettingsActionsTypeTaggingRegistrationRemote
 }
 export interface DataPanosCorrelationLogSettingsActionsTypeTaggingRegistration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#localhost DataPanosCorrelationLogSettings#localhost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#localhost DataPanosCorrelationLogSettings#localhost}
   */
   readonly localhost?: DataPanosCorrelationLogSettingsActionsTypeTaggingRegistrationLocalhost;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#panorama DataPanosCorrelationLogSettings#panorama}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#panorama DataPanosCorrelationLogSettings#panorama}
   */
   readonly panorama?: DataPanosCorrelationLogSettingsActionsTypeTaggingRegistrationPanorama;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#remote DataPanosCorrelationLogSettings#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#remote DataPanosCorrelationLogSettings#remote}
   */
   readonly remote?: DataPanosCorrelationLogSettingsActionsTypeTaggingRegistrationRemote;
 }
@@ -518,25 +518,25 @@ export class DataPanosCorrelationLogSettingsActionsTypeTaggingRegistrationOutput
 }
 export interface DataPanosCorrelationLogSettingsActionsTypeTagging {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#action DataPanosCorrelationLogSettings#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#action DataPanosCorrelationLogSettings#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#registration DataPanosCorrelationLogSettings#registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#registration DataPanosCorrelationLogSettings#registration}
   */
   readonly registration?: DataPanosCorrelationLogSettingsActionsTypeTaggingRegistration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#tags DataPanosCorrelationLogSettings#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#tags DataPanosCorrelationLogSettings#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#target DataPanosCorrelationLogSettings#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#target DataPanosCorrelationLogSettings#target}
   */
   readonly target?: string;
   /**
   * timeout in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#timeout DataPanosCorrelationLogSettings#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#timeout DataPanosCorrelationLogSettings#timeout}
   */
   readonly timeout?: number;
 }
@@ -746,11 +746,11 @@ export class DataPanosCorrelationLogSettingsActionsTypeTaggingOutputReference ex
 }
 export interface DataPanosCorrelationLogSettingsActionsType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#integration DataPanosCorrelationLogSettings#integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#integration DataPanosCorrelationLogSettings#integration}
   */
   readonly integration?: DataPanosCorrelationLogSettingsActionsTypeIntegration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#tagging DataPanosCorrelationLogSettings#tagging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#tagging DataPanosCorrelationLogSettings#tagging}
   */
   readonly tagging?: DataPanosCorrelationLogSettingsActionsTypeTagging;
 }
@@ -873,11 +873,11 @@ export class DataPanosCorrelationLogSettingsActionsTypeOutputReference extends c
 }
 export interface DataPanosCorrelationLogSettingsActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#name DataPanosCorrelationLogSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#name DataPanosCorrelationLogSettings#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#type DataPanosCorrelationLogSettings#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#type DataPanosCorrelationLogSettings#type}
   */
   readonly type?: DataPanosCorrelationLogSettingsActionsType;
 }
@@ -1080,13 +1080,13 @@ export interface DataPanosCorrelationLogSettingsLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#name DataPanosCorrelationLogSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#name DataPanosCorrelationLogSettings#name}
   */
   readonly name?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#panorama_device DataPanosCorrelationLogSettings#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#panorama_device DataPanosCorrelationLogSettings#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -1211,13 +1211,13 @@ export interface DataPanosCorrelationLogSettingsLocationTemplateStack {
   /**
   * The template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#name DataPanosCorrelationLogSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#name DataPanosCorrelationLogSettings#name}
   */
   readonly name?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#panorama_device DataPanosCorrelationLogSettings#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#panorama_device DataPanosCorrelationLogSettings#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -1342,25 +1342,25 @@ export interface DataPanosCorrelationLogSettingsLocationTemplateStackVsys {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#ngfw_device DataPanosCorrelationLogSettings#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#ngfw_device DataPanosCorrelationLogSettings#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#panorama_device DataPanosCorrelationLogSettings#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#panorama_device DataPanosCorrelationLogSettings#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
   * The template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#template_stack DataPanosCorrelationLogSettings#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#template_stack DataPanosCorrelationLogSettings#template_stack}
   */
   readonly templateStack?: string;
   /**
   * The vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#vsys DataPanosCorrelationLogSettings#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#vsys DataPanosCorrelationLogSettings#vsys}
   */
   readonly vsys?: string;
 }
@@ -1543,25 +1543,25 @@ export interface DataPanosCorrelationLogSettingsLocationTemplateVsys {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#ngfw_device DataPanosCorrelationLogSettings#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#ngfw_device DataPanosCorrelationLogSettings#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#panorama_device DataPanosCorrelationLogSettings#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#panorama_device DataPanosCorrelationLogSettings#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#template DataPanosCorrelationLogSettings#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#template DataPanosCorrelationLogSettings#template}
   */
   readonly template?: string;
   /**
   * The vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#vsys DataPanosCorrelationLogSettings#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#vsys DataPanosCorrelationLogSettings#vsys}
   */
   readonly vsys?: string;
 }
@@ -1744,31 +1744,31 @@ export interface DataPanosCorrelationLogSettingsLocation {
   /**
   * Located in a panorama.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#panorama DataPanosCorrelationLogSettings#panorama}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#panorama DataPanosCorrelationLogSettings#panorama}
   */
   readonly panorama?: DataPanosCorrelationLogSettingsLocationPanorama;
   /**
   * A shared resource located within a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#template DataPanosCorrelationLogSettings#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#template DataPanosCorrelationLogSettings#template}
   */
   readonly template?: DataPanosCorrelationLogSettingsLocationTemplate;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#template_stack DataPanosCorrelationLogSettings#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#template_stack DataPanosCorrelationLogSettings#template_stack}
   */
   readonly templateStack?: DataPanosCorrelationLogSettingsLocationTemplateStack;
   /**
   * Located in a specific template, device and vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#template_stack_vsys DataPanosCorrelationLogSettings#template_stack_vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#template_stack_vsys DataPanosCorrelationLogSettings#template_stack_vsys}
   */
   readonly templateStackVsys?: DataPanosCorrelationLogSettingsLocationTemplateStackVsys;
   /**
   * Located in a specific template, device and vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#template_vsys DataPanosCorrelationLogSettings#template_vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#template_vsys DataPanosCorrelationLogSettings#template_vsys}
   */
   readonly templateVsys?: DataPanosCorrelationLogSettingsLocationTemplateVsys;
 }
@@ -1978,7 +1978,7 @@ export class DataPanosCorrelationLogSettingsLocationOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings panos_correlation_log_settings}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings panos_correlation_log_settings}
 */
 export class DataPanosCorrelationLogSettings extends cdktf.TerraformDataSource {
 
@@ -1994,7 +1994,7 @@ export class DataPanosCorrelationLogSettings extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPanosCorrelationLogSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPanosCorrelationLogSettings to import
-  * @param importFromId The id of the existing DataPanosCorrelationLogSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPanosCorrelationLogSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPanosCorrelationLogSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2006,7 +2006,7 @@ export class DataPanosCorrelationLogSettings extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/correlation_log_settings panos_correlation_log_settings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/correlation_log_settings panos_correlation_log_settings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2017,8 +2017,8 @@ export class DataPanosCorrelationLogSettings extends cdktf.TerraformDataSource {
       terraformResourceType: 'panos_correlation_log_settings',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

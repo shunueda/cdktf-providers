@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_microsoft_teams_message
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_microsoft_teams_message
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskSendMicrosoftTeamsMessageConfig extends cdktf.Terra
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_microsoft_teams_message#enabled WorkflowTaskSendMicrosoftTeamsMessage#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_microsoft_teams_message#enabled WorkflowTaskSendMicrosoftTeamsMessage#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_microsoft_teams_message#id WorkflowTaskSendMicrosoftTeamsMessage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_microsoft_teams_message#id WorkflowTaskSendMicrosoftTeamsMessage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,44 +23,44 @@ export interface WorkflowTaskSendMicrosoftTeamsMessageConfig extends cdktf.Terra
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_microsoft_teams_message#name WorkflowTaskSendMicrosoftTeamsMessage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_microsoft_teams_message#name WorkflowTaskSendMicrosoftTeamsMessage#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_microsoft_teams_message#position WorkflowTaskSendMicrosoftTeamsMessage#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_microsoft_teams_message#position WorkflowTaskSendMicrosoftTeamsMessage#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_microsoft_teams_message#skip_on_failure WorkflowTaskSendMicrosoftTeamsMessage#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_microsoft_teams_message#skip_on_failure WorkflowTaskSendMicrosoftTeamsMessage#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_microsoft_teams_message#workflow_id WorkflowTaskSendMicrosoftTeamsMessage#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_microsoft_teams_message#workflow_id WorkflowTaskSendMicrosoftTeamsMessage#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_microsoft_teams_message#task_params WorkflowTaskSendMicrosoftTeamsMessage#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_microsoft_teams_message#task_params WorkflowTaskSendMicrosoftTeamsMessage#task_params}
   */
   readonly taskParams: WorkflowTaskSendMicrosoftTeamsMessageTaskParams;
 }
 export interface WorkflowTaskSendMicrosoftTeamsMessageTaskParamsChannels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_microsoft_teams_message#id WorkflowTaskSendMicrosoftTeamsMessage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_microsoft_teams_message#id WorkflowTaskSendMicrosoftTeamsMessage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_microsoft_teams_message#name WorkflowTaskSendMicrosoftTeamsMessage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_microsoft_teams_message#name WorkflowTaskSendMicrosoftTeamsMessage#name}
   */
   readonly name: string;
 }
@@ -199,19 +199,19 @@ export class WorkflowTaskSendMicrosoftTeamsMessageTaskParamsChannelsList extends
 }
 export interface WorkflowTaskSendMicrosoftTeamsMessageTaskParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_microsoft_teams_message#task_type WorkflowTaskSendMicrosoftTeamsMessage#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_microsoft_teams_message#task_type WorkflowTaskSendMicrosoftTeamsMessage#task_type}
   */
   readonly taskType?: string;
   /**
   * The message text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_microsoft_teams_message#text WorkflowTaskSendMicrosoftTeamsMessage#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_microsoft_teams_message#text WorkflowTaskSendMicrosoftTeamsMessage#text}
   */
   readonly text: string;
   /**
   * channels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_microsoft_teams_message#channels WorkflowTaskSendMicrosoftTeamsMessage#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_microsoft_teams_message#channels WorkflowTaskSendMicrosoftTeamsMessage#channels}
   */
   readonly channels?: WorkflowTaskSendMicrosoftTeamsMessageTaskParamsChannels[] | cdktf.IResolvable;
 }
@@ -350,7 +350,7 @@ export class WorkflowTaskSendMicrosoftTeamsMessageTaskParamsOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_microsoft_teams_message rootly_workflow_task_send_microsoft_teams_message}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_microsoft_teams_message rootly_workflow_task_send_microsoft_teams_message}
 */
 export class WorkflowTaskSendMicrosoftTeamsMessage extends cdktf.TerraformResource {
 
@@ -366,7 +366,7 @@ export class WorkflowTaskSendMicrosoftTeamsMessage extends cdktf.TerraformResour
   * Generates CDKTF code for importing a WorkflowTaskSendMicrosoftTeamsMessage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskSendMicrosoftTeamsMessage to import
-  * @param importFromId The id of the existing WorkflowTaskSendMicrosoftTeamsMessage that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_microsoft_teams_message#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskSendMicrosoftTeamsMessage that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_microsoft_teams_message#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskSendMicrosoftTeamsMessage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -378,7 +378,7 @@ export class WorkflowTaskSendMicrosoftTeamsMessage extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_microsoft_teams_message rootly_workflow_task_send_microsoft_teams_message} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_microsoft_teams_message rootly_workflow_task_send_microsoft_teams_message} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -389,8 +389,8 @@ export class WorkflowTaskSendMicrosoftTeamsMessage extends cdktf.TerraformResour
       terraformResourceType: 'rootly_workflow_task_send_microsoft_teams_message',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.8',
-        providerVersionConstraint: '4.3.8'
+        providerVersion: '4.3.9',
+        providerVersionConstraint: '4.3.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

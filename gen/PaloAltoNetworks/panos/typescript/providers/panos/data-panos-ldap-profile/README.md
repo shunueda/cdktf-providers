@@ -1,3 +1,3 @@
 # `data_panos_ldap_profile`
 
-Refer to the Terraform Registry for docs: [`data_panos_ldap_profile`](https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile).
+Refer to the Terraform Registry for docs: [`data_panos_ldap_profile`](https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile).

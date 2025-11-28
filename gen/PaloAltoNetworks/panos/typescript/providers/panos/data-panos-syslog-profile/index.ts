@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,21 @@ import * as cdktf from 'cdktf';
 
 export interface DataPanosSyslogProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#format DataPanosSyslogProfile#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#format DataPanosSyslogProfile#format}
   */
   readonly format?: DataPanosSyslogProfileFormat;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#location DataPanosSyslogProfile#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#location DataPanosSyslogProfile#location}
   */
   readonly location: DataPanosSyslogProfileLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#name DataPanosSyslogProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#name DataPanosSyslogProfile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#servers DataPanosSyslogProfile#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#servers DataPanosSyslogProfile#servers}
   */
   readonly servers?: DataPanosSyslogProfileServers[] | cdktf.IResolvable;
 }
@@ -30,13 +30,13 @@ export interface DataPanosSyslogProfileFormatEscaping {
   /**
   * Escape character
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#escape_character DataPanosSyslogProfile#escape_character}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#escape_character DataPanosSyslogProfile#escape_character}
   */
   readonly escapeCharacter?: string;
   /**
   * List of characters to be escaped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#escaped_characters DataPanosSyslogProfile#escaped_characters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#escaped_characters DataPanosSyslogProfile#escaped_characters}
   */
   readonly escapedCharacters?: string;
 }
@@ -159,75 +159,75 @@ export class DataPanosSyslogProfileFormatEscapingOutputReference extends cdktf.C
 }
 export interface DataPanosSyslogProfileFormat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#auth DataPanosSyslogProfile#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#auth DataPanosSyslogProfile#auth}
   */
   readonly auth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#config DataPanosSyslogProfile#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#config DataPanosSyslogProfile#config}
   */
   readonly config?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#correlation DataPanosSyslogProfile#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#correlation DataPanosSyslogProfile#correlation}
   */
   readonly correlation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#data DataPanosSyslogProfile#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#data DataPanosSyslogProfile#data}
   */
   readonly data?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#decryption DataPanosSyslogProfile#decryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#decryption DataPanosSyslogProfile#decryption}
   */
   readonly decryption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#escaping DataPanosSyslogProfile#escaping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#escaping DataPanosSyslogProfile#escaping}
   */
   readonly escaping?: DataPanosSyslogProfileFormatEscaping;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#globalprotect DataPanosSyslogProfile#globalprotect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#globalprotect DataPanosSyslogProfile#globalprotect}
   */
   readonly globalprotect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#gtp DataPanosSyslogProfile#gtp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#gtp DataPanosSyslogProfile#gtp}
   */
   readonly gtp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#hip_match DataPanosSyslogProfile#hip_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#hip_match DataPanosSyslogProfile#hip_match}
   */
   readonly hipMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#iptag DataPanosSyslogProfile#iptag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#iptag DataPanosSyslogProfile#iptag}
   */
   readonly iptag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#sctp DataPanosSyslogProfile#sctp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#sctp DataPanosSyslogProfile#sctp}
   */
   readonly sctp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#system DataPanosSyslogProfile#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#system DataPanosSyslogProfile#system}
   */
   readonly systemAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#threat DataPanosSyslogProfile#threat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#threat DataPanosSyslogProfile#threat}
   */
   readonly threat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#traffic DataPanosSyslogProfile#traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#traffic DataPanosSyslogProfile#traffic}
   */
   readonly traffic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#tunnel DataPanosSyslogProfile#tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#tunnel DataPanosSyslogProfile#tunnel}
   */
   readonly tunnel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#url DataPanosSyslogProfile#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#url DataPanosSyslogProfile#url}
   */
   readonly url?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#userid DataPanosSyslogProfile#userid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#userid DataPanosSyslogProfile#userid}
   */
   readonly userid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#wildfire DataPanosSyslogProfile#wildfire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#wildfire DataPanosSyslogProfile#wildfire}
   */
   readonly wildfire?: string;
 }
@@ -875,13 +875,13 @@ export interface DataPanosSyslogProfileLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#name DataPanosSyslogProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#name DataPanosSyslogProfile#name}
   */
   readonly name?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#panorama_device DataPanosSyslogProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#panorama_device DataPanosSyslogProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -1006,13 +1006,13 @@ export interface DataPanosSyslogProfileLocationTemplateStack {
   /**
   * The template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#name DataPanosSyslogProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#name DataPanosSyslogProfile#name}
   */
   readonly name?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#panorama_device DataPanosSyslogProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#panorama_device DataPanosSyslogProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -1137,25 +1137,25 @@ export interface DataPanosSyslogProfileLocationTemplateStackVsys {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#ngfw_device DataPanosSyslogProfile#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#ngfw_device DataPanosSyslogProfile#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#panorama_device DataPanosSyslogProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#panorama_device DataPanosSyslogProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
   * The template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#template_stack DataPanosSyslogProfile#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#template_stack DataPanosSyslogProfile#template_stack}
   */
   readonly templateStack?: string;
   /**
   * The vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#vsys DataPanosSyslogProfile#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#vsys DataPanosSyslogProfile#vsys}
   */
   readonly vsys?: string;
 }
@@ -1338,25 +1338,25 @@ export interface DataPanosSyslogProfileLocationTemplateVsys {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#ngfw_device DataPanosSyslogProfile#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#ngfw_device DataPanosSyslogProfile#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#panorama_device DataPanosSyslogProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#panorama_device DataPanosSyslogProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#template DataPanosSyslogProfile#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#template DataPanosSyslogProfile#template}
   */
   readonly template?: string;
   /**
   * The vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#vsys DataPanosSyslogProfile#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#vsys DataPanosSyslogProfile#vsys}
   */
   readonly vsys?: string;
 }
@@ -1539,13 +1539,13 @@ export interface DataPanosSyslogProfileLocationVsys {
   /**
   * The Virtual System name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#name DataPanosSyslogProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#name DataPanosSyslogProfile#name}
   */
   readonly name?: string;
   /**
   * The NGFW device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#ngfw_device DataPanosSyslogProfile#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#ngfw_device DataPanosSyslogProfile#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -1670,37 +1670,37 @@ export interface DataPanosSyslogProfileLocation {
   /**
   * Located in a panorama.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#panorama DataPanosSyslogProfile#panorama}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#panorama DataPanosSyslogProfile#panorama}
   */
   readonly panorama?: DataPanosSyslogProfileLocationPanorama;
   /**
   * A shared resource located within a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#template DataPanosSyslogProfile#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#template DataPanosSyslogProfile#template}
   */
   readonly template?: DataPanosSyslogProfileLocationTemplate;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#template_stack DataPanosSyslogProfile#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#template_stack DataPanosSyslogProfile#template_stack}
   */
   readonly templateStack?: DataPanosSyslogProfileLocationTemplateStack;
   /**
   * Located in a specific template, device and vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#template_stack_vsys DataPanosSyslogProfile#template_stack_vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#template_stack_vsys DataPanosSyslogProfile#template_stack_vsys}
   */
   readonly templateStackVsys?: DataPanosSyslogProfileLocationTemplateStackVsys;
   /**
   * Located in a specific template, device and vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#template_vsys DataPanosSyslogProfile#template_vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#template_vsys DataPanosSyslogProfile#template_vsys}
   */
   readonly templateVsys?: DataPanosSyslogProfileLocationTemplateVsys;
   /**
   * Located in a specific Virtual System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#vsys DataPanosSyslogProfile#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#vsys DataPanosSyslogProfile#vsys}
   */
   readonly vsys?: DataPanosSyslogProfileLocationVsys;
 }
@@ -1939,33 +1939,33 @@ export class DataPanosSyslogProfileLocationOutputReference extends cdktf.Complex
 }
 export interface DataPanosSyslogProfileServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#facility DataPanosSyslogProfile#facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#facility DataPanosSyslogProfile#facility}
   */
   readonly facility?: string;
   /**
   * Format of the Syslog message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#format DataPanosSyslogProfile#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#format DataPanosSyslogProfile#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#name DataPanosSyslogProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#name DataPanosSyslogProfile#name}
   */
   readonly name: string;
   /**
   * Port number (Standard Syslog ports UDP:514, SSL:6514)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#port DataPanosSyslogProfile#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#port DataPanosSyslogProfile#port}
   */
   readonly port?: number;
   /**
   * IP address or FQDN of SYSLOG server to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#server DataPanosSyslogProfile#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#server DataPanosSyslogProfile#server}
   */
   readonly server?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#transport DataPanosSyslogProfile#transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#transport DataPanosSyslogProfile#transport}
   */
   readonly transport?: string;
 }
@@ -2223,7 +2223,7 @@ export class DataPanosSyslogProfileServersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile panos_syslog_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile panos_syslog_profile}
 */
 export class DataPanosSyslogProfile extends cdktf.TerraformDataSource {
 
@@ -2239,7 +2239,7 @@ export class DataPanosSyslogProfile extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPanosSyslogProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPanosSyslogProfile to import
-  * @param importFromId The id of the existing DataPanosSyslogProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPanosSyslogProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPanosSyslogProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2251,7 +2251,7 @@ export class DataPanosSyslogProfile extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/syslog_profile panos_syslog_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/syslog_profile panos_syslog_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2262,8 +2262,8 @@ export class DataPanosSyslogProfile extends cdktf.TerraformDataSource {
       terraformResourceType: 'panos_syslog_profile',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

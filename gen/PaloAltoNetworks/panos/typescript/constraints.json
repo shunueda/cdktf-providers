@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "panos": "2.0.6"
+    "panos": "2.0.7"
   }
 }

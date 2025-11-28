@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/bgp_auth_routing_profile
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/bgp_auth_routing_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface BgpAuthRoutingProfileConfig extends cdktf.TerraformMetaArgument
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/bgp_auth_routing_profile#location BgpAuthRoutingProfile#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/bgp_auth_routing_profile#location BgpAuthRoutingProfile#location}
   */
   readonly location: BgpAuthRoutingProfileLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/bgp_auth_routing_profile#name BgpAuthRoutingProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/bgp_auth_routing_profile#name BgpAuthRoutingProfile#name}
   */
   readonly name: string;
   /**
   * shared secret for the TCP MD5 authentication, [a-zA-Z0-9!@#%^]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/bgp_auth_routing_profile#secret BgpAuthRoutingProfile#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/bgp_auth_routing_profile#secret BgpAuthRoutingProfile#secret}
   */
   readonly secret?: string;
 }
@@ -28,7 +28,7 @@ export interface BgpAuthRoutingProfileLocationNgfw {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/bgp_auth_routing_profile#ngfw_device BgpAuthRoutingProfile#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/bgp_auth_routing_profile#ngfw_device BgpAuthRoutingProfile#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -124,19 +124,19 @@ export interface BgpAuthRoutingProfileLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/bgp_auth_routing_profile#name BgpAuthRoutingProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/bgp_auth_routing_profile#name BgpAuthRoutingProfile#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/bgp_auth_routing_profile#ngfw_device BgpAuthRoutingProfile#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/bgp_auth_routing_profile#ngfw_device BgpAuthRoutingProfile#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/bgp_auth_routing_profile#panorama_device BgpAuthRoutingProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/bgp_auth_routing_profile#panorama_device BgpAuthRoutingProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -290,19 +290,19 @@ export interface BgpAuthRoutingProfileLocationTemplateStack {
   /**
   * Specific Panorama template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/bgp_auth_routing_profile#name BgpAuthRoutingProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/bgp_auth_routing_profile#name BgpAuthRoutingProfile#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/bgp_auth_routing_profile#ngfw_device BgpAuthRoutingProfile#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/bgp_auth_routing_profile#ngfw_device BgpAuthRoutingProfile#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/bgp_auth_routing_profile#panorama_device BgpAuthRoutingProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/bgp_auth_routing_profile#panorama_device BgpAuthRoutingProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -456,19 +456,19 @@ export interface BgpAuthRoutingProfileLocation {
   /**
   * Located in a specific NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/bgp_auth_routing_profile#ngfw BgpAuthRoutingProfile#ngfw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/bgp_auth_routing_profile#ngfw BgpAuthRoutingProfile#ngfw}
   */
   readonly ngfw?: BgpAuthRoutingProfileLocationNgfw;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/bgp_auth_routing_profile#template BgpAuthRoutingProfile#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/bgp_auth_routing_profile#template BgpAuthRoutingProfile#template}
   */
   readonly template?: BgpAuthRoutingProfileLocationTemplate;
   /**
   * Located in a specific template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/bgp_auth_routing_profile#template_stack BgpAuthRoutingProfile#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/bgp_auth_routing_profile#template_stack BgpAuthRoutingProfile#template_stack}
   */
   readonly templateStack?: BgpAuthRoutingProfileLocationTemplateStack;
 }
@@ -620,7 +620,7 @@ export class BgpAuthRoutingProfileLocationOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/bgp_auth_routing_profile panos_bgp_auth_routing_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/bgp_auth_routing_profile panos_bgp_auth_routing_profile}
 */
 export class BgpAuthRoutingProfile extends cdktf.TerraformResource {
 
@@ -636,7 +636,7 @@ export class BgpAuthRoutingProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BgpAuthRoutingProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BgpAuthRoutingProfile to import
-  * @param importFromId The id of the existing BgpAuthRoutingProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/bgp_auth_routing_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BgpAuthRoutingProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/bgp_auth_routing_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BgpAuthRoutingProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -648,7 +648,7 @@ export class BgpAuthRoutingProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/bgp_auth_routing_profile panos_bgp_auth_routing_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/bgp_auth_routing_profile panos_bgp_auth_routing_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -659,8 +659,8 @@ export class BgpAuthRoutingProfile extends cdktf.TerraformResource {
       terraformResourceType: 'panos_bgp_auth_routing_profile',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

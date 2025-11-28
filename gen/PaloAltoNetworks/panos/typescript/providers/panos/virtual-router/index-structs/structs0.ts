@@ -3,55 +3,55 @@ export interface VirtualRouterAdministrativeDistances {
   /**
   * administrative distance used for eBGP routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#ebgp VirtualRouter#ebgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#ebgp VirtualRouter#ebgp}
   */
   readonly ebgp?: number;
   /**
   * administrative distance used for iBGP routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#ibgp VirtualRouter#ibgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#ibgp VirtualRouter#ibgp}
   */
   readonly ibgp?: number;
   /**
   * administrative distance used for OSPF external routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#ospf_ext VirtualRouter#ospf_ext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#ospf_ext VirtualRouter#ospf_ext}
   */
   readonly ospfExt?: number;
   /**
   * administrative distance used for OSPF internal routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#ospf_int VirtualRouter#ospf_int}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#ospf_int VirtualRouter#ospf_int}
   */
   readonly ospfInt?: number;
   /**
   * administrative distance used for OSPFv3 external routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#ospfv3_ext VirtualRouter#ospfv3_ext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#ospfv3_ext VirtualRouter#ospfv3_ext}
   */
   readonly ospfv3Ext?: number;
   /**
   * administrative distance used for OSPFv3 internal routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#ospfv3_int VirtualRouter#ospfv3_int}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#ospfv3_int VirtualRouter#ospfv3_int}
   */
   readonly ospfv3Int?: number;
   /**
   * administrative distance used for RIP routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#rip VirtualRouter#rip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#rip VirtualRouter#rip}
   */
   readonly rip?: number;
   /**
   * administrative distance used for static routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#static VirtualRouter#static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#static VirtualRouter#static}
   */
   readonly static?: number;
   /**
   * administrative distance used for ipv6 static routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#static_ipv6 VirtualRouter#static_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#static_ipv6 VirtualRouter#static_ipv6}
   */
   readonly staticIpv6?: number;
 }
@@ -438,19 +438,19 @@ export interface VirtualRouterEcmpAlgorithmIpHash {
   /**
   * User-specified hash seed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#hash_seed VirtualRouter#hash_seed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#hash_seed VirtualRouter#hash_seed}
   */
   readonly hashSeed?: number;
   /**
   * only use source address for hash
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#src_only VirtualRouter#src_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#src_only VirtualRouter#src_only}
   */
   readonly srcOnly?: boolean | cdktf.IResolvable;
   /**
   * use source/destination port for hash
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#use_port VirtualRouter#use_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#use_port VirtualRouter#use_port}
   */
   readonly usePort?: boolean | cdktf.IResolvable;
 }
@@ -661,13 +661,13 @@ export class VirtualRouterEcmpAlgorithmIpModuloOutputReference extends cdktf.Com
 }
 export interface VirtualRouterEcmpAlgorithmWeightedRoundRobinInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
   /**
   * interface ECMP weight
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#weight VirtualRouter#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#weight VirtualRouter#weight}
   */
   readonly weight?: number;
 }
@@ -809,7 +809,7 @@ export class VirtualRouterEcmpAlgorithmWeightedRoundRobinInterfaceList extends c
 }
 export interface VirtualRouterEcmpAlgorithmWeightedRoundRobin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#interface VirtualRouter#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#interface VirtualRouter#interface}
   */
   readonly interface?: VirtualRouterEcmpAlgorithmWeightedRoundRobinInterface[] | cdktf.IResolvable;
 }
@@ -903,19 +903,19 @@ export class VirtualRouterEcmpAlgorithmWeightedRoundRobinOutputReference extends
 }
 export interface VirtualRouterEcmpAlgorithm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#balanced_round_robin VirtualRouter#balanced_round_robin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#balanced_round_robin VirtualRouter#balanced_round_robin}
   */
   readonly balancedRoundRobin?: VirtualRouterEcmpAlgorithmBalancedRoundRobin;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#ip_hash VirtualRouter#ip_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#ip_hash VirtualRouter#ip_hash}
   */
   readonly ipHash?: VirtualRouterEcmpAlgorithmIpHash;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#ip_modulo VirtualRouter#ip_modulo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#ip_modulo VirtualRouter#ip_modulo}
   */
   readonly ipModulo?: VirtualRouterEcmpAlgorithmIpModulo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#weighted_round_robin VirtualRouter#weighted_round_robin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#weighted_round_robin VirtualRouter#weighted_round_robin}
   */
   readonly weightedRoundRobin?: VirtualRouterEcmpAlgorithmWeightedRoundRobin;
 }
@@ -1096,31 +1096,31 @@ export class VirtualRouterEcmpAlgorithmOutputReference extends cdktf.ComplexObje
 }
 export interface VirtualRouterEcmp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#algorithm VirtualRouter#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#algorithm VirtualRouter#algorithm}
   */
   readonly algorithm?: VirtualRouterEcmpAlgorithm;
   /**
   * enable Equal Cost Multipath routing, change this configuration will result in a virtual router restart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#enable VirtualRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#enable VirtualRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Maxmum number of ECMP paths supported, change this configuration will result in a virtual router restart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#max_paths VirtualRouter#max_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#max_paths VirtualRouter#max_paths}
   */
   readonly maxPaths?: number;
   /**
   * force VPN traffic to exit interface that the source-ip belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#strict_source_path VirtualRouter#strict_source_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#strict_source_path VirtualRouter#strict_source_path}
   */
   readonly strictSourcePath?: boolean | cdktf.IResolvable;
   /**
   * allows return packets to egress out of the ingress interface of the flow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#symmetric_return VirtualRouter#symmetric_return}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#symmetric_return VirtualRouter#symmetric_return}
   */
   readonly symmetricReturn?: boolean | cdktf.IResolvable;
 }
@@ -1332,7 +1332,7 @@ export interface VirtualRouterLocationNgfw {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#ngfw_device VirtualRouter#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#ngfw_device VirtualRouter#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -1428,19 +1428,19 @@ export interface VirtualRouterLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#ngfw_device VirtualRouter#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#ngfw_device VirtualRouter#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#panorama_device VirtualRouter#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#panorama_device VirtualRouter#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -1594,19 +1594,19 @@ export interface VirtualRouterLocationTemplateStack {
   /**
   * Specific Panorama template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#ngfw_device VirtualRouter#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#ngfw_device VirtualRouter#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#panorama_device VirtualRouter#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#panorama_device VirtualRouter#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -1760,19 +1760,19 @@ export interface VirtualRouterLocation {
   /**
   * Located in a specific NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#ngfw VirtualRouter#ngfw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#ngfw VirtualRouter#ngfw}
   */
   readonly ngfw?: VirtualRouterLocationNgfw;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#template VirtualRouter#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#template VirtualRouter#template}
   */
   readonly template?: VirtualRouterLocationTemplate;
   /**
   * Located in a specific template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#template_stack VirtualRouter#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#template_stack VirtualRouter#template_stack}
   */
   readonly templateStack?: VirtualRouterLocationTemplateStack;
 }
@@ -1926,17 +1926,17 @@ export interface VirtualRouterMulticastInterfaceGroupGroupPermissionAnySourceMul
   /**
   * group-address/prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#group_address VirtualRouter#group_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#group_address VirtualRouter#group_address}
   */
   readonly groupAddress?: string;
   /**
   * included
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#included VirtualRouter#included}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#included VirtualRouter#included}
   */
   readonly included?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
 }
@@ -2109,23 +2109,23 @@ export interface VirtualRouterMulticastInterfaceGroupGroupPermissionSourceSpecif
   /**
   * group-address/prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#group_address VirtualRouter#group_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#group_address VirtualRouter#group_address}
   */
   readonly groupAddress?: string;
   /**
   * included
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#included VirtualRouter#included}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#included VirtualRouter#included}
   */
   readonly included?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
   /**
   * source-address/prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#source_address VirtualRouter#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#source_address VirtualRouter#source_address}
   */
   readonly sourceAddress?: string;
 }
@@ -2325,11 +2325,11 @@ export class VirtualRouterMulticastInterfaceGroupGroupPermissionSourceSpecificMu
 }
 export interface VirtualRouterMulticastInterfaceGroupGroupPermission {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#any_source_multicast VirtualRouter#any_source_multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#any_source_multicast VirtualRouter#any_source_multicast}
   */
   readonly anySourceMulticast?: VirtualRouterMulticastInterfaceGroupGroupPermissionAnySourceMulticast[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#source_specific_multicast VirtualRouter#source_specific_multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#source_specific_multicast VirtualRouter#source_specific_multicast}
   */
   readonly sourceSpecificMulticast?: VirtualRouterMulticastInterfaceGroupGroupPermissionSourceSpecificMulticast[] | cdktf.IResolvable;
 }
@@ -2454,61 +2454,61 @@ export interface VirtualRouterMulticastInterfaceGroupIgmp {
   /**
   * enable IGMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#enable VirtualRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#enable VirtualRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * leave group immediately when a leave message is received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#immediate_leave VirtualRouter#immediate_leave}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#immediate_leave VirtualRouter#immediate_leave}
   */
   readonly immediateLeave?: boolean | cdktf.IResolvable;
   /**
   * interval between group/source specific query messages (including those sent in response of leave group messages)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#last_member_query_interval VirtualRouter#last_member_query_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#last_member_query_interval VirtualRouter#last_member_query_interval}
   */
   readonly lastMemberQueryInterval?: number;
   /**
   * maximum number of groups allowed on this interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#max_groups VirtualRouter#max_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#max_groups VirtualRouter#max_groups}
   */
   readonly maxGroups?: string;
   /**
   * maximum query response time for general group membership queries in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#max_query_response_time VirtualRouter#max_query_response_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#max_query_response_time VirtualRouter#max_query_response_time}
   */
   readonly maxQueryResponseTime?: number;
   /**
   * maximum number of source-specific memberships allowed on this interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#max_sources VirtualRouter#max_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#max_sources VirtualRouter#max_sources}
   */
   readonly maxSources?: string;
   /**
   * interval between group/source specific query messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#query_interval VirtualRouter#query_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#query_interval VirtualRouter#query_interval}
   */
   readonly queryInterval?: number;
   /**
   * robustness variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#robustness VirtualRouter#robustness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#robustness VirtualRouter#robustness}
   */
   readonly robustness?: string;
   /**
   * drop IGMP packets without Router Alert option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#router_alert_policing VirtualRouter#router_alert_policing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#router_alert_policing VirtualRouter#router_alert_policing}
   */
   readonly routerAlertPolicing?: boolean | cdktf.IResolvable;
   /**
   * IGMP version number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#version VirtualRouter#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#version VirtualRouter#version}
   */
   readonly version?: string;
 }
@@ -2863,7 +2863,7 @@ export class VirtualRouterMulticastInterfaceGroupIgmpOutputReference extends cdk
 }
 export interface VirtualRouterMulticastInterfaceGroupPimAllowedNeighbors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
 }
@@ -2976,41 +2976,41 @@ export class VirtualRouterMulticastInterfaceGroupPimAllowedNeighborsList extends
 }
 export interface VirtualRouterMulticastInterfaceGroupPim {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#allowed_neighbors VirtualRouter#allowed_neighbors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#allowed_neighbors VirtualRouter#allowed_neighbors}
   */
   readonly allowedNeighbors?: VirtualRouterMulticastInterfaceGroupPimAllowedNeighbors[] | cdktf.IResolvable;
   /**
   * interval between PIM Assert messages, in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#assert_interval VirtualRouter#assert_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#assert_interval VirtualRouter#assert_interval}
   */
   readonly assertInterval?: number;
   /**
   * interface is bootstrap border
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#bsr_border VirtualRouter#bsr_border}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#bsr_border VirtualRouter#bsr_border}
   */
   readonly bsrBorder?: boolean | cdktf.IResolvable;
   /**
   * Designated Router priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#dr_priority VirtualRouter#dr_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#dr_priority VirtualRouter#dr_priority}
   */
   readonly drPriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#enable VirtualRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#enable VirtualRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * interval between PIM Hello messages, in seconds, a value of 0 represents an 'infinite' interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#hello_interval VirtualRouter#hello_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#hello_interval VirtualRouter#hello_interval}
   */
   readonly helloInterval?: number;
   /**
   * interval between PIM Join/Prune messages, in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#join_prune_interval VirtualRouter#join_prune_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#join_prune_interval VirtualRouter#join_prune_interval}
   */
   readonly joinPruneInterval?: number;
 }
@@ -3278,27 +3278,27 @@ export class VirtualRouterMulticastInterfaceGroupPimOutputReference extends cdkt
 }
 export interface VirtualRouterMulticastInterfaceGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#description VirtualRouter#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#description VirtualRouter#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#group_permission VirtualRouter#group_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#group_permission VirtualRouter#group_permission}
   */
   readonly groupPermission?: VirtualRouterMulticastInterfaceGroupGroupPermission;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#igmp VirtualRouter#igmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#igmp VirtualRouter#igmp}
   */
   readonly igmp?: VirtualRouterMulticastInterfaceGroupIgmp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#interface VirtualRouter#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#interface VirtualRouter#interface}
   */
   readonly interface?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#pim VirtualRouter#pim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#pim VirtualRouter#pim}
   */
   readonly pim?: VirtualRouterMulticastInterfaceGroupPim;
 }
@@ -3556,17 +3556,17 @@ export class VirtualRouterMulticastInterfaceGroupList extends cdktf.ComplexList 
 }
 export interface VirtualRouterMulticastRpExternalRp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#group_addresses VirtualRouter#group_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#group_addresses VirtualRouter#group_addresses}
   */
   readonly groupAddresses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
   /**
   * Override learned RP for the same group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#override VirtualRouter#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#override VirtualRouter#override}
   */
   readonly override?: boolean | cdktf.IResolvable;
 }
@@ -3739,29 +3739,29 @@ export interface VirtualRouterMulticastRpLocalRpCandidateRp {
   /**
   * candidate RP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#address VirtualRouter#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#address VirtualRouter#address}
   */
   readonly address?: string;
   /**
   * The time interval in seconds between candidate rp advertisements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#advertisement_interval VirtualRouter#advertisement_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#advertisement_interval VirtualRouter#advertisement_interval}
   */
   readonly advertisementInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#group_addresses VirtualRouter#group_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#group_addresses VirtualRouter#group_addresses}
   */
   readonly groupAddresses?: string[];
   /**
   * candidate RP interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#interface VirtualRouter#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#interface VirtualRouter#interface}
   */
   readonly interface?: string;
   /**
   * The priority for this candidate rt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#priority VirtualRouter#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#priority VirtualRouter#priority}
   */
   readonly priority?: number;
 }
@@ -3973,23 +3973,23 @@ export interface VirtualRouterMulticastRpLocalRpStaticRp {
   /**
   * local RP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#address VirtualRouter#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#address VirtualRouter#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#group_addresses VirtualRouter#group_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#group_addresses VirtualRouter#group_addresses}
   */
   readonly groupAddresses?: string[];
   /**
   * local RP interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#interface VirtualRouter#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#interface VirtualRouter#interface}
   */
   readonly interface?: string;
   /**
   * Override learned RP for the same group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#override VirtualRouter#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#override VirtualRouter#override}
   */
   readonly override?: boolean | cdktf.IResolvable;
 }
@@ -4170,11 +4170,11 @@ export class VirtualRouterMulticastRpLocalRpStaticRpOutputReference extends cdkt
 }
 export interface VirtualRouterMulticastRpLocalRp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#candidate_rp VirtualRouter#candidate_rp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#candidate_rp VirtualRouter#candidate_rp}
   */
   readonly candidateRp?: VirtualRouterMulticastRpLocalRpCandidateRp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#static_rp VirtualRouter#static_rp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#static_rp VirtualRouter#static_rp}
   */
   readonly staticRp?: VirtualRouterMulticastRpLocalRpStaticRp;
 }
@@ -4297,11 +4297,11 @@ export class VirtualRouterMulticastRpLocalRpOutputReference extends cdktf.Comple
 }
 export interface VirtualRouterMulticastRp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#external_rp VirtualRouter#external_rp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#external_rp VirtualRouter#external_rp}
   */
   readonly externalRp?: VirtualRouterMulticastRpExternalRp[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#local_rp VirtualRouter#local_rp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#local_rp VirtualRouter#local_rp}
   */
   readonly localRp?: VirtualRouterMulticastRpLocalRp;
 }
@@ -4424,11 +4424,11 @@ export class VirtualRouterMulticastRpOutputReference extends cdktf.ComplexObject
 }
 export interface VirtualRouterMulticastSptThreshold {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#threshold VirtualRouter#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#threshold VirtualRouter#threshold}
   */
   readonly threshold?: string;
 }
@@ -4572,17 +4572,17 @@ export interface VirtualRouterMulticastSsmAddressSpace {
   /**
   * group-address/prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#group_address VirtualRouter#group_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#group_address VirtualRouter#group_address}
   */
   readonly groupAddress?: string;
   /**
   * included
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#included VirtualRouter#included}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#included VirtualRouter#included}
   */
   readonly included?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
 }
@@ -4755,29 +4755,29 @@ export interface VirtualRouterMulticast {
   /**
   * enable multicast protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#enable VirtualRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#enable VirtualRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#interface_group VirtualRouter#interface_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#interface_group VirtualRouter#interface_group}
   */
   readonly interfaceGroup?: VirtualRouterMulticastInterfaceGroup[] | cdktf.IResolvable;
   /**
   * time to wait before aging out a multicast route after data stops, in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#route_ageout_time VirtualRouter#route_ageout_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#route_ageout_time VirtualRouter#route_ageout_time}
   */
   readonly routeAgeoutTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#rp VirtualRouter#rp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#rp VirtualRouter#rp}
   */
   readonly rp?: VirtualRouterMulticastRp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#spt_threshold VirtualRouter#spt_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#spt_threshold VirtualRouter#spt_threshold}
   */
   readonly sptThreshold?: VirtualRouterMulticastSptThreshold[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#ssm_address_space VirtualRouter#ssm_address_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#ssm_address_space VirtualRouter#ssm_address_space}
   */
   readonly ssmAddressSpace?: VirtualRouterMulticastSsmAddressSpace[] | cdktf.IResolvable;
 }
@@ -5016,13 +5016,13 @@ export class VirtualRouterMulticastOutputReference extends cdktf.ComplexObject {
 }
 export interface VirtualRouterProtocolBgpAuthProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
   /**
   * shared secret for the TCP MD5 authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#secret VirtualRouter#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#secret VirtualRouter#secret}
   */
   readonly secret?: string;
 }
@@ -5166,39 +5166,39 @@ export interface VirtualRouterProtocolBgpDampeningProfile {
   /**
   * cutoff threshold value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#cutoff VirtualRouter#cutoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#cutoff VirtualRouter#cutoff}
   */
   readonly cutoff?: number;
   /**
   * Decay half-life while reachable (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#decay_half_life_reachable VirtualRouter#decay_half_life_reachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#decay_half_life_reachable VirtualRouter#decay_half_life_reachable}
   */
   readonly decayHalfLifeReachable?: number;
   /**
   * Decay half-life while unreachable (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#decay_half_life_unreachable VirtualRouter#decay_half_life_unreachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#decay_half_life_unreachable VirtualRouter#decay_half_life_unreachable}
   */
   readonly decayHalfLifeUnreachable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#enable VirtualRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#enable VirtualRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * maximum of hold-down time (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#max_hold_time VirtualRouter#max_hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#max_hold_time VirtualRouter#max_hold_time}
   */
   readonly maxHoldTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
   /**
   * reuse threshold value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#reuse VirtualRouter#reuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#reuse VirtualRouter#reuse}
   */
   readonly reuse?: number;
 }
@@ -5487,7 +5487,7 @@ export interface VirtualRouterProtocolBgpGlobalBfd {
   /**
   * BFD profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#profile VirtualRouter#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#profile VirtualRouter#profile}
   */
   readonly profile?: string;
 }
@@ -5583,7 +5583,7 @@ export interface VirtualRouterProtocolBgpPeerGroupPeerBfd {
   /**
   * BFD profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#profile VirtualRouter#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#profile VirtualRouter#profile}
   */
   readonly profile?: string;
 }
@@ -5677,13 +5677,13 @@ export class VirtualRouterProtocolBgpPeerGroupPeerBfdOutputReference extends cdk
 }
 export interface VirtualRouterProtocolBgpPeerGroupPeerConnectionOptionsIncomingBgpConnection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#allow VirtualRouter#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#allow VirtualRouter#allow}
   */
   readonly allow?: boolean | cdktf.IResolvable;
   /**
   * restrict remote port for incoming BGP connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#remote_port VirtualRouter#remote_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#remote_port VirtualRouter#remote_port}
   */
   readonly remotePort?: number;
 }
@@ -5806,13 +5806,13 @@ export class VirtualRouterProtocolBgpPeerGroupPeerConnectionOptionsIncomingBgpCo
 }
 export interface VirtualRouterProtocolBgpPeerGroupPeerConnectionOptionsOutgoingBgpConnection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#allow VirtualRouter#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#allow VirtualRouter#allow}
   */
   readonly allow?: boolean | cdktf.IResolvable;
   /**
   * use specific local port for outgoing BGP connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#local_port VirtualRouter#local_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#local_port VirtualRouter#local_port}
   */
   readonly localPort?: number;
 }
@@ -5937,51 +5937,51 @@ export interface VirtualRouterProtocolBgpPeerGroupPeerConnectionOptions {
   /**
   * Authentication options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#authentication VirtualRouter#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#authentication VirtualRouter#authentication}
   */
   readonly authentication?: string;
   /**
   * hold time (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#hold_time VirtualRouter#hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#hold_time VirtualRouter#hold_time}
   */
   readonly holdTime?: string;
   /**
   * idle hold time (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#idle_hold_time VirtualRouter#idle_hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#idle_hold_time VirtualRouter#idle_hold_time}
   */
   readonly idleHoldTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#incoming_bgp_connection VirtualRouter#incoming_bgp_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#incoming_bgp_connection VirtualRouter#incoming_bgp_connection}
   */
   readonly incomingBgpConnection?: VirtualRouterProtocolBgpPeerGroupPeerConnectionOptionsIncomingBgpConnection;
   /**
   * keep-alive interval (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#keep_alive_interval VirtualRouter#keep_alive_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#keep_alive_interval VirtualRouter#keep_alive_interval}
   */
   readonly keepAliveInterval?: string;
   /**
   * Minimum Route Advertisement Interval (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#min_route_adv_interval VirtualRouter#min_route_adv_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#min_route_adv_interval VirtualRouter#min_route_adv_interval}
   */
   readonly minRouteAdvInterval?: number;
   /**
   * IP TTL value used for sending BGP packet. set to 0 means eBGP use 2, iBGP use 255
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#multihop VirtualRouter#multihop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#multihop VirtualRouter#multihop}
   */
   readonly multihop?: number;
   /**
   * open delay time (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#open_delay_time VirtualRouter#open_delay_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#open_delay_time VirtualRouter#open_delay_time}
   */
   readonly openDelayTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#outgoing_bgp_connection VirtualRouter#outgoing_bgp_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#outgoing_bgp_connection VirtualRouter#outgoing_bgp_connection}
   */
   readonly outgoingBgpConnection?: VirtualRouterProtocolBgpPeerGroupPeerConnectionOptionsOutgoingBgpConnection;
 }
@@ -6309,13 +6309,13 @@ export interface VirtualRouterProtocolBgpPeerGroupPeerLocalAddress {
   /**
   * interface to accept BGP session
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#interface VirtualRouter#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#interface VirtualRouter#interface}
   */
   readonly interface?: string;
   /**
   * specify exact IP address if interface has multiple addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#ip VirtualRouter#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#ip VirtualRouter#ip}
   */
   readonly ip?: string;
 }
@@ -6440,13 +6440,13 @@ export interface VirtualRouterProtocolBgpPeerGroupPeerPeerAddress {
   /**
   * bgp peer FQDN address object configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#fqdn VirtualRouter#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#fqdn VirtualRouter#fqdn}
   */
   readonly fqdn?: string;
   /**
   * peer address configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#ip VirtualRouter#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#ip VirtualRouter#ip}
   */
   readonly ip?: string;
 }
@@ -6569,11 +6569,11 @@ export class VirtualRouterProtocolBgpPeerGroupPeerPeerAddressOutputReference ext
 }
 export interface VirtualRouterProtocolBgpPeerGroupPeerSubsequentAddressFamilyIdentifier {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#multicast VirtualRouter#multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#multicast VirtualRouter#multicast}
   */
   readonly multicast?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#unicast VirtualRouter#unicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#unicast VirtualRouter#unicast}
   */
   readonly unicast?: boolean | cdktf.IResolvable;
 }
@@ -6698,67 +6698,67 @@ export interface VirtualRouterProtocolBgpPeerGroupPeer {
   /**
   * select AFI for this peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#address_family_identifier VirtualRouter#address_family_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#address_family_identifier VirtualRouter#address_family_identifier}
   */
   readonly addressFamilyIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#bfd VirtualRouter#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#bfd VirtualRouter#bfd}
   */
   readonly bfd?: VirtualRouterProtocolBgpPeerGroupPeerBfd;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#connection_options VirtualRouter#connection_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#connection_options VirtualRouter#connection_options}
   */
   readonly connectionOptions?: VirtualRouterProtocolBgpPeerGroupPeerConnectionOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#enable VirtualRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#enable VirtualRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#enable_mp_bgp VirtualRouter#enable_mp_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#enable_mp_bgp VirtualRouter#enable_mp_bgp}
   */
   readonly enableMpBgp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#enable_sender_side_loop_detection VirtualRouter#enable_sender_side_loop_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#enable_sender_side_loop_detection VirtualRouter#enable_sender_side_loop_detection}
   */
   readonly enableSenderSideLoopDetection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#local_address VirtualRouter#local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#local_address VirtualRouter#local_address}
   */
   readonly localAddress?: VirtualRouterProtocolBgpPeerGroupPeerLocalAddress;
   /**
   * maximum of prefixes to receive from peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#max_prefixes VirtualRouter#max_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#max_prefixes VirtualRouter#max_prefixes}
   */
   readonly maxPrefixes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#peer_address VirtualRouter#peer_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#peer_address VirtualRouter#peer_address}
   */
   readonly peerAddress?: VirtualRouterProtocolBgpPeerGroupPeerPeerAddress;
   /**
   * peer AS number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#peer_as VirtualRouter#peer_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#peer_as VirtualRouter#peer_as}
   */
   readonly peerAs?: string;
   /**
   * peering type that affects NOPEER community value handling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#peering_type VirtualRouter#peering_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#peering_type VirtualRouter#peering_type}
   */
   readonly peeringType?: string;
   /**
   * this peer is reflector client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#reflector_client VirtualRouter#reflector_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#reflector_client VirtualRouter#reflector_client}
   */
   readonly reflectorClient?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#subsequent_address_family_identifier VirtualRouter#subsequent_address_family_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#subsequent_address_family_identifier VirtualRouter#subsequent_address_family_identifier}
   */
   readonly subsequentAddressFamilyIdentifier?: VirtualRouterProtocolBgpPeerGroupPeerSubsequentAddressFamilyIdentifier;
 }
@@ -7248,17 +7248,17 @@ export class VirtualRouterProtocolBgpPeerGroupPeerList extends cdktf.ComplexList
 }
 export interface VirtualRouterProtocolBgpPeerGroupTypeEbgp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#export_nexthop VirtualRouter#export_nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#export_nexthop VirtualRouter#export_nexthop}
   */
   readonly exportNexthop?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#import_nexthop VirtualRouter#import_nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#import_nexthop VirtualRouter#import_nexthop}
   */
   readonly importNexthop?: string;
   /**
   * remove private AS when exporting route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#remove_private_as VirtualRouter#remove_private_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#remove_private_as VirtualRouter#remove_private_as}
   */
   readonly removePrivateAs?: boolean | cdktf.IResolvable;
 }
@@ -7410,7 +7410,7 @@ export class VirtualRouterProtocolBgpPeerGroupTypeEbgpOutputReference extends cd
 }
 export interface VirtualRouterProtocolBgpPeerGroupTypeEbgpConfed {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#export_nexthop VirtualRouter#export_nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#export_nexthop VirtualRouter#export_nexthop}
   */
   readonly exportNexthop?: string;
 }
@@ -7504,7 +7504,7 @@ export class VirtualRouterProtocolBgpPeerGroupTypeEbgpConfedOutputReference exte
 }
 export interface VirtualRouterProtocolBgpPeerGroupTypeIbgp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#export_nexthop VirtualRouter#export_nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#export_nexthop VirtualRouter#export_nexthop}
   */
   readonly exportNexthop?: string;
 }
@@ -7598,7 +7598,7 @@ export class VirtualRouterProtocolBgpPeerGroupTypeIbgpOutputReference extends cd
 }
 export interface VirtualRouterProtocolBgpPeerGroupTypeIbgpConfed {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#export_nexthop VirtualRouter#export_nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#export_nexthop VirtualRouter#export_nexthop}
   */
   readonly exportNexthop?: string;
 }
@@ -7692,19 +7692,19 @@ export class VirtualRouterProtocolBgpPeerGroupTypeIbgpConfedOutputReference exte
 }
 export interface VirtualRouterProtocolBgpPeerGroupType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#ebgp VirtualRouter#ebgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#ebgp VirtualRouter#ebgp}
   */
   readonly ebgp?: VirtualRouterProtocolBgpPeerGroupTypeEbgp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#ebgp_confed VirtualRouter#ebgp_confed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#ebgp_confed VirtualRouter#ebgp_confed}
   */
   readonly ebgpConfed?: VirtualRouterProtocolBgpPeerGroupTypeEbgpConfed;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#ibgp VirtualRouter#ibgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#ibgp VirtualRouter#ibgp}
   */
   readonly ibgp?: VirtualRouterProtocolBgpPeerGroupTypeIbgp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#ibgp_confed VirtualRouter#ibgp_confed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#ibgp_confed VirtualRouter#ibgp_confed}
   */
   readonly ibgpConfed?: VirtualRouterProtocolBgpPeerGroupTypeIbgpConfed;
 }
@@ -7887,29 +7887,29 @@ export interface VirtualRouterProtocolBgpPeerGroup {
   /**
   * the peers understand aggregated confederation AS path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#aggregated_confed_as_path VirtualRouter#aggregated_confed_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#aggregated_confed_as_path VirtualRouter#aggregated_confed_as_path}
   */
   readonly aggregatedConfedAsPath?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#enable VirtualRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#enable VirtualRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#peer VirtualRouter#peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#peer VirtualRouter#peer}
   */
   readonly peer?: VirtualRouterProtocolBgpPeerGroupPeer[] | cdktf.IResolvable;
   /**
   * soft reset with stored info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#soft_reset_with_stored_info VirtualRouter#soft_reset_with_stored_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#soft_reset_with_stored_info VirtualRouter#soft_reset_with_stored_info}
   */
   readonly softResetWithStoredInfo?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#type VirtualRouter#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#type VirtualRouter#type}
   */
   readonly type?: VirtualRouterProtocolBgpPeerGroupType;
 }
@@ -8169,11 +8169,11 @@ export interface VirtualRouterProtocolBgpPolicyAggregationAddressAdvertiseFilter
   /**
   * match exact prefix length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#exact VirtualRouter#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#exact VirtualRouter#exact}
   */
   readonly exact?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
 }
@@ -8317,7 +8317,7 @@ export interface VirtualRouterProtocolBgpPolicyAggregationAddressAdvertiseFilter
   /**
   * AS-path regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#regex VirtualRouter#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#regex VirtualRouter#regex}
   */
   readonly regex?: string;
 }
@@ -8413,7 +8413,7 @@ export interface VirtualRouterProtocolBgpPolicyAggregationAddressAdvertiseFilter
   /**
   * AS-path regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#regex VirtualRouter#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#regex VirtualRouter#regex}
   */
   readonly regex?: string;
 }
@@ -8509,7 +8509,7 @@ export interface VirtualRouterProtocolBgpPolicyAggregationAddressAdvertiseFilter
   /**
   * AS-path regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#regex VirtualRouter#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#regex VirtualRouter#regex}
   */
   readonly regex?: string;
 }
@@ -8603,37 +8603,37 @@ export class VirtualRouterProtocolBgpPolicyAggregationAddressAdvertiseFiltersMat
 }
 export interface VirtualRouterProtocolBgpPolicyAggregationAddressAdvertiseFiltersMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#address_prefix VirtualRouter#address_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#address_prefix VirtualRouter#address_prefix}
   */
   readonly addressPrefix?: VirtualRouterProtocolBgpPolicyAggregationAddressAdvertiseFiltersMatchAddressPrefix[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#as_path VirtualRouter#as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#as_path VirtualRouter#as_path}
   */
   readonly asPath?: VirtualRouterProtocolBgpPolicyAggregationAddressAdvertiseFiltersMatchAsPath;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#community VirtualRouter#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#community VirtualRouter#community}
   */
   readonly community?: VirtualRouterProtocolBgpPolicyAggregationAddressAdvertiseFiltersMatchCommunity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#extended_community VirtualRouter#extended_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#extended_community VirtualRouter#extended_community}
   */
   readonly extendedCommunity?: VirtualRouterProtocolBgpPolicyAggregationAddressAdvertiseFiltersMatchExtendedCommunity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#from_peer VirtualRouter#from_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#from_peer VirtualRouter#from_peer}
   */
   readonly fromPeer?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#med VirtualRouter#med}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#med VirtualRouter#med}
   */
   readonly med?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#nexthop VirtualRouter#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#nexthop VirtualRouter#nexthop}
   */
   readonly nexthop?: string[];
   /**
   * route table to match rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#route_table VirtualRouter#route_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#route_table VirtualRouter#route_table}
   */
   readonly routeTable?: string;
 }
@@ -8932,15 +8932,15 @@ export interface VirtualRouterProtocolBgpPolicyAggregationAddressAdvertiseFilter
   /**
   * enble this rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#enable VirtualRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#enable VirtualRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#match VirtualRouter#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#match VirtualRouter#match}
   */
   readonly match?: VirtualRouterProtocolBgpPolicyAggregationAddressAdvertiseFiltersMatch;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
 }
@@ -9170,13 +9170,13 @@ export class VirtualRouterProtocolBgpPolicyAggregationAddressAggregateRouteAttri
 }
 export interface VirtualRouterProtocolBgpPolicyAggregationAddressAggregateRouteAttributesAsPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#none VirtualRouter#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#none VirtualRouter#none}
   */
   readonly none?: VirtualRouterProtocolBgpPolicyAggregationAddressAggregateRouteAttributesAsPathNone;
   /**
   * prepend local AS for specified number of times
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#prepend VirtualRouter#prepend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#prepend VirtualRouter#prepend}
   */
   readonly prepend?: number;
 }
@@ -9417,25 +9417,25 @@ export class VirtualRouterProtocolBgpPolicyAggregationAddressAggregateRouteAttri
 }
 export interface VirtualRouterProtocolBgpPolicyAggregationAddressAggregateRouteAttributesCommunity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#append VirtualRouter#append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#append VirtualRouter#append}
   */
   readonly append?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#none VirtualRouter#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#none VirtualRouter#none}
   */
   readonly none?: VirtualRouterProtocolBgpPolicyAggregationAddressAggregateRouteAttributesCommunityNone;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#overwrite VirtualRouter#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#overwrite VirtualRouter#overwrite}
   */
   readonly overwrite?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#remove_all VirtualRouter#remove_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#remove_all VirtualRouter#remove_all}
   */
   readonly removeAll?: VirtualRouterProtocolBgpPolicyAggregationAddressAggregateRouteAttributesCommunityRemoveAll;
   /**
   * remove specified coummnity match regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#remove_regex VirtualRouter#remove_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#remove_regex VirtualRouter#remove_regex}
   */
   readonly removeRegex?: string;
 }
@@ -9763,25 +9763,25 @@ export class VirtualRouterProtocolBgpPolicyAggregationAddressAggregateRouteAttri
 }
 export interface VirtualRouterProtocolBgpPolicyAggregationAddressAggregateRouteAttributesExtendedCommunity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#append VirtualRouter#append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#append VirtualRouter#append}
   */
   readonly append?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#none VirtualRouter#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#none VirtualRouter#none}
   */
   readonly none?: VirtualRouterProtocolBgpPolicyAggregationAddressAggregateRouteAttributesExtendedCommunityNone;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#overwrite VirtualRouter#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#overwrite VirtualRouter#overwrite}
   */
   readonly overwrite?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#remove_all VirtualRouter#remove_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#remove_all VirtualRouter#remove_all}
   */
   readonly removeAll?: VirtualRouterProtocolBgpPolicyAggregationAddressAggregateRouteAttributesExtendedCommunityRemoveAll;
   /**
   * remove specified coummnity match regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#remove_regex VirtualRouter#remove_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#remove_regex VirtualRouter#remove_regex}
   */
   readonly removeRegex?: string;
 }
@@ -9991,51 +9991,51 @@ export class VirtualRouterProtocolBgpPolicyAggregationAddressAggregateRouteAttri
 }
 export interface VirtualRouterProtocolBgpPolicyAggregationAddressAggregateRouteAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#as_path VirtualRouter#as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#as_path VirtualRouter#as_path}
   */
   readonly asPath?: VirtualRouterProtocolBgpPolicyAggregationAddressAggregateRouteAttributesAsPath;
   /**
   * add AS path limit attribute if it does not exist 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#as_path_limit VirtualRouter#as_path_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#as_path_limit VirtualRouter#as_path_limit}
   */
   readonly asPathLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#community VirtualRouter#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#community VirtualRouter#community}
   */
   readonly community?: VirtualRouterProtocolBgpPolicyAggregationAddressAggregateRouteAttributesCommunity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#extended_community VirtualRouter#extended_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#extended_community VirtualRouter#extended_community}
   */
   readonly extendedCommunity?: VirtualRouterProtocolBgpPolicyAggregationAddressAggregateRouteAttributesExtendedCommunity;
   /**
   * new local preference value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#local_preference VirtualRouter#local_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#local_preference VirtualRouter#local_preference}
   */
   readonly localPreference?: number;
   /**
   * new MED value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#med VirtualRouter#med}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#med VirtualRouter#med}
   */
   readonly med?: number;
   /**
   * nexthop address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#nexthop VirtualRouter#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#nexthop VirtualRouter#nexthop}
   */
   readonly nexthop?: string;
   /**
   * new route origin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#origin VirtualRouter#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#origin VirtualRouter#origin}
   */
   readonly origin?: string;
   /**
   * new weight value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#weight VirtualRouter#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#weight VirtualRouter#weight}
   */
   readonly weight?: number;
 }
@@ -10363,11 +10363,11 @@ export interface VirtualRouterProtocolBgpPolicyAggregationAddressSuppressFilters
   /**
   * match exact prefix length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#exact VirtualRouter#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#exact VirtualRouter#exact}
   */
   readonly exact?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
 }
@@ -10511,7 +10511,7 @@ export interface VirtualRouterProtocolBgpPolicyAggregationAddressSuppressFilters
   /**
   * AS-path regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#regex VirtualRouter#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#regex VirtualRouter#regex}
   */
   readonly regex?: string;
 }
@@ -10607,7 +10607,7 @@ export interface VirtualRouterProtocolBgpPolicyAggregationAddressSuppressFilters
   /**
   * AS-path regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#regex VirtualRouter#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#regex VirtualRouter#regex}
   */
   readonly regex?: string;
 }
@@ -10703,7 +10703,7 @@ export interface VirtualRouterProtocolBgpPolicyAggregationAddressSuppressFilters
   /**
   * AS-path regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#regex VirtualRouter#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#regex VirtualRouter#regex}
   */
   readonly regex?: string;
 }
@@ -10797,37 +10797,37 @@ export class VirtualRouterProtocolBgpPolicyAggregationAddressSuppressFiltersMatc
 }
 export interface VirtualRouterProtocolBgpPolicyAggregationAddressSuppressFiltersMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#address_prefix VirtualRouter#address_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#address_prefix VirtualRouter#address_prefix}
   */
   readonly addressPrefix?: VirtualRouterProtocolBgpPolicyAggregationAddressSuppressFiltersMatchAddressPrefix[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#as_path VirtualRouter#as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#as_path VirtualRouter#as_path}
   */
   readonly asPath?: VirtualRouterProtocolBgpPolicyAggregationAddressSuppressFiltersMatchAsPath;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#community VirtualRouter#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#community VirtualRouter#community}
   */
   readonly community?: VirtualRouterProtocolBgpPolicyAggregationAddressSuppressFiltersMatchCommunity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#extended_community VirtualRouter#extended_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#extended_community VirtualRouter#extended_community}
   */
   readonly extendedCommunity?: VirtualRouterProtocolBgpPolicyAggregationAddressSuppressFiltersMatchExtendedCommunity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#from_peer VirtualRouter#from_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#from_peer VirtualRouter#from_peer}
   */
   readonly fromPeer?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#med VirtualRouter#med}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#med VirtualRouter#med}
   */
   readonly med?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#nexthop VirtualRouter#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#nexthop VirtualRouter#nexthop}
   */
   readonly nexthop?: string[];
   /**
   * route table to match rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#route_table VirtualRouter#route_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#route_table VirtualRouter#route_table}
   */
   readonly routeTable?: string;
 }
@@ -11126,15 +11126,15 @@ export interface VirtualRouterProtocolBgpPolicyAggregationAddressSuppressFilters
   /**
   * enble this rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#enable VirtualRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#enable VirtualRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#match VirtualRouter#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#match VirtualRouter#match}
   */
   readonly match?: VirtualRouterProtocolBgpPolicyAggregationAddressSuppressFiltersMatch;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
 }
@@ -11305,43 +11305,43 @@ export class VirtualRouterProtocolBgpPolicyAggregationAddressSuppressFiltersList
 }
 export interface VirtualRouterProtocolBgpPolicyAggregationAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#advertise_filters VirtualRouter#advertise_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#advertise_filters VirtualRouter#advertise_filters}
   */
   readonly advertiseFilters?: VirtualRouterProtocolBgpPolicyAggregationAddressAdvertiseFilters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#aggregate_route_attributes VirtualRouter#aggregate_route_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#aggregate_route_attributes VirtualRouter#aggregate_route_attributes}
   */
   readonly aggregateRouteAttributes?: VirtualRouterProtocolBgpPolicyAggregationAddressAggregateRouteAttributes;
   /**
   * generate AS-set attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#as_set VirtualRouter#as_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#as_set VirtualRouter#as_set}
   */
   readonly asSet?: boolean | cdktf.IResolvable;
   /**
   * enable aggregation for this prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#enable VirtualRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#enable VirtualRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
   /**
   * aggregating address prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#prefix VirtualRouter#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#prefix VirtualRouter#prefix}
   */
   readonly prefix?: string;
   /**
   * summarize route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#summary VirtualRouter#summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#summary VirtualRouter#summary}
   */
   readonly summary?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#suppress_filters VirtualRouter#suppress_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#suppress_filters VirtualRouter#suppress_filters}
   */
   readonly suppressFilters?: VirtualRouterProtocolBgpPolicyAggregationAddressSuppressFilters[] | cdktf.IResolvable;
 }
@@ -11657,7 +11657,7 @@ export class VirtualRouterProtocolBgpPolicyAggregationAddressList extends cdktf.
 }
 export interface VirtualRouterProtocolBgpPolicyAggregation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#address VirtualRouter#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#address VirtualRouter#address}
   */
   readonly address?: VirtualRouterProtocolBgpPolicyAggregationAddress[] | cdktf.IResolvable;
 }
@@ -11751,7 +11751,7 @@ export class VirtualRouterProtocolBgpPolicyAggregationOutputReference extends cd
 }
 export interface VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicyAdvertiseFiltersMatchAddressPrefix {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
 }
@@ -11866,7 +11866,7 @@ export interface VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicyAdv
   /**
   * AS-path regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#regex VirtualRouter#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#regex VirtualRouter#regex}
   */
   readonly regex?: string;
 }
@@ -11962,7 +11962,7 @@ export interface VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicyAdv
   /**
   * AS-path regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#regex VirtualRouter#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#regex VirtualRouter#regex}
   */
   readonly regex?: string;
 }
@@ -12058,7 +12058,7 @@ export interface VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicyAdv
   /**
   * AS-path regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#regex VirtualRouter#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#regex VirtualRouter#regex}
   */
   readonly regex?: string;
 }
@@ -12152,37 +12152,37 @@ export class VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicyAdverti
 }
 export interface VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicyAdvertiseFiltersMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#address_prefix VirtualRouter#address_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#address_prefix VirtualRouter#address_prefix}
   */
   readonly addressPrefix?: VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicyAdvertiseFiltersMatchAddressPrefix[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#as_path VirtualRouter#as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#as_path VirtualRouter#as_path}
   */
   readonly asPath?: VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicyAdvertiseFiltersMatchAsPath;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#community VirtualRouter#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#community VirtualRouter#community}
   */
   readonly community?: VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicyAdvertiseFiltersMatchCommunity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#extended_community VirtualRouter#extended_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#extended_community VirtualRouter#extended_community}
   */
   readonly extendedCommunity?: VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicyAdvertiseFiltersMatchExtendedCommunity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#from_peer VirtualRouter#from_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#from_peer VirtualRouter#from_peer}
   */
   readonly fromPeer?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#med VirtualRouter#med}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#med VirtualRouter#med}
   */
   readonly med?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#nexthop VirtualRouter#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#nexthop VirtualRouter#nexthop}
   */
   readonly nexthop?: string[];
   /**
   * route table to match rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#route_table VirtualRouter#route_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#route_table VirtualRouter#route_table}
   */
   readonly routeTable?: string;
 }
@@ -12481,15 +12481,15 @@ export interface VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicyAdv
   /**
   * enble this filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#enable VirtualRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#enable VirtualRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#match VirtualRouter#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#match VirtualRouter#match}
   */
   readonly match?: VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicyAdvertiseFiltersMatch;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
 }
@@ -12660,7 +12660,7 @@ export class VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicyAdverti
 }
 export interface VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicyNonExistFiltersMatchAddressPrefix {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
 }
@@ -12775,7 +12775,7 @@ export interface VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicyNon
   /**
   * AS-path regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#regex VirtualRouter#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#regex VirtualRouter#regex}
   */
   readonly regex?: string;
 }
@@ -12871,7 +12871,7 @@ export interface VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicyNon
   /**
   * AS-path regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#regex VirtualRouter#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#regex VirtualRouter#regex}
   */
   readonly regex?: string;
 }
@@ -12967,7 +12967,7 @@ export interface VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicyNon
   /**
   * AS-path regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#regex VirtualRouter#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#regex VirtualRouter#regex}
   */
   readonly regex?: string;
 }
@@ -13061,37 +13061,37 @@ export class VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicyNonExis
 }
 export interface VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicyNonExistFiltersMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#address_prefix VirtualRouter#address_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#address_prefix VirtualRouter#address_prefix}
   */
   readonly addressPrefix?: VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicyNonExistFiltersMatchAddressPrefix[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#as_path VirtualRouter#as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#as_path VirtualRouter#as_path}
   */
   readonly asPath?: VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicyNonExistFiltersMatchAsPath;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#community VirtualRouter#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#community VirtualRouter#community}
   */
   readonly community?: VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicyNonExistFiltersMatchCommunity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#extended_community VirtualRouter#extended_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#extended_community VirtualRouter#extended_community}
   */
   readonly extendedCommunity?: VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicyNonExistFiltersMatchExtendedCommunity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#from_peer VirtualRouter#from_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#from_peer VirtualRouter#from_peer}
   */
   readonly fromPeer?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#med VirtualRouter#med}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#med VirtualRouter#med}
   */
   readonly med?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#nexthop VirtualRouter#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#nexthop VirtualRouter#nexthop}
   */
   readonly nexthop?: string[];
   /**
   * route table to match rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#route_table VirtualRouter#route_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#route_table VirtualRouter#route_table}
   */
   readonly routeTable?: string;
 }
@@ -13390,15 +13390,15 @@ export interface VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicyNon
   /**
   * enble this filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#enable VirtualRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#enable VirtualRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#match VirtualRouter#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#match VirtualRouter#match}
   */
   readonly match?: VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicyNonExistFiltersMatch;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
 }
@@ -13569,25 +13569,25 @@ export class VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicyNonExis
 }
 export interface VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#advertise_filters VirtualRouter#advertise_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#advertise_filters VirtualRouter#advertise_filters}
   */
   readonly advertiseFilters?: VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicyAdvertiseFilters[] | cdktf.IResolvable;
   /**
   * enble this policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#enable VirtualRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#enable VirtualRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#non_exist_filters VirtualRouter#non_exist_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#non_exist_filters VirtualRouter#non_exist_filters}
   */
   readonly nonExistFilters?: VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicyNonExistFilters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#used_by VirtualRouter#used_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#used_by VirtualRouter#used_by}
   */
   readonly usedBy?: string[];
 }
@@ -13816,7 +13816,7 @@ export class VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicyList ex
 }
 export interface VirtualRouterProtocolBgpPolicyConditionalAdvertisement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#policy VirtualRouter#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#policy VirtualRouter#policy}
   */
   readonly policy?: VirtualRouterProtocolBgpPolicyConditionalAdvertisementPolicy[] | cdktf.IResolvable;
 }
@@ -14028,23 +14028,23 @@ export class VirtualRouterProtocolBgpPolicyExportRulesActionAllowUpdateAsPathRem
 }
 export interface VirtualRouterProtocolBgpPolicyExportRulesActionAllowUpdateAsPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#none VirtualRouter#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#none VirtualRouter#none}
   */
   readonly none?: VirtualRouterProtocolBgpPolicyExportRulesActionAllowUpdateAsPathNone;
   /**
   * prepend local AS for specified number of times
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#prepend VirtualRouter#prepend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#prepend VirtualRouter#prepend}
   */
   readonly prepend?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#remove VirtualRouter#remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#remove VirtualRouter#remove}
   */
   readonly remove?: VirtualRouterProtocolBgpPolicyExportRulesActionAllowUpdateAsPathRemove;
   /**
   * remove matched AS path(s), and prepend local AS for specified number of times
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#remove_and_prepend VirtualRouter#remove_and_prepend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#remove_and_prepend VirtualRouter#remove_and_prepend}
   */
   readonly removeAndPrepend?: number;
 }
@@ -14343,25 +14343,25 @@ export class VirtualRouterProtocolBgpPolicyExportRulesActionAllowUpdateCommunity
 }
 export interface VirtualRouterProtocolBgpPolicyExportRulesActionAllowUpdateCommunity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#append VirtualRouter#append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#append VirtualRouter#append}
   */
   readonly append?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#none VirtualRouter#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#none VirtualRouter#none}
   */
   readonly none?: VirtualRouterProtocolBgpPolicyExportRulesActionAllowUpdateCommunityNone;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#overwrite VirtualRouter#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#overwrite VirtualRouter#overwrite}
   */
   readonly overwrite?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#remove_all VirtualRouter#remove_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#remove_all VirtualRouter#remove_all}
   */
   readonly removeAll?: VirtualRouterProtocolBgpPolicyExportRulesActionAllowUpdateCommunityRemoveAll;
   /**
   * remove specified coummnity match regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#remove_regex VirtualRouter#remove_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#remove_regex VirtualRouter#remove_regex}
   */
   readonly removeRegex?: string;
 }
@@ -14689,25 +14689,25 @@ export class VirtualRouterProtocolBgpPolicyExportRulesActionAllowUpdateExtendedC
 }
 export interface VirtualRouterProtocolBgpPolicyExportRulesActionAllowUpdateExtendedCommunity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#append VirtualRouter#append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#append VirtualRouter#append}
   */
   readonly append?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#none VirtualRouter#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#none VirtualRouter#none}
   */
   readonly none?: VirtualRouterProtocolBgpPolicyExportRulesActionAllowUpdateExtendedCommunityNone;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#overwrite VirtualRouter#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#overwrite VirtualRouter#overwrite}
   */
   readonly overwrite?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#remove_all VirtualRouter#remove_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#remove_all VirtualRouter#remove_all}
   */
   readonly removeAll?: VirtualRouterProtocolBgpPolicyExportRulesActionAllowUpdateExtendedCommunityRemoveAll;
   /**
   * remove specified coummnity match regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#remove_regex VirtualRouter#remove_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#remove_regex VirtualRouter#remove_regex}
   */
   readonly removeRegex?: string;
 }
@@ -14917,45 +14917,45 @@ export class VirtualRouterProtocolBgpPolicyExportRulesActionAllowUpdateExtendedC
 }
 export interface VirtualRouterProtocolBgpPolicyExportRulesActionAllowUpdate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#as_path VirtualRouter#as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#as_path VirtualRouter#as_path}
   */
   readonly asPath?: VirtualRouterProtocolBgpPolicyExportRulesActionAllowUpdateAsPath;
   /**
   * add AS path limit attribute if it does not exist 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#as_path_limit VirtualRouter#as_path_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#as_path_limit VirtualRouter#as_path_limit}
   */
   readonly asPathLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#community VirtualRouter#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#community VirtualRouter#community}
   */
   readonly community?: VirtualRouterProtocolBgpPolicyExportRulesActionAllowUpdateCommunity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#extended_community VirtualRouter#extended_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#extended_community VirtualRouter#extended_community}
   */
   readonly extendedCommunity?: VirtualRouterProtocolBgpPolicyExportRulesActionAllowUpdateExtendedCommunity;
   /**
   * new local preference value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#local_preference VirtualRouter#local_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#local_preference VirtualRouter#local_preference}
   */
   readonly localPreference?: number;
   /**
   * new MED value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#med VirtualRouter#med}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#med VirtualRouter#med}
   */
   readonly med?: number;
   /**
   * nexthop address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#nexthop VirtualRouter#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#nexthop VirtualRouter#nexthop}
   */
   readonly nexthop?: string;
   /**
   * new route origin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#origin VirtualRouter#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#origin VirtualRouter#origin}
   */
   readonly origin?: string;
 }
@@ -15252,7 +15252,7 @@ export class VirtualRouterProtocolBgpPolicyExportRulesActionAllowUpdateOutputRef
 }
 export interface VirtualRouterProtocolBgpPolicyExportRulesActionAllow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#update VirtualRouter#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#update VirtualRouter#update}
   */
   readonly update?: VirtualRouterProtocolBgpPolicyExportRulesActionAllowUpdate;
 }
@@ -15405,11 +15405,11 @@ export class VirtualRouterProtocolBgpPolicyExportRulesActionDenyOutputReference 
 }
 export interface VirtualRouterProtocolBgpPolicyExportRulesAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#allow VirtualRouter#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#allow VirtualRouter#allow}
   */
   readonly allow?: VirtualRouterProtocolBgpPolicyExportRulesActionAllow;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#deny VirtualRouter#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#deny VirtualRouter#deny}
   */
   readonly deny?: VirtualRouterProtocolBgpPolicyExportRulesActionDeny;
 }
@@ -15534,11 +15534,11 @@ export interface VirtualRouterProtocolBgpPolicyExportRulesMatchAddressPrefix {
   /**
   * match exact prefix length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#exact VirtualRouter#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#exact VirtualRouter#exact}
   */
   readonly exact?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
 }
@@ -15682,7 +15682,7 @@ export interface VirtualRouterProtocolBgpPolicyExportRulesMatchAsPath {
   /**
   * AS-path regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#regex VirtualRouter#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#regex VirtualRouter#regex}
   */
   readonly regex?: string;
 }
@@ -15778,7 +15778,7 @@ export interface VirtualRouterProtocolBgpPolicyExportRulesMatchCommunity {
   /**
   * AS-path regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#regex VirtualRouter#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#regex VirtualRouter#regex}
   */
   readonly regex?: string;
 }
@@ -15874,7 +15874,7 @@ export interface VirtualRouterProtocolBgpPolicyExportRulesMatchExtendedCommunity
   /**
   * AS-path regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#regex VirtualRouter#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#regex VirtualRouter#regex}
   */
   readonly regex?: string;
 }
@@ -15968,37 +15968,37 @@ export class VirtualRouterProtocolBgpPolicyExportRulesMatchExtendedCommunityOutp
 }
 export interface VirtualRouterProtocolBgpPolicyExportRulesMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#address_prefix VirtualRouter#address_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#address_prefix VirtualRouter#address_prefix}
   */
   readonly addressPrefix?: VirtualRouterProtocolBgpPolicyExportRulesMatchAddressPrefix[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#as_path VirtualRouter#as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#as_path VirtualRouter#as_path}
   */
   readonly asPath?: VirtualRouterProtocolBgpPolicyExportRulesMatchAsPath;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#community VirtualRouter#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#community VirtualRouter#community}
   */
   readonly community?: VirtualRouterProtocolBgpPolicyExportRulesMatchCommunity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#extended_community VirtualRouter#extended_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#extended_community VirtualRouter#extended_community}
   */
   readonly extendedCommunity?: VirtualRouterProtocolBgpPolicyExportRulesMatchExtendedCommunity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#from_peer VirtualRouter#from_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#from_peer VirtualRouter#from_peer}
   */
   readonly fromPeer?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#med VirtualRouter#med}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#med VirtualRouter#med}
   */
   readonly med?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#nexthop VirtualRouter#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#nexthop VirtualRouter#nexthop}
   */
   readonly nexthop?: string[];
   /**
   * route table to match rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#route_table VirtualRouter#route_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#route_table VirtualRouter#route_table}
   */
   readonly routeTable?: string;
 }
@@ -16295,25 +16295,25 @@ export class VirtualRouterProtocolBgpPolicyExportRulesMatchOutputReference exten
 }
 export interface VirtualRouterProtocolBgpPolicyExportRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#action VirtualRouter#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#action VirtualRouter#action}
   */
   readonly action?: VirtualRouterProtocolBgpPolicyExportRulesAction;
   /**
   * Enable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#enable VirtualRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#enable VirtualRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#match VirtualRouter#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#match VirtualRouter#match}
   */
   readonly match?: VirtualRouterProtocolBgpPolicyExportRulesMatch;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#used_by VirtualRouter#used_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#used_by VirtualRouter#used_by}
   */
   readonly usedBy?: string[];
 }
@@ -16542,7 +16542,7 @@ export class VirtualRouterProtocolBgpPolicyExportRulesList extends cdktf.Complex
 }
 export interface VirtualRouterProtocolBgpPolicyExport {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#rules VirtualRouter#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#rules VirtualRouter#rules}
   */
   readonly rules?: VirtualRouterProtocolBgpPolicyExportRules[] | cdktf.IResolvable;
 }
@@ -16754,11 +16754,11 @@ export class VirtualRouterProtocolBgpPolicyImportRulesActionAllowUpdateAsPathRem
 }
 export interface VirtualRouterProtocolBgpPolicyImportRulesActionAllowUpdateAsPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#none VirtualRouter#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#none VirtualRouter#none}
   */
   readonly none?: VirtualRouterProtocolBgpPolicyImportRulesActionAllowUpdateAsPathNone;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#remove VirtualRouter#remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#remove VirtualRouter#remove}
   */
   readonly remove?: VirtualRouterProtocolBgpPolicyImportRulesActionAllowUpdateAsPathRemove;
 }
@@ -16999,25 +16999,25 @@ export class VirtualRouterProtocolBgpPolicyImportRulesActionAllowUpdateCommunity
 }
 export interface VirtualRouterProtocolBgpPolicyImportRulesActionAllowUpdateCommunity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#append VirtualRouter#append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#append VirtualRouter#append}
   */
   readonly append?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#none VirtualRouter#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#none VirtualRouter#none}
   */
   readonly none?: VirtualRouterProtocolBgpPolicyImportRulesActionAllowUpdateCommunityNone;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#overwrite VirtualRouter#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#overwrite VirtualRouter#overwrite}
   */
   readonly overwrite?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#remove_all VirtualRouter#remove_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#remove_all VirtualRouter#remove_all}
   */
   readonly removeAll?: VirtualRouterProtocolBgpPolicyImportRulesActionAllowUpdateCommunityRemoveAll;
   /**
   * remove specified coummnity match regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#remove_regex VirtualRouter#remove_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#remove_regex VirtualRouter#remove_regex}
   */
   readonly removeRegex?: string;
 }
@@ -17345,25 +17345,25 @@ export class VirtualRouterProtocolBgpPolicyImportRulesActionAllowUpdateExtendedC
 }
 export interface VirtualRouterProtocolBgpPolicyImportRulesActionAllowUpdateExtendedCommunity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#append VirtualRouter#append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#append VirtualRouter#append}
   */
   readonly append?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#none VirtualRouter#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#none VirtualRouter#none}
   */
   readonly none?: VirtualRouterProtocolBgpPolicyImportRulesActionAllowUpdateExtendedCommunityNone;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#overwrite VirtualRouter#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#overwrite VirtualRouter#overwrite}
   */
   readonly overwrite?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#remove_all VirtualRouter#remove_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#remove_all VirtualRouter#remove_all}
   */
   readonly removeAll?: VirtualRouterProtocolBgpPolicyImportRulesActionAllowUpdateExtendedCommunityRemoveAll;
   /**
   * remove specified coummnity match regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#remove_regex VirtualRouter#remove_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#remove_regex VirtualRouter#remove_regex}
   */
   readonly removeRegex?: string;
 }
@@ -17573,51 +17573,51 @@ export class VirtualRouterProtocolBgpPolicyImportRulesActionAllowUpdateExtendedC
 }
 export interface VirtualRouterProtocolBgpPolicyImportRulesActionAllowUpdate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#as_path VirtualRouter#as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#as_path VirtualRouter#as_path}
   */
   readonly asPath?: VirtualRouterProtocolBgpPolicyImportRulesActionAllowUpdateAsPath;
   /**
   * add AS path limit attribute if it does not exist 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#as_path_limit VirtualRouter#as_path_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#as_path_limit VirtualRouter#as_path_limit}
   */
   readonly asPathLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#community VirtualRouter#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#community VirtualRouter#community}
   */
   readonly community?: VirtualRouterProtocolBgpPolicyImportRulesActionAllowUpdateCommunity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#extended_community VirtualRouter#extended_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#extended_community VirtualRouter#extended_community}
   */
   readonly extendedCommunity?: VirtualRouterProtocolBgpPolicyImportRulesActionAllowUpdateExtendedCommunity;
   /**
   * new local preference value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#local_preference VirtualRouter#local_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#local_preference VirtualRouter#local_preference}
   */
   readonly localPreference?: number;
   /**
   * new MED value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#med VirtualRouter#med}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#med VirtualRouter#med}
   */
   readonly med?: number;
   /**
   * nexthop address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#nexthop VirtualRouter#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#nexthop VirtualRouter#nexthop}
   */
   readonly nexthop?: string;
   /**
   * new route origin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#origin VirtualRouter#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#origin VirtualRouter#origin}
   */
   readonly origin?: string;
   /**
   * new weight value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#weight VirtualRouter#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#weight VirtualRouter#weight}
   */
   readonly weight?: number;
 }
@@ -17945,11 +17945,11 @@ export interface VirtualRouterProtocolBgpPolicyImportRulesActionAllow {
   /**
   * route flap dampening profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#dampening VirtualRouter#dampening}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#dampening VirtualRouter#dampening}
   */
   readonly dampening?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#update VirtualRouter#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#update VirtualRouter#update}
   */
   readonly update?: VirtualRouterProtocolBgpPolicyImportRulesActionAllowUpdate;
 }
@@ -18131,11 +18131,11 @@ export class VirtualRouterProtocolBgpPolicyImportRulesActionDenyOutputReference 
 }
 export interface VirtualRouterProtocolBgpPolicyImportRulesAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#allow VirtualRouter#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#allow VirtualRouter#allow}
   */
   readonly allow?: VirtualRouterProtocolBgpPolicyImportRulesActionAllow;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#deny VirtualRouter#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#deny VirtualRouter#deny}
   */
   readonly deny?: VirtualRouterProtocolBgpPolicyImportRulesActionDeny;
 }
@@ -18260,11 +18260,11 @@ export interface VirtualRouterProtocolBgpPolicyImportRulesMatchAddressPrefix {
   /**
   * match exact prefix length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#exact VirtualRouter#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#exact VirtualRouter#exact}
   */
   readonly exact?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
 }
@@ -18408,7 +18408,7 @@ export interface VirtualRouterProtocolBgpPolicyImportRulesMatchAsPath {
   /**
   * AS-path regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#regex VirtualRouter#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#regex VirtualRouter#regex}
   */
   readonly regex?: string;
 }
@@ -18504,7 +18504,7 @@ export interface VirtualRouterProtocolBgpPolicyImportRulesMatchCommunity {
   /**
   * AS-path regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#regex VirtualRouter#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#regex VirtualRouter#regex}
   */
   readonly regex?: string;
 }
@@ -18600,7 +18600,7 @@ export interface VirtualRouterProtocolBgpPolicyImportRulesMatchExtendedCommunity
   /**
   * AS-path regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#regex VirtualRouter#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#regex VirtualRouter#regex}
   */
   readonly regex?: string;
 }
@@ -18694,37 +18694,37 @@ export class VirtualRouterProtocolBgpPolicyImportRulesMatchExtendedCommunityOutp
 }
 export interface VirtualRouterProtocolBgpPolicyImportRulesMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#address_prefix VirtualRouter#address_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#address_prefix VirtualRouter#address_prefix}
   */
   readonly addressPrefix?: VirtualRouterProtocolBgpPolicyImportRulesMatchAddressPrefix[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#as_path VirtualRouter#as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#as_path VirtualRouter#as_path}
   */
   readonly asPath?: VirtualRouterProtocolBgpPolicyImportRulesMatchAsPath;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#community VirtualRouter#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#community VirtualRouter#community}
   */
   readonly community?: VirtualRouterProtocolBgpPolicyImportRulesMatchCommunity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#extended_community VirtualRouter#extended_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#extended_community VirtualRouter#extended_community}
   */
   readonly extendedCommunity?: VirtualRouterProtocolBgpPolicyImportRulesMatchExtendedCommunity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#from_peer VirtualRouter#from_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#from_peer VirtualRouter#from_peer}
   */
   readonly fromPeer?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#med VirtualRouter#med}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#med VirtualRouter#med}
   */
   readonly med?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#nexthop VirtualRouter#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#nexthop VirtualRouter#nexthop}
   */
   readonly nexthop?: string[];
   /**
   * route table to match rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#route_table VirtualRouter#route_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#route_table VirtualRouter#route_table}
   */
   readonly routeTable?: string;
 }
@@ -19021,25 +19021,25 @@ export class VirtualRouterProtocolBgpPolicyImportRulesMatchOutputReference exten
 }
 export interface VirtualRouterProtocolBgpPolicyImportRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#action VirtualRouter#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#action VirtualRouter#action}
   */
   readonly action?: VirtualRouterProtocolBgpPolicyImportRulesAction;
   /**
   * Enable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#enable VirtualRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#enable VirtualRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#match VirtualRouter#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#match VirtualRouter#match}
   */
   readonly match?: VirtualRouterProtocolBgpPolicyImportRulesMatch;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#used_by VirtualRouter#used_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#used_by VirtualRouter#used_by}
   */
   readonly usedBy?: string[];
 }
@@ -19268,7 +19268,7 @@ export class VirtualRouterProtocolBgpPolicyImportRulesList extends cdktf.Complex
 }
 export interface VirtualRouterProtocolBgpPolicyImport {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#rules VirtualRouter#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#rules VirtualRouter#rules}
   */
   readonly rules?: VirtualRouterProtocolBgpPolicyImportRules[] | cdktf.IResolvable;
 }
@@ -19362,19 +19362,19 @@ export class VirtualRouterProtocolBgpPolicyImportOutputReference extends cdktf.C
 }
 export interface VirtualRouterProtocolBgpPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#aggregation VirtualRouter#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#aggregation VirtualRouter#aggregation}
   */
   readonly aggregation?: VirtualRouterProtocolBgpPolicyAggregation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#conditional_advertisement VirtualRouter#conditional_advertisement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#conditional_advertisement VirtualRouter#conditional_advertisement}
   */
   readonly conditionalAdvertisement?: VirtualRouterProtocolBgpPolicyConditionalAdvertisement;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#export VirtualRouter#export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#export VirtualRouter#export}
   */
   readonly export?: VirtualRouterProtocolBgpPolicyExport;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#import VirtualRouter#import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#import VirtualRouter#import}
   */
   readonly import?: VirtualRouterProtocolBgpPolicyImport;
 }
@@ -19557,59 +19557,59 @@ export interface VirtualRouterProtocolBgpRedistRules {
   /**
   * select redistribution profile type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#address_family_identifier VirtualRouter#address_family_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#address_family_identifier VirtualRouter#address_family_identifier}
   */
   readonly addressFamilyIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#enable VirtualRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#enable VirtualRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#metric VirtualRouter#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#metric VirtualRouter#metric}
   */
   readonly metric?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
   /**
   * select destination SAFI for redistribution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#route_table VirtualRouter#route_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#route_table VirtualRouter#route_table}
   */
   readonly routeTable?: string;
   /**
   * add the AS_PATHLIMIT path attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#set_as_path_limit VirtualRouter#set_as_path_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#set_as_path_limit VirtualRouter#set_as_path_limit}
   */
   readonly setAsPathLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#set_community VirtualRouter#set_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#set_community VirtualRouter#set_community}
   */
   readonly setCommunity?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#set_extended_community VirtualRouter#set_extended_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#set_extended_community VirtualRouter#set_extended_community}
   */
   readonly setExtendedCommunity?: string[];
   /**
   * add the LOCAL_PREF path attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#set_local_preference VirtualRouter#set_local_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#set_local_preference VirtualRouter#set_local_preference}
   */
   readonly setLocalPreference?: number;
   /**
   * add the MULTI_EXIT_DISC path attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#set_med VirtualRouter#set_med}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#set_med VirtualRouter#set_med}
   */
   readonly setMed?: number;
   /**
   * add the ORIGIN path attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#set_origin VirtualRouter#set_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#set_origin VirtualRouter#set_origin}
   */
   readonly setOrigin?: string;
 }
@@ -20014,7 +20014,7 @@ export interface VirtualRouterProtocolBgpRoutingOptionsAggregate {
   /**
   * aggregate route only if they have same MED attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#aggregate_med VirtualRouter#aggregate_med}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#aggregate_med VirtualRouter#aggregate_med}
   */
   readonly aggregateMed?: boolean | cdktf.IResolvable;
 }
@@ -20108,25 +20108,25 @@ export class VirtualRouterProtocolBgpRoutingOptionsAggregateOutputReference exte
 }
 export interface VirtualRouterProtocolBgpRoutingOptionsGracefulRestart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#enable VirtualRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#enable VirtualRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * local restart time to advertise to peer (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#local_restart_time VirtualRouter#local_restart_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#local_restart_time VirtualRouter#local_restart_time}
   */
   readonly localRestartTime?: number;
   /**
   * maximum of peer restart time accepted (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#max_peer_restart_time VirtualRouter#max_peer_restart_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#max_peer_restart_time VirtualRouter#max_peer_restart_time}
   */
   readonly maxPeerRestartTime?: number;
   /**
   * time to remove stale routes after peer restart (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#stale_route_time VirtualRouter#stale_route_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#stale_route_time VirtualRouter#stale_route_time}
   */
   readonly staleRouteTime?: number;
 }
@@ -20309,13 +20309,13 @@ export interface VirtualRouterProtocolBgpRoutingOptionsMed {
   /**
   * always compare MEDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#always_compare_med VirtualRouter#always_compare_med}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#always_compare_med VirtualRouter#always_compare_med}
   */
   readonly alwaysCompareMed?: boolean | cdktf.IResolvable;
   /**
   * deterministic MEDs comparison
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#deterministic_med_comparison VirtualRouter#deterministic_med_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#deterministic_med_comparison VirtualRouter#deterministic_med_comparison}
   */
   readonly deterministicMedComparison?: boolean | cdktf.IResolvable;
 }
@@ -20438,39 +20438,39 @@ export class VirtualRouterProtocolBgpRoutingOptionsMedOutputReference extends cd
 }
 export interface VirtualRouterProtocolBgpRoutingOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#aggregate VirtualRouter#aggregate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#aggregate VirtualRouter#aggregate}
   */
   readonly aggregate?: VirtualRouterProtocolBgpRoutingOptionsAggregate;
   /**
   * AS format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#as_format VirtualRouter#as_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#as_format VirtualRouter#as_format}
   */
   readonly asFormat?: string;
   /**
   * confederation requires member-AS number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#confederation_member_as VirtualRouter#confederation_member_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#confederation_member_as VirtualRouter#confederation_member_as}
   */
   readonly confederationMemberAs?: string;
   /**
   * default local preference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#default_local_preference VirtualRouter#default_local_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#default_local_preference VirtualRouter#default_local_preference}
   */
   readonly defaultLocalPreference?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#graceful_restart VirtualRouter#graceful_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#graceful_restart VirtualRouter#graceful_restart}
   */
   readonly gracefulRestart?: VirtualRouterProtocolBgpRoutingOptionsGracefulRestart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#med VirtualRouter#med}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#med VirtualRouter#med}
   */
   readonly med?: VirtualRouterProtocolBgpRoutingOptionsMed;
   /**
   * route reflector cluster ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#reflector_cluster_id VirtualRouter#reflector_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#reflector_cluster_id VirtualRouter#reflector_cluster_id}
   */
   readonly reflectorClusterId?: string;
 }
@@ -20740,75 +20740,75 @@ export interface VirtualRouterProtocolBgp {
   /**
   * allow redistribute default route to BGP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#allow_redist_default_route VirtualRouter#allow_redist_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#allow_redist_default_route VirtualRouter#allow_redist_default_route}
   */
   readonly allowRedistDefaultRoute?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#auth_profile VirtualRouter#auth_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#auth_profile VirtualRouter#auth_profile}
   */
   readonly authProfile?: VirtualRouterProtocolBgpAuthProfile[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#dampening_profile VirtualRouter#dampening_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#dampening_profile VirtualRouter#dampening_profile}
   */
   readonly dampeningProfile?: VirtualRouterProtocolBgpDampeningProfile[] | cdktf.IResolvable;
   /**
   * Support multiple AS in ECMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#ecmp_multi_as VirtualRouter#ecmp_multi_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#ecmp_multi_as VirtualRouter#ecmp_multi_as}
   */
   readonly ecmpMultiAs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#enable VirtualRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#enable VirtualRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Enforce First AS for EBGP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#enforce_first_as VirtualRouter#enforce_first_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#enforce_first_as VirtualRouter#enforce_first_as}
   */
   readonly enforceFirstAs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#global_bfd VirtualRouter#global_bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#global_bfd VirtualRouter#global_bfd}
   */
   readonly globalBfd?: VirtualRouterProtocolBgpGlobalBfd;
   /**
   * Populate BGP learned route to global route table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#install_route VirtualRouter#install_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#install_route VirtualRouter#install_route}
   */
   readonly installRoute?: boolean | cdktf.IResolvable;
   /**
   * local AS number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#local_as VirtualRouter#local_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#local_as VirtualRouter#local_as}
   */
   readonly localAs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#peer_group VirtualRouter#peer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#peer_group VirtualRouter#peer_group}
   */
   readonly peerGroup?: VirtualRouterProtocolBgpPeerGroup[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#policy VirtualRouter#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#policy VirtualRouter#policy}
   */
   readonly policy?: VirtualRouterProtocolBgpPolicy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#redist_rules VirtualRouter#redist_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#redist_rules VirtualRouter#redist_rules}
   */
   readonly redistRules?: VirtualRouterProtocolBgpRedistRules[] | cdktf.IResolvable;
   /**
   * do not learn default route from BGP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#reject_default_route VirtualRouter#reject_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#reject_default_route VirtualRouter#reject_default_route}
   */
   readonly rejectDefaultRoute?: boolean | cdktf.IResolvable;
   /**
   * router id of this BGP instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#router_id VirtualRouter#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#router_id VirtualRouter#router_id}
   */
   readonly routerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#routing_options VirtualRouter#routing_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#routing_options VirtualRouter#routing_options}
   */
   readonly routingOptions?: VirtualRouterProtocolBgpRoutingOptions;
 }
@@ -21310,7 +21310,7 @@ export interface VirtualRouterProtocolOspfAreaInterfaceBfd {
   /**
   * BFD profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#profile VirtualRouter#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#profile VirtualRouter#profile}
   */
   readonly profile?: string;
 }
@@ -21581,15 +21581,15 @@ export class VirtualRouterProtocolOspfAreaInterfaceLinkTypeP2POutputReference ex
 }
 export interface VirtualRouterProtocolOspfAreaInterfaceLinkType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#broadcast VirtualRouter#broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#broadcast VirtualRouter#broadcast}
   */
   readonly broadcast?: VirtualRouterProtocolOspfAreaInterfaceLinkTypeBroadcast;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#p2mp VirtualRouter#p2mp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#p2mp VirtualRouter#p2mp}
   */
   readonly p2Mp?: VirtualRouterProtocolOspfAreaInterfaceLinkTypeP2Mp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#p2p VirtualRouter#p2p}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#p2p VirtualRouter#p2p}
   */
   readonly p2P?: VirtualRouterProtocolOspfAreaInterfaceLinkTypeP2P;
 }
@@ -21741,7 +21741,7 @@ export class VirtualRouterProtocolOspfAreaInterfaceLinkTypeOutputReference exten
 }
 export interface VirtualRouterProtocolOspfAreaInterfaceNeighbor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
 }
@@ -21856,77 +21856,77 @@ export interface VirtualRouterProtocolOspfAreaInterface {
   /**
   * Authentication options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#authentication VirtualRouter#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#authentication VirtualRouter#authentication}
   */
   readonly authentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#bfd VirtualRouter#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#bfd VirtualRouter#bfd}
   */
   readonly bfd?: VirtualRouterProtocolOspfAreaInterfaceBfd;
   /**
   * number of lost hello packets to declare router down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#dead_counts VirtualRouter#dead_counts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#dead_counts VirtualRouter#dead_counts}
   */
   readonly deadCounts?: number;
   /**
   * Enable OSPF in this interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#enable VirtualRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#enable VirtualRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Period (in seconds) used to send grace LSAs before first hello is sent when graceful restart starts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#gr_delay VirtualRouter#gr_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#gr_delay VirtualRouter#gr_delay}
   */
   readonly grDelay?: number;
   /**
   * Interval (in seconds) to send Hello packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#hello_interval VirtualRouter#hello_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#hello_interval VirtualRouter#hello_interval}
   */
   readonly helloInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#link_type VirtualRouter#link_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#link_type VirtualRouter#link_type}
   */
   readonly linkType?: VirtualRouterProtocolOspfAreaInterfaceLinkType;
   /**
   * Cost of OSPF interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#metric VirtualRouter#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#metric VirtualRouter#metric}
   */
   readonly metric?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#neighbor VirtualRouter#neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#neighbor VirtualRouter#neighbor}
   */
   readonly neighbor?: VirtualRouterProtocolOspfAreaInterfaceNeighbor[] | cdktf.IResolvable;
   /**
   * Suppress the sending of hello packets in this interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#passive VirtualRouter#passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#passive VirtualRouter#passive}
   */
   readonly passive?: boolean | cdktf.IResolvable;
   /**
   * Priority for OSPF designated router selection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#priority VirtualRouter#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#priority VirtualRouter#priority}
   */
   readonly priority?: number;
   /**
   * Interval (in seconds) to retransmit LSAs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#retransmit_interval VirtualRouter#retransmit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#retransmit_interval VirtualRouter#retransmit_interval}
   */
   readonly retransmitInterval?: number;
   /**
   * Estimated delay (in seconds) to transmit LSAs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#transit_delay VirtualRouter#transit_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#transit_delay VirtualRouter#transit_delay}
   */
   readonly transitDelay?: number;
 }
@@ -22534,15 +22534,15 @@ export class VirtualRouterProtocolOspfAreaRangeSuppressOutputReference extends c
 }
 export interface VirtualRouterProtocolOspfAreaRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#advertise VirtualRouter#advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#advertise VirtualRouter#advertise}
   */
   readonly advertise?: VirtualRouterProtocolOspfAreaRangeAdvertise;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#suppress VirtualRouter#suppress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#suppress VirtualRouter#suppress}
   */
   readonly suppress?: VirtualRouterProtocolOspfAreaRangeSuppress;
 }
@@ -22774,13 +22774,13 @@ export interface VirtualRouterProtocolOspfAreaTypeNssaDefaultRouteAdvertise {
   /**
   * metric to be used when advertise default route within this stub area
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#metric VirtualRouter#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#metric VirtualRouter#metric}
   */
   readonly metric?: number;
   /**
   * metric type to be used when advertise default route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#type VirtualRouter#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#type VirtualRouter#type}
   */
   readonly type?: string;
 }
@@ -22962,11 +22962,11 @@ export class VirtualRouterProtocolOspfAreaTypeNssaDefaultRouteDisableOutputRefer
 }
 export interface VirtualRouterProtocolOspfAreaTypeNssaDefaultRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#advertise VirtualRouter#advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#advertise VirtualRouter#advertise}
   */
   readonly advertise?: VirtualRouterProtocolOspfAreaTypeNssaDefaultRouteAdvertise;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#disable VirtualRouter#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#disable VirtualRouter#disable}
   */
   readonly disable?: VirtualRouterProtocolOspfAreaTypeNssaDefaultRouteDisable;
 }
@@ -23207,15 +23207,15 @@ export class VirtualRouterProtocolOspfAreaTypeNssaNssaExtRangeSuppressOutputRefe
 }
 export interface VirtualRouterProtocolOspfAreaTypeNssaNssaExtRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#advertise VirtualRouter#advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#advertise VirtualRouter#advertise}
   */
   readonly advertise?: VirtualRouterProtocolOspfAreaTypeNssaNssaExtRangeAdvertise;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#suppress VirtualRouter#suppress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#suppress VirtualRouter#suppress}
   */
   readonly suppress?: VirtualRouterProtocolOspfAreaTypeNssaNssaExtRangeSuppress;
 }
@@ -23386,15 +23386,15 @@ export class VirtualRouterProtocolOspfAreaTypeNssaNssaExtRangeList extends cdktf
 }
 export interface VirtualRouterProtocolOspfAreaTypeNssa {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#accept_summary VirtualRouter#accept_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#accept_summary VirtualRouter#accept_summary}
   */
   readonly acceptSummary?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#default_route VirtualRouter#default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#default_route VirtualRouter#default_route}
   */
   readonly defaultRoute?: VirtualRouterProtocolOspfAreaTypeNssaDefaultRoute;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#nssa_ext_range VirtualRouter#nssa_ext_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#nssa_ext_range VirtualRouter#nssa_ext_range}
   */
   readonly nssaExtRange?: VirtualRouterProtocolOspfAreaTypeNssaNssaExtRange[] | cdktf.IResolvable;
 }
@@ -23548,7 +23548,7 @@ export interface VirtualRouterProtocolOspfAreaTypeStubDefaultRouteAdvertise {
   /**
   * metric to be used when advertise default route within this stub area
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#metric VirtualRouter#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#metric VirtualRouter#metric}
   */
   readonly metric?: number;
 }
@@ -23701,11 +23701,11 @@ export class VirtualRouterProtocolOspfAreaTypeStubDefaultRouteDisableOutputRefer
 }
 export interface VirtualRouterProtocolOspfAreaTypeStubDefaultRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#advertise VirtualRouter#advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#advertise VirtualRouter#advertise}
   */
   readonly advertise?: VirtualRouterProtocolOspfAreaTypeStubDefaultRouteAdvertise;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#disable VirtualRouter#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#disable VirtualRouter#disable}
   */
   readonly disable?: VirtualRouterProtocolOspfAreaTypeStubDefaultRouteDisable;
 }
@@ -23828,11 +23828,11 @@ export class VirtualRouterProtocolOspfAreaTypeStubDefaultRouteOutputReference ex
 }
 export interface VirtualRouterProtocolOspfAreaTypeStub {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#accept_summary VirtualRouter#accept_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#accept_summary VirtualRouter#accept_summary}
   */
   readonly acceptSummary?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#default_route VirtualRouter#default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#default_route VirtualRouter#default_route}
   */
   readonly defaultRoute?: VirtualRouterProtocolOspfAreaTypeStubDefaultRoute;
 }
@@ -23955,15 +23955,15 @@ export class VirtualRouterProtocolOspfAreaTypeStubOutputReference extends cdktf.
 }
 export interface VirtualRouterProtocolOspfAreaType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#normal VirtualRouter#normal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#normal VirtualRouter#normal}
   */
   readonly normal?: VirtualRouterProtocolOspfAreaTypeNormal;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#nssa VirtualRouter#nssa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#nssa VirtualRouter#nssa}
   */
   readonly nssa?: VirtualRouterProtocolOspfAreaTypeNssa;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#stub VirtualRouter#stub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#stub VirtualRouter#stub}
   */
   readonly stub?: VirtualRouterProtocolOspfAreaTypeStub;
 }
@@ -24117,7 +24117,7 @@ export interface VirtualRouterProtocolOspfAreaVirtualLinkBfd {
   /**
   * BFD profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#profile VirtualRouter#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#profile VirtualRouter#profile}
   */
   readonly profile?: string;
 }
@@ -24213,57 +24213,57 @@ export interface VirtualRouterProtocolOspfAreaVirtualLink {
   /**
   * Authentication options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#authentication VirtualRouter#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#authentication VirtualRouter#authentication}
   */
   readonly authentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#bfd VirtualRouter#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#bfd VirtualRouter#bfd}
   */
   readonly bfd?: VirtualRouterProtocolOspfAreaVirtualLinkBfd;
   /**
   * number of lost hello packets to declare router down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#dead_counts VirtualRouter#dead_counts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#dead_counts VirtualRouter#dead_counts}
   */
   readonly deadCounts?: number;
   /**
   * Enable this virtual link
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#enable VirtualRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#enable VirtualRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Interval (in seconds) to send Hello packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#hello_interval VirtualRouter#hello_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#hello_interval VirtualRouter#hello_interval}
   */
   readonly helloInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
   /**
   * neighbor router id for virtual link
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#neighbor_id VirtualRouter#neighbor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#neighbor_id VirtualRouter#neighbor_id}
   */
   readonly neighborId?: string;
   /**
   * Interval (in seconds) to retransmit LSAs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#retransmit_interval VirtualRouter#retransmit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#retransmit_interval VirtualRouter#retransmit_interval}
   */
   readonly retransmitInterval?: number;
   /**
   * id of transit area, cannot be backbone, stub or NSSA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#transit_area_id VirtualRouter#transit_area_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#transit_area_id VirtualRouter#transit_area_id}
   */
   readonly transitAreaId?: string;
   /**
   * Estimated delay (in seconds) to transmit LSAs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#transit_delay VirtualRouter#transit_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#transit_delay VirtualRouter#transit_delay}
   */
   readonly transitDelay?: number;
 }
@@ -24637,23 +24637,23 @@ export class VirtualRouterProtocolOspfAreaVirtualLinkList extends cdktf.ComplexL
 }
 export interface VirtualRouterProtocolOspfArea {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#interface VirtualRouter#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#interface VirtualRouter#interface}
   */
   readonly interface?: VirtualRouterProtocolOspfAreaInterface[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#range VirtualRouter#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#range VirtualRouter#range}
   */
   readonly range?: VirtualRouterProtocolOspfAreaRange[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#type VirtualRouter#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#type VirtualRouter#type}
   */
   readonly type?: VirtualRouterProtocolOspfAreaType;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#virtual_link VirtualRouter#virtual_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#virtual_link VirtualRouter#virtual_link}
   */
   readonly virtualLink?: VirtualRouterProtocolOspfAreaVirtualLink[] | cdktf.IResolvable;
 }
@@ -24884,17 +24884,17 @@ export interface VirtualRouterProtocolOspfAuthProfileMd5 {
   /**
   * key for the authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#key VirtualRouter#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#key VirtualRouter#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
   /**
   * use this key when sending packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#preferred VirtualRouter#preferred}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#preferred VirtualRouter#preferred}
   */
   readonly preferred?: boolean | cdktf.IResolvable;
 }
@@ -25065,17 +25065,17 @@ export class VirtualRouterProtocolOspfAuthProfileMd5List extends cdktf.ComplexLi
 }
 export interface VirtualRouterProtocolOspfAuthProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#md5 VirtualRouter#md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#md5 VirtualRouter#md5}
   */
   readonly md5?: VirtualRouterProtocolOspfAuthProfileMd5[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
   /**
   * Simple password authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#password VirtualRouter#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#password VirtualRouter#password}
   */
   readonly password?: string;
 }
@@ -25248,23 +25248,23 @@ export interface VirtualRouterProtocolOspfExportRules {
   /**
   * metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#metric VirtualRouter#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#metric VirtualRouter#metric}
   */
   readonly metric?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#name VirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#name VirtualRouter#name}
   */
   readonly name: string;
   /**
   * path type to be used for imported external routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#new_path_type VirtualRouter#new_path_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#new_path_type VirtualRouter#new_path_type}
   */
   readonly newPathType?: string;
   /**
   * new tag value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#new_tag VirtualRouter#new_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#new_tag VirtualRouter#new_tag}
   */
   readonly newTag?: string;
 }
@@ -25466,7 +25466,7 @@ export interface VirtualRouterProtocolOspfGlobalBfd {
   /**
   * BFD profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#profile VirtualRouter#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#profile VirtualRouter#profile}
   */
   readonly profile?: string;
 }
@@ -25560,31 +25560,31 @@ export class VirtualRouterProtocolOspfGlobalBfdOutputReference extends cdktf.Com
 }
 export interface VirtualRouterProtocolOspfGracefulRestart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#enable VirtualRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#enable VirtualRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * maximum local restarting time (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#grace_period VirtualRouter#grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#grace_period VirtualRouter#grace_period}
   */
   readonly gracePeriod?: number;
   /**
   * enable/disable helping neighboring routers to graceful restart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#helper_enable VirtualRouter#helper_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#helper_enable VirtualRouter#helper_enable}
   */
   readonly helperEnable?: boolean | cdktf.IResolvable;
   /**
   * maximum of neighbor restart time accepted (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#max_neighbor_restart_time VirtualRouter#max_neighbor_restart_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#max_neighbor_restart_time VirtualRouter#max_neighbor_restart_time}
   */
   readonly maxNeighborRestartTime?: number;
   /**
   * enable/disable strict LSA checking. Abort GR if lsa change is detected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#strict_l_s_a_checking VirtualRouter#strict_l_s_a_checking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#strict_l_s_a_checking VirtualRouter#strict_l_s_a_checking}
   */
   readonly strictLSAChecking?: boolean | cdktf.IResolvable;
 }
@@ -25796,13 +25796,13 @@ export interface VirtualRouterProtocolOspfTimers {
   /**
   * The minimum time in seconds between distinct originations of any particular LSA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#lsa_interval VirtualRouter#lsa_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#lsa_interval VirtualRouter#lsa_interval}
   */
   readonly lsaInterval?: number;
   /**
   * Delay in seconds before running the SPF algorithm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#spf_calculation_delay VirtualRouter#spf_calculation_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#spf_calculation_delay VirtualRouter#spf_calculation_delay}
   */
   readonly spfCalculationDelay?: number;
 }
@@ -25927,53 +25927,53 @@ export interface VirtualRouterProtocolOspf {
   /**
   * allow redistribute default route to OSPF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#allow_redist_default_route VirtualRouter#allow_redist_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#allow_redist_default_route VirtualRouter#allow_redist_default_route}
   */
   readonly allowRedistDefaultRoute?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#area VirtualRouter#area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#area VirtualRouter#area}
   */
   readonly area?: VirtualRouterProtocolOspfArea[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#auth_profile VirtualRouter#auth_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#auth_profile VirtualRouter#auth_profile}
   */
   readonly authProfile?: VirtualRouterProtocolOspfAuthProfile[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#enable VirtualRouter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#enable VirtualRouter#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#export_rules VirtualRouter#export_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#export_rules VirtualRouter#export_rules}
   */
   readonly exportRules?: VirtualRouterProtocolOspfExportRules[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#global_bfd VirtualRouter#global_bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#global_bfd VirtualRouter#global_bfd}
   */
   readonly globalBfd?: VirtualRouterProtocolOspfGlobalBfd;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#graceful_restart VirtualRouter#graceful_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#graceful_restart VirtualRouter#graceful_restart}
   */
   readonly gracefulRestart?: VirtualRouterProtocolOspfGracefulRestart;
   /**
   * do not learn default route from OSPF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#reject_default_route VirtualRouter#reject_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#reject_default_route VirtualRouter#reject_default_route}
   */
   readonly rejectDefaultRoute?: boolean | cdktf.IResolvable;
   /**
   * rfc-1583 compatibility
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#rfc1583 VirtualRouter#rfc1583}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#rfc1583 VirtualRouter#rfc1583}
   */
   readonly rfc1583?: boolean | cdktf.IResolvable;
   /**
   * router id of this OSPF instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#router_id VirtualRouter#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#router_id VirtualRouter#router_id}
   */
   readonly routerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#timers VirtualRouter#timers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#timers VirtualRouter#timers}
   */
   readonly timers?: VirtualRouterProtocolOspfTimers;
 }
@@ -26359,7 +26359,7 @@ export interface VirtualRouterProtocolOspfv3AreaInterfaceBfd {
   /**
   * BFD profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router#profile VirtualRouter#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router#profile VirtualRouter#profile}
   */
   readonly profile?: string;
 }

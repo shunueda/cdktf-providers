@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_change_slack_channel_privacy
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_change_slack_channel_privacy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskChangeSlackChannelPrivacyConfig extends cdktf.Terra
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_change_slack_channel_privacy#enabled WorkflowTaskChangeSlackChannelPrivacy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_change_slack_channel_privacy#enabled WorkflowTaskChangeSlackChannelPrivacy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_change_slack_channel_privacy#id WorkflowTaskChangeSlackChannelPrivacy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_change_slack_channel_privacy#id WorkflowTaskChangeSlackChannelPrivacy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskChangeSlackChannelPrivacyConfig extends cdktf.Terra
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_change_slack_channel_privacy#name WorkflowTaskChangeSlackChannelPrivacy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_change_slack_channel_privacy#name WorkflowTaskChangeSlackChannelPrivacy#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_change_slack_channel_privacy#position WorkflowTaskChangeSlackChannelPrivacy#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_change_slack_channel_privacy#position WorkflowTaskChangeSlackChannelPrivacy#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_change_slack_channel_privacy#skip_on_failure WorkflowTaskChangeSlackChannelPrivacy#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_change_slack_channel_privacy#skip_on_failure WorkflowTaskChangeSlackChannelPrivacy#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_change_slack_channel_privacy#workflow_id WorkflowTaskChangeSlackChannelPrivacy#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_change_slack_channel_privacy#workflow_id WorkflowTaskChangeSlackChannelPrivacy#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_change_slack_channel_privacy#task_params WorkflowTaskChangeSlackChannelPrivacy#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_change_slack_channel_privacy#task_params WorkflowTaskChangeSlackChannelPrivacy#task_params}
   */
   readonly taskParams: WorkflowTaskChangeSlackChannelPrivacyTaskParams;
 }
@@ -55,17 +55,17 @@ export interface WorkflowTaskChangeSlackChannelPrivacyTaskParams {
   /**
   * Map must contain two fields, `id` and `name`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_change_slack_channel_privacy#channel WorkflowTaskChangeSlackChannelPrivacy#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_change_slack_channel_privacy#channel WorkflowTaskChangeSlackChannelPrivacy#channel}
   */
   readonly channel?: { [key: string]: string };
   /**
   * Value must be one of `private`, `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_change_slack_channel_privacy#privacy WorkflowTaskChangeSlackChannelPrivacy#privacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_change_slack_channel_privacy#privacy WorkflowTaskChangeSlackChannelPrivacy#privacy}
   */
   readonly privacy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_change_slack_channel_privacy#task_type WorkflowTaskChangeSlackChannelPrivacy#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_change_slack_channel_privacy#task_type WorkflowTaskChangeSlackChannelPrivacy#task_type}
   */
   readonly taskType?: string;
 }
@@ -204,7 +204,7 @@ export class WorkflowTaskChangeSlackChannelPrivacyTaskParamsOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_change_slack_channel_privacy rootly_workflow_task_change_slack_channel_privacy}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_change_slack_channel_privacy rootly_workflow_task_change_slack_channel_privacy}
 */
 export class WorkflowTaskChangeSlackChannelPrivacy extends cdktf.TerraformResource {
 
@@ -220,7 +220,7 @@ export class WorkflowTaskChangeSlackChannelPrivacy extends cdktf.TerraformResour
   * Generates CDKTF code for importing a WorkflowTaskChangeSlackChannelPrivacy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskChangeSlackChannelPrivacy to import
-  * @param importFromId The id of the existing WorkflowTaskChangeSlackChannelPrivacy that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_change_slack_channel_privacy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskChangeSlackChannelPrivacy that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_change_slack_channel_privacy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskChangeSlackChannelPrivacy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -232,7 +232,7 @@ export class WorkflowTaskChangeSlackChannelPrivacy extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_change_slack_channel_privacy rootly_workflow_task_change_slack_channel_privacy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_change_slack_channel_privacy rootly_workflow_task_change_slack_channel_privacy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,8 +243,8 @@ export class WorkflowTaskChangeSlackChannelPrivacy extends cdktf.TerraformResour
       terraformResourceType: 'rootly_workflow_task_change_slack_channel_privacy',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.8',
-        providerVersionConstraint: '4.3.8'
+        providerVersion: '4.3.9',
+        providerVersionConstraint: '4.3.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

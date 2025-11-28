@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,147 +8,147 @@ import * as cdktf from 'cdktf';
 
 export interface DataPanosApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#able_to_transfer_file DataPanosApplication#able_to_transfer_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#able_to_transfer_file DataPanosApplication#able_to_transfer_file}
   */
   readonly ableToTransferFile?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#alg_disable_capability DataPanosApplication#alg_disable_capability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#alg_disable_capability DataPanosApplication#alg_disable_capability}
   */
   readonly algDisableCapability?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#category DataPanosApplication#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#category DataPanosApplication#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#consume_big_bandwidth DataPanosApplication#consume_big_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#consume_big_bandwidth DataPanosApplication#consume_big_bandwidth}
   */
   readonly consumeBigBandwidth?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#data_ident DataPanosApplication#data_ident}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#data_ident DataPanosApplication#data_ident}
   */
   readonly dataIdent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#default DataPanosApplication#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#default DataPanosApplication#default}
   */
   readonly default?: DataPanosApplicationDefault;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#description DataPanosApplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#description DataPanosApplication#description}
   */
   readonly description?: string;
   /**
   * disable object override in child device groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#disable_override DataPanosApplication#disable_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#disable_override DataPanosApplication#disable_override}
   */
   readonly disableOverride?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#evasive_behavior DataPanosApplication#evasive_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#evasive_behavior DataPanosApplication#evasive_behavior}
   */
   readonly evasiveBehavior?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#file_type_ident DataPanosApplication#file_type_ident}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#file_type_ident DataPanosApplication#file_type_ident}
   */
   readonly fileTypeIdent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#has_known_vulnerability DataPanosApplication#has_known_vulnerability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#has_known_vulnerability DataPanosApplication#has_known_vulnerability}
   */
   readonly hasKnownVulnerability?: boolean | cdktf.IResolvable;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#location DataPanosApplication#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#location DataPanosApplication#location}
   */
   readonly location: DataPanosApplicationLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#name DataPanosApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#name DataPanosApplication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#no_appid_caching DataPanosApplication#no_appid_caching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#no_appid_caching DataPanosApplication#no_appid_caching}
   */
   readonly noAppidCaching?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#parent_app DataPanosApplication#parent_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#parent_app DataPanosApplication#parent_app}
   */
   readonly parentApp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#pervasive_use DataPanosApplication#pervasive_use}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#pervasive_use DataPanosApplication#pervasive_use}
   */
   readonly pervasiveUse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#prone_to_misuse DataPanosApplication#prone_to_misuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#prone_to_misuse DataPanosApplication#prone_to_misuse}
   */
   readonly proneToMisuse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#risk DataPanosApplication#risk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#risk DataPanosApplication#risk}
   */
   readonly risk?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#signature DataPanosApplication#signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#signature DataPanosApplication#signature}
   */
   readonly signature?: DataPanosApplicationSignature[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#subcategory DataPanosApplication#subcategory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#subcategory DataPanosApplication#subcategory}
   */
   readonly subcategory?: string;
   /**
   * timeout for half-close session in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#tcp_half_closed_timeout DataPanosApplication#tcp_half_closed_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#tcp_half_closed_timeout DataPanosApplication#tcp_half_closed_timeout}
   */
   readonly tcpHalfClosedTimeout?: number;
   /**
   * timeout for session in time_wait state in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#tcp_time_wait_timeout DataPanosApplication#tcp_time_wait_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#tcp_time_wait_timeout DataPanosApplication#tcp_time_wait_timeout}
   */
   readonly tcpTimeWaitTimeout?: number;
   /**
   * timeout in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#tcp_timeout DataPanosApplication#tcp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#tcp_timeout DataPanosApplication#tcp_timeout}
   */
   readonly tcpTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#technology DataPanosApplication#technology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#technology DataPanosApplication#technology}
   */
   readonly technology?: string;
   /**
   * timeout in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#timeout DataPanosApplication#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#timeout DataPanosApplication#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#tunnel_applications DataPanosApplication#tunnel_applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#tunnel_applications DataPanosApplication#tunnel_applications}
   */
   readonly tunnelApplications?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#tunnel_other_application DataPanosApplication#tunnel_other_application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#tunnel_other_application DataPanosApplication#tunnel_other_application}
   */
   readonly tunnelOtherApplication?: boolean | cdktf.IResolvable;
   /**
   * timeout in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#udp_timeout DataPanosApplication#udp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#udp_timeout DataPanosApplication#udp_timeout}
   */
   readonly udpTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#used_by_malware DataPanosApplication#used_by_malware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#used_by_malware DataPanosApplication#used_by_malware}
   */
   readonly usedByMalware?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#virus_ident DataPanosApplication#virus_ident}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#virus_ident DataPanosApplication#virus_ident}
   */
   readonly virusIdent?: boolean | cdktf.IResolvable;
 }
 export interface DataPanosApplicationDefaultIdentByIcmp6Type {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#code DataPanosApplication#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#code DataPanosApplication#code}
   */
   readonly code?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#type DataPanosApplication#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#type DataPanosApplication#type}
   */
   readonly type?: string;
 }
@@ -271,11 +271,11 @@ export class DataPanosApplicationDefaultIdentByIcmp6TypeOutputReference extends 
 }
 export interface DataPanosApplicationDefaultIdentByIcmpType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#code DataPanosApplication#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#code DataPanosApplication#code}
   */
   readonly code?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#type DataPanosApplication#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#type DataPanosApplication#type}
   */
   readonly type?: string;
 }
@@ -398,19 +398,19 @@ export class DataPanosApplicationDefaultIdentByIcmpTypeOutputReference extends c
 }
 export interface DataPanosApplicationDefault {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#ident_by_icmp6_type DataPanosApplication#ident_by_icmp6_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#ident_by_icmp6_type DataPanosApplication#ident_by_icmp6_type}
   */
   readonly identByIcmp6Type?: DataPanosApplicationDefaultIdentByIcmp6Type;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#ident_by_icmp_type DataPanosApplication#ident_by_icmp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#ident_by_icmp_type DataPanosApplication#ident_by_icmp_type}
   */
   readonly identByIcmpType?: DataPanosApplicationDefaultIdentByIcmpType;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#ident_by_ip_protocol DataPanosApplication#ident_by_ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#ident_by_ip_protocol DataPanosApplication#ident_by_ip_protocol}
   */
   readonly identByIpProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#port DataPanosApplication#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#port DataPanosApplication#port}
   */
   readonly port?: string[];
 }
@@ -593,13 +593,13 @@ export interface DataPanosApplicationLocationDeviceGroup {
   /**
   * Device Group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#name DataPanosApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#name DataPanosApplication#name}
   */
   readonly name?: string;
   /**
   * Panorama device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#panorama_device DataPanosApplication#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#panorama_device DataPanosApplication#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -783,13 +783,13 @@ export interface DataPanosApplicationLocationVsys {
   /**
   * The Virtual System name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#name DataPanosApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#name DataPanosApplication#name}
   */
   readonly name?: string;
   /**
   * The NGFW device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#ngfw_device DataPanosApplication#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#ngfw_device DataPanosApplication#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -914,19 +914,19 @@ export interface DataPanosApplicationLocation {
   /**
   * Located in a specific Device Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#device_group DataPanosApplication#device_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#device_group DataPanosApplication#device_group}
   */
   readonly deviceGroup?: DataPanosApplicationLocationDeviceGroup;
   /**
   * Panorama shared object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#shared DataPanosApplication#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#shared DataPanosApplication#shared}
   */
   readonly shared?: DataPanosApplicationLocationShared;
   /**
   * Located in a specific Virtual System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#vsys DataPanosApplication#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#vsys DataPanosApplication#vsys}
   */
   readonly vsys?: DataPanosApplicationLocationVsys;
 }
@@ -1078,21 +1078,21 @@ export class DataPanosApplicationLocationOutputReference extends cdktf.ComplexOb
 }
 export interface DataPanosApplicationSignatureAndConditionOrConditionOperatorEqualTo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#context DataPanosApplication#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#context DataPanosApplication#context}
   */
   readonly context?: string;
   /**
   * 4-byte hex value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#mask DataPanosApplication#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#mask DataPanosApplication#mask}
   */
   readonly mask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#position DataPanosApplication#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#position DataPanosApplication#position}
   */
   readonly position?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#value DataPanosApplication#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#value DataPanosApplication#value}
   */
   readonly value?: string;
 }
@@ -1273,11 +1273,11 @@ export class DataPanosApplicationSignatureAndConditionOrConditionOperatorEqualTo
 }
 export interface DataPanosApplicationSignatureAndConditionOrConditionOperatorGreaterThanQualifier {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#name DataPanosApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#name DataPanosApplication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#value DataPanosApplication#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#value DataPanosApplication#value}
   */
   readonly value?: string;
 }
@@ -1419,15 +1419,15 @@ export class DataPanosApplicationSignatureAndConditionOrConditionOperatorGreater
 }
 export interface DataPanosApplicationSignatureAndConditionOrConditionOperatorGreaterThan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#context DataPanosApplication#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#context DataPanosApplication#context}
   */
   readonly context?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#qualifier DataPanosApplication#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#qualifier DataPanosApplication#qualifier}
   */
   readonly qualifier?: DataPanosApplicationSignatureAndConditionOrConditionOperatorGreaterThanQualifier[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#value DataPanosApplication#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#value DataPanosApplication#value}
   */
   readonly value?: number;
 }
@@ -1579,11 +1579,11 @@ export class DataPanosApplicationSignatureAndConditionOrConditionOperatorGreater
 }
 export interface DataPanosApplicationSignatureAndConditionOrConditionOperatorLessThanQualifier {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#name DataPanosApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#name DataPanosApplication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#value DataPanosApplication#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#value DataPanosApplication#value}
   */
   readonly value?: string;
 }
@@ -1725,15 +1725,15 @@ export class DataPanosApplicationSignatureAndConditionOrConditionOperatorLessTha
 }
 export interface DataPanosApplicationSignatureAndConditionOrConditionOperatorLessThan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#context DataPanosApplication#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#context DataPanosApplication#context}
   */
   readonly context?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#qualifier DataPanosApplication#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#qualifier DataPanosApplication#qualifier}
   */
   readonly qualifier?: DataPanosApplicationSignatureAndConditionOrConditionOperatorLessThanQualifier[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#value DataPanosApplication#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#value DataPanosApplication#value}
   */
   readonly value?: number;
 }
@@ -1885,11 +1885,11 @@ export class DataPanosApplicationSignatureAndConditionOrConditionOperatorLessTha
 }
 export interface DataPanosApplicationSignatureAndConditionOrConditionOperatorPatternMatchQualifier {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#name DataPanosApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#name DataPanosApplication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#value DataPanosApplication#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#value DataPanosApplication#value}
   */
   readonly value?: string;
 }
@@ -2031,15 +2031,15 @@ export class DataPanosApplicationSignatureAndConditionOrConditionOperatorPattern
 }
 export interface DataPanosApplicationSignatureAndConditionOrConditionOperatorPatternMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#context DataPanosApplication#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#context DataPanosApplication#context}
   */
   readonly context?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#pattern DataPanosApplication#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#pattern DataPanosApplication#pattern}
   */
   readonly pattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#qualifier DataPanosApplication#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#qualifier DataPanosApplication#qualifier}
   */
   readonly qualifier?: DataPanosApplicationSignatureAndConditionOrConditionOperatorPatternMatchQualifier[] | cdktf.IResolvable;
 }
@@ -2191,19 +2191,19 @@ export class DataPanosApplicationSignatureAndConditionOrConditionOperatorPattern
 }
 export interface DataPanosApplicationSignatureAndConditionOrConditionOperator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#equal_to DataPanosApplication#equal_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#equal_to DataPanosApplication#equal_to}
   */
   readonly equalTo?: DataPanosApplicationSignatureAndConditionOrConditionOperatorEqualTo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#greater_than DataPanosApplication#greater_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#greater_than DataPanosApplication#greater_than}
   */
   readonly greaterThan?: DataPanosApplicationSignatureAndConditionOrConditionOperatorGreaterThan;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#less_than DataPanosApplication#less_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#less_than DataPanosApplication#less_than}
   */
   readonly lessThan?: DataPanosApplicationSignatureAndConditionOrConditionOperatorLessThan;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#pattern_match DataPanosApplication#pattern_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#pattern_match DataPanosApplication#pattern_match}
   */
   readonly patternMatch?: DataPanosApplicationSignatureAndConditionOrConditionOperatorPatternMatch;
 }
@@ -2384,11 +2384,11 @@ export class DataPanosApplicationSignatureAndConditionOrConditionOperatorOutputR
 }
 export interface DataPanosApplicationSignatureAndConditionOrCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#name DataPanosApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#name DataPanosApplication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#operator DataPanosApplication#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#operator DataPanosApplication#operator}
   */
   readonly operator?: DataPanosApplicationSignatureAndConditionOrConditionOperator;
 }
@@ -2530,11 +2530,11 @@ export class DataPanosApplicationSignatureAndConditionOrConditionList extends cd
 }
 export interface DataPanosApplicationSignatureAndCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#name DataPanosApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#name DataPanosApplication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#or_condition DataPanosApplication#or_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#or_condition DataPanosApplication#or_condition}
   */
   readonly orCondition?: DataPanosApplicationSignatureAndConditionOrCondition[] | cdktf.IResolvable;
 }
@@ -2676,23 +2676,23 @@ export class DataPanosApplicationSignatureAndConditionList extends cdktf.Complex
 }
 export interface DataPanosApplicationSignature {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#and_condition DataPanosApplication#and_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#and_condition DataPanosApplication#and_condition}
   */
   readonly andCondition?: DataPanosApplicationSignatureAndCondition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#comment DataPanosApplication#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#comment DataPanosApplication#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#name DataPanosApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#name DataPanosApplication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#order_free DataPanosApplication#order_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#order_free DataPanosApplication#order_free}
   */
   readonly orderFree?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#scope DataPanosApplication#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#scope DataPanosApplication#scope}
   */
   readonly scope?: string;
 }
@@ -2921,7 +2921,7 @@ export class DataPanosApplicationSignatureList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application panos_application}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application panos_application}
 */
 export class DataPanosApplication extends cdktf.TerraformDataSource {
 
@@ -2937,7 +2937,7 @@ export class DataPanosApplication extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPanosApplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPanosApplication to import
-  * @param importFromId The id of the existing DataPanosApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPanosApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPanosApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2949,7 +2949,7 @@ export class DataPanosApplication extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/application panos_application} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/application panos_application} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2960,8 +2960,8 @@ export class DataPanosApplication extends cdktf.TerraformDataSource {
       terraformResourceType: 'panos_application',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,3 +1,3 @@
 # `rootly_workflow_incident`
 
-Refer to the Terraform Registry for docs: [`rootly_workflow_incident`](https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_incident).
+Refer to the Terraform Registry for docs: [`rootly_workflow_incident`](https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_incident).

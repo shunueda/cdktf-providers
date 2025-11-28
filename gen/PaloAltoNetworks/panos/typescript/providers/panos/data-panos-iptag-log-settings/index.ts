@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,55 +8,55 @@ import * as cdktf from 'cdktf';
 
 export interface DataPanosIptagLogSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#actions DataPanosIptagLogSettings#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#actions DataPanosIptagLogSettings#actions}
   */
   readonly actions?: DataPanosIptagLogSettingsActions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#description DataPanosIptagLogSettings#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#description DataPanosIptagLogSettings#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#email_profiles DataPanosIptagLogSettings#email_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#email_profiles DataPanosIptagLogSettings#email_profiles}
   */
   readonly emailProfiles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#filter DataPanosIptagLogSettings#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#filter DataPanosIptagLogSettings#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#http_profile DataPanosIptagLogSettings#http_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#http_profile DataPanosIptagLogSettings#http_profile}
   */
   readonly httpProfile?: string[];
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#location DataPanosIptagLogSettings#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#location DataPanosIptagLogSettings#location}
   */
   readonly location: DataPanosIptagLogSettingsLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#name DataPanosIptagLogSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#name DataPanosIptagLogSettings#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#quarantine DataPanosIptagLogSettings#quarantine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#quarantine DataPanosIptagLogSettings#quarantine}
   */
   readonly quarantine?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#send_to_panorama DataPanosIptagLogSettings#send_to_panorama}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#send_to_panorama DataPanosIptagLogSettings#send_to_panorama}
   */
   readonly sendToPanorama?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#snmp_profiles DataPanosIptagLogSettings#snmp_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#snmp_profiles DataPanosIptagLogSettings#snmp_profiles}
   */
   readonly snmpProfiles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#syslog_profiles DataPanosIptagLogSettings#syslog_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#syslog_profiles DataPanosIptagLogSettings#syslog_profiles}
   */
   readonly syslogProfiles?: string[];
 }
 export interface DataPanosIptagLogSettingsActionsTypeIntegration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#action DataPanosIptagLogSettings#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#action DataPanosIptagLogSettings#action}
   */
   readonly action?: string;
 }
@@ -268,7 +268,7 @@ export class DataPanosIptagLogSettingsActionsTypeTaggingRegistrationPanoramaOutp
 }
 export interface DataPanosIptagLogSettingsActionsTypeTaggingRegistrationRemote {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#http_profile DataPanosIptagLogSettings#http_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#http_profile DataPanosIptagLogSettings#http_profile}
   */
   readonly httpProfile?: string;
 }
@@ -362,15 +362,15 @@ export class DataPanosIptagLogSettingsActionsTypeTaggingRegistrationRemoteOutput
 }
 export interface DataPanosIptagLogSettingsActionsTypeTaggingRegistration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#localhost DataPanosIptagLogSettings#localhost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#localhost DataPanosIptagLogSettings#localhost}
   */
   readonly localhost?: DataPanosIptagLogSettingsActionsTypeTaggingRegistrationLocalhost;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#panorama DataPanosIptagLogSettings#panorama}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#panorama DataPanosIptagLogSettings#panorama}
   */
   readonly panorama?: DataPanosIptagLogSettingsActionsTypeTaggingRegistrationPanorama;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#remote DataPanosIptagLogSettings#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#remote DataPanosIptagLogSettings#remote}
   */
   readonly remote?: DataPanosIptagLogSettingsActionsTypeTaggingRegistrationRemote;
 }
@@ -522,25 +522,25 @@ export class DataPanosIptagLogSettingsActionsTypeTaggingRegistrationOutputRefere
 }
 export interface DataPanosIptagLogSettingsActionsTypeTagging {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#action DataPanosIptagLogSettings#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#action DataPanosIptagLogSettings#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#registration DataPanosIptagLogSettings#registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#registration DataPanosIptagLogSettings#registration}
   */
   readonly registration?: DataPanosIptagLogSettingsActionsTypeTaggingRegistration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#tags DataPanosIptagLogSettings#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#tags DataPanosIptagLogSettings#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#target DataPanosIptagLogSettings#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#target DataPanosIptagLogSettings#target}
   */
   readonly target?: string;
   /**
   * timeout in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#timeout DataPanosIptagLogSettings#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#timeout DataPanosIptagLogSettings#timeout}
   */
   readonly timeout?: number;
 }
@@ -750,11 +750,11 @@ export class DataPanosIptagLogSettingsActionsTypeTaggingOutputReference extends 
 }
 export interface DataPanosIptagLogSettingsActionsType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#integration DataPanosIptagLogSettings#integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#integration DataPanosIptagLogSettings#integration}
   */
   readonly integration?: DataPanosIptagLogSettingsActionsTypeIntegration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#tagging DataPanosIptagLogSettings#tagging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#tagging DataPanosIptagLogSettings#tagging}
   */
   readonly tagging?: DataPanosIptagLogSettingsActionsTypeTagging;
 }
@@ -877,11 +877,11 @@ export class DataPanosIptagLogSettingsActionsTypeOutputReference extends cdktf.C
 }
 export interface DataPanosIptagLogSettingsActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#name DataPanosIptagLogSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#name DataPanosIptagLogSettings#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#type DataPanosIptagLogSettings#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#type DataPanosIptagLogSettings#type}
   */
   readonly type?: DataPanosIptagLogSettingsActionsType;
 }
@@ -1084,13 +1084,13 @@ export interface DataPanosIptagLogSettingsLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#name DataPanosIptagLogSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#name DataPanosIptagLogSettings#name}
   */
   readonly name?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#panorama_device DataPanosIptagLogSettings#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#panorama_device DataPanosIptagLogSettings#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -1215,13 +1215,13 @@ export interface DataPanosIptagLogSettingsLocationTemplateStack {
   /**
   * The template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#name DataPanosIptagLogSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#name DataPanosIptagLogSettings#name}
   */
   readonly name?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#panorama_device DataPanosIptagLogSettings#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#panorama_device DataPanosIptagLogSettings#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -1346,25 +1346,25 @@ export interface DataPanosIptagLogSettingsLocationTemplateStackVsys {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#ngfw_device DataPanosIptagLogSettings#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#ngfw_device DataPanosIptagLogSettings#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#panorama_device DataPanosIptagLogSettings#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#panorama_device DataPanosIptagLogSettings#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
   * The template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#template_stack DataPanosIptagLogSettings#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#template_stack DataPanosIptagLogSettings#template_stack}
   */
   readonly templateStack?: string;
   /**
   * The vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#vsys DataPanosIptagLogSettings#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#vsys DataPanosIptagLogSettings#vsys}
   */
   readonly vsys?: string;
 }
@@ -1547,25 +1547,25 @@ export interface DataPanosIptagLogSettingsLocationTemplateVsys {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#ngfw_device DataPanosIptagLogSettings#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#ngfw_device DataPanosIptagLogSettings#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#panorama_device DataPanosIptagLogSettings#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#panorama_device DataPanosIptagLogSettings#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#template DataPanosIptagLogSettings#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#template DataPanosIptagLogSettings#template}
   */
   readonly template?: string;
   /**
   * The vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#vsys DataPanosIptagLogSettings#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#vsys DataPanosIptagLogSettings#vsys}
   */
   readonly vsys?: string;
 }
@@ -1748,31 +1748,31 @@ export interface DataPanosIptagLogSettingsLocation {
   /**
   * Located in a panorama.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#panorama DataPanosIptagLogSettings#panorama}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#panorama DataPanosIptagLogSettings#panorama}
   */
   readonly panorama?: DataPanosIptagLogSettingsLocationPanorama;
   /**
   * A shared resource located within a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#template DataPanosIptagLogSettings#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#template DataPanosIptagLogSettings#template}
   */
   readonly template?: DataPanosIptagLogSettingsLocationTemplate;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#template_stack DataPanosIptagLogSettings#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#template_stack DataPanosIptagLogSettings#template_stack}
   */
   readonly templateStack?: DataPanosIptagLogSettingsLocationTemplateStack;
   /**
   * Located in a specific template, device and vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#template_stack_vsys DataPanosIptagLogSettings#template_stack_vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#template_stack_vsys DataPanosIptagLogSettings#template_stack_vsys}
   */
   readonly templateStackVsys?: DataPanosIptagLogSettingsLocationTemplateStackVsys;
   /**
   * Located in a specific template, device and vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#template_vsys DataPanosIptagLogSettings#template_vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#template_vsys DataPanosIptagLogSettings#template_vsys}
   */
   readonly templateVsys?: DataPanosIptagLogSettingsLocationTemplateVsys;
 }
@@ -1982,7 +1982,7 @@ export class DataPanosIptagLogSettingsLocationOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings panos_iptag_log_settings}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings panos_iptag_log_settings}
 */
 export class DataPanosIptagLogSettings extends cdktf.TerraformDataSource {
 
@@ -1998,7 +1998,7 @@ export class DataPanosIptagLogSettings extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPanosIptagLogSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPanosIptagLogSettings to import
-  * @param importFromId The id of the existing DataPanosIptagLogSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPanosIptagLogSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPanosIptagLogSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2010,7 +2010,7 @@ export class DataPanosIptagLogSettings extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/iptag_log_settings panos_iptag_log_settings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/iptag_log_settings panos_iptag_log_settings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2021,8 +2021,8 @@ export class DataPanosIptagLogSettings extends cdktf.TerraformDataSource {
       terraformResourceType: 'panos_iptag_log_settings',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

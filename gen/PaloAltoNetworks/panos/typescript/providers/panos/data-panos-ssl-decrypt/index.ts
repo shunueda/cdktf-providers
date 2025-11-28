@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface DataPanosSslDecryptConfig extends cdktf.TerraformMetaArguments 
   /**
   * List of disabled predefined exclude certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#disabled_ssl_exclude_cert_from_predefined DataPanosSslDecrypt#disabled_ssl_exclude_cert_from_predefined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#disabled_ssl_exclude_cert_from_predefined DataPanosSslDecrypt#disabled_ssl_exclude_cert_from_predefined}
   */
   readonly disabledSslExcludeCertFromPredefined?: string[];
   /**
   * Forward trust ECDSA certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#forward_trust_certificate_ecdsa DataPanosSslDecrypt#forward_trust_certificate_ecdsa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#forward_trust_certificate_ecdsa DataPanosSslDecrypt#forward_trust_certificate_ecdsa}
   */
   readonly forwardTrustCertificateEcdsa?: string;
   /**
   * Forward trust RSA certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#forward_trust_certificate_rsa DataPanosSslDecrypt#forward_trust_certificate_rsa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#forward_trust_certificate_rsa DataPanosSslDecrypt#forward_trust_certificate_rsa}
   */
   readonly forwardTrustCertificateRsa?: string;
   /**
   * Forward untrust ECDSA certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#forward_untrust_certificate_ecdsa DataPanosSslDecrypt#forward_untrust_certificate_ecdsa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#forward_untrust_certificate_ecdsa DataPanosSslDecrypt#forward_untrust_certificate_ecdsa}
   */
   readonly forwardUntrustCertificateEcdsa?: string;
   /**
   * Forward untrust RSA certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#forward_untrust_certificate_rsa DataPanosSslDecrypt#forward_untrust_certificate_rsa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#forward_untrust_certificate_rsa DataPanosSslDecrypt#forward_untrust_certificate_rsa}
   */
   readonly forwardUntrustCertificateRsa?: string;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#location DataPanosSslDecrypt#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#location DataPanosSslDecrypt#location}
   */
   readonly location: DataPanosSslDecryptLocation;
   /**
   * List of root CA excludes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#root_ca_exclude_list DataPanosSslDecrypt#root_ca_exclude_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#root_ca_exclude_list DataPanosSslDecrypt#root_ca_exclude_list}
   */
   readonly rootCaExcludeList?: string[];
   /**
   * List of SSL decrypt exclude certificates specs (specified below).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#ssl_exclude_cert DataPanosSslDecrypt#ssl_exclude_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#ssl_exclude_cert DataPanosSslDecrypt#ssl_exclude_cert}
   */
   readonly sslExcludeCert?: DataPanosSslDecryptSslExcludeCert[] | cdktf.IResolvable;
   /**
   * List of trusted root CAs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#trusted_root_ca DataPanosSslDecrypt#trusted_root_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#trusted_root_ca DataPanosSslDecrypt#trusted_root_ca}
   */
   readonly trustedRootCa?: string[];
 }
@@ -184,13 +184,13 @@ export interface DataPanosSslDecryptLocationTemplate {
   /**
   * The template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#name DataPanosSslDecrypt#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#name DataPanosSslDecrypt#name}
   */
   readonly name?: string;
   /**
   * The panorama device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#panorama_device DataPanosSslDecrypt#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#panorama_device DataPanosSslDecrypt#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -315,13 +315,13 @@ export interface DataPanosSslDecryptLocationTemplateStack {
   /**
   * The template stack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#name DataPanosSslDecrypt#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#name DataPanosSslDecrypt#name}
   */
   readonly name?: string;
   /**
   * The panorama device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#panorama_device DataPanosSslDecrypt#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#panorama_device DataPanosSslDecrypt#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -446,25 +446,25 @@ export interface DataPanosSslDecryptLocationTemplateStackVsys {
   /**
   * The NGFW device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#ngfw_device DataPanosSslDecrypt#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#ngfw_device DataPanosSslDecrypt#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * The panorama device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#panorama_device DataPanosSslDecrypt#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#panorama_device DataPanosSslDecrypt#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
   * The template stack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#template_stack DataPanosSslDecrypt#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#template_stack DataPanosSslDecrypt#template_stack}
   */
   readonly templateStack?: string;
   /**
   * The vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#vsys DataPanosSslDecrypt#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#vsys DataPanosSslDecrypt#vsys}
   */
   readonly vsys?: string;
 }
@@ -647,25 +647,25 @@ export interface DataPanosSslDecryptLocationTemplateVsys {
   /**
   * The NGFW device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#ngfw_device DataPanosSslDecrypt#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#ngfw_device DataPanosSslDecrypt#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * The panorama device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#panorama_device DataPanosSslDecrypt#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#panorama_device DataPanosSslDecrypt#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
   * The template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#template DataPanosSslDecrypt#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#template DataPanosSslDecrypt#template}
   */
   readonly template?: string;
   /**
   * The vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#vsys DataPanosSslDecrypt#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#vsys DataPanosSslDecrypt#vsys}
   */
   readonly vsys?: string;
 }
@@ -848,37 +848,37 @@ export interface DataPanosSslDecryptLocation {
   /**
   * Located in a panorama.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#panorama DataPanosSslDecrypt#panorama}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#panorama DataPanosSslDecrypt#panorama}
   */
   readonly panorama?: DataPanosSslDecryptLocationPanorama;
   /**
   * Located in shared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#shared DataPanosSslDecrypt#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#shared DataPanosSslDecrypt#shared}
   */
   readonly shared?: DataPanosSslDecryptLocationShared;
   /**
   * Located in a specific template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#template DataPanosSslDecrypt#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#template DataPanosSslDecrypt#template}
   */
   readonly template?: DataPanosSslDecryptLocationTemplate;
   /**
   * Located in a specific template stack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#template_stack DataPanosSslDecrypt#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#template_stack DataPanosSslDecrypt#template_stack}
   */
   readonly templateStack?: DataPanosSslDecryptLocationTemplateStack;
   /**
   * Located in a specific template stack, device and vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#template_stack_vsys DataPanosSslDecrypt#template_stack_vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#template_stack_vsys DataPanosSslDecrypt#template_stack_vsys}
   */
   readonly templateStackVsys?: DataPanosSslDecryptLocationTemplateStackVsys;
   /**
   * Located in a specific template, device and vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#template_vsys DataPanosSslDecrypt#template_vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#template_vsys DataPanosSslDecrypt#template_vsys}
   */
   readonly templateVsys?: DataPanosSslDecryptLocationTemplateVsys;
 }
@@ -1119,17 +1119,17 @@ export interface DataPanosSslDecryptSslExcludeCert {
   /**
   * The description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#description DataPanosSslDecrypt#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#description DataPanosSslDecrypt#description}
   */
   readonly description?: string;
   /**
   * Exclude or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#exclude DataPanosSslDecrypt#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#exclude DataPanosSslDecrypt#exclude}
   */
   readonly exclude?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#name DataPanosSslDecrypt#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#name DataPanosSslDecrypt#name}
   */
   readonly name: string;
 }
@@ -1300,7 +1300,7 @@ export class DataPanosSslDecryptSslExcludeCertList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt panos_ssl_decrypt}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt panos_ssl_decrypt}
 */
 export class DataPanosSslDecrypt extends cdktf.TerraformDataSource {
 
@@ -1316,7 +1316,7 @@ export class DataPanosSslDecrypt extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPanosSslDecrypt resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPanosSslDecrypt to import
-  * @param importFromId The id of the existing DataPanosSslDecrypt that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPanosSslDecrypt that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPanosSslDecrypt to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1328,7 +1328,7 @@ export class DataPanosSslDecrypt extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ssl_decrypt panos_ssl_decrypt} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ssl_decrypt panos_ssl_decrypt} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1339,8 +1339,8 @@ export class DataPanosSslDecrypt extends cdktf.TerraformDataSource {
       terraformResourceType: 'panos_ssl_decrypt',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

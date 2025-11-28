@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataPanosTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template#description DataPanosTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/template#description DataPanosTemplate#description}
   */
   readonly description?: string;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template#location DataPanosTemplate#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/template#location DataPanosTemplate#location}
   */
   readonly location: DataPanosTemplateLocation;
   /**
   * The name of the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template#name DataPanosTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/template#name DataPanosTemplate#name}
   */
   readonly name: string;
 }
@@ -30,7 +30,7 @@ export interface DataPanosTemplateLocationPanorama {
   /**
   * The Panorama device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template#panorama_device DataPanosTemplate#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/template#panorama_device DataPanosTemplate#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -126,7 +126,7 @@ export interface DataPanosTemplateLocation {
   /**
   * Located in a specific Panorama.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template#panorama DataPanosTemplate#panorama}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/template#panorama DataPanosTemplate#panorama}
   */
   readonly panorama?: DataPanosTemplateLocationPanorama;
 }
@@ -220,7 +220,7 @@ export class DataPanosTemplateLocationOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template panos_template}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/template panos_template}
 */
 export class DataPanosTemplate extends cdktf.TerraformDataSource {
 
@@ -236,7 +236,7 @@ export class DataPanosTemplate extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPanosTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPanosTemplate to import
-  * @param importFromId The id of the existing DataPanosTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPanosTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPanosTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -248,7 +248,7 @@ export class DataPanosTemplate extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template panos_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/template panos_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -259,8 +259,8 @@ export class DataPanosTemplate extends cdktf.TerraformDataSource {
       terraformResourceType: 'panos_template',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

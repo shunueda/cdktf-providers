@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,71 +8,71 @@ import * as cdktf from 'cdktf';
 
 export interface DataPanosVlanInterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#adjust_tcp_mss DataPanosVlanInterface#adjust_tcp_mss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#adjust_tcp_mss DataPanosVlanInterface#adjust_tcp_mss}
   */
   readonly adjustTcpMss?: DataPanosVlanInterfaceAdjustTcpMss;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#arp DataPanosVlanInterface#arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#arp DataPanosVlanInterface#arp}
   */
   readonly arp?: DataPanosVlanInterfaceArp[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#bonjour DataPanosVlanInterface#bonjour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#bonjour DataPanosVlanInterface#bonjour}
   */
   readonly bonjour?: DataPanosVlanInterfaceBonjour;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#comment DataPanosVlanInterface#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#comment DataPanosVlanInterface#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#ddns_config DataPanosVlanInterface#ddns_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#ddns_config DataPanosVlanInterface#ddns_config}
   */
   readonly ddnsConfig?: DataPanosVlanInterfaceDdnsConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#df_ignore DataPanosVlanInterface#df_ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#df_ignore DataPanosVlanInterface#df_ignore}
   */
   readonly dfIgnore?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#dhcp_client DataPanosVlanInterface#dhcp_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#dhcp_client DataPanosVlanInterface#dhcp_client}
   */
   readonly dhcpClient?: DataPanosVlanInterfaceDhcpClient;
   /**
   * Interface management profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#interface_management_profile DataPanosVlanInterface#interface_management_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#interface_management_profile DataPanosVlanInterface#interface_management_profile}
   */
   readonly interfaceManagementProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#ip DataPanosVlanInterface#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#ip DataPanosVlanInterface#ip}
   */
   readonly ip?: DataPanosVlanInterfaceIp[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#ipv6 DataPanosVlanInterface#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#ipv6 DataPanosVlanInterface#ipv6}
   */
   readonly ipv6?: DataPanosVlanInterfaceIpv6;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#location DataPanosVlanInterface#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#location DataPanosVlanInterface#location}
   */
   readonly location: DataPanosVlanInterfaceLocation;
   /**
   * Maximum Transfer Unit, up to 9216 in Jumbo-Frame mode, up to 1500 otherwise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#mtu DataPanosVlanInterface#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#mtu DataPanosVlanInterface#mtu}
   */
   readonly mtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#ndp_proxy DataPanosVlanInterface#ndp_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#ndp_proxy DataPanosVlanInterface#ndp_proxy}
   */
   readonly ndpProxy?: DataPanosVlanInterfaceNdpProxy;
   /**
   * Netflow Server Profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#netflow_profile DataPanosVlanInterface#netflow_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#netflow_profile DataPanosVlanInterface#netflow_profile}
   */
   readonly netflowProfile?: string;
 }
@@ -80,19 +80,19 @@ export interface DataPanosVlanInterfaceAdjustTcpMss {
   /**
   * Set if TCP MSS value should be reduced based on mtu
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * IPv4 MSS adjustment size (in bytes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#ipv4_mss_adjustment DataPanosVlanInterface#ipv4_mss_adjustment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#ipv4_mss_adjustment DataPanosVlanInterface#ipv4_mss_adjustment}
   */
   readonly ipv4MssAdjustment?: number;
   /**
   * IPv6 MSS adjustment size (in bytes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#ipv6_mss_adjustment DataPanosVlanInterface#ipv6_mss_adjustment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#ipv6_mss_adjustment DataPanosVlanInterface#ipv6_mss_adjustment}
   */
   readonly ipv6MssAdjustment?: number;
 }
@@ -246,17 +246,17 @@ export interface DataPanosVlanInterfaceArp {
   /**
   * MAC address (format xx:xx:xx:xx:xx:xx)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#hw_address DataPanosVlanInterface#hw_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#hw_address DataPanosVlanInterface#hw_address}
   */
   readonly hwAddress?: string;
   /**
   * Egress interface associated with this ARP entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#interface DataPanosVlanInterface#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#interface DataPanosVlanInterface#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
   */
   readonly name: string;
 }
@@ -429,19 +429,19 @@ export interface DataPanosVlanInterfaceBonjour {
   /**
   * Set to support Bonjour service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * default 0: NO-Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#group_id DataPanosVlanInterface#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#group_id DataPanosVlanInterface#group_id}
   */
   readonly groupId?: number;
   /**
   * Set to check and update TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#ttl_check DataPanosVlanInterface#ttl_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#ttl_check DataPanosVlanInterface#ttl_check}
   */
   readonly ttlCheck?: boolean | cdktf.IResolvable;
 }
@@ -593,11 +593,11 @@ export class DataPanosVlanInterfaceBonjourOutputReference extends cdktf.ComplexO
 }
 export interface DataPanosVlanInterfaceDdnsConfigDdnsVendorConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#value DataPanosVlanInterface#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#value DataPanosVlanInterface#value}
   */
   readonly value?: string;
 }
@@ -739,39 +739,39 @@ export class DataPanosVlanInterfaceDdnsConfigDdnsVendorConfigList extends cdktf.
 }
 export interface DataPanosVlanInterfaceDdnsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#ddns_cert_profile DataPanosVlanInterface#ddns_cert_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#ddns_cert_profile DataPanosVlanInterface#ddns_cert_profile}
   */
   readonly ddnsCertProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#ddns_enabled DataPanosVlanInterface#ddns_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#ddns_enabled DataPanosVlanInterface#ddns_enabled}
   */
   readonly ddnsEnabled?: boolean | cdktf.IResolvable;
   /**
   * ddns hostname variable or real address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#ddns_hostname DataPanosVlanInterface#ddns_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#ddns_hostname DataPanosVlanInterface#ddns_hostname}
   */
   readonly ddnsHostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#ddns_ip DataPanosVlanInterface#ddns_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#ddns_ip DataPanosVlanInterface#ddns_ip}
   */
   readonly ddnsIp?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#ddns_ipv6 DataPanosVlanInterface#ddns_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#ddns_ipv6 DataPanosVlanInterface#ddns_ipv6}
   */
   readonly ddnsIpv6?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#ddns_update_interval DataPanosVlanInterface#ddns_update_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#ddns_update_interval DataPanosVlanInterface#ddns_update_interval}
   */
   readonly ddnsUpdateInterval?: number;
   /**
   * Vendor and product type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#ddns_vendor DataPanosVlanInterface#ddns_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#ddns_vendor DataPanosVlanInterface#ddns_vendor}
   */
   readonly ddnsVendor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#ddns_vendor_config DataPanosVlanInterface#ddns_vendor_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#ddns_vendor_config DataPanosVlanInterface#ddns_vendor_config}
   */
   readonly ddnsVendorConfig?: DataPanosVlanInterfaceDdnsConfigDdnsVendorConfig[] | cdktf.IResolvable;
 }
@@ -1068,13 +1068,13 @@ export class DataPanosVlanInterfaceDdnsConfigOutputReference extends cdktf.Compl
 }
 export interface DataPanosVlanInterfaceDhcpClientSendHostname {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Set Interface Hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#hostname DataPanosVlanInterface#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#hostname DataPanosVlanInterface#hostname}
   */
   readonly hostname?: string;
 }
@@ -1199,21 +1199,21 @@ export interface DataPanosVlanInterfaceDhcpClient {
   /**
   * Automatically create default route pointing to default gateway provided by server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#create_default_route DataPanosVlanInterface#create_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#create_default_route DataPanosVlanInterface#create_default_route}
   */
   readonly createDefaultRoute?: boolean | cdktf.IResolvable;
   /**
   * Metric of the default route created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#default_route_metric DataPanosVlanInterface#default_route_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#default_route_metric DataPanosVlanInterface#default_route_metric}
   */
   readonly defaultRouteMetric?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#send_hostname DataPanosVlanInterface#send_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#send_hostname DataPanosVlanInterface#send_hostname}
   */
   readonly sendHostname?: DataPanosVlanInterfaceDhcpClientSendHostname;
 }
@@ -1394,7 +1394,7 @@ export class DataPanosVlanInterfaceDhcpClientOutputReference extends cdktf.Compl
 }
 export interface DataPanosVlanInterfaceIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
   */
   readonly name: string;
 }
@@ -1509,31 +1509,31 @@ export interface DataPanosVlanInterfaceIpv6AddressAdvertise {
   /**
   * Set the Auto Address Configuration Flag (A-bit) of the prefix in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#auto_config_flag DataPanosVlanInterface#auto_config_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#auto_config_flag DataPanosVlanInterface#auto_config_flag}
   */
   readonly autoConfigFlag?: boolean | cdktf.IResolvable;
   /**
   * enable advertising this prefix in router advertisements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Set the On-Link Flag (L-bit) of the prefix in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#onlink_flag DataPanosVlanInterface#onlink_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#onlink_flag DataPanosVlanInterface#onlink_flag}
   */
   readonly onlinkFlag?: boolean | cdktf.IResolvable;
   /**
   * Preferred Lifetime (in seconds) of the prefix advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#preferred_lifetime DataPanosVlanInterface#preferred_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#preferred_lifetime DataPanosVlanInterface#preferred_lifetime}
   */
   readonly preferredLifetime?: string;
   /**
   * Valid Lifetime (in seconds) of the prefix advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#valid_lifetime DataPanosVlanInterface#valid_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#valid_lifetime DataPanosVlanInterface#valid_lifetime}
   */
   readonly validLifetime?: string;
 }
@@ -1861,25 +1861,25 @@ export class DataPanosVlanInterfaceIpv6AddressPrefixOutputReference extends cdkt
 }
 export interface DataPanosVlanInterfaceIpv6Address {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#advertise DataPanosVlanInterface#advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#advertise DataPanosVlanInterface#advertise}
   */
   readonly advertise?: DataPanosVlanInterfaceIpv6AddressAdvertise;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#anycast DataPanosVlanInterface#anycast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#anycast DataPanosVlanInterface#anycast}
   */
   readonly anycast?: DataPanosVlanInterfaceIpv6AddressAnycast;
   /**
   * configure this address on interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enable_on_interface DataPanosVlanInterface#enable_on_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enable_on_interface DataPanosVlanInterface#enable_on_interface}
   */
   readonly enableOnInterface?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#prefix DataPanosVlanInterface#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#prefix DataPanosVlanInterface#prefix}
   */
   readonly prefix?: DataPanosVlanInterfaceIpv6AddressPrefix;
 }
@@ -2169,11 +2169,11 @@ export interface DataPanosVlanInterfaceIpv6DhcpClientNeighborDiscoveryDnsServerS
   /**
   * (4-3600) Lifetime in Seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#lifetime DataPanosVlanInterface#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#lifetime DataPanosVlanInterface#lifetime}
   */
   readonly lifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
   */
   readonly name: string;
 }
@@ -2315,7 +2315,7 @@ export class DataPanosVlanInterfaceIpv6DhcpClientNeighborDiscoveryDnsServerSourc
 }
 export interface DataPanosVlanInterfaceIpv6DhcpClientNeighborDiscoveryDnsServerSourceManual {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#server DataPanosVlanInterface#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#server DataPanosVlanInterface#server}
   */
   readonly server?: DataPanosVlanInterfaceIpv6DhcpClientNeighborDiscoveryDnsServerSourceManualServer[] | cdktf.IResolvable;
 }
@@ -2409,11 +2409,11 @@ export class DataPanosVlanInterfaceIpv6DhcpClientNeighborDiscoveryDnsServerSourc
 }
 export interface DataPanosVlanInterfaceIpv6DhcpClientNeighborDiscoveryDnsServerSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#dhcpv6 DataPanosVlanInterface#dhcpv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#dhcpv6 DataPanosVlanInterface#dhcpv6}
   */
   readonly dhcpv6?: DataPanosVlanInterfaceIpv6DhcpClientNeighborDiscoveryDnsServerSourceDhcpv6;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#manual DataPanosVlanInterface#manual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#manual DataPanosVlanInterface#manual}
   */
   readonly manual?: DataPanosVlanInterfaceIpv6DhcpClientNeighborDiscoveryDnsServerSourceManual;
 }
@@ -2536,11 +2536,11 @@ export class DataPanosVlanInterfaceIpv6DhcpClientNeighborDiscoveryDnsServerSourc
 }
 export interface DataPanosVlanInterfaceIpv6DhcpClientNeighborDiscoveryDnsServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#source DataPanosVlanInterface#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#source DataPanosVlanInterface#source}
   */
   readonly source?: DataPanosVlanInterfaceIpv6DhcpClientNeighborDiscoveryDnsServerSource;
 }
@@ -2724,11 +2724,11 @@ export interface DataPanosVlanInterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffixS
   /**
   * (4-3600) lifetime in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#lifetime DataPanosVlanInterface#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#lifetime DataPanosVlanInterface#lifetime}
   */
   readonly lifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
   */
   readonly name: string;
 }
@@ -2870,7 +2870,7 @@ export class DataPanosVlanInterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffixSourc
 }
 export interface DataPanosVlanInterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffixSourceManual {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#suffix DataPanosVlanInterface#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#suffix DataPanosVlanInterface#suffix}
   */
   readonly suffix?: DataPanosVlanInterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffixSourceManualSuffix[] | cdktf.IResolvable;
 }
@@ -2964,11 +2964,11 @@ export class DataPanosVlanInterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffixSourc
 }
 export interface DataPanosVlanInterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffixSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#dhcpv6 DataPanosVlanInterface#dhcpv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#dhcpv6 DataPanosVlanInterface#dhcpv6}
   */
   readonly dhcpv6?: DataPanosVlanInterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffixSourceDhcpv6;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#manual DataPanosVlanInterface#manual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#manual DataPanosVlanInterface#manual}
   */
   readonly manual?: DataPanosVlanInterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffixSourceManual;
 }
@@ -3091,11 +3091,11 @@ export class DataPanosVlanInterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffixSourc
 }
 export interface DataPanosVlanInterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffix {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#source DataPanosVlanInterface#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#source DataPanosVlanInterface#source}
   */
   readonly source?: DataPanosVlanInterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffixSource;
 }
@@ -3220,11 +3220,11 @@ export interface DataPanosVlanInterfaceIpv6DhcpClientNeighborDiscoveryNeighbor {
   /**
   * MAC address (format xx:xx:xx:xx:xx:xx)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#hw_address DataPanosVlanInterface#hw_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#hw_address DataPanosVlanInterface#hw_address}
   */
   readonly hwAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
   */
   readonly name: string;
 }
@@ -3368,43 +3368,43 @@ export interface DataPanosVlanInterfaceIpv6DhcpClientNeighborDiscovery {
   /**
   * number of consecutive neighbor solicitation messages sent for duplicate address detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#dad_attempts DataPanosVlanInterface#dad_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#dad_attempts DataPanosVlanInterface#dad_attempts}
   */
   readonly dadAttempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#dns_server DataPanosVlanInterface#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#dns_server DataPanosVlanInterface#dns_server}
   */
   readonly dnsServer?: DataPanosVlanInterfaceIpv6DhcpClientNeighborDiscoveryDnsServer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#dns_suffix DataPanosVlanInterface#dns_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#dns_suffix DataPanosVlanInterface#dns_suffix}
   */
   readonly dnsSuffix?: DataPanosVlanInterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffix;
   /**
   * Enable Duplicate Address Detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enable_dad DataPanosVlanInterface#enable_dad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enable_dad DataPanosVlanInterface#enable_dad}
   */
   readonly enableDad?: boolean | cdktf.IResolvable;
   /**
   * Enable NDP Monitoring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enable_ndp_monitor DataPanosVlanInterface#enable_ndp_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enable_ndp_monitor DataPanosVlanInterface#enable_ndp_monitor}
   */
   readonly enableNdpMonitor?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#neighbor DataPanosVlanInterface#neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#neighbor DataPanosVlanInterface#neighbor}
   */
   readonly neighbor?: DataPanosVlanInterfaceIpv6DhcpClientNeighborDiscoveryNeighbor[] | cdktf.IResolvable;
   /**
   * interval (in seconds) between consecutive neighbor solicitation messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#ns_interval DataPanosVlanInterface#ns_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#ns_interval DataPanosVlanInterface#ns_interval}
   */
   readonly nsInterval?: number;
   /**
   * time (in seconds) that the Reachable status for a neighbor can be maintained
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#reachable_time DataPanosVlanInterface#reachable_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#reachable_time DataPanosVlanInterface#reachable_time}
   */
   readonly reachableTime?: number;
 }
@@ -3762,19 +3762,19 @@ export interface DataPanosVlanInterfaceIpv6DhcpClientPrefixDelegationEnableYes {
   /**
   * Configure unique Prefix Pool Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#pfx_pool_name DataPanosVlanInterface#pfx_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#pfx_pool_name DataPanosVlanInterface#pfx_pool_name}
   */
   readonly pfxPoolName?: string;
   /**
   * Hint DHCP Prefix Length (bits)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#prefix_len DataPanosVlanInterface#prefix_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#prefix_len DataPanosVlanInterface#prefix_len}
   */
   readonly prefixLen?: number;
   /**
   * Send prefix length hint to server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#prefix_len_hint DataPanosVlanInterface#prefix_len_hint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#prefix_len_hint DataPanosVlanInterface#prefix_len_hint}
   */
   readonly prefixLenHint?: boolean | cdktf.IResolvable;
 }
@@ -3926,11 +3926,11 @@ export class DataPanosVlanInterfaceIpv6DhcpClientPrefixDelegationEnableYesOutput
 }
 export interface DataPanosVlanInterfaceIpv6DhcpClientPrefixDelegationEnable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#no DataPanosVlanInterface#no}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#no DataPanosVlanInterface#no}
   */
   readonly no?: DataPanosVlanInterfaceIpv6DhcpClientPrefixDelegationEnableNo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#yes DataPanosVlanInterface#yes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#yes DataPanosVlanInterface#yes}
   */
   readonly yes?: DataPanosVlanInterfaceIpv6DhcpClientPrefixDelegationEnableYes;
 }
@@ -4053,7 +4053,7 @@ export class DataPanosVlanInterfaceIpv6DhcpClientPrefixDelegationEnableOutputRef
 }
 export interface DataPanosVlanInterfaceIpv6DhcpClientPrefixDelegation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
   */
   readonly enable?: DataPanosVlanInterfaceIpv6DhcpClientPrefixDelegationEnable;
 }
@@ -4208,13 +4208,13 @@ export interface DataPanosVlanInterfaceIpv6DhcpClientV6OptionsEnableYes {
   /**
   * Request Non-Temporary Address Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#non_temp_addr DataPanosVlanInterface#non_temp_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#non_temp_addr DataPanosVlanInterface#non_temp_addr}
   */
   readonly nonTempAddr?: boolean | cdktf.IResolvable;
   /**
   * Request Temporary Address Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#temp_addr DataPanosVlanInterface#temp_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#temp_addr DataPanosVlanInterface#temp_addr}
   */
   readonly tempAddr?: boolean | cdktf.IResolvable;
 }
@@ -4337,11 +4337,11 @@ export class DataPanosVlanInterfaceIpv6DhcpClientV6OptionsEnableYesOutputReferen
 }
 export interface DataPanosVlanInterfaceIpv6DhcpClientV6OptionsEnable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#no DataPanosVlanInterface#no}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#no DataPanosVlanInterface#no}
   */
   readonly no?: DataPanosVlanInterfaceIpv6DhcpClientV6OptionsEnableNo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#yes DataPanosVlanInterface#yes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#yes DataPanosVlanInterface#yes}
   */
   readonly yes?: DataPanosVlanInterfaceIpv6DhcpClientV6OptionsEnableYes;
 }
@@ -4466,23 +4466,23 @@ export interface DataPanosVlanInterfaceIpv6DhcpClientV6Options {
   /**
   * Select DUID-LLT/DUID-LL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#duid_type DataPanosVlanInterface#duid_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#duid_type DataPanosVlanInterface#duid_type}
   */
   readonly duidType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
   */
   readonly enable?: DataPanosVlanInterfaceIpv6DhcpClientV6OptionsEnable;
   /**
   * Enable Rapid Commit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#rapid_commit DataPanosVlanInterface#rapid_commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#rapid_commit DataPanosVlanInterface#rapid_commit}
   */
   readonly rapidCommit?: boolean | cdktf.IResolvable;
   /**
   * Enable DHCPv6 Server Re-Configuration Support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#support_srvr_reconfig DataPanosVlanInterface#support_srvr_reconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#support_srvr_reconfig DataPanosVlanInterface#support_srvr_reconfig}
   */
   readonly supportSrvrReconfig?: boolean | cdktf.IResolvable;
 }
@@ -4665,37 +4665,37 @@ export interface DataPanosVlanInterfaceIpv6DhcpClient {
   /**
   * Accept Router Advertised Default Route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#accept_ra_route DataPanosVlanInterface#accept_ra_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#accept_ra_route DataPanosVlanInterface#accept_ra_route}
   */
   readonly acceptRaRoute?: boolean | cdktf.IResolvable;
   /**
   * Metric of the default route created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#default_route_metric DataPanosVlanInterface#default_route_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#default_route_metric DataPanosVlanInterface#default_route_metric}
   */
   readonly defaultRouteMetric?: number;
   /**
   * Enable DHCPv6 Client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#neighbor_discovery DataPanosVlanInterface#neighbor_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#neighbor_discovery DataPanosVlanInterface#neighbor_discovery}
   */
   readonly neighborDiscovery?: DataPanosVlanInterfaceIpv6DhcpClientNeighborDiscovery;
   /**
   * Select Low/Medium/High
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#preference DataPanosVlanInterface#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#preference DataPanosVlanInterface#preference}
   */
   readonly preference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#prefix_delegation DataPanosVlanInterface#prefix_delegation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#prefix_delegation DataPanosVlanInterface#prefix_delegation}
   */
   readonly prefixDelegation?: DataPanosVlanInterfaceIpv6DhcpClientPrefixDelegation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#v6_options DataPanosVlanInterface#v6_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#v6_options DataPanosVlanInterface#v6_options}
   */
   readonly v6Options?: DataPanosVlanInterfaceIpv6DhcpClientV6Options;
 }
@@ -4965,19 +4965,19 @@ export interface DataPanosVlanInterfaceIpv6InheritedAssignAddrTypeGuaAdvertise {
   /**
   * Set the Auto Address Configuration Flag (A-bit) of the prefix in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#auto_config_flag DataPanosVlanInterface#auto_config_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#auto_config_flag DataPanosVlanInterface#auto_config_flag}
   */
   readonly autoConfigFlag?: boolean | cdktf.IResolvable;
   /**
   * Enable advertising this prefix in router advertisements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Set the On-Link Flag (L-bit) of the prefix in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#onlink_flag DataPanosVlanInterface#onlink_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#onlink_flag DataPanosVlanInterface#onlink_flag}
   */
   readonly onlinkFlag?: boolean | cdktf.IResolvable;
 }
@@ -5190,7 +5190,7 @@ export interface DataPanosVlanInterfaceIpv6InheritedAssignAddrTypeGuaPoolTypeDyn
   /**
   * Range [0-4095] must be unqiue for this prefix-pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#identifier DataPanosVlanInterface#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#identifier DataPanosVlanInterface#identifier}
   */
   readonly identifier?: number;
 }
@@ -5284,11 +5284,11 @@ export class DataPanosVlanInterfaceIpv6InheritedAssignAddrTypeGuaPoolTypeDynamic
 }
 export interface DataPanosVlanInterfaceIpv6InheritedAssignAddrTypeGuaPoolType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#dynamic DataPanosVlanInterface#dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#dynamic DataPanosVlanInterface#dynamic}
   */
   readonly dynamic?: DataPanosVlanInterfaceIpv6InheritedAssignAddrTypeGuaPoolTypeDynamic;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#dynamic_id DataPanosVlanInterface#dynamic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#dynamic_id DataPanosVlanInterface#dynamic_id}
   */
   readonly dynamicId?: DataPanosVlanInterfaceIpv6InheritedAssignAddrTypeGuaPoolTypeDynamicId;
 }
@@ -5411,23 +5411,23 @@ export class DataPanosVlanInterfaceIpv6InheritedAssignAddrTypeGuaPoolTypeOutputR
 }
 export interface DataPanosVlanInterfaceIpv6InheritedAssignAddrTypeGua {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#advertise DataPanosVlanInterface#advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#advertise DataPanosVlanInterface#advertise}
   */
   readonly advertise?: DataPanosVlanInterfaceIpv6InheritedAssignAddrTypeGuaAdvertise;
   /**
   * Enable on Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enable_on_interface DataPanosVlanInterface#enable_on_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enable_on_interface DataPanosVlanInterface#enable_on_interface}
   */
   readonly enableOnInterface?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#pool_type DataPanosVlanInterface#pool_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#pool_type DataPanosVlanInterface#pool_type}
   */
   readonly poolType?: DataPanosVlanInterfaceIpv6InheritedAssignAddrTypeGuaPoolType;
   /**
   * Prefix-Pool Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#prefix_pool DataPanosVlanInterface#prefix_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#prefix_pool DataPanosVlanInterface#prefix_pool}
   */
   readonly prefixPool?: string;
 }
@@ -5610,31 +5610,31 @@ export interface DataPanosVlanInterfaceIpv6InheritedAssignAddrTypeUlaAdvertise {
   /**
   * Set the Auto Address Configuration Flag (A-bit) of the prefix in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#auto_config_flag DataPanosVlanInterface#auto_config_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#auto_config_flag DataPanosVlanInterface#auto_config_flag}
   */
   readonly autoConfigFlag?: boolean | cdktf.IResolvable;
   /**
   * enable advertising this prefix in router advertisements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Set the On-Link Flag (L-bit) of the prefix in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#onlink_flag DataPanosVlanInterface#onlink_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#onlink_flag DataPanosVlanInterface#onlink_flag}
   */
   readonly onlinkFlag?: boolean | cdktf.IResolvable;
   /**
   * Preferred Lifetime (in seconds) of the prefix advertised in Router advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#preferred_lifetime DataPanosVlanInterface#preferred_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#preferred_lifetime DataPanosVlanInterface#preferred_lifetime}
   */
   readonly preferredLifetime?: string;
   /**
   * Valid Lifetime (in seconds) of the prefix advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#valid_lifetime DataPanosVlanInterface#valid_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#valid_lifetime DataPanosVlanInterface#valid_lifetime}
   */
   readonly validLifetime?: string;
 }
@@ -5846,29 +5846,29 @@ export interface DataPanosVlanInterfaceIpv6InheritedAssignAddrTypeUla {
   /**
   * Configure ULA (Unique Local Address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#address DataPanosVlanInterface#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#address DataPanosVlanInterface#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#advertise DataPanosVlanInterface#advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#advertise DataPanosVlanInterface#advertise}
   */
   readonly advertise?: DataPanosVlanInterfaceIpv6InheritedAssignAddrTypeUlaAdvertise;
   /**
   * Anycast Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#anycast DataPanosVlanInterface#anycast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#anycast DataPanosVlanInterface#anycast}
   */
   readonly anycast?: boolean | cdktf.IResolvable;
   /**
   * Configure this address on Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enable_on_interface DataPanosVlanInterface#enable_on_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enable_on_interface DataPanosVlanInterface#enable_on_interface}
   */
   readonly enableOnInterface?: boolean | cdktf.IResolvable;
   /**
   * Use this as prefix to form full address with interface id/EUI-64
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#prefix DataPanosVlanInterface#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#prefix DataPanosVlanInterface#prefix}
   */
   readonly prefix?: boolean | cdktf.IResolvable;
 }
@@ -6078,11 +6078,11 @@ export class DataPanosVlanInterfaceIpv6InheritedAssignAddrTypeUlaOutputReference
 }
 export interface DataPanosVlanInterfaceIpv6InheritedAssignAddrType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#gua DataPanosVlanInterface#gua}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#gua DataPanosVlanInterface#gua}
   */
   readonly gua?: DataPanosVlanInterfaceIpv6InheritedAssignAddrTypeGua;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#ula DataPanosVlanInterface#ula}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#ula DataPanosVlanInterface#ula}
   */
   readonly ula?: DataPanosVlanInterfaceIpv6InheritedAssignAddrTypeUla;
 }
@@ -6205,11 +6205,11 @@ export class DataPanosVlanInterfaceIpv6InheritedAssignAddrTypeOutputReference ex
 }
 export interface DataPanosVlanInterfaceIpv6InheritedAssignAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#type DataPanosVlanInterface#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#type DataPanosVlanInterface#type}
   */
   readonly type?: DataPanosVlanInterfaceIpv6InheritedAssignAddrType;
 }
@@ -6353,7 +6353,7 @@ export interface DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryDnsServerSo
   /**
   * Prefix-Pool Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#prefix_pool DataPanosVlanInterface#prefix_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#prefix_pool DataPanosVlanInterface#prefix_pool}
   */
   readonly prefixPool?: string;
 }
@@ -6449,11 +6449,11 @@ export interface DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryDnsServerSo
   /**
   * (4-3600) Lifetime in Seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#lifetime DataPanosVlanInterface#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#lifetime DataPanosVlanInterface#lifetime}
   */
   readonly lifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
   */
   readonly name: string;
 }
@@ -6595,7 +6595,7 @@ export class DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryDnsServerSource
 }
 export interface DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryDnsServerSourceManual {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#server DataPanosVlanInterface#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#server DataPanosVlanInterface#server}
   */
   readonly server?: DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryDnsServerSourceManualServer[] | cdktf.IResolvable;
 }
@@ -6689,11 +6689,11 @@ export class DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryDnsServerSource
 }
 export interface DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryDnsServerSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#dhcpv6 DataPanosVlanInterface#dhcpv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#dhcpv6 DataPanosVlanInterface#dhcpv6}
   */
   readonly dhcpv6?: DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryDnsServerSourceDhcpv6;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#manual DataPanosVlanInterface#manual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#manual DataPanosVlanInterface#manual}
   */
   readonly manual?: DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryDnsServerSourceManual;
 }
@@ -6816,11 +6816,11 @@ export class DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryDnsServerSource
 }
 export interface DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryDnsServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#source DataPanosVlanInterface#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#source DataPanosVlanInterface#source}
   */
   readonly source?: DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryDnsServerSource;
 }
@@ -6945,7 +6945,7 @@ export interface DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryDnsSuffixSo
   /**
   * Prefix-Pool Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#prefix_pool DataPanosVlanInterface#prefix_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#prefix_pool DataPanosVlanInterface#prefix_pool}
   */
   readonly prefixPool?: string;
 }
@@ -7041,11 +7041,11 @@ export interface DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryDnsSuffixSo
   /**
   * (4-3600) lifetime in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#lifetime DataPanosVlanInterface#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#lifetime DataPanosVlanInterface#lifetime}
   */
   readonly lifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
   */
   readonly name: string;
 }
@@ -7187,7 +7187,7 @@ export class DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryDnsSuffixSource
 }
 export interface DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryDnsSuffixSourceManual {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#suffix DataPanosVlanInterface#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#suffix DataPanosVlanInterface#suffix}
   */
   readonly suffix?: DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryDnsSuffixSourceManualSuffix[] | cdktf.IResolvable;
 }
@@ -7281,11 +7281,11 @@ export class DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryDnsSuffixSource
 }
 export interface DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryDnsSuffixSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#dhcpv6 DataPanosVlanInterface#dhcpv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#dhcpv6 DataPanosVlanInterface#dhcpv6}
   */
   readonly dhcpv6?: DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryDnsSuffixSourceDhcpv6;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#manual DataPanosVlanInterface#manual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#manual DataPanosVlanInterface#manual}
   */
   readonly manual?: DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryDnsSuffixSourceManual;
 }
@@ -7408,11 +7408,11 @@ export class DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryDnsSuffixSource
 }
 export interface DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryDnsSuffix {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#source DataPanosVlanInterface#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#source DataPanosVlanInterface#source}
   */
   readonly source?: DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryDnsSuffixSource;
 }
@@ -7537,11 +7537,11 @@ export interface DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryNeighbor {
   /**
   * MAC address (format xx:xx:xx:xx:xx:xx)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#hw_address DataPanosVlanInterface#hw_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#hw_address DataPanosVlanInterface#hw_address}
   */
   readonly hwAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
   */
   readonly name: string;
 }
@@ -7683,71 +7683,71 @@ export class DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryNeighborList ex
 }
 export interface DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryRouterAdvertisement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * check consistency of RA messages from other routers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enable_consistency_check DataPanosVlanInterface#enable_consistency_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enable_consistency_check DataPanosVlanInterface#enable_consistency_check}
   */
   readonly enableConsistencyCheck?: boolean | cdktf.IResolvable;
   /**
   * Current Hop Limit advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#hop_limit DataPanosVlanInterface#hop_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#hop_limit DataPanosVlanInterface#hop_limit}
   */
   readonly hopLimit?: string;
   /**
   * Router Lifetime (in seconds) advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#lifetime DataPanosVlanInterface#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#lifetime DataPanosVlanInterface#lifetime}
   */
   readonly lifetime?: number;
   /**
   * value of MTU option in Router Advertisement messages, upto 9216 in Jumbo-Frame mode, up to 1500 otherwise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#link_mtu DataPanosVlanInterface#link_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#link_mtu DataPanosVlanInterface#link_mtu}
   */
   readonly linkMtu?: string;
   /**
   * Set the Managed Configuration Flag (M-bit) in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#managed_flag DataPanosVlanInterface#managed_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#managed_flag DataPanosVlanInterface#managed_flag}
   */
   readonly managedFlag?: boolean | cdktf.IResolvable;
   /**
   * Maximum interval (seconds) between consecutive unsolicited Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#max_interval DataPanosVlanInterface#max_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#max_interval DataPanosVlanInterface#max_interval}
   */
   readonly maxInterval?: number;
   /**
   * Minimum interval (seconds) between consecutive unsolicited Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#min_interval DataPanosVlanInterface#min_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#min_interval DataPanosVlanInterface#min_interval}
   */
   readonly minInterval?: number;
   /**
   * Set the Other Stateful Configuration Flag (O-bit) in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#other_flag DataPanosVlanInterface#other_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#other_flag DataPanosVlanInterface#other_flag}
   */
   readonly otherFlag?: boolean | cdktf.IResolvable;
   /**
   * Reachable Time (in milliseconds) advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#reachable_time DataPanosVlanInterface#reachable_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#reachable_time DataPanosVlanInterface#reachable_time}
   */
   readonly reachableTime?: string;
   /**
   * Retransmission Timer (in milliseconds) advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#retransmission_timer DataPanosVlanInterface#retransmission_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#retransmission_timer DataPanosVlanInterface#retransmission_timer}
   */
   readonly retransmissionTimer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#router_preference DataPanosVlanInterface#router_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#router_preference DataPanosVlanInterface#router_preference}
   */
   readonly routerPreference?: string;
 }
@@ -8162,47 +8162,47 @@ export interface DataPanosVlanInterfaceIpv6InheritedNeighborDiscovery {
   /**
   * Number of consecutive neighbor solicitation messages sent for duplicate address detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#dad_attempts DataPanosVlanInterface#dad_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#dad_attempts DataPanosVlanInterface#dad_attempts}
   */
   readonly dadAttempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#dns_server DataPanosVlanInterface#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#dns_server DataPanosVlanInterface#dns_server}
   */
   readonly dnsServer?: DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryDnsServer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#dns_suffix DataPanosVlanInterface#dns_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#dns_suffix DataPanosVlanInterface#dns_suffix}
   */
   readonly dnsSuffix?: DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryDnsSuffix;
   /**
   * Enable Duplicate Address Detection (DAD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enable_dad DataPanosVlanInterface#enable_dad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enable_dad DataPanosVlanInterface#enable_dad}
   */
   readonly enableDad?: boolean | cdktf.IResolvable;
   /**
   * Enable NDP Monitoring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enable_ndp_monitor DataPanosVlanInterface#enable_ndp_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enable_ndp_monitor DataPanosVlanInterface#enable_ndp_monitor}
   */
   readonly enableNdpMonitor?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#neighbor DataPanosVlanInterface#neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#neighbor DataPanosVlanInterface#neighbor}
   */
   readonly neighbor?: DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryNeighbor[] | cdktf.IResolvable;
   /**
   * Interval (in seconds) between consecutive neighbor solicitation messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#ns_interval DataPanosVlanInterface#ns_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#ns_interval DataPanosVlanInterface#ns_interval}
   */
   readonly nsInterval?: number;
   /**
   * Time (in seconds) that the Reachable status for a neighbor can be maintained
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#reachable_time DataPanosVlanInterface#reachable_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#reachable_time DataPanosVlanInterface#reachable_time}
   */
   readonly reachableTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#router_advertisement DataPanosVlanInterface#router_advertisement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#router_advertisement DataPanosVlanInterface#router_advertisement}
   */
   readonly routerAdvertisement?: DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryRouterAdvertisement;
 }
@@ -8528,17 +8528,17 @@ export class DataPanosVlanInterfaceIpv6InheritedNeighborDiscoveryOutputReference
 }
 export interface DataPanosVlanInterfaceIpv6Inherited {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#assign_addr DataPanosVlanInterface#assign_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#assign_addr DataPanosVlanInterface#assign_addr}
   */
   readonly assignAddr?: DataPanosVlanInterfaceIpv6InheritedAssignAddr[] | cdktf.IResolvable;
   /**
   * Enable Inherited Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#neighbor_discovery DataPanosVlanInterface#neighbor_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#neighbor_discovery DataPanosVlanInterface#neighbor_discovery}
   */
   readonly neighborDiscovery?: DataPanosVlanInterfaceIpv6InheritedNeighborDiscovery;
 }
@@ -8692,11 +8692,11 @@ export interface DataPanosVlanInterfaceIpv6NeighborDiscoveryNeighbor {
   /**
   * MAC address (format xx:xx:xx:xx:xx:xx)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#hw_address DataPanosVlanInterface#hw_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#hw_address DataPanosVlanInterface#hw_address}
   */
   readonly hwAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
   */
   readonly name: string;
 }
@@ -8840,11 +8840,11 @@ export interface DataPanosVlanInterfaceIpv6NeighborDiscoveryRouterAdvertisementD
   /**
   * (4-3600) lifetime in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#lifetime DataPanosVlanInterface#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#lifetime DataPanosVlanInterface#lifetime}
   */
   readonly lifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
   */
   readonly name: string;
 }
@@ -8988,11 +8988,11 @@ export interface DataPanosVlanInterfaceIpv6NeighborDiscoveryRouterAdvertisementD
   /**
   * (4-3600) lifetime in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#lifetime DataPanosVlanInterface#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#lifetime DataPanosVlanInterface#lifetime}
   */
   readonly lifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
   */
   readonly name: string;
 }
@@ -9134,15 +9134,15 @@ export class DataPanosVlanInterfaceIpv6NeighborDiscoveryRouterAdvertisementDnsSu
 }
 export interface DataPanosVlanInterfaceIpv6NeighborDiscoveryRouterAdvertisementDnsSupport {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#server DataPanosVlanInterface#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#server DataPanosVlanInterface#server}
   */
   readonly server?: DataPanosVlanInterfaceIpv6NeighborDiscoveryRouterAdvertisementDnsSupportServer[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#suffix DataPanosVlanInterface#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#suffix DataPanosVlanInterface#suffix}
   */
   readonly suffix?: DataPanosVlanInterfaceIpv6NeighborDiscoveryRouterAdvertisementDnsSupportSuffix[] | cdktf.IResolvable;
 }
@@ -9294,75 +9294,75 @@ export class DataPanosVlanInterfaceIpv6NeighborDiscoveryRouterAdvertisementDnsSu
 }
 export interface DataPanosVlanInterfaceIpv6NeighborDiscoveryRouterAdvertisement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#dns_support DataPanosVlanInterface#dns_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#dns_support DataPanosVlanInterface#dns_support}
   */
   readonly dnsSupport?: DataPanosVlanInterfaceIpv6NeighborDiscoveryRouterAdvertisementDnsSupport;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enable DataPanosVlanInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * check consistency of RA messages from other routers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enable_consistency_check DataPanosVlanInterface#enable_consistency_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enable_consistency_check DataPanosVlanInterface#enable_consistency_check}
   */
   readonly enableConsistencyCheck?: boolean | cdktf.IResolvable;
   /**
   * Current Hop Limit advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#hop_limit DataPanosVlanInterface#hop_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#hop_limit DataPanosVlanInterface#hop_limit}
   */
   readonly hopLimit?: string;
   /**
   * Router Lifetime (in seconds) advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#lifetime DataPanosVlanInterface#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#lifetime DataPanosVlanInterface#lifetime}
   */
   readonly lifetime?: number;
   /**
   * value of MTU option in Router Advertisement messages, upto 9216 in Jumbo-Frame mode, up to 1500 otherwise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#link_mtu DataPanosVlanInterface#link_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#link_mtu DataPanosVlanInterface#link_mtu}
   */
   readonly linkMtu?: string;
   /**
   * Set the Managed Configuration Flag (M-bit) in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#managed_flag DataPanosVlanInterface#managed_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#managed_flag DataPanosVlanInterface#managed_flag}
   */
   readonly managedFlag?: boolean | cdktf.IResolvable;
   /**
   * Maximum interval (seconds) between consecutive unsolicited Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#max_interval DataPanosVlanInterface#max_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#max_interval DataPanosVlanInterface#max_interval}
   */
   readonly maxInterval?: number;
   /**
   * Minimum interval (seconds) between consecutive unsolicited Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#min_interval DataPanosVlanInterface#min_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#min_interval DataPanosVlanInterface#min_interval}
   */
   readonly minInterval?: number;
   /**
   * Set the Other Stateful Configuration Flag (O-bit) in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#other_flag DataPanosVlanInterface#other_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#other_flag DataPanosVlanInterface#other_flag}
   */
   readonly otherFlag?: boolean | cdktf.IResolvable;
   /**
   * Reachable Time (in milliseconds) advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#reachable_time DataPanosVlanInterface#reachable_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#reachable_time DataPanosVlanInterface#reachable_time}
   */
   readonly reachableTime?: string;
   /**
   * Retransmission Timer (in milliseconds) advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#retransmission_timer DataPanosVlanInterface#retransmission_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#retransmission_timer DataPanosVlanInterface#retransmission_timer}
   */
   readonly retransmissionTimer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#router_preference DataPanosVlanInterface#router_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#router_preference DataPanosVlanInterface#router_preference}
   */
   readonly routerPreference?: string;
 }
@@ -9806,39 +9806,39 @@ export interface DataPanosVlanInterfaceIpv6NeighborDiscovery {
   /**
   * number of consecutive neighbor solicitation messages sent for duplicate address detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#dad_attempts DataPanosVlanInterface#dad_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#dad_attempts DataPanosVlanInterface#dad_attempts}
   */
   readonly dadAttempts?: number;
   /**
   * enable duplicate address detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enable_dad DataPanosVlanInterface#enable_dad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enable_dad DataPanosVlanInterface#enable_dad}
   */
   readonly enableDad?: boolean | cdktf.IResolvable;
   /**
   * enable ndp monitoring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enable_ndp_monitor DataPanosVlanInterface#enable_ndp_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enable_ndp_monitor DataPanosVlanInterface#enable_ndp_monitor}
   */
   readonly enableNdpMonitor?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#neighbor DataPanosVlanInterface#neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#neighbor DataPanosVlanInterface#neighbor}
   */
   readonly neighbor?: DataPanosVlanInterfaceIpv6NeighborDiscoveryNeighbor[] | cdktf.IResolvable;
   /**
   * interval (in seconds) between consecutive neighbor solicitation messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#ns_interval DataPanosVlanInterface#ns_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#ns_interval DataPanosVlanInterface#ns_interval}
   */
   readonly nsInterval?: number;
   /**
   * time (in seconds) that the Reachable status for a neighbor can be maintained
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#reachable_time DataPanosVlanInterface#reachable_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#reachable_time DataPanosVlanInterface#reachable_time}
   */
   readonly reachableTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#router_advertisement DataPanosVlanInterface#router_advertisement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#router_advertisement DataPanosVlanInterface#router_advertisement}
   */
   readonly routerAdvertisement?: DataPanosVlanInterfaceIpv6NeighborDiscoveryRouterAdvertisement;
 }
@@ -10106,29 +10106,29 @@ export class DataPanosVlanInterfaceIpv6NeighborDiscoveryOutputReference extends 
 }
 export interface DataPanosVlanInterfaceIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#address DataPanosVlanInterface#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#address DataPanosVlanInterface#address}
   */
   readonly address?: DataPanosVlanInterfaceIpv6Address[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#dhcp_client DataPanosVlanInterface#dhcp_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#dhcp_client DataPanosVlanInterface#dhcp_client}
   */
   readonly dhcpClient?: DataPanosVlanInterfaceIpv6DhcpClient;
   /**
   * Enable IPv6 on the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enabled DataPanosVlanInterface#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enabled DataPanosVlanInterface#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#inherited DataPanosVlanInterface#inherited}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#inherited DataPanosVlanInterface#inherited}
   */
   readonly inherited?: DataPanosVlanInterfaceIpv6Inherited;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#interface_id DataPanosVlanInterface#interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#interface_id DataPanosVlanInterface#interface_id}
   */
   readonly interfaceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#neighbor_discovery DataPanosVlanInterface#neighbor_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#neighbor_discovery DataPanosVlanInterface#neighbor_discovery}
   */
   readonly neighborDiscovery?: DataPanosVlanInterfaceIpv6NeighborDiscovery;
 }
@@ -10369,7 +10369,7 @@ export interface DataPanosVlanInterfaceLocationNgfw {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#ngfw_device DataPanosVlanInterface#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#ngfw_device DataPanosVlanInterface#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -10524,19 +10524,19 @@ export interface DataPanosVlanInterfaceLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#ngfw_device DataPanosVlanInterface#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#ngfw_device DataPanosVlanInterface#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#panorama_device DataPanosVlanInterface#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#panorama_device DataPanosVlanInterface#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -10690,19 +10690,19 @@ export interface DataPanosVlanInterfaceLocationTemplateStack {
   /**
   * Specific Panorama template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#ngfw_device DataPanosVlanInterface#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#ngfw_device DataPanosVlanInterface#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#panorama_device DataPanosVlanInterface#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#panorama_device DataPanosVlanInterface#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -10856,25 +10856,25 @@ export interface DataPanosVlanInterfaceLocation {
   /**
   * Located in a specific NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#ngfw DataPanosVlanInterface#ngfw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#ngfw DataPanosVlanInterface#ngfw}
   */
   readonly ngfw?: DataPanosVlanInterfaceLocationNgfw;
   /**
   * Panorama shared object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#shared DataPanosVlanInterface#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#shared DataPanosVlanInterface#shared}
   */
   readonly shared?: DataPanosVlanInterfaceLocationShared;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#template DataPanosVlanInterface#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#template DataPanosVlanInterface#template}
   */
   readonly template?: DataPanosVlanInterfaceLocationTemplate;
   /**
   * Located in a specific template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#template_stack DataPanosVlanInterface#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#template_stack DataPanosVlanInterface#template_stack}
   */
   readonly templateStack?: DataPanosVlanInterfaceLocationTemplateStack;
 }
@@ -11055,13 +11055,13 @@ export class DataPanosVlanInterfaceLocationOutputReference extends cdktf.Complex
 }
 export interface DataPanosVlanInterfaceNdpProxyAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#name DataPanosVlanInterface#name}
   */
   readonly name: string;
   /**
   * put the prefix or address on a block list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#negate DataPanosVlanInterface#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#negate DataPanosVlanInterface#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
 }
@@ -11203,13 +11203,13 @@ export class DataPanosVlanInterfaceNdpProxyAddressList extends cdktf.ComplexList
 }
 export interface DataPanosVlanInterfaceNdpProxy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#address DataPanosVlanInterface#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#address DataPanosVlanInterface#address}
   */
   readonly address?: DataPanosVlanInterfaceNdpProxyAddress[] | cdktf.IResolvable;
   /**
   * Enable proxy NDP on the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#enabled DataPanosVlanInterface#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#enabled DataPanosVlanInterface#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -11332,7 +11332,7 @@ export class DataPanosVlanInterfaceNdpProxyOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface panos_vlan_interface}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface panos_vlan_interface}
 */
 export class DataPanosVlanInterface extends cdktf.TerraformDataSource {
 
@@ -11348,7 +11348,7 @@ export class DataPanosVlanInterface extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPanosVlanInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPanosVlanInterface to import
-  * @param importFromId The id of the existing DataPanosVlanInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPanosVlanInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPanosVlanInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -11360,7 +11360,7 @@ export class DataPanosVlanInterface extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/vlan_interface panos_vlan_interface} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/vlan_interface panos_vlan_interface} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -11371,8 +11371,8 @@ export class DataPanosVlanInterface extends cdktf.TerraformDataSource {
       terraformResourceType: 'panos_vlan_interface',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

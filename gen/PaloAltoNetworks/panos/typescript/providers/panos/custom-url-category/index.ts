@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/custom_url_category
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/custom_url_category
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface CustomUrlCategoryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/custom_url_category#description CustomUrlCategory#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/custom_url_category#description CustomUrlCategory#description}
   */
   readonly description?: string;
   /**
   * disable object override in child device groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/custom_url_category#disable_override CustomUrlCategory#disable_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/custom_url_category#disable_override CustomUrlCategory#disable_override}
   */
   readonly disableOverride?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/custom_url_category#list CustomUrlCategory#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/custom_url_category#list CustomUrlCategory#list}
   */
   readonly list?: string[];
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/custom_url_category#location CustomUrlCategory#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/custom_url_category#location CustomUrlCategory#location}
   */
   readonly location: CustomUrlCategoryLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/custom_url_category#name CustomUrlCategory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/custom_url_category#name CustomUrlCategory#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/custom_url_category#type CustomUrlCategory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/custom_url_category#type CustomUrlCategory#type}
   */
   readonly type?: string;
 }
@@ -40,13 +40,13 @@ export interface CustomUrlCategoryLocationDeviceGroup {
   /**
   * Device Group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/custom_url_category#name CustomUrlCategory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/custom_url_category#name CustomUrlCategory#name}
   */
   readonly name?: string;
   /**
   * Panorama device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/custom_url_category#panorama_device CustomUrlCategory#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/custom_url_category#panorama_device CustomUrlCategory#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -230,13 +230,13 @@ export interface CustomUrlCategoryLocationVsys {
   /**
   * The Virtual System name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/custom_url_category#name CustomUrlCategory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/custom_url_category#name CustomUrlCategory#name}
   */
   readonly name?: string;
   /**
   * The NGFW device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/custom_url_category#ngfw_device CustomUrlCategory#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/custom_url_category#ngfw_device CustomUrlCategory#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -361,19 +361,19 @@ export interface CustomUrlCategoryLocation {
   /**
   * Located in a specific Device Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/custom_url_category#device_group CustomUrlCategory#device_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/custom_url_category#device_group CustomUrlCategory#device_group}
   */
   readonly deviceGroup?: CustomUrlCategoryLocationDeviceGroup;
   /**
   * Panorama shared object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/custom_url_category#shared CustomUrlCategory#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/custom_url_category#shared CustomUrlCategory#shared}
   */
   readonly shared?: CustomUrlCategoryLocationShared;
   /**
   * Located in a specific Virtual System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/custom_url_category#vsys CustomUrlCategory#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/custom_url_category#vsys CustomUrlCategory#vsys}
   */
   readonly vsys?: CustomUrlCategoryLocationVsys;
 }
@@ -525,7 +525,7 @@ export class CustomUrlCategoryLocationOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/custom_url_category panos_custom_url_category}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/custom_url_category panos_custom_url_category}
 */
 export class CustomUrlCategory extends cdktf.TerraformResource {
 
@@ -541,7 +541,7 @@ export class CustomUrlCategory extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomUrlCategory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomUrlCategory to import
-  * @param importFromId The id of the existing CustomUrlCategory that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/custom_url_category#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomUrlCategory that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/custom_url_category#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomUrlCategory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -553,7 +553,7 @@ export class CustomUrlCategory extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/custom_url_category panos_custom_url_category} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/custom_url_category panos_custom_url_category} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -564,8 +564,8 @@ export class CustomUrlCategory extends cdktf.TerraformResource {
       terraformResourceType: 'panos_custom_url_category',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

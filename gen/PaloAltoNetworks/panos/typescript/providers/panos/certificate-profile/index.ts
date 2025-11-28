@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,87 +10,87 @@ export interface CertificateProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to block a session if certificate status is expired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#block_expired_certificate CertificateProfile#block_expired_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#block_expired_certificate CertificateProfile#block_expired_certificate}
   */
   readonly blockExpiredCertificate?: boolean | cdktf.IResolvable;
   /**
   * Whether to block a session if cert. status can't be retrieved within timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#block_timeout_certificate CertificateProfile#block_timeout_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#block_timeout_certificate CertificateProfile#block_timeout_certificate}
   */
   readonly blockTimeoutCertificate?: boolean | cdktf.IResolvable;
   /**
   * Whether to block session if the certificate was not issued to the authenticating device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#block_unauthenticated_certificate CertificateProfile#block_unauthenticated_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#block_unauthenticated_certificate CertificateProfile#block_unauthenticated_certificate}
   */
   readonly blockUnauthenticatedCertificate?: boolean | cdktf.IResolvable;
   /**
   * Whether to block a session if cert. status is unknown.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#block_unknown_certificate CertificateProfile#block_unknown_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#block_unknown_certificate CertificateProfile#block_unknown_certificate}
   */
   readonly blockUnknownCertificate?: boolean | cdktf.IResolvable;
   /**
   * CA Certificate to assign to the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#certificate CertificateProfile#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#certificate CertificateProfile#certificate}
   */
   readonly certificate?: CertificateProfileCertificate[] | cdktf.IResolvable;
   /**
   * Certificate status query timeout value in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#certificate_status_timeout CertificateProfile#certificate_status_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#certificate_status_timeout CertificateProfile#certificate_status_timeout}
   */
   readonly certificateStatusTimeout?: number;
   /**
   * CRL receive timeout value in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#crl_receive_timeout CertificateProfile#crl_receive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#crl_receive_timeout CertificateProfile#crl_receive_timeout}
   */
   readonly crlReceiveTimeout?: number;
   /**
   * NetBIOS domain so the PAN-OS software can map users through User-ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#domain CertificateProfile#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#domain CertificateProfile#domain}
   */
   readonly domain?: string;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#location CertificateProfile#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#location CertificateProfile#location}
   */
   readonly location: CertificateProfileLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#name CertificateProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#name CertificateProfile#name}
   */
   readonly name: string;
   /**
   * Whether to exclude nonce extension for OCSP requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#ocsp_exclude_nonce CertificateProfile#ocsp_exclude_nonce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#ocsp_exclude_nonce CertificateProfile#ocsp_exclude_nonce}
   */
   readonly ocspExcludeNonce?: boolean | cdktf.IResolvable;
   /**
   * OCSP receive timeout value in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#ocsp_receive_timeout CertificateProfile#ocsp_receive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#ocsp_receive_timeout CertificateProfile#ocsp_receive_timeout}
   */
   readonly ocspReceiveTimeout?: number;
   /**
   * Enable use of CRL to verify the revocation status of certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#use_crl CertificateProfile#use_crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#use_crl CertificateProfile#use_crl}
   */
   readonly useCrl?: boolean | cdktf.IResolvable;
   /**
   * Enable use of OCSP to verify the revocation status of certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#use_ocsp CertificateProfile#use_ocsp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#use_ocsp CertificateProfile#use_ocsp}
   */
   readonly useOcsp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#username_field CertificateProfile#username_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#username_field CertificateProfile#username_field}
   */
   readonly usernameField?: CertificateProfileUsernameField;
 }
@@ -98,23 +98,23 @@ export interface CertificateProfileCertificate {
   /**
   * Default URL for ocsp verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#default_ocsp_url CertificateProfile#default_ocsp_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#default_ocsp_url CertificateProfile#default_ocsp_url}
   */
   readonly defaultOcspUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#name CertificateProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#name CertificateProfile#name}
   */
   readonly name: string;
   /**
   * Certificate to verify signature in OCSP response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#ocsp_verify_certificate CertificateProfile#ocsp_verify_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#ocsp_verify_certificate CertificateProfile#ocsp_verify_certificate}
   */
   readonly ocspVerifyCertificate?: string;
   /**
   * Certificate Template Name / OID for the certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#template_name CertificateProfile#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#template_name CertificateProfile#template_name}
   */
   readonly templateName?: string;
 }
@@ -434,13 +434,13 @@ export interface CertificateProfileLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#name CertificateProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#name CertificateProfile#name}
   */
   readonly name?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#panorama_device CertificateProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#panorama_device CertificateProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -565,13 +565,13 @@ export interface CertificateProfileLocationTemplateStack {
   /**
   * The template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#name CertificateProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#name CertificateProfile#name}
   */
   readonly name?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#panorama_device CertificateProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#panorama_device CertificateProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -696,25 +696,25 @@ export interface CertificateProfileLocationTemplateStackVsys {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#ngfw_device CertificateProfile#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#ngfw_device CertificateProfile#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#panorama_device CertificateProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#panorama_device CertificateProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
   * The template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#template_stack CertificateProfile#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#template_stack CertificateProfile#template_stack}
   */
   readonly templateStack?: string;
   /**
   * The vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#vsys CertificateProfile#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#vsys CertificateProfile#vsys}
   */
   readonly vsys?: string;
 }
@@ -897,25 +897,25 @@ export interface CertificateProfileLocationTemplateVsys {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#ngfw_device CertificateProfile#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#ngfw_device CertificateProfile#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#panorama_device CertificateProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#panorama_device CertificateProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#template CertificateProfile#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#template CertificateProfile#template}
   */
   readonly template?: string;
   /**
   * The vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#vsys CertificateProfile#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#vsys CertificateProfile#vsys}
   */
   readonly vsys?: string;
 }
@@ -1098,37 +1098,37 @@ export interface CertificateProfileLocation {
   /**
   * Located in a panorama.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#panorama CertificateProfile#panorama}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#panorama CertificateProfile#panorama}
   */
   readonly panorama?: CertificateProfileLocationPanorama;
   /**
   * Panorama shared object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#shared CertificateProfile#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#shared CertificateProfile#shared}
   */
   readonly shared?: CertificateProfileLocationShared;
   /**
   * A shared resource located within a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#template CertificateProfile#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#template CertificateProfile#template}
   */
   readonly template?: CertificateProfileLocationTemplate;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#template_stack CertificateProfile#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#template_stack CertificateProfile#template_stack}
   */
   readonly templateStack?: CertificateProfileLocationTemplateStack;
   /**
   * Located in a specific template, device and vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#template_stack_vsys CertificateProfile#template_stack_vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#template_stack_vsys CertificateProfile#template_stack_vsys}
   */
   readonly templateStackVsys?: CertificateProfileLocationTemplateStackVsys;
   /**
   * Located in a specific template, device and vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#template_vsys CertificateProfile#template_vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#template_vsys CertificateProfile#template_vsys}
   */
   readonly templateVsys?: CertificateProfileLocationTemplateVsys;
 }
@@ -1369,13 +1369,13 @@ export interface CertificateProfileUsernameField {
   /**
   * The common name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#subject CertificateProfile#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#subject CertificateProfile#subject}
   */
   readonly subject?: string;
   /**
   * The Email or Principal Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#subject_alt CertificateProfile#subject_alt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#subject_alt CertificateProfile#subject_alt}
   */
   readonly subjectAlt?: string;
 }
@@ -1498,7 +1498,7 @@ export class CertificateProfileUsernameFieldOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile panos_certificate_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile panos_certificate_profile}
 */
 export class CertificateProfile extends cdktf.TerraformResource {
 
@@ -1514,7 +1514,7 @@ export class CertificateProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CertificateProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CertificateProfile to import
-  * @param importFromId The id of the existing CertificateProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CertificateProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CertificateProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1526,7 +1526,7 @@ export class CertificateProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_profile panos_certificate_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_profile panos_certificate_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1537,8 +1537,8 @@ export class CertificateProfile extends cdktf.TerraformResource {
       terraformResourceType: 'panos_certificate_profile',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

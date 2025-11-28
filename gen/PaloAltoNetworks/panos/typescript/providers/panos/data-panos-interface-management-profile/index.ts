@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/interface_management_profile
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/interface_management_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,61 +8,61 @@ import * as cdktf from 'cdktf';
 
 export interface DataPanosInterfaceManagementProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/interface_management_profile#http DataPanosInterfaceManagementProfile#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/interface_management_profile#http DataPanosInterfaceManagementProfile#http}
   */
   readonly http?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/interface_management_profile#http_ocsp DataPanosInterfaceManagementProfile#http_ocsp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/interface_management_profile#http_ocsp DataPanosInterfaceManagementProfile#http_ocsp}
   */
   readonly httpOcsp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/interface_management_profile#https DataPanosInterfaceManagementProfile#https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/interface_management_profile#https DataPanosInterfaceManagementProfile#https}
   */
   readonly https?: boolean | cdktf.IResolvable;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/interface_management_profile#location DataPanosInterfaceManagementProfile#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/interface_management_profile#location DataPanosInterfaceManagementProfile#location}
   */
   readonly location: DataPanosInterfaceManagementProfileLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/interface_management_profile#name DataPanosInterfaceManagementProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/interface_management_profile#name DataPanosInterfaceManagementProfile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/interface_management_profile#permitted_ips DataPanosInterfaceManagementProfile#permitted_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/interface_management_profile#permitted_ips DataPanosInterfaceManagementProfile#permitted_ips}
   */
   readonly permittedIps?: DataPanosInterfaceManagementProfilePermittedIps[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/interface_management_profile#ping DataPanosInterfaceManagementProfile#ping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/interface_management_profile#ping DataPanosInterfaceManagementProfile#ping}
   */
   readonly ping?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/interface_management_profile#response_pages DataPanosInterfaceManagementProfile#response_pages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/interface_management_profile#response_pages DataPanosInterfaceManagementProfile#response_pages}
   */
   readonly responsePages?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/interface_management_profile#snmp DataPanosInterfaceManagementProfile#snmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/interface_management_profile#snmp DataPanosInterfaceManagementProfile#snmp}
   */
   readonly snmp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/interface_management_profile#ssh DataPanosInterfaceManagementProfile#ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/interface_management_profile#ssh DataPanosInterfaceManagementProfile#ssh}
   */
   readonly ssh?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/interface_management_profile#telnet DataPanosInterfaceManagementProfile#telnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/interface_management_profile#telnet DataPanosInterfaceManagementProfile#telnet}
   */
   readonly telnet?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/interface_management_profile#userid_service DataPanosInterfaceManagementProfile#userid_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/interface_management_profile#userid_service DataPanosInterfaceManagementProfile#userid_service}
   */
   readonly useridService?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/interface_management_profile#userid_syslog_listener_ssl DataPanosInterfaceManagementProfile#userid_syslog_listener_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/interface_management_profile#userid_syslog_listener_ssl DataPanosInterfaceManagementProfile#userid_syslog_listener_ssl}
   */
   readonly useridSyslogListenerSsl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/interface_management_profile#userid_syslog_listener_udp DataPanosInterfaceManagementProfile#userid_syslog_listener_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/interface_management_profile#userid_syslog_listener_udp DataPanosInterfaceManagementProfile#userid_syslog_listener_udp}
   */
   readonly useridSyslogListenerUdp?: boolean | cdktf.IResolvable;
 }
@@ -70,7 +70,7 @@ export interface DataPanosInterfaceManagementProfileLocationNgfw {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/interface_management_profile#ngfw_device DataPanosInterfaceManagementProfile#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/interface_management_profile#ngfw_device DataPanosInterfaceManagementProfile#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -166,19 +166,19 @@ export interface DataPanosInterfaceManagementProfileLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/interface_management_profile#name DataPanosInterfaceManagementProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/interface_management_profile#name DataPanosInterfaceManagementProfile#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/interface_management_profile#ngfw_device DataPanosInterfaceManagementProfile#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/interface_management_profile#ngfw_device DataPanosInterfaceManagementProfile#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/interface_management_profile#panorama_device DataPanosInterfaceManagementProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/interface_management_profile#panorama_device DataPanosInterfaceManagementProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -332,19 +332,19 @@ export interface DataPanosInterfaceManagementProfileLocationTemplateStack {
   /**
   * Specific Panorama template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/interface_management_profile#name DataPanosInterfaceManagementProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/interface_management_profile#name DataPanosInterfaceManagementProfile#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/interface_management_profile#ngfw_device DataPanosInterfaceManagementProfile#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/interface_management_profile#ngfw_device DataPanosInterfaceManagementProfile#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/interface_management_profile#panorama_device DataPanosInterfaceManagementProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/interface_management_profile#panorama_device DataPanosInterfaceManagementProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -498,19 +498,19 @@ export interface DataPanosInterfaceManagementProfileLocation {
   /**
   * Located in a specific NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/interface_management_profile#ngfw DataPanosInterfaceManagementProfile#ngfw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/interface_management_profile#ngfw DataPanosInterfaceManagementProfile#ngfw}
   */
   readonly ngfw?: DataPanosInterfaceManagementProfileLocationNgfw;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/interface_management_profile#template DataPanosInterfaceManagementProfile#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/interface_management_profile#template DataPanosInterfaceManagementProfile#template}
   */
   readonly template?: DataPanosInterfaceManagementProfileLocationTemplate;
   /**
   * Located in a specific template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/interface_management_profile#template_stack DataPanosInterfaceManagementProfile#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/interface_management_profile#template_stack DataPanosInterfaceManagementProfile#template_stack}
   */
   readonly templateStack?: DataPanosInterfaceManagementProfileLocationTemplateStack;
 }
@@ -662,7 +662,7 @@ export class DataPanosInterfaceManagementProfileLocationOutputReference extends 
 }
 export interface DataPanosInterfaceManagementProfilePermittedIps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/interface_management_profile#name DataPanosInterfaceManagementProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/interface_management_profile#name DataPanosInterfaceManagementProfile#name}
   */
   readonly name: string;
 }
@@ -775,7 +775,7 @@ export class DataPanosInterfaceManagementProfilePermittedIpsList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/interface_management_profile panos_interface_management_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/interface_management_profile panos_interface_management_profile}
 */
 export class DataPanosInterfaceManagementProfile extends cdktf.TerraformDataSource {
 
@@ -791,7 +791,7 @@ export class DataPanosInterfaceManagementProfile extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataPanosInterfaceManagementProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPanosInterfaceManagementProfile to import
-  * @param importFromId The id of the existing DataPanosInterfaceManagementProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/interface_management_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPanosInterfaceManagementProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/interface_management_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPanosInterfaceManagementProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -803,7 +803,7 @@ export class DataPanosInterfaceManagementProfile extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/interface_management_profile panos_interface_management_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/interface_management_profile panos_interface_management_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -814,8 +814,8 @@ export class DataPanosInterfaceManagementProfile extends cdktf.TerraformDataSour
       terraformResourceType: 'panos_interface_management_profile',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_status
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_update_status
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskUpdateStatusConfig extends cdktf.TerraformMetaArgum
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_status#enabled WorkflowTaskUpdateStatus#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_update_status#enabled WorkflowTaskUpdateStatus#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_status#id WorkflowTaskUpdateStatus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_update_status#id WorkflowTaskUpdateStatus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskUpdateStatusConfig extends cdktf.TerraformMetaArgum
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_status#name WorkflowTaskUpdateStatus#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_update_status#name WorkflowTaskUpdateStatus#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_status#position WorkflowTaskUpdateStatus#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_update_status#position WorkflowTaskUpdateStatus#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_status#skip_on_failure WorkflowTaskUpdateStatus#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_update_status#skip_on_failure WorkflowTaskUpdateStatus#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_status#workflow_id WorkflowTaskUpdateStatus#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_update_status#workflow_id WorkflowTaskUpdateStatus#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_status#task_params WorkflowTaskUpdateStatus#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_update_status#task_params WorkflowTaskUpdateStatus#task_params}
   */
   readonly taskParams: WorkflowTaskUpdateStatusTaskParams;
 }
@@ -55,17 +55,17 @@ export interface WorkflowTaskUpdateStatusTaskParams {
   /**
   * In format '1 hour', '1 day', etc
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_status#inactivity_timeout WorkflowTaskUpdateStatus#inactivity_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_update_status#inactivity_timeout WorkflowTaskUpdateStatus#inactivity_timeout}
   */
   readonly inactivityTimeout?: string;
   /**
   * Value must be one of `in_triage`, `started`, `mitigated`, `resolved`, `closed`, `cancelled`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_status#status WorkflowTaskUpdateStatus#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_update_status#status WorkflowTaskUpdateStatus#status}
   */
   readonly status: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_status#task_type WorkflowTaskUpdateStatus#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_update_status#task_type WorkflowTaskUpdateStatus#task_type}
   */
   readonly taskType?: string;
 }
@@ -204,7 +204,7 @@ export class WorkflowTaskUpdateStatusTaskParamsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_status rootly_workflow_task_update_status}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_update_status rootly_workflow_task_update_status}
 */
 export class WorkflowTaskUpdateStatus extends cdktf.TerraformResource {
 
@@ -220,7 +220,7 @@ export class WorkflowTaskUpdateStatus extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskUpdateStatus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskUpdateStatus to import
-  * @param importFromId The id of the existing WorkflowTaskUpdateStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_status#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskUpdateStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_update_status#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskUpdateStatus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -232,7 +232,7 @@ export class WorkflowTaskUpdateStatus extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_status rootly_workflow_task_update_status} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_update_status rootly_workflow_task_update_status} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,8 +243,8 @@ export class WorkflowTaskUpdateStatus extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_update_status',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.8',
-        providerVersionConstraint: '4.3.8'
+        providerVersion: '4.3.9',
+        providerVersionConstraint: '4.3.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

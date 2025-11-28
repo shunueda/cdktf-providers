@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,15 +10,15 @@ export interface VirtualRouterStaticRoutesIpv4Config extends cdktf.TerraformMeta
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#location VirtualRouterStaticRoutesIpv4#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#location VirtualRouterStaticRoutesIpv4#location}
   */
   readonly location: VirtualRouterStaticRoutesIpv4Location;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#static_routes VirtualRouterStaticRoutesIpv4#static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#static_routes VirtualRouterStaticRoutesIpv4#static_routes}
   */
   readonly staticRoutes: VirtualRouterStaticRoutesIpv4StaticRoutes[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#virtual_router VirtualRouterStaticRoutesIpv4#virtual_router}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#virtual_router VirtualRouterStaticRoutesIpv4#virtual_router}
   */
   readonly virtualRouter: string;
 }
@@ -26,7 +26,7 @@ export interface VirtualRouterStaticRoutesIpv4LocationNgfw {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#ngfw_device VirtualRouterStaticRoutesIpv4#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#ngfw_device VirtualRouterStaticRoutesIpv4#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -122,19 +122,19 @@ export interface VirtualRouterStaticRoutesIpv4LocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#name VirtualRouterStaticRoutesIpv4#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#name VirtualRouterStaticRoutesIpv4#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#ngfw_device VirtualRouterStaticRoutesIpv4#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#ngfw_device VirtualRouterStaticRoutesIpv4#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#panorama_device VirtualRouterStaticRoutesIpv4#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#panorama_device VirtualRouterStaticRoutesIpv4#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -288,19 +288,19 @@ export interface VirtualRouterStaticRoutesIpv4LocationTemplateStack {
   /**
   * Specific Panorama template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#name VirtualRouterStaticRoutesIpv4#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#name VirtualRouterStaticRoutesIpv4#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#ngfw_device VirtualRouterStaticRoutesIpv4#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#ngfw_device VirtualRouterStaticRoutesIpv4#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#panorama_device VirtualRouterStaticRoutesIpv4#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#panorama_device VirtualRouterStaticRoutesIpv4#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -454,19 +454,19 @@ export interface VirtualRouterStaticRoutesIpv4Location {
   /**
   * Located in a specific NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#ngfw VirtualRouterStaticRoutesIpv4#ngfw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#ngfw VirtualRouterStaticRoutesIpv4#ngfw}
   */
   readonly ngfw?: VirtualRouterStaticRoutesIpv4LocationNgfw;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#template VirtualRouterStaticRoutesIpv4#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#template VirtualRouterStaticRoutesIpv4#template}
   */
   readonly template?: VirtualRouterStaticRoutesIpv4LocationTemplate;
   /**
   * Located in a specific template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#template_stack VirtualRouterStaticRoutesIpv4#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#template_stack VirtualRouterStaticRoutesIpv4#template_stack}
   */
   readonly templateStack?: VirtualRouterStaticRoutesIpv4LocationTemplateStack;
 }
@@ -620,7 +620,7 @@ export interface VirtualRouterStaticRoutesIpv4StaticRoutesBfd {
   /**
   * BFD profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#profile VirtualRouterStaticRoutesIpv4#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#profile VirtualRouterStaticRoutesIpv4#profile}
   */
   readonly profile?: string;
 }
@@ -832,29 +832,29 @@ export class VirtualRouterStaticRoutesIpv4StaticRoutesNexthopReceiveOutputRefere
 }
 export interface VirtualRouterStaticRoutesIpv4StaticRoutesNexthop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#discard VirtualRouterStaticRoutesIpv4#discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#discard VirtualRouterStaticRoutesIpv4#discard}
   */
   readonly discard?: VirtualRouterStaticRoutesIpv4StaticRoutesNexthopDiscard;
   /**
   * nexthop address FQDN address object configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#fqdn VirtualRouterStaticRoutesIpv4#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#fqdn VirtualRouterStaticRoutesIpv4#fqdn}
   */
   readonly fqdn?: string;
   /**
   * Next hop IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#ip_address VirtualRouterStaticRoutesIpv4#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#ip_address VirtualRouterStaticRoutesIpv4#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Next hop virtual router
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#next_vr VirtualRouterStaticRoutesIpv4#next_vr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#next_vr VirtualRouterStaticRoutesIpv4#next_vr}
   */
   readonly nextVr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#receive VirtualRouterStaticRoutesIpv4#receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#receive VirtualRouterStaticRoutesIpv4#receive}
   */
   readonly receive?: VirtualRouterStaticRoutesIpv4StaticRoutesNexthopReceive;
 }
@@ -1066,33 +1066,33 @@ export interface VirtualRouterStaticRoutesIpv4StaticRoutesPathMonitorMonitorDest
   /**
   * ping count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#count VirtualRouterStaticRoutesIpv4#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#count VirtualRouterStaticRoutesIpv4#count}
   */
   readonly count?: number;
   /**
   * Destination IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#destination VirtualRouterStaticRoutesIpv4#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#destination VirtualRouterStaticRoutesIpv4#destination}
   */
   readonly destination?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#enable VirtualRouterStaticRoutesIpv4#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#enable VirtualRouterStaticRoutesIpv4#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * ping interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#interval VirtualRouterStaticRoutesIpv4#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#interval VirtualRouterStaticRoutesIpv4#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#name VirtualRouterStaticRoutesIpv4#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#name VirtualRouterStaticRoutesIpv4#name}
   */
   readonly name: string;
   /**
   * Source IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#source VirtualRouterStaticRoutesIpv4#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#source VirtualRouterStaticRoutesIpv4#source}
   */
   readonly source?: string;
 }
@@ -1350,23 +1350,23 @@ export class VirtualRouterStaticRoutesIpv4StaticRoutesPathMonitorMonitorDestinat
 }
 export interface VirtualRouterStaticRoutesIpv4StaticRoutesPathMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#enable VirtualRouterStaticRoutesIpv4#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#enable VirtualRouterStaticRoutesIpv4#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * failure condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#failure_condition VirtualRouterStaticRoutesIpv4#failure_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#failure_condition VirtualRouterStaticRoutesIpv4#failure_condition}
   */
   readonly failureCondition?: string;
   /**
   * hold time (minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#hold_time VirtualRouterStaticRoutesIpv4#hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#hold_time VirtualRouterStaticRoutesIpv4#hold_time}
   */
   readonly holdTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#monitor_destinations VirtualRouterStaticRoutesIpv4#monitor_destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#monitor_destinations VirtualRouterStaticRoutesIpv4#monitor_destinations}
   */
   readonly monitorDestinations?: VirtualRouterStaticRoutesIpv4StaticRoutesPathMonitorMonitorDestinations[] | cdktf.IResolvable;
 }
@@ -1783,19 +1783,19 @@ export class VirtualRouterStaticRoutesIpv4StaticRoutesRouteTableUnicastOutputRef
 }
 export interface VirtualRouterStaticRoutesIpv4StaticRoutesRouteTable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#both VirtualRouterStaticRoutesIpv4#both}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#both VirtualRouterStaticRoutesIpv4#both}
   */
   readonly both?: VirtualRouterStaticRoutesIpv4StaticRoutesRouteTableBoth;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#multicast VirtualRouterStaticRoutesIpv4#multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#multicast VirtualRouterStaticRoutesIpv4#multicast}
   */
   readonly multicast?: VirtualRouterStaticRoutesIpv4StaticRoutesRouteTableMulticast;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#no_install VirtualRouterStaticRoutesIpv4#no_install}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#no_install VirtualRouterStaticRoutesIpv4#no_install}
   */
   readonly noInstall?: VirtualRouterStaticRoutesIpv4StaticRoutesRouteTableNoInstall;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#unicast VirtualRouterStaticRoutesIpv4#unicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#unicast VirtualRouterStaticRoutesIpv4#unicast}
   */
   readonly unicast?: VirtualRouterStaticRoutesIpv4StaticRoutesRouteTableUnicast;
 }
@@ -1978,43 +1978,43 @@ export interface VirtualRouterStaticRoutesIpv4StaticRoutes {
   /**
   * adminitrative distance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#admin_dist VirtualRouterStaticRoutesIpv4#admin_dist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#admin_dist VirtualRouterStaticRoutesIpv4#admin_dist}
   */
   readonly adminDist?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#bfd VirtualRouterStaticRoutesIpv4#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#bfd VirtualRouterStaticRoutesIpv4#bfd}
   */
   readonly bfd?: VirtualRouterStaticRoutesIpv4StaticRoutesBfd;
   /**
   * Destination IP address/prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#destination VirtualRouterStaticRoutesIpv4#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#destination VirtualRouterStaticRoutesIpv4#destination}
   */
   readonly destination?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#interface VirtualRouterStaticRoutesIpv4#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#interface VirtualRouterStaticRoutesIpv4#interface}
   */
   readonly interface?: string;
   /**
   * metric value (path cost)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#metric VirtualRouterStaticRoutesIpv4#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#metric VirtualRouterStaticRoutesIpv4#metric}
   */
   readonly metric?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#name VirtualRouterStaticRoutesIpv4#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#name VirtualRouterStaticRoutesIpv4#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#nexthop VirtualRouterStaticRoutesIpv4#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#nexthop VirtualRouterStaticRoutesIpv4#nexthop}
   */
   readonly nexthop?: VirtualRouterStaticRoutesIpv4StaticRoutesNexthop;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#path_monitor VirtualRouterStaticRoutesIpv4#path_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#path_monitor VirtualRouterStaticRoutesIpv4#path_monitor}
   */
   readonly pathMonitor?: VirtualRouterStaticRoutesIpv4StaticRoutesPathMonitor;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#route_table VirtualRouterStaticRoutesIpv4#route_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#route_table VirtualRouterStaticRoutesIpv4#route_table}
   */
   readonly routeTable?: VirtualRouterStaticRoutesIpv4StaticRoutesRouteTable;
 }
@@ -2359,7 +2359,7 @@ export class VirtualRouterStaticRoutesIpv4StaticRoutesList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4 panos_virtual_router_static_routes_ipv4}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4 panos_virtual_router_static_routes_ipv4}
 */
 export class VirtualRouterStaticRoutesIpv4 extends cdktf.TerraformResource {
 
@@ -2375,7 +2375,7 @@ export class VirtualRouterStaticRoutesIpv4 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualRouterStaticRoutesIpv4 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualRouterStaticRoutesIpv4 to import
-  * @param importFromId The id of the existing VirtualRouterStaticRoutesIpv4 that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualRouterStaticRoutesIpv4 that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualRouterStaticRoutesIpv4 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2387,7 +2387,7 @@ export class VirtualRouterStaticRoutesIpv4 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/virtual_router_static_routes_ipv4 panos_virtual_router_static_routes_ipv4} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/virtual_router_static_routes_ipv4 panos_virtual_router_static_routes_ipv4} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2398,8 +2398,8 @@ export class VirtualRouterStaticRoutesIpv4 extends cdktf.TerraformResource {
       terraformResourceType: 'panos_virtual_router_static_routes_ipv4',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

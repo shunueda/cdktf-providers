@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_stack
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_stack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,162 @@ export interface TemplateStackConfig extends cdktf.TerraformMetaArguments {
   /**
   * Default virtual system
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_stack#default_vsys TemplateStack#default_vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_stack#default_vsys TemplateStack#default_vsys}
   */
   readonly defaultVsys?: string;
   /**
   * The description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_stack#description TemplateStack#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_stack#description TemplateStack#description}
   */
   readonly description?: string;
   /**
   * List of devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_stack#devices TemplateStack#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_stack#devices TemplateStack#devices}
   */
-  readonly devices?: string[];
+  readonly devices?: TemplateStackDevices[] | cdktf.IResolvable;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_stack#location TemplateStack#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_stack#location TemplateStack#location}
   */
   readonly location: TemplateStackLocation;
   /**
   * The name of the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_stack#name TemplateStack#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_stack#name TemplateStack#name}
   */
   readonly name: string;
   /**
   * List of templates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_stack#templates TemplateStack#templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_stack#templates TemplateStack#templates}
   */
   readonly templates?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_stack#user_group_source TemplateStack#user_group_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_stack#user_group_source TemplateStack#user_group_source}
   */
   readonly userGroupSource?: TemplateStackUserGroupSource;
+}
+export interface TemplateStackDevices {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_stack#name TemplateStack#name}
+  */
+  readonly name: string;
+}
+
+export function templateStackDevicesToTerraform(struct?: TemplateStackDevices | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function templateStackDevicesToHclTerraform(struct?: TemplateStackDevices | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class TemplateStackDevicesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): TemplateStackDevices | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: TemplateStackDevices | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+
+export class TemplateStackDevicesList extends cdktf.ComplexList {
+  public internalValue? : TemplateStackDevices[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): TemplateStackDevicesOutputReference {
+    return new TemplateStackDevicesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface TemplateStackLocationPanorama {
   /**
   * The Panorama device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_stack#panorama_device TemplateStack#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_stack#panorama_device TemplateStack#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -148,7 +261,7 @@ export interface TemplateStackLocation {
   /**
   * Located in a specific Panorama.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_stack#panorama TemplateStack#panorama}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_stack#panorama TemplateStack#panorama}
   */
   readonly panorama?: TemplateStackLocationPanorama;
 }
@@ -242,7 +355,7 @@ export class TemplateStackLocationOutputReference extends cdktf.ComplexObject {
 }
 export interface TemplateStackUserGroupSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_stack#master_device TemplateStack#master_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_stack#master_device TemplateStack#master_device}
   */
   readonly masterDevice?: string;
 }
@@ -336,7 +449,7 @@ export class TemplateStackUserGroupSourceOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_stack panos_template_stack}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_stack panos_template_stack}
 */
 export class TemplateStack extends cdktf.TerraformResource {
 
@@ -352,7 +465,7 @@ export class TemplateStack extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TemplateStack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TemplateStack to import
-  * @param importFromId The id of the existing TemplateStack that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_stack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TemplateStack that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_stack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TemplateStack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -364,7 +477,7 @@ export class TemplateStack extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/template_stack panos_template_stack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/template_stack panos_template_stack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -375,8 +488,8 @@ export class TemplateStack extends cdktf.TerraformResource {
       terraformResourceType: 'panos_template_stack',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -388,7 +501,7 @@ export class TemplateStack extends cdktf.TerraformResource {
     });
     this._defaultVsys = config.defaultVsys;
     this._description = config.description;
-    this._devices = config.devices;
+    this._devices.internalValue = config.devices;
     this._location.internalValue = config.location;
     this._name = config.name;
     this._templates = config.templates;
@@ -432,19 +545,19 @@ export class TemplateStack extends cdktf.TerraformResource {
   }
 
   // devices - computed: false, optional: true, required: false
-  private _devices?: string[]; 
+  private _devices = new TemplateStackDevicesList(this, "devices", false);
   public get devices() {
-    return this.getListAttribute('devices');
+    return this._devices;
   }
-  public set devices(value: string[]) {
-    this._devices = value;
+  public putDevices(value: TemplateStackDevices[] | cdktf.IResolvable) {
+    this._devices.internalValue = value;
   }
   public resetDevices() {
-    this._devices = undefined;
+    this._devices.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get devicesInput() {
-    return this._devices;
+    return this._devices.internalValue;
   }
 
   // location - computed: false, optional: false, required: true
@@ -513,7 +626,7 @@ export class TemplateStack extends cdktf.TerraformResource {
     return {
       default_vsys: cdktf.stringToTerraform(this._defaultVsys),
       description: cdktf.stringToTerraform(this._description),
-      devices: cdktf.listMapper(cdktf.stringToTerraform, false)(this._devices),
+      devices: cdktf.listMapper(templateStackDevicesToTerraform, false)(this._devices.internalValue),
       location: templateStackLocationToTerraform(this._location.internalValue),
       name: cdktf.stringToTerraform(this._name),
       templates: cdktf.listMapper(cdktf.stringToTerraform, false)(this._templates),
@@ -536,10 +649,10 @@ export class TemplateStack extends cdktf.TerraformResource {
         storageClassType: "string",
       },
       devices: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._devices),
-        isBlock: false,
+        value: cdktf.listMapperHcl(templateStackDevicesToHclTerraform, false)(this._devices.internalValue),
+        isBlock: true,
         type: "list",
-        storageClassType: "stringList",
+        storageClassType: "TemplateStackDevicesList",
       },
       location: {
         value: templateStackLocationToHclTerraform(this._location.internalValue),

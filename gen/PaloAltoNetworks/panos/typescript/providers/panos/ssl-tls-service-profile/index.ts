@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,21 +10,21 @@ export interface SslTlsServiceProfileConfig extends cdktf.TerraformMetaArguments
   /**
   * SSL certificate file name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#certificate SslTlsServiceProfile#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#certificate SslTlsServiceProfile#certificate}
   */
   readonly certificate: string;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#location SslTlsServiceProfile#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#location SslTlsServiceProfile#location}
   */
   readonly location: SslTlsServiceProfileLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#name SslTlsServiceProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#name SslTlsServiceProfile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#protocol_settings SslTlsServiceProfile#protocol_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#protocol_settings SslTlsServiceProfile#protocol_settings}
   */
   readonly protocolSettings?: SslTlsServiceProfileProtocolSettings;
 }
@@ -150,13 +150,13 @@ export interface SslTlsServiceProfileLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#name SslTlsServiceProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#name SslTlsServiceProfile#name}
   */
   readonly name?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#panorama_device SslTlsServiceProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#panorama_device SslTlsServiceProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -281,13 +281,13 @@ export interface SslTlsServiceProfileLocationTemplateStack {
   /**
   * The template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#name SslTlsServiceProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#name SslTlsServiceProfile#name}
   */
   readonly name?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#panorama_device SslTlsServiceProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#panorama_device SslTlsServiceProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -412,25 +412,25 @@ export interface SslTlsServiceProfileLocationTemplateStackVsys {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#ngfw_device SslTlsServiceProfile#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#ngfw_device SslTlsServiceProfile#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#panorama_device SslTlsServiceProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#panorama_device SslTlsServiceProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
   * The template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#template_stack SslTlsServiceProfile#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#template_stack SslTlsServiceProfile#template_stack}
   */
   readonly templateStack?: string;
   /**
   * The vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#vsys SslTlsServiceProfile#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#vsys SslTlsServiceProfile#vsys}
   */
   readonly vsys?: string;
 }
@@ -613,25 +613,25 @@ export interface SslTlsServiceProfileLocationTemplateVsys {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#ngfw_device SslTlsServiceProfile#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#ngfw_device SslTlsServiceProfile#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#panorama_device SslTlsServiceProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#panorama_device SslTlsServiceProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#template SslTlsServiceProfile#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#template SslTlsServiceProfile#template}
   */
   readonly template?: string;
   /**
   * The vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#vsys SslTlsServiceProfile#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#vsys SslTlsServiceProfile#vsys}
   */
   readonly vsys?: string;
 }
@@ -814,37 +814,37 @@ export interface SslTlsServiceProfileLocation {
   /**
   * Located in a panorama.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#panorama SslTlsServiceProfile#panorama}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#panorama SslTlsServiceProfile#panorama}
   */
   readonly panorama?: SslTlsServiceProfileLocationPanorama;
   /**
   * Panorama shared object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#shared SslTlsServiceProfile#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#shared SslTlsServiceProfile#shared}
   */
   readonly shared?: SslTlsServiceProfileLocationShared;
   /**
   * A shared resource located within a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#template SslTlsServiceProfile#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#template SslTlsServiceProfile#template}
   */
   readonly template?: SslTlsServiceProfileLocationTemplate;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#template_stack SslTlsServiceProfile#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#template_stack SslTlsServiceProfile#template_stack}
   */
   readonly templateStack?: SslTlsServiceProfileLocationTemplateStack;
   /**
   * Located in a specific template, device and vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#template_stack_vsys SslTlsServiceProfile#template_stack_vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#template_stack_vsys SslTlsServiceProfile#template_stack_vsys}
   */
   readonly templateStackVsys?: SslTlsServiceProfileLocationTemplateStackVsys;
   /**
   * Located in a specific template, device and vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#template_vsys SslTlsServiceProfile#template_vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#template_vsys SslTlsServiceProfile#template_vsys}
   */
   readonly templateVsys?: SslTlsServiceProfileLocationTemplateVsys;
 }
@@ -1085,83 +1085,83 @@ export interface SslTlsServiceProfileProtocolSettings {
   /**
   * Allow algorithm 3DES
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#allow_algorithm_3des SslTlsServiceProfile#allow_algorithm_3des}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#allow_algorithm_3des SslTlsServiceProfile#allow_algorithm_3des}
   */
   readonly allowAlgorithm3Des?: boolean | cdktf.IResolvable;
   /**
   * Allow algorithm AES-128-CBC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#allow_algorithm_aes_128_cbc SslTlsServiceProfile#allow_algorithm_aes_128_cbc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#allow_algorithm_aes_128_cbc SslTlsServiceProfile#allow_algorithm_aes_128_cbc}
   */
   readonly allowAlgorithmAes128Cbc?: boolean | cdktf.IResolvable;
   /**
   * Allow algorithm AES-128-GCM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#allow_algorithm_aes_128_gcm SslTlsServiceProfile#allow_algorithm_aes_128_gcm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#allow_algorithm_aes_128_gcm SslTlsServiceProfile#allow_algorithm_aes_128_gcm}
   */
   readonly allowAlgorithmAes128Gcm?: boolean | cdktf.IResolvable;
   /**
   * Allow algorithm AES-256-CBC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#allow_algorithm_aes_256_cbc SslTlsServiceProfile#allow_algorithm_aes_256_cbc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#allow_algorithm_aes_256_cbc SslTlsServiceProfile#allow_algorithm_aes_256_cbc}
   */
   readonly allowAlgorithmAes256Cbc?: boolean | cdktf.IResolvable;
   /**
   * Allow algorithm AES-256-GCM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#allow_algorithm_aes_256_gcm SslTlsServiceProfile#allow_algorithm_aes_256_gcm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#allow_algorithm_aes_256_gcm SslTlsServiceProfile#allow_algorithm_aes_256_gcm}
   */
   readonly allowAlgorithmAes256Gcm?: boolean | cdktf.IResolvable;
   /**
   * Allow algorithm DHE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#allow_algorithm_dhe SslTlsServiceProfile#allow_algorithm_dhe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#allow_algorithm_dhe SslTlsServiceProfile#allow_algorithm_dhe}
   */
   readonly allowAlgorithmDhe?: boolean | cdktf.IResolvable;
   /**
   * Allow algorithm ECDHE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#allow_algorithm_ecdhe SslTlsServiceProfile#allow_algorithm_ecdhe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#allow_algorithm_ecdhe SslTlsServiceProfile#allow_algorithm_ecdhe}
   */
   readonly allowAlgorithmEcdhe?: boolean | cdktf.IResolvable;
   /**
   * Allow algorithm RC4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#allow_algorithm_rc4 SslTlsServiceProfile#allow_algorithm_rc4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#allow_algorithm_rc4 SslTlsServiceProfile#allow_algorithm_rc4}
   */
   readonly allowAlgorithmRc4?: boolean | cdktf.IResolvable;
   /**
   * Allow algorithm RSA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#allow_algorithm_rsa SslTlsServiceProfile#allow_algorithm_rsa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#allow_algorithm_rsa SslTlsServiceProfile#allow_algorithm_rsa}
   */
   readonly allowAlgorithmRsa?: boolean | cdktf.IResolvable;
   /**
   * Allow authentication SHA1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#allow_authentication_sha1 SslTlsServiceProfile#allow_authentication_sha1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#allow_authentication_sha1 SslTlsServiceProfile#allow_authentication_sha1}
   */
   readonly allowAuthenticationSha1?: boolean | cdktf.IResolvable;
   /**
   * Allow authentication SHA256
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#allow_authentication_sha256 SslTlsServiceProfile#allow_authentication_sha256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#allow_authentication_sha256 SslTlsServiceProfile#allow_authentication_sha256}
   */
   readonly allowAuthenticationSha256?: boolean | cdktf.IResolvable;
   /**
   * Allow authentication SHA384
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#allow_authentication_sha384 SslTlsServiceProfile#allow_authentication_sha384}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#allow_authentication_sha384 SslTlsServiceProfile#allow_authentication_sha384}
   */
   readonly allowAuthenticationSha384?: boolean | cdktf.IResolvable;
   /**
   * Maximum TLS protocol version. Valid values are 'tls1-0', 'tls1-1', 'tls1-2', and max (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#max_version SslTlsServiceProfile#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#max_version SslTlsServiceProfile#max_version}
   */
   readonly maxVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#min_version SslTlsServiceProfile#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#min_version SslTlsServiceProfile#min_version}
   */
   readonly minVersion?: string;
 }
@@ -1632,7 +1632,7 @@ export class SslTlsServiceProfileProtocolSettingsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile panos_ssl_tls_service_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile panos_ssl_tls_service_profile}
 */
 export class SslTlsServiceProfile extends cdktf.TerraformResource {
 
@@ -1648,7 +1648,7 @@ export class SslTlsServiceProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SslTlsServiceProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SslTlsServiceProfile to import
-  * @param importFromId The id of the existing SslTlsServiceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SslTlsServiceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SslTlsServiceProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1660,7 +1660,7 @@ export class SslTlsServiceProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ssl_tls_service_profile panos_ssl_tls_service_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ssl_tls_service_profile panos_ssl_tls_service_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1671,8 +1671,8 @@ export class SslTlsServiceProfile extends cdktf.TerraformResource {
       terraformResourceType: 'panos_ssl_tls_service_profile',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

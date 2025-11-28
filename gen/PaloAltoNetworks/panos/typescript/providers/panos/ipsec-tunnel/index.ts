@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,89 +10,89 @@ export interface IpsecTunnelConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable Anti-Replay check on this tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#anti_replay IpsecTunnel#anti_replay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#anti_replay IpsecTunnel#anti_replay}
   */
   readonly antiReplay?: boolean | cdktf.IResolvable;
   /**
   * 64,128,256,512,1024,2048,4096
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#anti_replay_window IpsecTunnel#anti_replay_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#anti_replay_window IpsecTunnel#anti_replay_window}
   */
   readonly antiReplayWindow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#auto_key IpsecTunnel#auto_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#auto_key IpsecTunnel#auto_key}
   */
   readonly autoKey?: IpsecTunnelAutoKey;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#comment IpsecTunnel#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#comment IpsecTunnel#comment}
   */
   readonly comment?: string;
   /**
   * Copy IPv6 flow label for 6in6 tunnel from inner packet to IPSec packet (not recommended)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#copy_flow_label IpsecTunnel#copy_flow_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#copy_flow_label IpsecTunnel#copy_flow_label}
   */
   readonly copyFlowLabel?: boolean | cdktf.IResolvable;
   /**
   * Copy IP TOS bits from inner packet to IPSec packet (not recommended)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#copy_tos IpsecTunnel#copy_tos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#copy_tos IpsecTunnel#copy_tos}
   */
   readonly copyTos?: boolean | cdktf.IResolvable;
   /**
   * Disable the IPSec tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#disabled IpsecTunnel#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#disabled IpsecTunnel#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * allow GRE over IPSec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#enable_gre_encapsulation IpsecTunnel#enable_gre_encapsulation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#enable_gre_encapsulation IpsecTunnel#enable_gre_encapsulation}
   */
   readonly enableGreEncapsulation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#global_protect_satellite IpsecTunnel#global_protect_satellite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#global_protect_satellite IpsecTunnel#global_protect_satellite}
   */
   readonly globalProtectSatellite?: IpsecTunnelGlobalProtectSatellite;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#ipsec_mode IpsecTunnel#ipsec_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#ipsec_mode IpsecTunnel#ipsec_mode}
   */
   readonly ipsecMode?: string;
   /**
   * use IPv6 for the IPSec tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#ipv6 IpsecTunnel#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#ipv6 IpsecTunnel#ipv6}
   */
   readonly ipv6?: boolean | cdktf.IResolvable;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#location IpsecTunnel#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#location IpsecTunnel#location}
   */
   readonly location: IpsecTunnelLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#manual_key IpsecTunnel#manual_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#manual_key IpsecTunnel#manual_key}
   */
   readonly manualKey?: IpsecTunnelManualKey;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#name IpsecTunnel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#name IpsecTunnel#name}
   */
   readonly name: string;
   /**
   * to apply IPSec VPN tunnels to tunnel interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#tunnel_interface IpsecTunnel#tunnel_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#tunnel_interface IpsecTunnel#tunnel_interface}
   */
   readonly tunnelInterface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#tunnel_monitor IpsecTunnel#tunnel_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#tunnel_monitor IpsecTunnel#tunnel_monitor}
   */
   readonly tunnelMonitor?: IpsecTunnelTunnelMonitor;
 }
 export interface IpsecTunnelAutoKeyIkeGateway {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#name IpsecTunnel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#name IpsecTunnel#name}
   */
   readonly name: string;
 }
@@ -264,11 +264,11 @@ export class IpsecTunnelAutoKeyProxyIdProtocolAnyOutputReference extends cdktf.C
 }
 export interface IpsecTunnelAutoKeyProxyIdProtocolTcp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#local_port IpsecTunnel#local_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#local_port IpsecTunnel#local_port}
   */
   readonly localPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#remote_port IpsecTunnel#remote_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#remote_port IpsecTunnel#remote_port}
   */
   readonly remotePort?: number;
 }
@@ -391,11 +391,11 @@ export class IpsecTunnelAutoKeyProxyIdProtocolTcpOutputReference extends cdktf.C
 }
 export interface IpsecTunnelAutoKeyProxyIdProtocolUdp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#local_port IpsecTunnel#local_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#local_port IpsecTunnel#local_port}
   */
   readonly localPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#remote_port IpsecTunnel#remote_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#remote_port IpsecTunnel#remote_port}
   */
   readonly remotePort?: number;
 }
@@ -518,21 +518,21 @@ export class IpsecTunnelAutoKeyProxyIdProtocolUdpOutputReference extends cdktf.C
 }
 export interface IpsecTunnelAutoKeyProxyIdProtocol {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#any IpsecTunnel#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#any IpsecTunnel#any}
   */
   readonly any?: IpsecTunnelAutoKeyProxyIdProtocolAny;
   /**
   * IP protocol number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#number IpsecTunnel#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#number IpsecTunnel#number}
   */
   readonly number?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#tcp IpsecTunnel#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#tcp IpsecTunnel#tcp}
   */
   readonly tcp?: IpsecTunnelAutoKeyProxyIdProtocolTcp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#udp IpsecTunnel#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#udp IpsecTunnel#udp}
   */
   readonly udp?: IpsecTunnelAutoKeyProxyIdProtocolUdp;
 }
@@ -715,21 +715,21 @@ export interface IpsecTunnelAutoKeyProxyId {
   /**
   * IP subnet or IP address represents local network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#local IpsecTunnel#local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#local IpsecTunnel#local}
   */
   readonly local?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#name IpsecTunnel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#name IpsecTunnel#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#protocol IpsecTunnel#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#protocol IpsecTunnel#protocol}
   */
   readonly protocol?: IpsecTunnelAutoKeyProxyIdProtocol;
   /**
   * IP subnet or IP address represents remote network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#remote IpsecTunnel#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#remote IpsecTunnel#remote}
   */
   readonly remote?: string;
 }
@@ -988,11 +988,11 @@ export class IpsecTunnelAutoKeyProxyIdV6ProtocolAnyOutputReference extends cdktf
 }
 export interface IpsecTunnelAutoKeyProxyIdV6ProtocolTcp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#local_port IpsecTunnel#local_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#local_port IpsecTunnel#local_port}
   */
   readonly localPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#remote_port IpsecTunnel#remote_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#remote_port IpsecTunnel#remote_port}
   */
   readonly remotePort?: number;
 }
@@ -1115,11 +1115,11 @@ export class IpsecTunnelAutoKeyProxyIdV6ProtocolTcpOutputReference extends cdktf
 }
 export interface IpsecTunnelAutoKeyProxyIdV6ProtocolUdp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#local_port IpsecTunnel#local_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#local_port IpsecTunnel#local_port}
   */
   readonly localPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#remote_port IpsecTunnel#remote_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#remote_port IpsecTunnel#remote_port}
   */
   readonly remotePort?: number;
 }
@@ -1242,21 +1242,21 @@ export class IpsecTunnelAutoKeyProxyIdV6ProtocolUdpOutputReference extends cdktf
 }
 export interface IpsecTunnelAutoKeyProxyIdV6Protocol {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#any IpsecTunnel#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#any IpsecTunnel#any}
   */
   readonly any?: IpsecTunnelAutoKeyProxyIdV6ProtocolAny;
   /**
   * IP protocol number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#number IpsecTunnel#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#number IpsecTunnel#number}
   */
   readonly number?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#tcp IpsecTunnel#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#tcp IpsecTunnel#tcp}
   */
   readonly tcp?: IpsecTunnelAutoKeyProxyIdV6ProtocolTcp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#udp IpsecTunnel#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#udp IpsecTunnel#udp}
   */
   readonly udp?: IpsecTunnelAutoKeyProxyIdV6ProtocolUdp;
 }
@@ -1439,21 +1439,21 @@ export interface IpsecTunnelAutoKeyProxyIdV6 {
   /**
   * IP subnet or IP address represents local network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#local IpsecTunnel#local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#local IpsecTunnel#local}
   */
   readonly local?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#name IpsecTunnel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#name IpsecTunnel#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#protocol IpsecTunnel#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#protocol IpsecTunnel#protocol}
   */
   readonly protocol?: IpsecTunnelAutoKeyProxyIdV6Protocol;
   /**
   * IP subnet or IP address represents remote network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#remote IpsecTunnel#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#remote IpsecTunnel#remote}
   */
   readonly remote?: string;
 }
@@ -1653,21 +1653,21 @@ export class IpsecTunnelAutoKeyProxyIdV6List extends cdktf.ComplexList {
 }
 export interface IpsecTunnelAutoKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#ike_gateway IpsecTunnel#ike_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#ike_gateway IpsecTunnel#ike_gateway}
   */
   readonly ikeGateway?: IpsecTunnelAutoKeyIkeGateway[] | cdktf.IResolvable;
   /**
   * IPSec crypto profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#ipsec_crypto_profile IpsecTunnel#ipsec_crypto_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#ipsec_crypto_profile IpsecTunnel#ipsec_crypto_profile}
   */
   readonly ipsecCryptoProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#proxy_id IpsecTunnel#proxy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#proxy_id IpsecTunnel#proxy_id}
   */
   readonly proxyId?: IpsecTunnelAutoKeyProxyId[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#proxy_id_v6 IpsecTunnel#proxy_id_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#proxy_id_v6 IpsecTunnel#proxy_id_v6}
   */
   readonly proxyIdV6?: IpsecTunnelAutoKeyProxyIdV6[] | cdktf.IResolvable;
 }
@@ -1850,13 +1850,13 @@ export interface IpsecTunnelGlobalProtectSatelliteExternalCa {
   /**
   * Profile for authenticating GlobalProtect gateway certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#certificate_profile IpsecTunnel#certificate_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#certificate_profile IpsecTunnel#certificate_profile}
   */
   readonly certificateProfile?: string;
   /**
   * GlobalProtect satellite certificate file name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#local_certificate IpsecTunnel#local_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#local_certificate IpsecTunnel#local_certificate}
   */
   readonly localCertificate?: string;
 }
@@ -1981,13 +1981,13 @@ export interface IpsecTunnelGlobalProtectSatelliteLocalAddressFloatingIp {
   /**
   * Floating IP address in HA Active-Active configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#ipv4 IpsecTunnel#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#ipv4 IpsecTunnel#ipv4}
   */
   readonly ipv4?: string;
   /**
   * Floating IPv6 address in HA Active-Active configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#ipv6 IpsecTunnel#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#ipv6 IpsecTunnel#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -2112,13 +2112,13 @@ export interface IpsecTunnelGlobalProtectSatelliteLocalAddressIp {
   /**
   * specify exact IP address if interface has multiple addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#ipv4 IpsecTunnel#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#ipv4 IpsecTunnel#ipv4}
   */
   readonly ipv4?: string;
   /**
   * specify exact local IPv6 address if interface has multiple addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#ipv6 IpsecTunnel#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#ipv6 IpsecTunnel#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -2241,17 +2241,17 @@ export class IpsecTunnelGlobalProtectSatelliteLocalAddressIpOutputReference exte
 }
 export interface IpsecTunnelGlobalProtectSatelliteLocalAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#floating_ip IpsecTunnel#floating_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#floating_ip IpsecTunnel#floating_ip}
   */
   readonly floatingIp?: IpsecTunnelGlobalProtectSatelliteLocalAddressFloatingIp;
   /**
   * Interface to communicate with Portal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#interface IpsecTunnel#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#interface IpsecTunnel#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#ip IpsecTunnel#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#ip IpsecTunnel#ip}
   */
   readonly ip?: IpsecTunnelGlobalProtectSatelliteLocalAddressIp;
 }
@@ -2405,7 +2405,7 @@ export interface IpsecTunnelGlobalProtectSatellitePublishConnectedRoutes {
   /**
   * Enable publishing of connected and static routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#enable IpsecTunnel#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#enable IpsecTunnel#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -2499,31 +2499,31 @@ export class IpsecTunnelGlobalProtectSatellitePublishConnectedRoutesOutputRefere
 }
 export interface IpsecTunnelGlobalProtectSatellite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#external_ca IpsecTunnel#external_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#external_ca IpsecTunnel#external_ca}
   */
   readonly externalCa?: IpsecTunnelGlobalProtectSatelliteExternalCa;
   /**
   * Prefer to register to portal in ipv6. Only applicable to fqdn portal-address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#ipv6_preferred IpsecTunnel#ipv6_preferred}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#ipv6_preferred IpsecTunnel#ipv6_preferred}
   */
   readonly ipv6Preferred?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#local_address IpsecTunnel#local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#local_address IpsecTunnel#local_address}
   */
   readonly localAddress?: IpsecTunnelGlobalProtectSatelliteLocalAddress;
   /**
   * GlobalProtect portal address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#portal_address IpsecTunnel#portal_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#portal_address IpsecTunnel#portal_address}
   */
   readonly portalAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#publish_connected_routes IpsecTunnel#publish_connected_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#publish_connected_routes IpsecTunnel#publish_connected_routes}
   */
   readonly publishConnectedRoutes?: IpsecTunnelGlobalProtectSatellitePublishConnectedRoutes;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#publish_routes IpsecTunnel#publish_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#publish_routes IpsecTunnel#publish_routes}
   */
   readonly publishRoutes?: string[];
 }
@@ -2760,23 +2760,119 @@ export class IpsecTunnelGlobalProtectSatelliteOutputReference extends cdktf.Comp
     return this._publishRoutes;
   }
 }
+export interface IpsecTunnelLocationNgfw {
+  /**
+  * The NGFW device
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#ngfw_device IpsecTunnel#ngfw_device}
+  */
+  readonly ngfwDevice?: string;
+}
+
+export function ipsecTunnelLocationNgfwToTerraform(struct?: IpsecTunnelLocationNgfw | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    ngfw_device: cdktf.stringToTerraform(struct!.ngfwDevice),
+  }
+}
+
+
+export function ipsecTunnelLocationNgfwToHclTerraform(struct?: IpsecTunnelLocationNgfw | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    ngfw_device: {
+      value: cdktf.stringToHclTerraform(struct!.ngfwDevice),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class IpsecTunnelLocationNgfwOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): IpsecTunnelLocationNgfw | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._ngfwDevice !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ngfwDevice = this._ngfwDevice;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: IpsecTunnelLocationNgfw | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._ngfwDevice = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._ngfwDevice = value.ngfwDevice;
+    }
+  }
+
+  // ngfw_device - computed: true, optional: true, required: false
+  private _ngfwDevice?: string; 
+  public get ngfwDevice() {
+    return this.getStringAttribute('ngfw_device');
+  }
+  public set ngfwDevice(value: string) {
+    this._ngfwDevice = value;
+  }
+  public resetNgfwDevice() {
+    this._ngfwDevice = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ngfwDeviceInput() {
+    return this._ngfwDevice;
+  }
+}
 export interface IpsecTunnelLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#name IpsecTunnel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#name IpsecTunnel#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#ngfw_device IpsecTunnel#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#ngfw_device IpsecTunnel#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#panorama_device IpsecTunnel#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#panorama_device IpsecTunnel#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -2930,19 +3026,19 @@ export interface IpsecTunnelLocationTemplateStack {
   /**
   * Specific Panorama template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#name IpsecTunnel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#name IpsecTunnel#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#ngfw_device IpsecTunnel#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#ngfw_device IpsecTunnel#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#panorama_device IpsecTunnel#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#panorama_device IpsecTunnel#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -3094,15 +3190,21 @@ export class IpsecTunnelLocationTemplateStackOutputReference extends cdktf.Compl
 }
 export interface IpsecTunnelLocation {
   /**
+  * Located in a specific NGFW device
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#ngfw IpsecTunnel#ngfw}
+  */
+  readonly ngfw?: IpsecTunnelLocationNgfw;
+  /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#template IpsecTunnel#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#template IpsecTunnel#template}
   */
   readonly template?: IpsecTunnelLocationTemplate;
   /**
   * Located in a specific template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#template_stack IpsecTunnel#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#template_stack IpsecTunnel#template_stack}
   */
   readonly templateStack?: IpsecTunnelLocationTemplateStack;
 }
@@ -3113,6 +3215,7 @@ export function ipsecTunnelLocationToTerraform(struct?: IpsecTunnelLocation | cd
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    ngfw: ipsecTunnelLocationNgfwToTerraform(struct!.ngfw),
     template: ipsecTunnelLocationTemplateToTerraform(struct!.template),
     template_stack: ipsecTunnelLocationTemplateStackToTerraform(struct!.templateStack),
   }
@@ -3125,6 +3228,12 @@ export function ipsecTunnelLocationToHclTerraform(struct?: IpsecTunnelLocation |
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    ngfw: {
+      value: ipsecTunnelLocationNgfwToHclTerraform(struct!.ngfw),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "IpsecTunnelLocationNgfw",
+    },
     template: {
       value: ipsecTunnelLocationTemplateToHclTerraform(struct!.template),
       isBlock: true,
@@ -3161,6 +3270,10 @@ export class IpsecTunnelLocationOutputReference extends cdktf.ComplexObject {
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._ngfw?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ngfw = this._ngfw?.internalValue;
+    }
     if (this._template?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.template = this._template?.internalValue;
@@ -3176,6 +3289,7 @@ export class IpsecTunnelLocationOutputReference extends cdktf.ComplexObject {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._ngfw.internalValue = undefined;
       this._template.internalValue = undefined;
       this._templateStack.internalValue = undefined;
     }
@@ -3186,9 +3300,26 @@ export class IpsecTunnelLocationOutputReference extends cdktf.ComplexObject {
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._ngfw.internalValue = value.ngfw;
       this._template.internalValue = value.template;
       this._templateStack.internalValue = value.templateStack;
     }
+  }
+
+  // ngfw - computed: false, optional: true, required: false
+  private _ngfw = new IpsecTunnelLocationNgfwOutputReference(this, "ngfw");
+  public get ngfw() {
+    return this._ngfw;
+  }
+  public putNgfw(value: IpsecTunnelLocationNgfw) {
+    this._ngfw.internalValue = value;
+  }
+  public resetNgfw() {
+    this._ngfw.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ngfwInput() {
+    return this._ngfw.internalValue;
   }
 
   // template - computed: false, optional: true, required: false
@@ -3227,7 +3358,7 @@ export interface IpsecTunnelManualKeyAhMd5 {
   /**
   * hex format xxxxxxxx[-xxxxxxxx]... total 4 sections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#key IpsecTunnel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#key IpsecTunnel#key}
   */
   readonly key?: string;
 }
@@ -3323,7 +3454,7 @@ export interface IpsecTunnelManualKeyAhSha1 {
   /**
   * hex format xxxxxxxx[-xxxxxxxx]... total 5 sections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#key IpsecTunnel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#key IpsecTunnel#key}
   */
   readonly key?: string;
 }
@@ -3419,7 +3550,7 @@ export interface IpsecTunnelManualKeyAhSha256 {
   /**
   * hex format xxxxxxxx[-xxxxxxxx]... total 8 sections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#key IpsecTunnel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#key IpsecTunnel#key}
   */
   readonly key?: string;
 }
@@ -3515,7 +3646,7 @@ export interface IpsecTunnelManualKeyAhSha384 {
   /**
   * hex format xxxxxxxx[-xxxxxxxx]... total 12 sections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#key IpsecTunnel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#key IpsecTunnel#key}
   */
   readonly key?: string;
 }
@@ -3611,7 +3742,7 @@ export interface IpsecTunnelManualKeyAhSha512 {
   /**
   * hex format xxxxxxxx[-xxxxxxxx]... total 16 sections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#key IpsecTunnel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#key IpsecTunnel#key}
   */
   readonly key?: string;
 }
@@ -3705,23 +3836,23 @@ export class IpsecTunnelManualKeyAhSha512OutputReference extends cdktf.ComplexOb
 }
 export interface IpsecTunnelManualKeyAh {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#md5 IpsecTunnel#md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#md5 IpsecTunnel#md5}
   */
   readonly md5?: IpsecTunnelManualKeyAhMd5;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#sha1 IpsecTunnel#sha1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#sha1 IpsecTunnel#sha1}
   */
   readonly sha1?: IpsecTunnelManualKeyAhSha1;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#sha256 IpsecTunnel#sha256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#sha256 IpsecTunnel#sha256}
   */
   readonly sha256?: IpsecTunnelManualKeyAhSha256;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#sha384 IpsecTunnel#sha384}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#sha384 IpsecTunnel#sha384}
   */
   readonly sha384?: IpsecTunnelManualKeyAhSha384;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#sha512 IpsecTunnel#sha512}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#sha512 IpsecTunnel#sha512}
   */
   readonly sha512?: IpsecTunnelManualKeyAhSha512;
 }
@@ -3933,7 +4064,7 @@ export interface IpsecTunnelManualKeyEspAuthenticationMd5 {
   /**
   * hex format xxxxxxxx[-xxxxxxxx]... total 4 sections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#key IpsecTunnel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#key IpsecTunnel#key}
   */
   readonly key?: string;
 }
@@ -4088,7 +4219,7 @@ export interface IpsecTunnelManualKeyEspAuthenticationSha1 {
   /**
   * hex format xxxxxxxx[-xxxxxxxx]... total 5 sections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#key IpsecTunnel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#key IpsecTunnel#key}
   */
   readonly key?: string;
 }
@@ -4184,7 +4315,7 @@ export interface IpsecTunnelManualKeyEspAuthenticationSha256 {
   /**
   * hex format xxxxxxxx[-xxxxxxxx]... total 8 sections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#key IpsecTunnel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#key IpsecTunnel#key}
   */
   readonly key?: string;
 }
@@ -4280,7 +4411,7 @@ export interface IpsecTunnelManualKeyEspAuthenticationSha384 {
   /**
   * hex format xxxxxxxx[-xxxxxxxx]... total 12 sections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#key IpsecTunnel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#key IpsecTunnel#key}
   */
   readonly key?: string;
 }
@@ -4376,7 +4507,7 @@ export interface IpsecTunnelManualKeyEspAuthenticationSha512 {
   /**
   * hex format xxxxxxxx[-xxxxxxxx]... total 16 sections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#key IpsecTunnel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#key IpsecTunnel#key}
   */
   readonly key?: string;
 }
@@ -4470,27 +4601,27 @@ export class IpsecTunnelManualKeyEspAuthenticationSha512OutputReference extends 
 }
 export interface IpsecTunnelManualKeyEspAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#md5 IpsecTunnel#md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#md5 IpsecTunnel#md5}
   */
   readonly md5?: IpsecTunnelManualKeyEspAuthenticationMd5;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#none IpsecTunnel#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#none IpsecTunnel#none}
   */
   readonly none?: IpsecTunnelManualKeyEspAuthenticationNone;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#sha1 IpsecTunnel#sha1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#sha1 IpsecTunnel#sha1}
   */
   readonly sha1?: IpsecTunnelManualKeyEspAuthenticationSha1;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#sha256 IpsecTunnel#sha256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#sha256 IpsecTunnel#sha256}
   */
   readonly sha256?: IpsecTunnelManualKeyEspAuthenticationSha256;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#sha384 IpsecTunnel#sha384}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#sha384 IpsecTunnel#sha384}
   */
   readonly sha384?: IpsecTunnelManualKeyEspAuthenticationSha384;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#sha512 IpsecTunnel#sha512}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#sha512 IpsecTunnel#sha512}
   */
   readonly sha512?: IpsecTunnelManualKeyEspAuthenticationSha512;
 }
@@ -4729,13 +4860,13 @@ export class IpsecTunnelManualKeyEspAuthenticationOutputReference extends cdktf.
 }
 export interface IpsecTunnelManualKeyEspEncryption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#algorithm IpsecTunnel#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#algorithm IpsecTunnel#algorithm}
   */
   readonly algorithm?: string;
   /**
   * hex format xxxxxxxx[-xxxxxxxx]... total number of sections: des: 2, 3des: 6, aes-128-cbc: 4, aes-192-cbc: 6, aes-256-cbc: 8
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#key IpsecTunnel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#key IpsecTunnel#key}
   */
   readonly key?: string;
 }
@@ -4858,11 +4989,11 @@ export class IpsecTunnelManualKeyEspEncryptionOutputReference extends cdktf.Comp
 }
 export interface IpsecTunnelManualKeyEsp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#authentication IpsecTunnel#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#authentication IpsecTunnel#authentication}
   */
   readonly authentication?: IpsecTunnelManualKeyEspAuthentication;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#encryption IpsecTunnel#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#encryption IpsecTunnel#encryption}
   */
   readonly encryption?: IpsecTunnelManualKeyEspEncryption;
 }
@@ -4987,19 +5118,19 @@ export interface IpsecTunnelManualKeyLocalAddress {
   /**
   * Floating IP address in HA Active-Active configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#floating_ip IpsecTunnel#floating_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#floating_ip IpsecTunnel#floating_ip}
   */
   readonly floatingIp?: string;
   /**
   * Interface to termate tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#interface IpsecTunnel#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#interface IpsecTunnel#interface}
   */
   readonly interface?: string;
   /**
   * specify exact IP address if interface has multiple addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#ip IpsecTunnel#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#ip IpsecTunnel#ip}
   */
   readonly ip?: string;
 }
@@ -5153,7 +5284,7 @@ export interface IpsecTunnelManualKeyPeerAddress {
   /**
   * Tunnel peer IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#ip IpsecTunnel#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#ip IpsecTunnel#ip}
   */
   readonly ip?: string;
 }
@@ -5247,31 +5378,31 @@ export class IpsecTunnelManualKeyPeerAddressOutputReference extends cdktf.Comple
 }
 export interface IpsecTunnelManualKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#ah IpsecTunnel#ah}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#ah IpsecTunnel#ah}
   */
   readonly ah?: IpsecTunnelManualKeyAh;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#esp IpsecTunnel#esp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#esp IpsecTunnel#esp}
   */
   readonly esp?: IpsecTunnelManualKeyEsp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#local_address IpsecTunnel#local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#local_address IpsecTunnel#local_address}
   */
   readonly localAddress?: IpsecTunnelManualKeyLocalAddress;
   /**
   * Outbound SPI, hex format xxxxxxxx. range 00001000 to 1FFFFFFF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#local_spi IpsecTunnel#local_spi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#local_spi IpsecTunnel#local_spi}
   */
   readonly localSpi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#peer_address IpsecTunnel#peer_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#peer_address IpsecTunnel#peer_address}
   */
   readonly peerAddress?: IpsecTunnelManualKeyPeerAddress;
   /**
   * Inbound SPI, hex format xxxxxxxx.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#remote_spi IpsecTunnel#remote_spi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#remote_spi IpsecTunnel#remote_spi}
   */
   readonly remoteSpi?: string;
 }
@@ -5512,25 +5643,25 @@ export interface IpsecTunnelTunnelMonitor {
   /**
   * Destination IP to send ICMP probe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#destination_ip IpsecTunnel#destination_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#destination_ip IpsecTunnel#destination_ip}
   */
   readonly destinationIp?: string;
   /**
   * Enable tunnel monitoring on this tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#enable IpsecTunnel#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#enable IpsecTunnel#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Which proxy-id (or proxy-id-v6) the monitoring traffic will use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#proxy_id IpsecTunnel#proxy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#proxy_id IpsecTunnel#proxy_id}
   */
   readonly proxyId?: string;
   /**
   * monitoring action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#tunnel_monitor_profile IpsecTunnel#tunnel_monitor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#tunnel_monitor_profile IpsecTunnel#tunnel_monitor_profile}
   */
   readonly tunnelMonitorProfile?: string;
 }
@@ -5711,7 +5842,7 @@ export class IpsecTunnelTunnelMonitorOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel panos_ipsec_tunnel}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel panos_ipsec_tunnel}
 */
 export class IpsecTunnel extends cdktf.TerraformResource {
 
@@ -5727,7 +5858,7 @@ export class IpsecTunnel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpsecTunnel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpsecTunnel to import
-  * @param importFromId The id of the existing IpsecTunnel that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpsecTunnel that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpsecTunnel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5739,7 +5870,7 @@ export class IpsecTunnel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ipsec_tunnel panos_ipsec_tunnel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/ipsec_tunnel panos_ipsec_tunnel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5750,8 +5881,8 @@ export class IpsecTunnel extends cdktf.TerraformResource {
       terraformResourceType: 'panos_ipsec_tunnel',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

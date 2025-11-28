@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,103 +8,103 @@ import * as cdktf from 'cdktf';
 
 export interface UrlFilteringSecurityProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#alert UrlFilteringSecurityProfile#alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#alert UrlFilteringSecurityProfile#alert}
   */
   readonly alert?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#allow UrlFilteringSecurityProfile#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#allow UrlFilteringSecurityProfile#allow}
   */
   readonly allow?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#block UrlFilteringSecurityProfile#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#block UrlFilteringSecurityProfile#block}
   */
   readonly block?: string[];
   /**
   * Enable cloud inline categorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#cloud_inline_cat UrlFilteringSecurityProfile#cloud_inline_cat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#cloud_inline_cat UrlFilteringSecurityProfile#cloud_inline_cat}
   */
   readonly cloudInlineCat?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#continue UrlFilteringSecurityProfile#continue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#continue UrlFilteringSecurityProfile#continue}
   */
   readonly continue?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#credential_enforcement UrlFilteringSecurityProfile#credential_enforcement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#credential_enforcement UrlFilteringSecurityProfile#credential_enforcement}
   */
   readonly credentialEnforcement?: UrlFilteringSecurityProfileCredentialEnforcement;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#description UrlFilteringSecurityProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#description UrlFilteringSecurityProfile#description}
   */
   readonly description?: string;
   /**
   * disable object override in child device groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#disable_override UrlFilteringSecurityProfile#disable_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#disable_override UrlFilteringSecurityProfile#disable_override}
   */
   readonly disableOverride?: string;
   /**
   * Track container page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#enable_container_page UrlFilteringSecurityProfile#enable_container_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#enable_container_page UrlFilteringSecurityProfile#enable_container_page}
   */
   readonly enableContainerPage?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#http_header_insertion UrlFilteringSecurityProfile#http_header_insertion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#http_header_insertion UrlFilteringSecurityProfile#http_header_insertion}
   */
   readonly httpHeaderInsertion?: UrlFilteringSecurityProfileHttpHeaderInsertion[] | cdktf.IResolvable;
   /**
   * Enable local inline categorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#local_inline_cat UrlFilteringSecurityProfile#local_inline_cat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#local_inline_cat UrlFilteringSecurityProfile#local_inline_cat}
   */
   readonly localInlineCat?: boolean | cdktf.IResolvable;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#location UrlFilteringSecurityProfile#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#location UrlFilteringSecurityProfile#location}
   */
   readonly location: UrlFilteringSecurityProfileLocation;
   /**
   * Log container page only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#log_container_page_only UrlFilteringSecurityProfile#log_container_page_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#log_container_page_only UrlFilteringSecurityProfile#log_container_page_only}
   */
   readonly logContainerPageOnly?: boolean | cdktf.IResolvable;
   /**
   * Log HTTP Header Referer field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#log_http_hdr_referer UrlFilteringSecurityProfile#log_http_hdr_referer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#log_http_hdr_referer UrlFilteringSecurityProfile#log_http_hdr_referer}
   */
   readonly logHttpHdrReferer?: boolean | cdktf.IResolvable;
   /**
   * Log HTTP Header User-Agent field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#log_http_hdr_user_agent UrlFilteringSecurityProfile#log_http_hdr_user_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#log_http_hdr_user_agent UrlFilteringSecurityProfile#log_http_hdr_user_agent}
   */
   readonly logHttpHdrUserAgent?: boolean | cdktf.IResolvable;
   /**
   * Log HTTP Header X-Forwarded-For field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#log_http_hdr_xff UrlFilteringSecurityProfile#log_http_hdr_xff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#log_http_hdr_xff UrlFilteringSecurityProfile#log_http_hdr_xff}
   */
   readonly logHttpHdrXff?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#mlav_category_exception UrlFilteringSecurityProfile#mlav_category_exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#mlav_category_exception UrlFilteringSecurityProfile#mlav_category_exception}
   */
   readonly mlavCategoryException?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#name UrlFilteringSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#name UrlFilteringSecurityProfile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#override UrlFilteringSecurityProfile#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#override UrlFilteringSecurityProfile#override}
   */
   readonly override?: string[];
   /**
   * Safe-Search will be enforced if it is set 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#safe_search_enforcement UrlFilteringSecurityProfile#safe_search_enforcement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#safe_search_enforcement UrlFilteringSecurityProfile#safe_search_enforcement}
   */
   readonly safeSearchEnforcement?: boolean | cdktf.IResolvable;
 }
@@ -287,21 +287,21 @@ export class UrlFilteringSecurityProfileCredentialEnforcementModeIpUserOutputRef
 }
 export interface UrlFilteringSecurityProfileCredentialEnforcementMode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#disabled UrlFilteringSecurityProfile#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#disabled UrlFilteringSecurityProfile#disabled}
   */
   readonly disabled?: UrlFilteringSecurityProfileCredentialEnforcementModeDisabled;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#domain_credentials UrlFilteringSecurityProfile#domain_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#domain_credentials UrlFilteringSecurityProfile#domain_credentials}
   */
   readonly domainCredentials?: UrlFilteringSecurityProfileCredentialEnforcementModeDomainCredentials;
   /**
   * Use Group Mapping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#group_mapping UrlFilteringSecurityProfile#group_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#group_mapping UrlFilteringSecurityProfile#group_mapping}
   */
   readonly groupMapping?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#ip_user UrlFilteringSecurityProfile#ip_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#ip_user UrlFilteringSecurityProfile#ip_user}
   */
   readonly ipUser?: UrlFilteringSecurityProfileCredentialEnforcementModeIpUser;
 }
@@ -482,29 +482,29 @@ export class UrlFilteringSecurityProfileCredentialEnforcementModeOutputReference
 }
 export interface UrlFilteringSecurityProfileCredentialEnforcement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#alert UrlFilteringSecurityProfile#alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#alert UrlFilteringSecurityProfile#alert}
   */
   readonly alert?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#allow UrlFilteringSecurityProfile#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#allow UrlFilteringSecurityProfile#allow}
   */
   readonly allow?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#block UrlFilteringSecurityProfile#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#block UrlFilteringSecurityProfile#block}
   */
   readonly block?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#continue UrlFilteringSecurityProfile#continue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#continue UrlFilteringSecurityProfile#continue}
   */
   readonly continue?: string[];
   /**
   * Log severity when credential matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#log_severity UrlFilteringSecurityProfile#log_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#log_severity UrlFilteringSecurityProfile#log_severity}
   */
   readonly logSeverity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#mode UrlFilteringSecurityProfile#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#mode UrlFilteringSecurityProfile#mode}
   */
   readonly mode?: UrlFilteringSecurityProfileCredentialEnforcementMode;
 }
@@ -743,19 +743,19 @@ export class UrlFilteringSecurityProfileCredentialEnforcementOutputReference ext
 }
 export interface UrlFilteringSecurityProfileHttpHeaderInsertionTypeHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#header UrlFilteringSecurityProfile#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#header UrlFilteringSecurityProfile#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#log UrlFilteringSecurityProfile#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#log UrlFilteringSecurityProfile#log}
   */
   readonly log?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#name UrlFilteringSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#name UrlFilteringSecurityProfile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#value UrlFilteringSecurityProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#value UrlFilteringSecurityProfile#value}
   */
   readonly value?: string;
 }
@@ -955,15 +955,15 @@ export class UrlFilteringSecurityProfileHttpHeaderInsertionTypeHeadersList exten
 }
 export interface UrlFilteringSecurityProfileHttpHeaderInsertionType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#domains UrlFilteringSecurityProfile#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#domains UrlFilteringSecurityProfile#domains}
   */
   readonly domains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#headers UrlFilteringSecurityProfile#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#headers UrlFilteringSecurityProfile#headers}
   */
   readonly headers?: UrlFilteringSecurityProfileHttpHeaderInsertionTypeHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#name UrlFilteringSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#name UrlFilteringSecurityProfile#name}
   */
   readonly name: string;
 }
@@ -1136,15 +1136,15 @@ export interface UrlFilteringSecurityProfileHttpHeaderInsertion {
   /**
   * disable object override in child device groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#disable_override UrlFilteringSecurityProfile#disable_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#disable_override UrlFilteringSecurityProfile#disable_override}
   */
   readonly disableOverride?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#name UrlFilteringSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#name UrlFilteringSecurityProfile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#type UrlFilteringSecurityProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#type UrlFilteringSecurityProfile#type}
   */
   readonly type?: UrlFilteringSecurityProfileHttpHeaderInsertionType[] | cdktf.IResolvable;
 }
@@ -1317,13 +1317,13 @@ export interface UrlFilteringSecurityProfileLocationDeviceGroup {
   /**
   * Device Group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#name UrlFilteringSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#name UrlFilteringSecurityProfile#name}
   */
   readonly name?: string;
   /**
   * Panorama device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#panorama_device UrlFilteringSecurityProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#panorama_device UrlFilteringSecurityProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -1507,13 +1507,13 @@ export interface UrlFilteringSecurityProfileLocation {
   /**
   * Located in a specific Device Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#device_group UrlFilteringSecurityProfile#device_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#device_group UrlFilteringSecurityProfile#device_group}
   */
   readonly deviceGroup?: UrlFilteringSecurityProfileLocationDeviceGroup;
   /**
   * Panorama shared object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#shared UrlFilteringSecurityProfile#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#shared UrlFilteringSecurityProfile#shared}
   */
   readonly shared?: UrlFilteringSecurityProfileLocationShared;
 }
@@ -1636,7 +1636,7 @@ export class UrlFilteringSecurityProfileLocationOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile panos_url_filtering_security_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile panos_url_filtering_security_profile}
 */
 export class UrlFilteringSecurityProfile extends cdktf.TerraformResource {
 
@@ -1652,7 +1652,7 @@ export class UrlFilteringSecurityProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UrlFilteringSecurityProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UrlFilteringSecurityProfile to import
-  * @param importFromId The id of the existing UrlFilteringSecurityProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UrlFilteringSecurityProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UrlFilteringSecurityProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1664,7 +1664,7 @@ export class UrlFilteringSecurityProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/url_filtering_security_profile panos_url_filtering_security_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/url_filtering_security_profile panos_url_filtering_security_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1675,8 +1675,8 @@ export class UrlFilteringSecurityProfile extends cdktf.TerraformResource {
       terraformResourceType: 'panos_url_filtering_security_profile',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

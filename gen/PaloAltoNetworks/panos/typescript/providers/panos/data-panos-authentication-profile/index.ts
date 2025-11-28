@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,45 +8,45 @@ import * as cdktf from 'cdktf';
 
 export interface DataPanosAuthenticationProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#allow_list DataPanosAuthenticationProfile#allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#allow_list DataPanosAuthenticationProfile#allow_list}
   */
   readonly allowList?: string[];
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#location DataPanosAuthenticationProfile#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#location DataPanosAuthenticationProfile#location}
   */
   readonly location: DataPanosAuthenticationProfileLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#lockout DataPanosAuthenticationProfile#lockout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#lockout DataPanosAuthenticationProfile#lockout}
   */
   readonly lockout?: DataPanosAuthenticationProfileLockout;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#method DataPanosAuthenticationProfile#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#method DataPanosAuthenticationProfile#method}
   */
   readonly method?: DataPanosAuthenticationProfileMethod;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#multi_factor_auth DataPanosAuthenticationProfile#multi_factor_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#multi_factor_auth DataPanosAuthenticationProfile#multi_factor_auth}
   */
   readonly multiFactorAuth?: DataPanosAuthenticationProfileMultiFactorAuth;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#name DataPanosAuthenticationProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#name DataPanosAuthenticationProfile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#single_sign_on DataPanosAuthenticationProfile#single_sign_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#single_sign_on DataPanosAuthenticationProfile#single_sign_on}
   */
   readonly singleSignOn?: DataPanosAuthenticationProfileSingleSignOn;
   /**
   * Domain name(Not for SAML) to be used for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#user_domain DataPanosAuthenticationProfile#user_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#user_domain DataPanosAuthenticationProfile#user_domain}
   */
   readonly userDomain?: string;
   /**
   * Username modifier(Not for SAML) to handle user domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#username_modifier DataPanosAuthenticationProfile#username_modifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#username_modifier DataPanosAuthenticationProfile#username_modifier}
   */
   readonly usernameModifier?: string;
 }
@@ -113,13 +113,13 @@ export interface DataPanosAuthenticationProfileLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#name DataPanosAuthenticationProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#name DataPanosAuthenticationProfile#name}
   */
   readonly name?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#panorama_device DataPanosAuthenticationProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#panorama_device DataPanosAuthenticationProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -244,13 +244,13 @@ export interface DataPanosAuthenticationProfileLocationTemplateStack {
   /**
   * The template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#name DataPanosAuthenticationProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#name DataPanosAuthenticationProfile#name}
   */
   readonly name?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#panorama_device DataPanosAuthenticationProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#panorama_device DataPanosAuthenticationProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -375,25 +375,25 @@ export interface DataPanosAuthenticationProfileLocationTemplateStackVsys {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#ngfw_device DataPanosAuthenticationProfile#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#ngfw_device DataPanosAuthenticationProfile#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#panorama_device DataPanosAuthenticationProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#panorama_device DataPanosAuthenticationProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
   * The template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#template_stack DataPanosAuthenticationProfile#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#template_stack DataPanosAuthenticationProfile#template_stack}
   */
   readonly templateStack?: string;
   /**
   * The vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#vsys DataPanosAuthenticationProfile#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#vsys DataPanosAuthenticationProfile#vsys}
   */
   readonly vsys?: string;
 }
@@ -576,25 +576,25 @@ export interface DataPanosAuthenticationProfileLocationTemplateVsys {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#ngfw_device DataPanosAuthenticationProfile#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#ngfw_device DataPanosAuthenticationProfile#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#panorama_device DataPanosAuthenticationProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#panorama_device DataPanosAuthenticationProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#template DataPanosAuthenticationProfile#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#template DataPanosAuthenticationProfile#template}
   */
   readonly template?: string;
   /**
   * The vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#vsys DataPanosAuthenticationProfile#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#vsys DataPanosAuthenticationProfile#vsys}
   */
   readonly vsys?: string;
 }
@@ -777,13 +777,13 @@ export interface DataPanosAuthenticationProfileLocationVsys {
   /**
   * The Virtual System name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#name DataPanosAuthenticationProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#name DataPanosAuthenticationProfile#name}
   */
   readonly name?: string;
   /**
   * The NGFW device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#ngfw_device DataPanosAuthenticationProfile#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#ngfw_device DataPanosAuthenticationProfile#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -908,37 +908,37 @@ export interface DataPanosAuthenticationProfileLocation {
   /**
   * Located in a panorama.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#panorama DataPanosAuthenticationProfile#panorama}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#panorama DataPanosAuthenticationProfile#panorama}
   */
   readonly panorama?: DataPanosAuthenticationProfileLocationPanorama;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#template DataPanosAuthenticationProfile#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#template DataPanosAuthenticationProfile#template}
   */
   readonly template?: DataPanosAuthenticationProfileLocationTemplate;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#template_stack DataPanosAuthenticationProfile#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#template_stack DataPanosAuthenticationProfile#template_stack}
   */
   readonly templateStack?: DataPanosAuthenticationProfileLocationTemplateStack;
   /**
   * Located in a specific template, device and vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#template_stack_vsys DataPanosAuthenticationProfile#template_stack_vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#template_stack_vsys DataPanosAuthenticationProfile#template_stack_vsys}
   */
   readonly templateStackVsys?: DataPanosAuthenticationProfileLocationTemplateStackVsys;
   /**
   * Located in a specific template, device and vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#template_vsys DataPanosAuthenticationProfile#template_vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#template_vsys DataPanosAuthenticationProfile#template_vsys}
   */
   readonly templateVsys?: DataPanosAuthenticationProfileLocationTemplateVsys;
   /**
   * Located in a specific Virtual System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#vsys DataPanosAuthenticationProfile#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#vsys DataPanosAuthenticationProfile#vsys}
   */
   readonly vsys?: DataPanosAuthenticationProfileLocationVsys;
 }
@@ -1179,13 +1179,13 @@ export interface DataPanosAuthenticationProfileLockout {
   /**
   * Number of failed login attempts to trigger lock-out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#failed_attempts DataPanosAuthenticationProfile#failed_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#failed_attempts DataPanosAuthenticationProfile#failed_attempts}
   */
   readonly failedAttempts?: number;
   /**
   * Number of minutes to lock-out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#lockout_time DataPanosAuthenticationProfile#lockout_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#lockout_time DataPanosAuthenticationProfile#lockout_time}
   */
   readonly lockoutTime?: number;
 }
@@ -1310,7 +1310,7 @@ export interface DataPanosAuthenticationProfileMethodCloudRegionTenantProfileMfa
   /**
   * force multi-factor authentication in cloud
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#force_mfa DataPanosAuthenticationProfile#force_mfa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#force_mfa DataPanosAuthenticationProfile#force_mfa}
   */
   readonly forceMfa?: string;
 }
@@ -1404,13 +1404,13 @@ export class DataPanosAuthenticationProfileMethodCloudRegionTenantProfileMfaOutp
 }
 export interface DataPanosAuthenticationProfileMethodCloudRegionTenantProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#mfa DataPanosAuthenticationProfile#mfa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#mfa DataPanosAuthenticationProfile#mfa}
   */
   readonly mfa?: DataPanosAuthenticationProfileMethodCloudRegionTenantProfileMfa;
   /**
   * CAS Profile id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#profile_id DataPanosAuthenticationProfile#profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#profile_id DataPanosAuthenticationProfile#profile_id}
   */
   readonly profileId?: string;
 }
@@ -1533,13 +1533,13 @@ export class DataPanosAuthenticationProfileMethodCloudRegionTenantProfileOutputR
 }
 export interface DataPanosAuthenticationProfileMethodCloudRegionTenant {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#profile DataPanosAuthenticationProfile#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#profile DataPanosAuthenticationProfile#profile}
   */
   readonly profile?: DataPanosAuthenticationProfileMethodCloudRegionTenantProfile;
   /**
   * Tenant id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#tenant_id DataPanosAuthenticationProfile#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#tenant_id DataPanosAuthenticationProfile#tenant_id}
   */
   readonly tenantId?: string;
 }
@@ -1664,11 +1664,11 @@ export interface DataPanosAuthenticationProfileMethodCloudRegion {
   /**
   * Region Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#region_id DataPanosAuthenticationProfile#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#region_id DataPanosAuthenticationProfile#region_id}
   */
   readonly regionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#tenant DataPanosAuthenticationProfile#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#tenant DataPanosAuthenticationProfile#tenant}
   */
   readonly tenant?: DataPanosAuthenticationProfileMethodCloudRegionTenant;
 }
@@ -1793,11 +1793,11 @@ export interface DataPanosAuthenticationProfileMethodCloud {
   /**
   * clock skew between CAS service and device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#clock_skew DataPanosAuthenticationProfile#clock_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#clock_skew DataPanosAuthenticationProfile#clock_skew}
   */
   readonly clockSkew?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#region DataPanosAuthenticationProfile#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#region DataPanosAuthenticationProfile#region}
   */
   readonly region?: DataPanosAuthenticationProfileMethodCloudRegion;
 }
@@ -1922,13 +1922,13 @@ export interface DataPanosAuthenticationProfileMethodKerberos {
   /**
   * Realm name to be used for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#realm DataPanosAuthenticationProfile#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#realm DataPanosAuthenticationProfile#realm}
   */
   readonly realm?: string;
   /**
   * Kerberos server profile object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#server_profile DataPanosAuthenticationProfile#server_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#server_profile DataPanosAuthenticationProfile#server_profile}
   */
   readonly serverProfile?: string;
 }
@@ -2053,19 +2053,19 @@ export interface DataPanosAuthenticationProfileMethodLdap {
   /**
   * Default is samAccountName for Active Directory, uid for other directory servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#login_attribute DataPanosAuthenticationProfile#login_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#login_attribute DataPanosAuthenticationProfile#login_attribute}
   */
   readonly loginAttribute?: string;
   /**
   * Avail for Active Directory, eDir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#passwd_exp_days DataPanosAuthenticationProfile#passwd_exp_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#passwd_exp_days DataPanosAuthenticationProfile#passwd_exp_days}
   */
   readonly passwdExpDays?: number;
   /**
   * LDAP server profile object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#server_profile DataPanosAuthenticationProfile#server_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#server_profile DataPanosAuthenticationProfile#server_profile}
   */
   readonly serverProfile?: string;
 }
@@ -2337,13 +2337,13 @@ export interface DataPanosAuthenticationProfileMethodRadius {
   /**
   * Retrieve user group from RADIUS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#checkgroup DataPanosAuthenticationProfile#checkgroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#checkgroup DataPanosAuthenticationProfile#checkgroup}
   */
   readonly checkgroup?: boolean | cdktf.IResolvable;
   /**
   * RADIUS server profile object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#server_profile DataPanosAuthenticationProfile#server_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#server_profile DataPanosAuthenticationProfile#server_profile}
   */
   readonly serverProfile?: string;
 }
@@ -2468,49 +2468,49 @@ export interface DataPanosAuthenticationProfileMethodSamlIdp {
   /**
   * access-domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#attribute_name_access_domain DataPanosAuthenticationProfile#attribute_name_access_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#attribute_name_access_domain DataPanosAuthenticationProfile#attribute_name_access_domain}
   */
   readonly attributeNameAccessDomain?: string;
   /**
   * admin-role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#attribute_name_admin_role DataPanosAuthenticationProfile#attribute_name_admin_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#attribute_name_admin_role DataPanosAuthenticationProfile#attribute_name_admin_role}
   */
   readonly attributeNameAdminRole?: string;
   /**
   * usergroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#attribute_name_usergroup DataPanosAuthenticationProfile#attribute_name_usergroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#attribute_name_usergroup DataPanosAuthenticationProfile#attribute_name_usergroup}
   */
   readonly attributeNameUsergroup?: string;
   /**
   * Attribute name for username to be extracted from SAML response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#attribute_name_username DataPanosAuthenticationProfile#attribute_name_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#attribute_name_username DataPanosAuthenticationProfile#attribute_name_username}
   */
   readonly attributeNameUsername?: string;
   /**
   * Certificate profile for IDP and SP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#certificate_profile DataPanosAuthenticationProfile#certificate_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#certificate_profile DataPanosAuthenticationProfile#certificate_profile}
   */
   readonly certificateProfile?: string;
   /**
   * Enable single logout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#enable_single_logout DataPanosAuthenticationProfile#enable_single_logout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#enable_single_logout DataPanosAuthenticationProfile#enable_single_logout}
   */
   readonly enableSingleLogout?: boolean | cdktf.IResolvable;
   /**
   * Signing certificate for SAML requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#request_signing_certificate DataPanosAuthenticationProfile#request_signing_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#request_signing_certificate DataPanosAuthenticationProfile#request_signing_certificate}
   */
   readonly requestSigningCertificate?: string;
   /**
   * IdP server profile object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#server_profile DataPanosAuthenticationProfile#server_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#server_profile DataPanosAuthenticationProfile#server_profile}
   */
   readonly serverProfile?: string;
 }
@@ -2809,13 +2809,13 @@ export interface DataPanosAuthenticationProfileMethodTacplus {
   /**
   * Retrieve user group from TACACS+
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#checkgroup DataPanosAuthenticationProfile#checkgroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#checkgroup DataPanosAuthenticationProfile#checkgroup}
   */
   readonly checkgroup?: boolean | cdktf.IResolvable;
   /**
   * TACACS+ server profile object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#server_profile DataPanosAuthenticationProfile#server_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#server_profile DataPanosAuthenticationProfile#server_profile}
   */
   readonly serverProfile?: string;
 }
@@ -2938,35 +2938,35 @@ export class DataPanosAuthenticationProfileMethodTacplusOutputReference extends 
 }
 export interface DataPanosAuthenticationProfileMethod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#cloud DataPanosAuthenticationProfile#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#cloud DataPanosAuthenticationProfile#cloud}
   */
   readonly cloud?: DataPanosAuthenticationProfileMethodCloud;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#kerberos DataPanosAuthenticationProfile#kerberos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#kerberos DataPanosAuthenticationProfile#kerberos}
   */
   readonly kerberos?: DataPanosAuthenticationProfileMethodKerberos;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#ldap DataPanosAuthenticationProfile#ldap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#ldap DataPanosAuthenticationProfile#ldap}
   */
   readonly ldap?: DataPanosAuthenticationProfileMethodLdap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#local_database DataPanosAuthenticationProfile#local_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#local_database DataPanosAuthenticationProfile#local_database}
   */
   readonly localDatabase?: DataPanosAuthenticationProfileMethodLocalDatabase;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#none DataPanosAuthenticationProfile#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#none DataPanosAuthenticationProfile#none}
   */
   readonly none?: DataPanosAuthenticationProfileMethodNone;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#radius DataPanosAuthenticationProfile#radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#radius DataPanosAuthenticationProfile#radius}
   */
   readonly radius?: DataPanosAuthenticationProfileMethodRadius;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#saml_idp DataPanosAuthenticationProfile#saml_idp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#saml_idp DataPanosAuthenticationProfile#saml_idp}
   */
   readonly samlIdp?: DataPanosAuthenticationProfileMethodSamlIdp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#tacplus DataPanosAuthenticationProfile#tacplus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#tacplus DataPanosAuthenticationProfile#tacplus}
   */
   readonly tacplus?: DataPanosAuthenticationProfileMethodTacplus;
 }
@@ -3263,13 +3263,13 @@ export class DataPanosAuthenticationProfileMethodOutputReference extends cdktf.C
 }
 export interface DataPanosAuthenticationProfileMultiFactorAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#factors DataPanosAuthenticationProfile#factors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#factors DataPanosAuthenticationProfile#factors}
   */
   readonly factors?: string[];
   /**
   * Enable Additional Authentication Factors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#mfa_enable DataPanosAuthenticationProfile#mfa_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#mfa_enable DataPanosAuthenticationProfile#mfa_enable}
   */
   readonly mfaEnable?: boolean | cdktf.IResolvable;
 }
@@ -3394,19 +3394,19 @@ export interface DataPanosAuthenticationProfileSingleSignOn {
   /**
   * Kerberos keytab
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#kerberos_keytab DataPanosAuthenticationProfile#kerberos_keytab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#kerberos_keytab DataPanosAuthenticationProfile#kerberos_keytab}
   */
   readonly kerberosKeytab?: string;
   /**
   * Kerberos realm to be used for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#realm DataPanosAuthenticationProfile#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#realm DataPanosAuthenticationProfile#realm}
   */
   readonly realm?: string;
   /**
   * Kerberos service principal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#service_principal DataPanosAuthenticationProfile#service_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#service_principal DataPanosAuthenticationProfile#service_principal}
   */
   readonly servicePrincipal?: string;
 }
@@ -3558,7 +3558,7 @@ export class DataPanosAuthenticationProfileSingleSignOnOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile panos_authentication_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile panos_authentication_profile}
 */
 export class DataPanosAuthenticationProfile extends cdktf.TerraformDataSource {
 
@@ -3574,7 +3574,7 @@ export class DataPanosAuthenticationProfile extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPanosAuthenticationProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPanosAuthenticationProfile to import
-  * @param importFromId The id of the existing DataPanosAuthenticationProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPanosAuthenticationProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPanosAuthenticationProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3586,7 +3586,7 @@ export class DataPanosAuthenticationProfile extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/authentication_profile panos_authentication_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/authentication_profile panos_authentication_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3597,8 +3597,8 @@ export class DataPanosAuthenticationProfile extends cdktf.TerraformDataSource {
       terraformResourceType: 'panos_authentication_profile',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

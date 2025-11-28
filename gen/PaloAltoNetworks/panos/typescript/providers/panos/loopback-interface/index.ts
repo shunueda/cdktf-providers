@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,47 +8,47 @@ import * as cdktf from 'cdktf';
 
 export interface LoopbackInterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#adjust_tcp_mss LoopbackInterface#adjust_tcp_mss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#adjust_tcp_mss LoopbackInterface#adjust_tcp_mss}
   */
   readonly adjustTcpMss?: LoopbackInterfaceAdjustTcpMss;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#comment LoopbackInterface#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#comment LoopbackInterface#comment}
   */
   readonly comment?: string;
   /**
   * Interface management profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#interface_management_profile LoopbackInterface#interface_management_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#interface_management_profile LoopbackInterface#interface_management_profile}
   */
   readonly interfaceManagementProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#ip LoopbackInterface#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#ip LoopbackInterface#ip}
   */
   readonly ip?: LoopbackInterfaceIp[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#ipv6 LoopbackInterface#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#ipv6 LoopbackInterface#ipv6}
   */
   readonly ipv6?: LoopbackInterfaceIpv6;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#location LoopbackInterface#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#location LoopbackInterface#location}
   */
   readonly location: LoopbackInterfaceLocation;
   /**
   * Maximum Transfer Unit, up to 9216 in Jumbo-Frame mode, up to 1500 otherwise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#mtu LoopbackInterface#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#mtu LoopbackInterface#mtu}
   */
   readonly mtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#name LoopbackInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#name LoopbackInterface#name}
   */
   readonly name: string;
   /**
   * Netflow Server Profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#netflow_profile LoopbackInterface#netflow_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#netflow_profile LoopbackInterface#netflow_profile}
   */
   readonly netflowProfile?: string;
 }
@@ -56,19 +56,19 @@ export interface LoopbackInterfaceAdjustTcpMss {
   /**
   * Set if TCP MSS value should be reduced based on mtu
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#enable LoopbackInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#enable LoopbackInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * IPv4 MSS adjustment size (in bytes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#ipv4_mss_adjustment LoopbackInterface#ipv4_mss_adjustment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#ipv4_mss_adjustment LoopbackInterface#ipv4_mss_adjustment}
   */
   readonly ipv4MssAdjustment?: number;
   /**
   * IPv6 MSS adjustment size (in bytes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#ipv6_mss_adjustment LoopbackInterface#ipv6_mss_adjustment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#ipv6_mss_adjustment LoopbackInterface#ipv6_mss_adjustment}
   */
   readonly ipv6MssAdjustment?: number;
 }
@@ -220,7 +220,7 @@ export class LoopbackInterfaceAdjustTcpMssOutputReference extends cdktf.ComplexO
 }
 export interface LoopbackInterfaceIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#name LoopbackInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#name LoopbackInterface#name}
   */
   readonly name: string;
 }
@@ -451,21 +451,21 @@ export class LoopbackInterfaceIpv6AddressPrefixOutputReference extends cdktf.Com
 }
 export interface LoopbackInterfaceIpv6Address {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#anycast LoopbackInterface#anycast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#anycast LoopbackInterface#anycast}
   */
   readonly anycast?: LoopbackInterfaceIpv6AddressAnycast;
   /**
   * configure this address on interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#enable_on_interface LoopbackInterface#enable_on_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#enable_on_interface LoopbackInterface#enable_on_interface}
   */
   readonly enableOnInterface?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#name LoopbackInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#name LoopbackInterface#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#prefix LoopbackInterface#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#prefix LoopbackInterface#prefix}
   */
   readonly prefix?: LoopbackInterfaceIpv6AddressPrefix;
 }
@@ -665,17 +665,17 @@ export class LoopbackInterfaceIpv6AddressList extends cdktf.ComplexList {
 }
 export interface LoopbackInterfaceIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#address LoopbackInterface#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#address LoopbackInterface#address}
   */
   readonly address?: LoopbackInterfaceIpv6Address[] | cdktf.IResolvable;
   /**
   * Enable IPv6 on the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#enabled LoopbackInterface#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#enabled LoopbackInterface#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#interface_id LoopbackInterface#interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#interface_id LoopbackInterface#interface_id}
   */
   readonly interfaceId?: string;
 }
@@ -829,7 +829,7 @@ export interface LoopbackInterfaceLocationNgfw {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#ngfw_device LoopbackInterface#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#ngfw_device LoopbackInterface#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -925,19 +925,19 @@ export interface LoopbackInterfaceLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#name LoopbackInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#name LoopbackInterface#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#ngfw_device LoopbackInterface#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#ngfw_device LoopbackInterface#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#panorama_device LoopbackInterface#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#panorama_device LoopbackInterface#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -1091,19 +1091,19 @@ export interface LoopbackInterfaceLocationTemplateStack {
   /**
   * Specific Panorama template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#name LoopbackInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#name LoopbackInterface#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#ngfw_device LoopbackInterface#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#ngfw_device LoopbackInterface#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#panorama_device LoopbackInterface#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#panorama_device LoopbackInterface#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -1257,19 +1257,19 @@ export interface LoopbackInterfaceLocation {
   /**
   * Located in a specific NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#ngfw LoopbackInterface#ngfw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#ngfw LoopbackInterface#ngfw}
   */
   readonly ngfw?: LoopbackInterfaceLocationNgfw;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#template LoopbackInterface#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#template LoopbackInterface#template}
   */
   readonly template?: LoopbackInterfaceLocationTemplate;
   /**
   * Located in a specific template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#template_stack LoopbackInterface#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#template_stack LoopbackInterface#template_stack}
   */
   readonly templateStack?: LoopbackInterfaceLocationTemplateStack;
 }
@@ -1421,7 +1421,7 @@ export class LoopbackInterfaceLocationOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface panos_loopback_interface}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface panos_loopback_interface}
 */
 export class LoopbackInterface extends cdktf.TerraformResource {
 
@@ -1437,7 +1437,7 @@ export class LoopbackInterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LoopbackInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LoopbackInterface to import
-  * @param importFromId The id of the existing LoopbackInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LoopbackInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LoopbackInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1449,7 +1449,7 @@ export class LoopbackInterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/loopback_interface panos_loopback_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/loopback_interface panos_loopback_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1460,8 +1460,8 @@ export class LoopbackInterface extends cdktf.TerraformResource {
       terraformResourceType: 'panos_loopback_interface',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

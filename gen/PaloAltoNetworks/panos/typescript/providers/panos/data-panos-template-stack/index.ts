@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template_stack
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/template_stack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,162 @@ export interface DataPanosTemplateStackConfig extends cdktf.TerraformMetaArgumen
   /**
   * Default virtual system
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template_stack#default_vsys DataPanosTemplateStack#default_vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/template_stack#default_vsys DataPanosTemplateStack#default_vsys}
   */
   readonly defaultVsys?: string;
   /**
   * The description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template_stack#description DataPanosTemplateStack#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/template_stack#description DataPanosTemplateStack#description}
   */
   readonly description?: string;
   /**
   * List of devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template_stack#devices DataPanosTemplateStack#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/template_stack#devices DataPanosTemplateStack#devices}
   */
-  readonly devices?: string[];
+  readonly devices?: DataPanosTemplateStackDevices[] | cdktf.IResolvable;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template_stack#location DataPanosTemplateStack#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/template_stack#location DataPanosTemplateStack#location}
   */
   readonly location: DataPanosTemplateStackLocation;
   /**
   * The name of the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template_stack#name DataPanosTemplateStack#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/template_stack#name DataPanosTemplateStack#name}
   */
   readonly name: string;
   /**
   * List of templates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template_stack#templates DataPanosTemplateStack#templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/template_stack#templates DataPanosTemplateStack#templates}
   */
   readonly templates?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template_stack#user_group_source DataPanosTemplateStack#user_group_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/template_stack#user_group_source DataPanosTemplateStack#user_group_source}
   */
   readonly userGroupSource?: DataPanosTemplateStackUserGroupSource;
+}
+export interface DataPanosTemplateStackDevices {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/template_stack#name DataPanosTemplateStack#name}
+  */
+  readonly name: string;
+}
+
+export function dataPanosTemplateStackDevicesToTerraform(struct?: DataPanosTemplateStackDevices | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function dataPanosTemplateStackDevicesToHclTerraform(struct?: DataPanosTemplateStackDevices | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataPanosTemplateStackDevicesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataPanosTemplateStackDevices | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataPanosTemplateStackDevices | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: true, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+
+export class DataPanosTemplateStackDevicesList extends cdktf.ComplexList {
+  public internalValue? : DataPanosTemplateStackDevices[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataPanosTemplateStackDevicesOutputReference {
+    return new DataPanosTemplateStackDevicesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface DataPanosTemplateStackLocationPanorama {
   /**
   * The Panorama device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template_stack#panorama_device DataPanosTemplateStack#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/template_stack#panorama_device DataPanosTemplateStack#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -148,7 +261,7 @@ export interface DataPanosTemplateStackLocation {
   /**
   * Located in a specific Panorama.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template_stack#panorama DataPanosTemplateStack#panorama}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/template_stack#panorama DataPanosTemplateStack#panorama}
   */
   readonly panorama?: DataPanosTemplateStackLocationPanorama;
 }
@@ -242,7 +355,7 @@ export class DataPanosTemplateStackLocationOutputReference extends cdktf.Complex
 }
 export interface DataPanosTemplateStackUserGroupSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template_stack#master_device DataPanosTemplateStack#master_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/template_stack#master_device DataPanosTemplateStack#master_device}
   */
   readonly masterDevice?: string;
 }
@@ -336,7 +449,7 @@ export class DataPanosTemplateStackUserGroupSourceOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template_stack panos_template_stack}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/template_stack panos_template_stack}
 */
 export class DataPanosTemplateStack extends cdktf.TerraformDataSource {
 
@@ -352,7 +465,7 @@ export class DataPanosTemplateStack extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPanosTemplateStack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPanosTemplateStack to import
-  * @param importFromId The id of the existing DataPanosTemplateStack that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template_stack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPanosTemplateStack that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/template_stack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPanosTemplateStack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -364,7 +477,7 @@ export class DataPanosTemplateStack extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template_stack panos_template_stack} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/template_stack panos_template_stack} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -375,8 +488,8 @@ export class DataPanosTemplateStack extends cdktf.TerraformDataSource {
       terraformResourceType: 'panos_template_stack',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -388,7 +501,7 @@ export class DataPanosTemplateStack extends cdktf.TerraformDataSource {
     });
     this._defaultVsys = config.defaultVsys;
     this._description = config.description;
-    this._devices = config.devices;
+    this._devices.internalValue = config.devices;
     this._location.internalValue = config.location;
     this._name = config.name;
     this._templates = config.templates;
@@ -432,19 +545,19 @@ export class DataPanosTemplateStack extends cdktf.TerraformDataSource {
   }
 
   // devices - computed: true, optional: true, required: false
-  private _devices?: string[]; 
+  private _devices = new DataPanosTemplateStackDevicesList(this, "devices", false);
   public get devices() {
-    return this.getListAttribute('devices');
+    return this._devices;
   }
-  public set devices(value: string[]) {
-    this._devices = value;
+  public putDevices(value: DataPanosTemplateStackDevices[] | cdktf.IResolvable) {
+    this._devices.internalValue = value;
   }
   public resetDevices() {
-    this._devices = undefined;
+    this._devices.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get devicesInput() {
-    return this._devices;
+    return this._devices.internalValue;
   }
 
   // location - computed: false, optional: false, required: true
@@ -513,7 +626,7 @@ export class DataPanosTemplateStack extends cdktf.TerraformDataSource {
     return {
       default_vsys: cdktf.stringToTerraform(this._defaultVsys),
       description: cdktf.stringToTerraform(this._description),
-      devices: cdktf.listMapper(cdktf.stringToTerraform, false)(this._devices),
+      devices: cdktf.listMapper(dataPanosTemplateStackDevicesToTerraform, false)(this._devices.internalValue),
       location: dataPanosTemplateStackLocationToTerraform(this._location.internalValue),
       name: cdktf.stringToTerraform(this._name),
       templates: cdktf.listMapper(cdktf.stringToTerraform, false)(this._templates),
@@ -536,10 +649,10 @@ export class DataPanosTemplateStack extends cdktf.TerraformDataSource {
         storageClassType: "string",
       },
       devices: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._devices),
-        isBlock: false,
+        value: cdktf.listMapperHcl(dataPanosTemplateStackDevicesToHclTerraform, false)(this._devices.internalValue),
+        isBlock: true,
         type: "list",
-        storageClassType: "stringList",
+        storageClassType: "DataPanosTemplateStackDevicesList",
       },
       location: {
         value: dataPanosTemplateStackLocationToHclTerraform(this._location.internalValue),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/deploy
+// https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/deploy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktf from 'cdktf';
 
 export interface DeployConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/deploy#endpoint_id Deploy#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/deploy#endpoint_id Deploy#endpoint_id}
   */
   readonly endpointId: number;
   /**
   * If true, call Portainer forceupdateservice endpoint for each updated service (after optional wait).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/deploy#force_update Deploy#force_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/deploy#force_update Deploy#force_update}
   */
   readonly forceUpdate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/deploy#id Deploy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/deploy#id Deploy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -27,41 +27,41 @@ export interface DeployConfig extends cdktf.TerraformMetaArguments {
   /**
   * Target image tag/revision to set on services and optionally on stack ENV in stack_env_var.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/deploy#revision Deploy#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/deploy#revision Deploy#revision}
   */
   readonly revision: string;
   /**
   * Comma-separated list of service names (without stack prefix).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/deploy#services_list Deploy#services_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/deploy#services_list Deploy#services_list}
   */
   readonly servicesList: string;
   /**
   * Name of stack environment variable to update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/deploy#stack_env_var Deploy#stack_env_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/deploy#stack_env_var Deploy#stack_env_var}
   */
   readonly stackEnvVar: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/deploy#stack_name Deploy#stack_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/deploy#stack_name Deploy#stack_name}
   */
   readonly stackName: string;
   /**
   * If true, also update stack ENV variable in stack_env_var to the provided revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/deploy#update_revision Deploy#update_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/deploy#update_revision Deploy#update_revision}
   */
   readonly updateRevision?: boolean | cdktf.IResolvable;
   /**
   * Seconds to wait before force-updating a service (only when force_update = true).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/deploy#wait Deploy#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/deploy#wait Deploy#wait}
   */
   readonly wait?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/deploy portainer_deploy}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/deploy portainer_deploy}
 */
 export class Deploy extends cdktf.TerraformResource {
 
@@ -77,7 +77,7 @@ export class Deploy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Deploy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Deploy to import
-  * @param importFromId The id of the existing Deploy that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/deploy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Deploy that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/deploy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Deploy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class Deploy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/deploy portainer_deploy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/deploy portainer_deploy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,8 +100,8 @@ export class Deploy extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_deploy',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.18.2',
-        providerVersionConstraint: '1.18.2'
+        providerVersion: '1.19.0',
+        providerVersionConstraint: '1.19.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -71,6 +71,7 @@ Object.defineProperty(exports, 'team', { get: function () { return require('./te
 Object.defineProperty(exports, 'teamMembership', { get: function () { return require('./team-membership'); } });
 Object.defineProperty(exports, 'tls', { get: function () { return require('./tls'); } });
 Object.defineProperty(exports, 'user', { get: function () { return require('./user'); } });
+Object.defineProperty(exports, 'userAdmin', { get: function () { return require('./user-admin'); } });
 Object.defineProperty(exports, 'webhook', { get: function () { return require('./webhook'); } });
 Object.defineProperty(exports, 'webhookExecute', { get: function () { return require('./webhook-execute'); } });
 Object.defineProperty(exports, 'provider', { get: function () { return require('./provider'); } });

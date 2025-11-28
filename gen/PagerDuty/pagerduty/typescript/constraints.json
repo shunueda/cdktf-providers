@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "pagerduty": "3.30.6"
+    "pagerduty": "3.30.7"
   }
 }

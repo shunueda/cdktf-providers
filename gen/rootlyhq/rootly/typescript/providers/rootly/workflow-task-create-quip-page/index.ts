@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_quip_page
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_quip_page
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskCreateQuipPageConfig extends cdktf.TerraformMetaArg
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_quip_page#enabled WorkflowTaskCreateQuipPage#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_quip_page#enabled WorkflowTaskCreateQuipPage#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_quip_page#id WorkflowTaskCreateQuipPage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_quip_page#id WorkflowTaskCreateQuipPage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskCreateQuipPageConfig extends cdktf.TerraformMetaArg
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_quip_page#name WorkflowTaskCreateQuipPage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_quip_page#name WorkflowTaskCreateQuipPage#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_quip_page#position WorkflowTaskCreateQuipPage#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_quip_page#position WorkflowTaskCreateQuipPage#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_quip_page#skip_on_failure WorkflowTaskCreateQuipPage#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_quip_page#skip_on_failure WorkflowTaskCreateQuipPage#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_quip_page#workflow_id WorkflowTaskCreateQuipPage#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_quip_page#workflow_id WorkflowTaskCreateQuipPage#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_quip_page#task_params WorkflowTaskCreateQuipPage#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_quip_page#task_params WorkflowTaskCreateQuipPage#task_params}
   */
   readonly taskParams: WorkflowTaskCreateQuipPageTaskParams;
 }
@@ -55,41 +55,41 @@ export interface WorkflowTaskCreateQuipPageTaskParams {
   /**
   * The page content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_quip_page#content WorkflowTaskCreateQuipPage#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_quip_page#content WorkflowTaskCreateQuipPage#content}
   */
   readonly content?: string;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_quip_page#mark_post_mortem_as_published WorkflowTaskCreateQuipPage#mark_post_mortem_as_published}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_quip_page#mark_post_mortem_as_published WorkflowTaskCreateQuipPage#mark_post_mortem_as_published}
   */
   readonly markPostMortemAsPublished?: boolean | cdktf.IResolvable;
   /**
   * The parent folder id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_quip_page#parent_folder_id WorkflowTaskCreateQuipPage#parent_folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_quip_page#parent_folder_id WorkflowTaskCreateQuipPage#parent_folder_id}
   */
   readonly parentFolderId?: string;
   /**
   * Retrospective template to use when creating page, if desired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_quip_page#post_mortem_template_id WorkflowTaskCreateQuipPage#post_mortem_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_quip_page#post_mortem_template_id WorkflowTaskCreateQuipPage#post_mortem_template_id}
   */
   readonly postMortemTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_quip_page#task_type WorkflowTaskCreateQuipPage#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_quip_page#task_type WorkflowTaskCreateQuipPage#task_type}
   */
   readonly taskType?: string;
   /**
   * The Quip file ID to use as a template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_quip_page#template_id WorkflowTaskCreateQuipPage#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_quip_page#template_id WorkflowTaskCreateQuipPage#template_id}
   */
   readonly templateId?: string;
   /**
   * The page title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_quip_page#title WorkflowTaskCreateQuipPage#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_quip_page#title WorkflowTaskCreateQuipPage#title}
   */
   readonly title: string;
 }
@@ -344,7 +344,7 @@ export class WorkflowTaskCreateQuipPageTaskParamsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_quip_page rootly_workflow_task_create_quip_page}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_quip_page rootly_workflow_task_create_quip_page}
 */
 export class WorkflowTaskCreateQuipPage extends cdktf.TerraformResource {
 
@@ -360,7 +360,7 @@ export class WorkflowTaskCreateQuipPage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskCreateQuipPage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskCreateQuipPage to import
-  * @param importFromId The id of the existing WorkflowTaskCreateQuipPage that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_quip_page#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskCreateQuipPage that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_quip_page#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskCreateQuipPage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -372,7 +372,7 @@ export class WorkflowTaskCreateQuipPage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_quip_page rootly_workflow_task_create_quip_page} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_quip_page rootly_workflow_task_create_quip_page} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -383,8 +383,8 @@ export class WorkflowTaskCreateQuipPage extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_create_quip_page',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.8',
-        providerVersionConstraint: '4.3.8'
+        providerVersion: '4.3.9',
+        providerVersionConstraint: '4.3.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

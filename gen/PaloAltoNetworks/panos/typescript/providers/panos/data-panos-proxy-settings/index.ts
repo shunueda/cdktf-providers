@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/proxy_settings
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/proxy_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DataPanosProxySettingsConfig extends cdktf.TerraformMetaArgumen
   /**
   * Enable proxy access to CDL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/proxy_settings#lcaas_use_proxy DataPanosProxySettings#lcaas_use_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/proxy_settings#lcaas_use_proxy DataPanosProxySettings#lcaas_use_proxy}
   */
   readonly lcaasUseProxy?: boolean | cdktf.IResolvable;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/proxy_settings#location DataPanosProxySettings#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/proxy_settings#location DataPanosProxySettings#location}
   */
   readonly location: DataPanosProxySettingsLocation;
   /**
   * Secure Proxy password to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/proxy_settings#secure_proxy_password DataPanosProxySettings#secure_proxy_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/proxy_settings#secure_proxy_password DataPanosProxySettings#secure_proxy_password}
   */
   readonly secureProxyPassword?: string;
   /**
   * Port for secure proxy server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/proxy_settings#secure_proxy_port DataPanosProxySettings#secure_proxy_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/proxy_settings#secure_proxy_port DataPanosProxySettings#secure_proxy_port}
   */
   readonly secureProxyPort?: number;
   /**
   * Secure Proxy server to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/proxy_settings#secure_proxy_server DataPanosProxySettings#secure_proxy_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/proxy_settings#secure_proxy_server DataPanosProxySettings#secure_proxy_server}
   */
   readonly secureProxyServer?: string;
   /**
   * Secure Proxy user name to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/proxy_settings#secure_proxy_user DataPanosProxySettings#secure_proxy_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/proxy_settings#secure_proxy_user DataPanosProxySettings#secure_proxy_user}
   */
   readonly secureProxyUser?: string;
 }
@@ -48,7 +48,7 @@ export interface DataPanosProxySettingsLocationSystem {
   /**
   * Device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/proxy_settings#device DataPanosProxySettings#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/proxy_settings#device DataPanosProxySettings#device}
   */
   readonly device?: string;
 }
@@ -144,19 +144,19 @@ export interface DataPanosProxySettingsLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/proxy_settings#name DataPanosProxySettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/proxy_settings#name DataPanosProxySettings#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/proxy_settings#ngfw_device DataPanosProxySettings#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/proxy_settings#ngfw_device DataPanosProxySettings#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/proxy_settings#panorama_device DataPanosProxySettings#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/proxy_settings#panorama_device DataPanosProxySettings#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -310,19 +310,19 @@ export interface DataPanosProxySettingsLocationTemplateStack {
   /**
   * Specific Panorama template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/proxy_settings#name DataPanosProxySettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/proxy_settings#name DataPanosProxySettings#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/proxy_settings#ngfw_device DataPanosProxySettings#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/proxy_settings#ngfw_device DataPanosProxySettings#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/proxy_settings#panorama_device DataPanosProxySettings#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/proxy_settings#panorama_device DataPanosProxySettings#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -476,19 +476,19 @@ export interface DataPanosProxySettingsLocation {
   /**
   * System-level configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/proxy_settings#system DataPanosProxySettings#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/proxy_settings#system DataPanosProxySettings#system}
   */
   readonly systemAttribute?: DataPanosProxySettingsLocationSystem;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/proxy_settings#template DataPanosProxySettings#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/proxy_settings#template DataPanosProxySettings#template}
   */
   readonly template?: DataPanosProxySettingsLocationTemplate;
   /**
   * Located in a specific template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/proxy_settings#template_stack DataPanosProxySettings#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/proxy_settings#template_stack DataPanosProxySettings#template_stack}
   */
   readonly templateStack?: DataPanosProxySettingsLocationTemplateStack;
 }
@@ -640,7 +640,7 @@ export class DataPanosProxySettingsLocationOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/proxy_settings panos_proxy_settings}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/proxy_settings panos_proxy_settings}
 */
 export class DataPanosProxySettings extends cdktf.TerraformDataSource {
 
@@ -656,7 +656,7 @@ export class DataPanosProxySettings extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPanosProxySettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPanosProxySettings to import
-  * @param importFromId The id of the existing DataPanosProxySettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/proxy_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPanosProxySettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/proxy_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPanosProxySettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -668,7 +668,7 @@ export class DataPanosProxySettings extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/proxy_settings panos_proxy_settings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/proxy_settings panos_proxy_settings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -679,8 +679,8 @@ export class DataPanosProxySettings extends cdktf.TerraformDataSource {
       terraformResourceType: 'panos_proxy_settings',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

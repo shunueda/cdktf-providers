@@ -1,3 +1,3 @@
 # `rootly_alert_field`
 
-Refer to the Terraform Registry for docs: [`rootly_alert_field`](https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/alert_field).
+Refer to the Terraform Registry for docs: [`rootly_alert_field`](https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/alert_field).

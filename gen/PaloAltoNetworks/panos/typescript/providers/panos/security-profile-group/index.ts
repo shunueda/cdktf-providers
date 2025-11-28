@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_profile_group
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_profile_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,55 +8,55 @@ import * as cdktf from 'cdktf';
 
 export interface SecurityProfileGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_profile_group#data_filtering SecurityProfileGroup#data_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_profile_group#data_filtering SecurityProfileGroup#data_filtering}
   */
   readonly dataFiltering?: string[];
   /**
   * disable object override in child device groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_profile_group#disable_override SecurityProfileGroup#disable_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_profile_group#disable_override SecurityProfileGroup#disable_override}
   */
   readonly disableOverride?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_profile_group#file_blocking SecurityProfileGroup#file_blocking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_profile_group#file_blocking SecurityProfileGroup#file_blocking}
   */
   readonly fileBlocking?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_profile_group#gtp SecurityProfileGroup#gtp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_profile_group#gtp SecurityProfileGroup#gtp}
   */
   readonly gtp?: string[];
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_profile_group#location SecurityProfileGroup#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_profile_group#location SecurityProfileGroup#location}
   */
   readonly location: SecurityProfileGroupLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_profile_group#name SecurityProfileGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_profile_group#name SecurityProfileGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_profile_group#sctp SecurityProfileGroup#sctp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_profile_group#sctp SecurityProfileGroup#sctp}
   */
   readonly sctp?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_profile_group#spyware SecurityProfileGroup#spyware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_profile_group#spyware SecurityProfileGroup#spyware}
   */
   readonly spyware?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_profile_group#url_filtering SecurityProfileGroup#url_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_profile_group#url_filtering SecurityProfileGroup#url_filtering}
   */
   readonly urlFiltering?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_profile_group#virus SecurityProfileGroup#virus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_profile_group#virus SecurityProfileGroup#virus}
   */
   readonly virus?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_profile_group#vulnerability SecurityProfileGroup#vulnerability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_profile_group#vulnerability SecurityProfileGroup#vulnerability}
   */
   readonly vulnerability?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_profile_group#wildfire_analysis SecurityProfileGroup#wildfire_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_profile_group#wildfire_analysis SecurityProfileGroup#wildfire_analysis}
   */
   readonly wildfireAnalysis?: string[];
 }
@@ -64,13 +64,13 @@ export interface SecurityProfileGroupLocationDeviceGroup {
   /**
   * Device Group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_profile_group#name SecurityProfileGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_profile_group#name SecurityProfileGroup#name}
   */
   readonly name?: string;
   /**
   * Panorama device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_profile_group#panorama_device SecurityProfileGroup#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_profile_group#panorama_device SecurityProfileGroup#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -254,13 +254,13 @@ export interface SecurityProfileGroupLocation {
   /**
   * Located in a specific Device Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_profile_group#device_group SecurityProfileGroup#device_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_profile_group#device_group SecurityProfileGroup#device_group}
   */
   readonly deviceGroup?: SecurityProfileGroupLocationDeviceGroup;
   /**
   * Panorama shared object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_profile_group#shared SecurityProfileGroup#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_profile_group#shared SecurityProfileGroup#shared}
   */
   readonly shared?: SecurityProfileGroupLocationShared;
 }
@@ -383,7 +383,7 @@ export class SecurityProfileGroupLocationOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_profile_group panos_security_profile_group}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_profile_group panos_security_profile_group}
 */
 export class SecurityProfileGroup extends cdktf.TerraformResource {
 
@@ -399,7 +399,7 @@ export class SecurityProfileGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityProfileGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityProfileGroup to import
-  * @param importFromId The id of the existing SecurityProfileGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_profile_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityProfileGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_profile_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityProfileGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -411,7 +411,7 @@ export class SecurityProfileGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_profile_group panos_security_profile_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_profile_group panos_security_profile_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -422,8 +422,8 @@ export class SecurityProfileGroup extends cdktf.TerraformResource {
       terraformResourceType: 'panos_security_profile_group',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

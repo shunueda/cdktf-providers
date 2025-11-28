@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,55 +8,55 @@ import * as cdktf from 'cdktf';
 
 export interface HipmatchLogSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#actions HipmatchLogSettings#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#actions HipmatchLogSettings#actions}
   */
   readonly actions?: HipmatchLogSettingsActions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#description HipmatchLogSettings#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#description HipmatchLogSettings#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#email_profiles HipmatchLogSettings#email_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#email_profiles HipmatchLogSettings#email_profiles}
   */
   readonly emailProfiles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#filter HipmatchLogSettings#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#filter HipmatchLogSettings#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#http_profile HipmatchLogSettings#http_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#http_profile HipmatchLogSettings#http_profile}
   */
   readonly httpProfile?: string[];
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#location HipmatchLogSettings#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#location HipmatchLogSettings#location}
   */
   readonly location: HipmatchLogSettingsLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#name HipmatchLogSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#name HipmatchLogSettings#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#quarantine HipmatchLogSettings#quarantine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#quarantine HipmatchLogSettings#quarantine}
   */
   readonly quarantine?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#send_to_panorama HipmatchLogSettings#send_to_panorama}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#send_to_panorama HipmatchLogSettings#send_to_panorama}
   */
   readonly sendToPanorama?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#snmp_profiles HipmatchLogSettings#snmp_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#snmp_profiles HipmatchLogSettings#snmp_profiles}
   */
   readonly snmpProfiles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#syslog_profiles HipmatchLogSettings#syslog_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#syslog_profiles HipmatchLogSettings#syslog_profiles}
   */
   readonly syslogProfiles?: string[];
 }
 export interface HipmatchLogSettingsActionsTypeIntegration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#action HipmatchLogSettings#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#action HipmatchLogSettings#action}
   */
   readonly action?: string;
 }
@@ -268,7 +268,7 @@ export class HipmatchLogSettingsActionsTypeTaggingRegistrationPanoramaOutputRefe
 }
 export interface HipmatchLogSettingsActionsTypeTaggingRegistrationRemote {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#http_profile HipmatchLogSettings#http_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#http_profile HipmatchLogSettings#http_profile}
   */
   readonly httpProfile?: string;
 }
@@ -362,15 +362,15 @@ export class HipmatchLogSettingsActionsTypeTaggingRegistrationRemoteOutputRefere
 }
 export interface HipmatchLogSettingsActionsTypeTaggingRegistration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#localhost HipmatchLogSettings#localhost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#localhost HipmatchLogSettings#localhost}
   */
   readonly localhost?: HipmatchLogSettingsActionsTypeTaggingRegistrationLocalhost;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#panorama HipmatchLogSettings#panorama}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#panorama HipmatchLogSettings#panorama}
   */
   readonly panorama?: HipmatchLogSettingsActionsTypeTaggingRegistrationPanorama;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#remote HipmatchLogSettings#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#remote HipmatchLogSettings#remote}
   */
   readonly remote?: HipmatchLogSettingsActionsTypeTaggingRegistrationRemote;
 }
@@ -522,25 +522,25 @@ export class HipmatchLogSettingsActionsTypeTaggingRegistrationOutputReference ex
 }
 export interface HipmatchLogSettingsActionsTypeTagging {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#action HipmatchLogSettings#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#action HipmatchLogSettings#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#registration HipmatchLogSettings#registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#registration HipmatchLogSettings#registration}
   */
   readonly registration?: HipmatchLogSettingsActionsTypeTaggingRegistration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#tags HipmatchLogSettings#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#tags HipmatchLogSettings#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#target HipmatchLogSettings#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#target HipmatchLogSettings#target}
   */
   readonly target?: string;
   /**
   * timeout in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#timeout HipmatchLogSettings#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#timeout HipmatchLogSettings#timeout}
   */
   readonly timeout?: number;
 }
@@ -750,11 +750,11 @@ export class HipmatchLogSettingsActionsTypeTaggingOutputReference extends cdktf.
 }
 export interface HipmatchLogSettingsActionsType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#integration HipmatchLogSettings#integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#integration HipmatchLogSettings#integration}
   */
   readonly integration?: HipmatchLogSettingsActionsTypeIntegration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#tagging HipmatchLogSettings#tagging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#tagging HipmatchLogSettings#tagging}
   */
   readonly tagging?: HipmatchLogSettingsActionsTypeTagging;
 }
@@ -877,11 +877,11 @@ export class HipmatchLogSettingsActionsTypeOutputReference extends cdktf.Complex
 }
 export interface HipmatchLogSettingsActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#name HipmatchLogSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#name HipmatchLogSettings#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#type HipmatchLogSettings#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#type HipmatchLogSettings#type}
   */
   readonly type?: HipmatchLogSettingsActionsType;
 }
@@ -1084,13 +1084,13 @@ export interface HipmatchLogSettingsLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#name HipmatchLogSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#name HipmatchLogSettings#name}
   */
   readonly name?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#panorama_device HipmatchLogSettings#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#panorama_device HipmatchLogSettings#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -1215,13 +1215,13 @@ export interface HipmatchLogSettingsLocationTemplateStack {
   /**
   * The template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#name HipmatchLogSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#name HipmatchLogSettings#name}
   */
   readonly name?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#panorama_device HipmatchLogSettings#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#panorama_device HipmatchLogSettings#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -1346,25 +1346,25 @@ export interface HipmatchLogSettingsLocationTemplateStackVsys {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#ngfw_device HipmatchLogSettings#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#ngfw_device HipmatchLogSettings#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#panorama_device HipmatchLogSettings#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#panorama_device HipmatchLogSettings#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
   * The template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#template_stack HipmatchLogSettings#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#template_stack HipmatchLogSettings#template_stack}
   */
   readonly templateStack?: string;
   /**
   * The vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#vsys HipmatchLogSettings#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#vsys HipmatchLogSettings#vsys}
   */
   readonly vsys?: string;
 }
@@ -1547,25 +1547,25 @@ export interface HipmatchLogSettingsLocationTemplateVsys {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#ngfw_device HipmatchLogSettings#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#ngfw_device HipmatchLogSettings#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#panorama_device HipmatchLogSettings#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#panorama_device HipmatchLogSettings#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#template HipmatchLogSettings#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#template HipmatchLogSettings#template}
   */
   readonly template?: string;
   /**
   * The vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#vsys HipmatchLogSettings#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#vsys HipmatchLogSettings#vsys}
   */
   readonly vsys?: string;
 }
@@ -1748,31 +1748,31 @@ export interface HipmatchLogSettingsLocation {
   /**
   * Located in a panorama.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#panorama HipmatchLogSettings#panorama}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#panorama HipmatchLogSettings#panorama}
   */
   readonly panorama?: HipmatchLogSettingsLocationPanorama;
   /**
   * A shared resource located within a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#template HipmatchLogSettings#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#template HipmatchLogSettings#template}
   */
   readonly template?: HipmatchLogSettingsLocationTemplate;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#template_stack HipmatchLogSettings#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#template_stack HipmatchLogSettings#template_stack}
   */
   readonly templateStack?: HipmatchLogSettingsLocationTemplateStack;
   /**
   * Located in a specific template, device and vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#template_stack_vsys HipmatchLogSettings#template_stack_vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#template_stack_vsys HipmatchLogSettings#template_stack_vsys}
   */
   readonly templateStackVsys?: HipmatchLogSettingsLocationTemplateStackVsys;
   /**
   * Located in a specific template, device and vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#template_vsys HipmatchLogSettings#template_vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#template_vsys HipmatchLogSettings#template_vsys}
   */
   readonly templateVsys?: HipmatchLogSettingsLocationTemplateVsys;
 }
@@ -1982,7 +1982,7 @@ export class HipmatchLogSettingsLocationOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings panos_hipmatch_log_settings}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings panos_hipmatch_log_settings}
 */
 export class HipmatchLogSettings extends cdktf.TerraformResource {
 
@@ -1998,7 +1998,7 @@ export class HipmatchLogSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HipmatchLogSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HipmatchLogSettings to import
-  * @param importFromId The id of the existing HipmatchLogSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HipmatchLogSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HipmatchLogSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2010,7 +2010,7 @@ export class HipmatchLogSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/hipmatch_log_settings panos_hipmatch_log_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/hipmatch_log_settings panos_hipmatch_log_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2021,8 +2021,8 @@ export class HipmatchLogSettings extends cdktf.TerraformResource {
       terraformResourceType: 'panos_hipmatch_log_settings',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

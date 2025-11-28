@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/device_group_parent
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/device_group_parent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataPanosDeviceGroupParentConfig extends cdktf.TerraformMetaArg
   /**
   * The device group whose parent is being set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/device_group_parent#device_group DataPanosDeviceGroupParent#device_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/device_group_parent#device_group DataPanosDeviceGroupParent#device_group}
   */
   readonly deviceGroup?: string;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/device_group_parent#location DataPanosDeviceGroupParent#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/device_group_parent#location DataPanosDeviceGroupParent#location}
   */
   readonly location: DataPanosDeviceGroupParentLocation;
   /**
   * The parent device group. Leaving it empty moves 'device-group' under 'shared'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/device_group_parent#parent DataPanosDeviceGroupParent#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/device_group_parent#parent DataPanosDeviceGroupParent#parent}
   */
   readonly parent?: string;
 }
@@ -30,7 +30,7 @@ export interface DataPanosDeviceGroupParentLocationPanorama {
   /**
   * The Panorama device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/device_group_parent#panorama_device DataPanosDeviceGroupParent#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/device_group_parent#panorama_device DataPanosDeviceGroupParent#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -126,7 +126,7 @@ export interface DataPanosDeviceGroupParentLocation {
   /**
   * Located in a specific Panorama.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/device_group_parent#panorama DataPanosDeviceGroupParent#panorama}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/device_group_parent#panorama DataPanosDeviceGroupParent#panorama}
   */
   readonly panorama?: DataPanosDeviceGroupParentLocationPanorama;
 }
@@ -220,7 +220,7 @@ export class DataPanosDeviceGroupParentLocationOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/device_group_parent panos_device_group_parent}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/device_group_parent panos_device_group_parent}
 */
 export class DataPanosDeviceGroupParent extends cdktf.TerraformDataSource {
 
@@ -236,7 +236,7 @@ export class DataPanosDeviceGroupParent extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPanosDeviceGroupParent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPanosDeviceGroupParent to import
-  * @param importFromId The id of the existing DataPanosDeviceGroupParent that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/device_group_parent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPanosDeviceGroupParent that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/device_group_parent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPanosDeviceGroupParent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -248,7 +248,7 @@ export class DataPanosDeviceGroupParent extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/device_group_parent panos_device_group_parent} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/device_group_parent panos_device_group_parent} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -259,8 +259,8 @@ export class DataPanosDeviceGroupParent extends cdktf.TerraformDataSource {
       terraformResourceType: 'panos_device_group_parent',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

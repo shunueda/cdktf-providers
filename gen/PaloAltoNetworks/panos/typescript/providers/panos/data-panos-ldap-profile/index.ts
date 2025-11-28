@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,69 +10,69 @@ export interface DataPanosLdapProfileConfig extends cdktf.TerraformMetaArguments
   /**
   * Default base distinguished name (DN) to use for searches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#base DataPanosLdapProfile#base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#base DataPanosLdapProfile#base}
   */
   readonly base?: string;
   /**
   * bind distinguished name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#bind_dn DataPanosLdapProfile#bind_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#bind_dn DataPanosLdapProfile#bind_dn}
   */
   readonly bindDn?: string;
   /**
   * bind password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#bind_password DataPanosLdapProfile#bind_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#bind_password DataPanosLdapProfile#bind_password}
   */
   readonly bindPassword?: string;
   /**
   * number of seconds to use for connecting to servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#bind_timelimit DataPanosLdapProfile#bind_timelimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#bind_timelimit DataPanosLdapProfile#bind_timelimit}
   */
   readonly bindTimelimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#disabled DataPanosLdapProfile#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#disabled DataPanosLdapProfile#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#ldap_type DataPanosLdapProfile#ldap_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#ldap_type DataPanosLdapProfile#ldap_type}
   */
   readonly ldapType?: string;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#location DataPanosLdapProfile#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#location DataPanosLdapProfile#location}
   */
   readonly location: DataPanosLdapProfileLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#name DataPanosLdapProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#name DataPanosLdapProfile#name}
   */
   readonly name: string;
   /**
   * Interval (seconds) for reconnecting LDAP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#retry_interval DataPanosLdapProfile#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#retry_interval DataPanosLdapProfile#retry_interval}
   */
   readonly retryInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#servers DataPanosLdapProfile#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#servers DataPanosLdapProfile#servers}
   */
   readonly servers?: DataPanosLdapProfileServers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#ssl DataPanosLdapProfile#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#ssl DataPanosLdapProfile#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
   * number of seconds to wait for performing searches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#timelimit DataPanosLdapProfile#timelimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#timelimit DataPanosLdapProfile#timelimit}
   */
   readonly timelimit?: number;
   /**
   * Verify server certificate for SSL sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#verify_server_certificate DataPanosLdapProfile#verify_server_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#verify_server_certificate DataPanosLdapProfile#verify_server_certificate}
   */
   readonly verifyServerCertificate?: boolean | cdktf.IResolvable;
 }
@@ -198,13 +198,13 @@ export interface DataPanosLdapProfileLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#name DataPanosLdapProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#name DataPanosLdapProfile#name}
   */
   readonly name?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#panorama_device DataPanosLdapProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#panorama_device DataPanosLdapProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -329,13 +329,13 @@ export interface DataPanosLdapProfileLocationTemplateStack {
   /**
   * The template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#name DataPanosLdapProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#name DataPanosLdapProfile#name}
   */
   readonly name?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#panorama_device DataPanosLdapProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#panorama_device DataPanosLdapProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -460,25 +460,25 @@ export interface DataPanosLdapProfileLocationTemplateStackVsys {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#ngfw_device DataPanosLdapProfile#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#ngfw_device DataPanosLdapProfile#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#panorama_device DataPanosLdapProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#panorama_device DataPanosLdapProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
   * The template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#template_stack DataPanosLdapProfile#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#template_stack DataPanosLdapProfile#template_stack}
   */
   readonly templateStack?: string;
   /**
   * The vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#vsys DataPanosLdapProfile#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#vsys DataPanosLdapProfile#vsys}
   */
   readonly vsys?: string;
 }
@@ -661,25 +661,25 @@ export interface DataPanosLdapProfileLocationTemplateVsys {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#ngfw_device DataPanosLdapProfile#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#ngfw_device DataPanosLdapProfile#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#panorama_device DataPanosLdapProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#panorama_device DataPanosLdapProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#template DataPanosLdapProfile#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#template DataPanosLdapProfile#template}
   */
   readonly template?: string;
   /**
   * The vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#vsys DataPanosLdapProfile#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#vsys DataPanosLdapProfile#vsys}
   */
   readonly vsys?: string;
 }
@@ -862,13 +862,13 @@ export interface DataPanosLdapProfileLocationVsys {
   /**
   * The Virtual System name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#name DataPanosLdapProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#name DataPanosLdapProfile#name}
   */
   readonly name?: string;
   /**
   * The NGFW device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#ngfw_device DataPanosLdapProfile#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#ngfw_device DataPanosLdapProfile#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -993,43 +993,43 @@ export interface DataPanosLdapProfileLocation {
   /**
   * Located in a panorama.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#panorama DataPanosLdapProfile#panorama}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#panorama DataPanosLdapProfile#panorama}
   */
   readonly panorama?: DataPanosLdapProfileLocationPanorama;
   /**
   * Panorama shared object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#shared DataPanosLdapProfile#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#shared DataPanosLdapProfile#shared}
   */
   readonly shared?: DataPanosLdapProfileLocationShared;
   /**
   * A shared resource located within a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#template DataPanosLdapProfile#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#template DataPanosLdapProfile#template}
   */
   readonly template?: DataPanosLdapProfileLocationTemplate;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#template_stack DataPanosLdapProfile#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#template_stack DataPanosLdapProfile#template_stack}
   */
   readonly templateStack?: DataPanosLdapProfileLocationTemplateStack;
   /**
   * Located in a specific template, device and vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#template_stack_vsys DataPanosLdapProfile#template_stack_vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#template_stack_vsys DataPanosLdapProfile#template_stack_vsys}
   */
   readonly templateStackVsys?: DataPanosLdapProfileLocationTemplateStackVsys;
   /**
   * Located in a specific template, device and vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#template_vsys DataPanosLdapProfile#template_vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#template_vsys DataPanosLdapProfile#template_vsys}
   */
   readonly templateVsys?: DataPanosLdapProfileLocationTemplateVsys;
   /**
   * Located in a specific Virtual System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#vsys DataPanosLdapProfile#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#vsys DataPanosLdapProfile#vsys}
   */
   readonly vsys?: DataPanosLdapProfileLocationVsys;
 }
@@ -1299,17 +1299,17 @@ export interface DataPanosLdapProfileServers {
   /**
   * ldap server ip or host name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#address DataPanosLdapProfile#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#address DataPanosLdapProfile#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#name DataPanosLdapProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#name DataPanosLdapProfile#name}
   */
   readonly name: string;
   /**
   * default 389 for LDAP, 636 for LDAPS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#port DataPanosLdapProfile#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#port DataPanosLdapProfile#port}
   */
   readonly port?: number;
 }
@@ -1480,7 +1480,7 @@ export class DataPanosLdapProfileServersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile panos_ldap_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile panos_ldap_profile}
 */
 export class DataPanosLdapProfile extends cdktf.TerraformDataSource {
 
@@ -1496,7 +1496,7 @@ export class DataPanosLdapProfile extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPanosLdapProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPanosLdapProfile to import
-  * @param importFromId The id of the existing DataPanosLdapProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPanosLdapProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPanosLdapProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1508,7 +1508,7 @@ export class DataPanosLdapProfile extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ldap_profile panos_ldap_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/ldap_profile panos_ldap_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1519,8 +1519,8 @@ export class DataPanosLdapProfile extends cdktf.TerraformDataSource {
       terraformResourceType: 'panos_ldap_profile',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

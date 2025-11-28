@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/docker_network
+// https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/docker_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,98 +8,98 @@ import * as cdktf from 'cdktf';
 
 export interface DockerNetworkConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/docker_network#attachable DockerNetwork#attachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/docker_network#attachable DockerNetwork#attachable}
   */
   readonly attachable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/docker_network#config_from DockerNetwork#config_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/docker_network#config_from DockerNetwork#config_from}
   */
   readonly configFrom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/docker_network#config_only DockerNetwork#config_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/docker_network#config_only DockerNetwork#config_only}
   */
   readonly configOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/docker_network#driver DockerNetwork#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/docker_network#driver DockerNetwork#driver}
   */
   readonly driver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/docker_network#enable_ipv4 DockerNetwork#enable_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/docker_network#enable_ipv4 DockerNetwork#enable_ipv4}
   */
   readonly enableIpv4?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/docker_network#enable_ipv6 DockerNetwork#enable_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/docker_network#enable_ipv6 DockerNetwork#enable_ipv6}
   */
   readonly enableIpv6?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/docker_network#endpoint_id DockerNetwork#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/docker_network#endpoint_id DockerNetwork#endpoint_id}
   */
   readonly endpointId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/docker_network#id DockerNetwork#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/docker_network#id DockerNetwork#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/docker_network#ingress DockerNetwork#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/docker_network#ingress DockerNetwork#ingress}
   */
   readonly ingress?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/docker_network#internal DockerNetwork#internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/docker_network#internal DockerNetwork#internal}
   */
   readonly internal?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/docker_network#ipam_driver DockerNetwork#ipam_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/docker_network#ipam_driver DockerNetwork#ipam_driver}
   */
   readonly ipamDriver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/docker_network#ipam_options DockerNetwork#ipam_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/docker_network#ipam_options DockerNetwork#ipam_options}
   */
   readonly ipamOptions?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/docker_network#labels DockerNetwork#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/docker_network#labels DockerNetwork#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/docker_network#name DockerNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/docker_network#name DockerNetwork#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/docker_network#options DockerNetwork#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/docker_network#options DockerNetwork#options}
   */
   readonly options?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/docker_network#scope DockerNetwork#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/docker_network#scope DockerNetwork#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/docker_network#swarm_node_id DockerNetwork#swarm_node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/docker_network#swarm_node_id DockerNetwork#swarm_node_id}
   */
   readonly swarmNodeId?: string;
   /**
   * ipam_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/docker_network#ipam_config DockerNetwork#ipam_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/docker_network#ipam_config DockerNetwork#ipam_config}
   */
   readonly ipamConfig?: DockerNetworkIpamConfig[] | cdktf.IResolvable;
 }
 export interface DockerNetworkIpamConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/docker_network#auxiliary_addresses DockerNetwork#auxiliary_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/docker_network#auxiliary_addresses DockerNetwork#auxiliary_addresses}
   */
   readonly auxiliaryAddresses?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/docker_network#gateway DockerNetwork#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/docker_network#gateway DockerNetwork#gateway}
   */
   readonly gateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/docker_network#ip_range DockerNetwork#ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/docker_network#ip_range DockerNetwork#ip_range}
   */
   readonly ipRange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/docker_network#subnet DockerNetwork#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/docker_network#subnet DockerNetwork#subnet}
   */
   readonly subnet: string;
 }
@@ -299,7 +299,7 @@ export class DockerNetworkIpamConfigList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/docker_network portainer_docker_network}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/docker_network portainer_docker_network}
 */
 export class DockerNetwork extends cdktf.TerraformResource {
 
@@ -315,7 +315,7 @@ export class DockerNetwork extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DockerNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DockerNetwork to import
-  * @param importFromId The id of the existing DockerNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/docker_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DockerNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/docker_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DockerNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -327,7 +327,7 @@ export class DockerNetwork extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/docker_network portainer_docker_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/docker_network portainer_docker_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -338,8 +338,8 @@ export class DockerNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_docker_network',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.18.2',
-        providerVersionConstraint: '1.18.2'
+        providerVersion: '1.19.0',
+        providerVersionConstraint: '1.19.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

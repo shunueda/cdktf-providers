@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,55 +8,55 @@ import * as cdktf from 'cdktf';
 
 export interface DataPanosTunnelInterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#bonjour DataPanosTunnelInterface#bonjour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#bonjour DataPanosTunnelInterface#bonjour}
   */
   readonly bonjour?: DataPanosTunnelInterfaceBonjour;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#comment DataPanosTunnelInterface#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#comment DataPanosTunnelInterface#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#df_ignore DataPanosTunnelInterface#df_ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#df_ignore DataPanosTunnelInterface#df_ignore}
   */
   readonly dfIgnore?: boolean | cdktf.IResolvable;
   /**
   * Interface management profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#interface_management_profile DataPanosTunnelInterface#interface_management_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#interface_management_profile DataPanosTunnelInterface#interface_management_profile}
   */
   readonly interfaceManagementProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#ip DataPanosTunnelInterface#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#ip DataPanosTunnelInterface#ip}
   */
   readonly ip?: DataPanosTunnelInterfaceIp[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#ipv6 DataPanosTunnelInterface#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#ipv6 DataPanosTunnelInterface#ipv6}
   */
   readonly ipv6?: DataPanosTunnelInterfaceIpv6;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#link_tag DataPanosTunnelInterface#link_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#link_tag DataPanosTunnelInterface#link_tag}
   */
   readonly linkTag?: string;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#location DataPanosTunnelInterface#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#location DataPanosTunnelInterface#location}
   */
   readonly location: DataPanosTunnelInterfaceLocation;
   /**
   * Maximum Transfer Unit, up to 9216 in Jumbo-Frame mode, up to 1500 otherwise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#mtu DataPanosTunnelInterface#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#mtu DataPanosTunnelInterface#mtu}
   */
   readonly mtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#name DataPanosTunnelInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#name DataPanosTunnelInterface#name}
   */
   readonly name: string;
   /**
   * Netflow Server Profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#netflow_profile DataPanosTunnelInterface#netflow_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#netflow_profile DataPanosTunnelInterface#netflow_profile}
   */
   readonly netflowProfile?: string;
 }
@@ -64,19 +64,19 @@ export interface DataPanosTunnelInterfaceBonjour {
   /**
   * Set to support Bonjour service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#enable DataPanosTunnelInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#enable DataPanosTunnelInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * default 0: NO-Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#group_id DataPanosTunnelInterface#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#group_id DataPanosTunnelInterface#group_id}
   */
   readonly groupId?: number;
   /**
   * Set to check and update TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#ttl_check DataPanosTunnelInterface#ttl_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#ttl_check DataPanosTunnelInterface#ttl_check}
   */
   readonly ttlCheck?: boolean | cdktf.IResolvable;
 }
@@ -228,7 +228,7 @@ export class DataPanosTunnelInterfaceBonjourOutputReference extends cdktf.Comple
 }
 export interface DataPanosTunnelInterfaceIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#name DataPanosTunnelInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#name DataPanosTunnelInterface#name}
   */
   readonly name: string;
 }
@@ -459,21 +459,21 @@ export class DataPanosTunnelInterfaceIpv6AddressPrefixOutputReference extends cd
 }
 export interface DataPanosTunnelInterfaceIpv6Address {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#anycast DataPanosTunnelInterface#anycast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#anycast DataPanosTunnelInterface#anycast}
   */
   readonly anycast?: DataPanosTunnelInterfaceIpv6AddressAnycast;
   /**
   * configure this address on interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#enable_on_interface DataPanosTunnelInterface#enable_on_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#enable_on_interface DataPanosTunnelInterface#enable_on_interface}
   */
   readonly enableOnInterface?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#name DataPanosTunnelInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#name DataPanosTunnelInterface#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#prefix DataPanosTunnelInterface#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#prefix DataPanosTunnelInterface#prefix}
   */
   readonly prefix?: DataPanosTunnelInterfaceIpv6AddressPrefix;
 }
@@ -673,17 +673,17 @@ export class DataPanosTunnelInterfaceIpv6AddressList extends cdktf.ComplexList {
 }
 export interface DataPanosTunnelInterfaceIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#address DataPanosTunnelInterface#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#address DataPanosTunnelInterface#address}
   */
   readonly address?: DataPanosTunnelInterfaceIpv6Address[] | cdktf.IResolvable;
   /**
   * Enable IPv6 on the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#enabled DataPanosTunnelInterface#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#enabled DataPanosTunnelInterface#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#interface_id DataPanosTunnelInterface#interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#interface_id DataPanosTunnelInterface#interface_id}
   */
   readonly interfaceId?: string;
 }
@@ -837,7 +837,7 @@ export interface DataPanosTunnelInterfaceLocationNgfw {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#ngfw_device DataPanosTunnelInterface#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#ngfw_device DataPanosTunnelInterface#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -992,23 +992,23 @@ export interface DataPanosTunnelInterfaceLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#name DataPanosTunnelInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#name DataPanosTunnelInterface#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#ngfw_device DataPanosTunnelInterface#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#ngfw_device DataPanosTunnelInterface#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#panorama_device DataPanosTunnelInterface#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#panorama_device DataPanosTunnelInterface#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#vsys DataPanosTunnelInterface#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#vsys DataPanosTunnelInterface#vsys}
   */
   readonly vsys?: string;
 }
@@ -1191,19 +1191,19 @@ export interface DataPanosTunnelInterfaceLocationTemplateStack {
   /**
   * Specific Panorama template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#name DataPanosTunnelInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#name DataPanosTunnelInterface#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#ngfw_device DataPanosTunnelInterface#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#ngfw_device DataPanosTunnelInterface#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#panorama_device DataPanosTunnelInterface#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#panorama_device DataPanosTunnelInterface#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -1357,25 +1357,25 @@ export interface DataPanosTunnelInterfaceLocation {
   /**
   * Located in a specific NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#ngfw DataPanosTunnelInterface#ngfw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#ngfw DataPanosTunnelInterface#ngfw}
   */
   readonly ngfw?: DataPanosTunnelInterfaceLocationNgfw;
   /**
   * Panorama shared object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#shared DataPanosTunnelInterface#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#shared DataPanosTunnelInterface#shared}
   */
   readonly shared?: DataPanosTunnelInterfaceLocationShared;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#template DataPanosTunnelInterface#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#template DataPanosTunnelInterface#template}
   */
   readonly template?: DataPanosTunnelInterfaceLocationTemplate;
   /**
   * Located in a specific template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#template_stack DataPanosTunnelInterface#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#template_stack DataPanosTunnelInterface#template_stack}
   */
   readonly templateStack?: DataPanosTunnelInterfaceLocationTemplateStack;
 }
@@ -1556,7 +1556,7 @@ export class DataPanosTunnelInterfaceLocationOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface panos_tunnel_interface}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface panos_tunnel_interface}
 */
 export class DataPanosTunnelInterface extends cdktf.TerraformDataSource {
 
@@ -1572,7 +1572,7 @@ export class DataPanosTunnelInterface extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPanosTunnelInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPanosTunnelInterface to import
-  * @param importFromId The id of the existing DataPanosTunnelInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPanosTunnelInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPanosTunnelInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1584,7 +1584,7 @@ export class DataPanosTunnelInterface extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/tunnel_interface panos_tunnel_interface} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/tunnel_interface panos_tunnel_interface} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1595,8 +1595,8 @@ export class DataPanosTunnelInterface extends cdktf.TerraformDataSource {
       terraformResourceType: 'panos_tunnel_interface',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

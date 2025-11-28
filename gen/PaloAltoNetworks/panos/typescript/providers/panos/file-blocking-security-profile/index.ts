@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/file_blocking_security_profile
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/file_blocking_security_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface FileBlockingSecurityProfileConfig extends cdktf.TerraformMetaAr
   /**
   * Profile description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/file_blocking_security_profile#description FileBlockingSecurityProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/file_blocking_security_profile#description FileBlockingSecurityProfile#description}
   */
   readonly description?: string;
   /**
   * Disable object override in child device groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/file_blocking_security_profile#disable_override FileBlockingSecurityProfile#disable_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/file_blocking_security_profile#disable_override FileBlockingSecurityProfile#disable_override}
   */
   readonly disableOverride?: string;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/file_blocking_security_profile#location FileBlockingSecurityProfile#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/file_blocking_security_profile#location FileBlockingSecurityProfile#location}
   */
   readonly location: FileBlockingSecurityProfileLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/file_blocking_security_profile#name FileBlockingSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/file_blocking_security_profile#name FileBlockingSecurityProfile#name}
   */
   readonly name: string;
   /**
   * List of rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/file_blocking_security_profile#rules FileBlockingSecurityProfile#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/file_blocking_security_profile#rules FileBlockingSecurityProfile#rules}
   */
   readonly rules?: FileBlockingSecurityProfileRules[] | cdktf.IResolvable;
 }
@@ -40,13 +40,13 @@ export interface FileBlockingSecurityProfileLocationDeviceGroup {
   /**
   * Device Group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/file_blocking_security_profile#name FileBlockingSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/file_blocking_security_profile#name FileBlockingSecurityProfile#name}
   */
   readonly name?: string;
   /**
   * Panorama device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/file_blocking_security_profile#panorama_device FileBlockingSecurityProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/file_blocking_security_profile#panorama_device FileBlockingSecurityProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -230,13 +230,13 @@ export interface FileBlockingSecurityProfileLocationVsys {
   /**
   * The Virtual System name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/file_blocking_security_profile#name FileBlockingSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/file_blocking_security_profile#name FileBlockingSecurityProfile#name}
   */
   readonly name?: string;
   /**
   * The NGFW device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/file_blocking_security_profile#ngfw_device FileBlockingSecurityProfile#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/file_blocking_security_profile#ngfw_device FileBlockingSecurityProfile#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -361,19 +361,19 @@ export interface FileBlockingSecurityProfileLocation {
   /**
   * Located in a specific Device Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/file_blocking_security_profile#device_group FileBlockingSecurityProfile#device_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/file_blocking_security_profile#device_group FileBlockingSecurityProfile#device_group}
   */
   readonly deviceGroup?: FileBlockingSecurityProfileLocationDeviceGroup;
   /**
   * Panorama shared object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/file_blocking_security_profile#shared FileBlockingSecurityProfile#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/file_blocking_security_profile#shared FileBlockingSecurityProfile#shared}
   */
   readonly shared?: FileBlockingSecurityProfileLocationShared;
   /**
   * Located in a specific Virtual System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/file_blocking_security_profile#vsys FileBlockingSecurityProfile#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/file_blocking_security_profile#vsys FileBlockingSecurityProfile#vsys}
   */
   readonly vsys?: FileBlockingSecurityProfileLocationVsys;
 }
@@ -527,29 +527,29 @@ export interface FileBlockingSecurityProfileRules {
   /**
   * Action to take on matching files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/file_blocking_security_profile#action FileBlockingSecurityProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/file_blocking_security_profile#action FileBlockingSecurityProfile#action}
   */
   readonly action?: string;
   /**
   * List of applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/file_blocking_security_profile#applications FileBlockingSecurityProfile#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/file_blocking_security_profile#applications FileBlockingSecurityProfile#applications}
   */
   readonly applications?: string[];
   /**
   * File transfer direction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/file_blocking_security_profile#direction FileBlockingSecurityProfile#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/file_blocking_security_profile#direction FileBlockingSecurityProfile#direction}
   */
   readonly direction?: string;
   /**
   * List of file types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/file_blocking_security_profile#file_types FileBlockingSecurityProfile#file_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/file_blocking_security_profile#file_types FileBlockingSecurityProfile#file_types}
   */
   readonly fileTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/file_blocking_security_profile#name FileBlockingSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/file_blocking_security_profile#name FileBlockingSecurityProfile#name}
   */
   readonly name: string;
 }
@@ -778,7 +778,7 @@ export class FileBlockingSecurityProfileRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/file_blocking_security_profile panos_file_blocking_security_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/file_blocking_security_profile panos_file_blocking_security_profile}
 */
 export class FileBlockingSecurityProfile extends cdktf.TerraformResource {
 
@@ -794,7 +794,7 @@ export class FileBlockingSecurityProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FileBlockingSecurityProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FileBlockingSecurityProfile to import
-  * @param importFromId The id of the existing FileBlockingSecurityProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/file_blocking_security_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FileBlockingSecurityProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/file_blocking_security_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FileBlockingSecurityProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -806,7 +806,7 @@ export class FileBlockingSecurityProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/file_blocking_security_profile panos_file_blocking_security_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/file_blocking_security_profile panos_file_blocking_security_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -817,8 +817,8 @@ export class FileBlockingSecurityProfile extends cdktf.TerraformResource {
       terraformResourceType: 'panos_file_blocking_security_profile',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

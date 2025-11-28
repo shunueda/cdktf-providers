@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/webhooks_endpoint
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/webhooks_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktf from 'cdktf';
 
 export interface WebhooksEndpointConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/webhooks_endpoint#enabled WebhooksEndpoint#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/webhooks_endpoint#enabled WebhooksEndpoint#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Value must be one of `incident.created`, `incident.updated`, `incident.in_triage`, `incident.mitigated`, `incident.resolved`, `incident.cancelled`, `incident.deleted`, `incident.scheduled.created`, `incident.scheduled.updated`, `incident.scheduled.in_progress`, `incident.scheduled.completed`, `incident.scheduled.deleted`, `incident_post_mortem.created`, `incident_post_mortem.updated`, `incident_post_mortem.published`, `incident_post_mortem.deleted`, `incident_status_page_event.created`, `incident_status_page_event.updated`, `incident_status_page_event.deleted`, `incident_event.created`, `incident_event.updated`, `incident_event.deleted`, `alert.created`, `pulse.created`, `genius_workflow_run.queued`, `genius_workflow_run.started`, `genius_workflow_run.completed`, `genius_workflow_run.failed`, `genius_workflow_run.canceled`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/webhooks_endpoint#event_types WebhooksEndpoint#event_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/webhooks_endpoint#event_types WebhooksEndpoint#event_types}
   */
   readonly eventTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/webhooks_endpoint#id WebhooksEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/webhooks_endpoint#id WebhooksEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -27,31 +27,31 @@ export interface WebhooksEndpointConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/webhooks_endpoint#name WebhooksEndpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/webhooks_endpoint#name WebhooksEndpoint#name}
   */
   readonly name: string;
   /**
   * The webhook signing secret used to verify webhook requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/webhooks_endpoint#secret WebhooksEndpoint#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/webhooks_endpoint#secret WebhooksEndpoint#secret}
   */
   readonly secret?: string;
   /**
   * The slug of the endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/webhooks_endpoint#slug WebhooksEndpoint#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/webhooks_endpoint#slug WebhooksEndpoint#slug}
   */
   readonly slug?: string;
   /**
   * The URL of the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/webhooks_endpoint#url WebhooksEndpoint#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/webhooks_endpoint#url WebhooksEndpoint#url}
   */
   readonly url: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/webhooks_endpoint rootly_webhooks_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/webhooks_endpoint rootly_webhooks_endpoint}
 */
 export class WebhooksEndpoint extends cdktf.TerraformResource {
 
@@ -67,7 +67,7 @@ export class WebhooksEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebhooksEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebhooksEndpoint to import
-  * @param importFromId The id of the existing WebhooksEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/webhooks_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebhooksEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/webhooks_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebhooksEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -79,7 +79,7 @@ export class WebhooksEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/webhooks_endpoint rootly_webhooks_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/webhooks_endpoint rootly_webhooks_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -90,8 +90,8 @@ export class WebhooksEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_webhooks_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.8',
-        providerVersionConstraint: '4.3.8'
+        providerVersion: '4.3.9',
+        providerVersionConstraint: '4.3.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

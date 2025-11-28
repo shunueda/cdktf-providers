@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface CertificateImportConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#local CertificateImport#local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#local CertificateImport#local}
   */
   readonly local?: CertificateImportLocal;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#location CertificateImport#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#location CertificateImport#location}
   */
   readonly location: CertificateImportLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#name CertificateImport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#name CertificateImport#name}
   */
   readonly name: string;
 }
 export interface CertificateImportLocalPem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#certificate CertificateImport#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#certificate CertificateImport#certificate}
   */
   readonly certificate: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#passphrase CertificateImport#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#passphrase CertificateImport#passphrase}
   */
   readonly passphrase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#private_key CertificateImport#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#private_key CertificateImport#private_key}
   */
   readonly privateKey?: string;
 }
@@ -181,11 +181,11 @@ export class CertificateImportLocalPemOutputReference extends cdktf.ComplexObjec
 }
 export interface CertificateImportLocalPkcs12 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#certificate CertificateImport#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#certificate CertificateImport#certificate}
   */
   readonly certificate: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#passphrase CertificateImport#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#passphrase CertificateImport#passphrase}
   */
   readonly passphrase?: string;
 }
@@ -305,11 +305,11 @@ export class CertificateImportLocalPkcs12OutputReference extends cdktf.ComplexOb
 }
 export interface CertificateImportLocal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#pem CertificateImport#pem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#pem CertificateImport#pem}
   */
   readonly pem?: CertificateImportLocalPem;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#pkcs12 CertificateImport#pkcs12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#pkcs12 CertificateImport#pkcs12}
   */
   readonly pkcs12?: CertificateImportLocalPkcs12;
 }
@@ -434,7 +434,7 @@ export interface CertificateImportLocationPanorama {
   /**
   * The Panorama device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#panorama_device CertificateImport#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#panorama_device CertificateImport#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -530,13 +530,13 @@ export interface CertificateImportLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#name CertificateImport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#name CertificateImport#name}
   */
   readonly name?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#panorama_device CertificateImport#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#panorama_device CertificateImport#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -661,13 +661,13 @@ export interface CertificateImportLocationTemplateStack {
   /**
   * The template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#name CertificateImport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#name CertificateImport#name}
   */
   readonly name?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#panorama_device CertificateImport#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#panorama_device CertificateImport#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -792,25 +792,25 @@ export interface CertificateImportLocationTemplateStackVsys {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#ngfw_device CertificateImport#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#ngfw_device CertificateImport#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#panorama_device CertificateImport#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#panorama_device CertificateImport#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
   * The template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#template_stack CertificateImport#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#template_stack CertificateImport#template_stack}
   */
   readonly templateStack?: string;
   /**
   * The vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#vsys CertificateImport#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#vsys CertificateImport#vsys}
   */
   readonly vsys?: string;
 }
@@ -993,25 +993,25 @@ export interface CertificateImportLocationTemplateVsys {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#ngfw_device CertificateImport#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#ngfw_device CertificateImport#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#panorama_device CertificateImport#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#panorama_device CertificateImport#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#template CertificateImport#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#template CertificateImport#template}
   */
   readonly template?: string;
   /**
   * The vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#vsys CertificateImport#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#vsys CertificateImport#vsys}
   */
   readonly vsys?: string;
 }
@@ -1194,13 +1194,13 @@ export interface CertificateImportLocationVsys {
   /**
   * The Virtual System name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#name CertificateImport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#name CertificateImport#name}
   */
   readonly name?: string;
   /**
   * The NGFW device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#ngfw_device CertificateImport#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#ngfw_device CertificateImport#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -1325,37 +1325,37 @@ export interface CertificateImportLocation {
   /**
   * Located in a specific Panorama.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#panorama CertificateImport#panorama}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#panorama CertificateImport#panorama}
   */
   readonly panorama?: CertificateImportLocationPanorama;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#template CertificateImport#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#template CertificateImport#template}
   */
   readonly template?: CertificateImportLocationTemplate;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#template_stack CertificateImport#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#template_stack CertificateImport#template_stack}
   */
   readonly templateStack?: CertificateImportLocationTemplateStack;
   /**
   * Located in a specific template, device and vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#template_stack_vsys CertificateImport#template_stack_vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#template_stack_vsys CertificateImport#template_stack_vsys}
   */
   readonly templateStackVsys?: CertificateImportLocationTemplateStackVsys;
   /**
   * Located in a specific template, device and vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#template_vsys CertificateImport#template_vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#template_vsys CertificateImport#template_vsys}
   */
   readonly templateVsys?: CertificateImportLocationTemplateVsys;
   /**
   * Located in a specific Virtual System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#vsys CertificateImport#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#vsys CertificateImport#vsys}
   */
   readonly vsys?: CertificateImportLocationVsys;
 }
@@ -1594,7 +1594,7 @@ export class CertificateImportLocationOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import panos_certificate_import}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import panos_certificate_import}
 */
 export class CertificateImport extends cdktf.TerraformResource {
 
@@ -1610,7 +1610,7 @@ export class CertificateImport extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CertificateImport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CertificateImport to import
-  * @param importFromId The id of the existing CertificateImport that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CertificateImport that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CertificateImport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1622,7 +1622,7 @@ export class CertificateImport extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/certificate_import panos_certificate_import} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/certificate_import panos_certificate_import} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1633,8 +1633,8 @@ export class CertificateImport extends cdktf.TerraformResource {
       terraformResourceType: 'panos_certificate_import',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_email
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_email
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskSendEmailConfig extends cdktf.TerraformMetaArgument
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_email#enabled WorkflowTaskSendEmail#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_email#enabled WorkflowTaskSendEmail#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_email#id WorkflowTaskSendEmail#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_email#id WorkflowTaskSendEmail#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,91 +23,91 @@ export interface WorkflowTaskSendEmailConfig extends cdktf.TerraformMetaArgument
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_email#name WorkflowTaskSendEmail#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_email#name WorkflowTaskSendEmail#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_email#position WorkflowTaskSendEmail#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_email#position WorkflowTaskSendEmail#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_email#skip_on_failure WorkflowTaskSendEmail#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_email#skip_on_failure WorkflowTaskSendEmail#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_email#workflow_id WorkflowTaskSendEmail#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_email#workflow_id WorkflowTaskSendEmail#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_email#task_params WorkflowTaskSendEmail#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_email#task_params WorkflowTaskSendEmail#task_params}
   */
   readonly taskParams: WorkflowTaskSendEmailTaskParams;
 }
 export interface WorkflowTaskSendEmailTaskParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_email#bcc WorkflowTaskSendEmail#bcc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_email#bcc WorkflowTaskSendEmail#bcc}
   */
   readonly bcc?: string[];
   /**
   * The email body
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_email#body WorkflowTaskSendEmail#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_email#body WorkflowTaskSendEmail#body}
   */
   readonly body: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_email#cc WorkflowTaskSendEmail#cc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_email#cc WorkflowTaskSendEmail#cc}
   */
   readonly cc?: string[];
   /**
   * URL to your custom email logo
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_email#custom_logo_url WorkflowTaskSendEmail#custom_logo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_email#custom_logo_url WorkflowTaskSendEmail#custom_logo_url}
   */
   readonly customLogoUrl?: string;
   /**
   * The from email address. Need to use SMTP integration if different than rootly.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_email#from WorkflowTaskSendEmail#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_email#from WorkflowTaskSendEmail#from}
   */
   readonly from?: string;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_email#include_footer WorkflowTaskSendEmail#include_footer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_email#include_footer WorkflowTaskSendEmail#include_footer}
   */
   readonly includeFooter?: boolean | cdktf.IResolvable;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_email#include_header WorkflowTaskSendEmail#include_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_email#include_header WorkflowTaskSendEmail#include_header}
   */
   readonly includeHeader?: boolean | cdktf.IResolvable;
   /**
   * The preheader
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_email#preheader WorkflowTaskSendEmail#preheader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_email#preheader WorkflowTaskSendEmail#preheader}
   */
   readonly preheader?: string;
   /**
   * The subject
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_email#subject WorkflowTaskSendEmail#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_email#subject WorkflowTaskSendEmail#subject}
   */
   readonly subject: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_email#task_type WorkflowTaskSendEmail#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_email#task_type WorkflowTaskSendEmail#task_type}
   */
   readonly taskType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_email#to WorkflowTaskSendEmail#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_email#to WorkflowTaskSendEmail#to}
   */
   readonly to: string[];
 }
@@ -472,7 +472,7 @@ export class WorkflowTaskSendEmailTaskParamsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_email rootly_workflow_task_send_email}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_email rootly_workflow_task_send_email}
 */
 export class WorkflowTaskSendEmail extends cdktf.TerraformResource {
 
@@ -488,7 +488,7 @@ export class WorkflowTaskSendEmail extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskSendEmail resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskSendEmail to import
-  * @param importFromId The id of the existing WorkflowTaskSendEmail that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_email#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskSendEmail that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_email#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskSendEmail to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -500,7 +500,7 @@ export class WorkflowTaskSendEmail extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_send_email rootly_workflow_task_send_email} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_email rootly_workflow_task_send_email} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -511,8 +511,8 @@ export class WorkflowTaskSendEmail extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_send_email',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.8',
-        providerVersionConstraint: '4.3.8'
+        providerVersion: '4.3.9',
+        providerVersionConstraint: '4.3.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataPanosNatPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#location DataPanosNatPolicy#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#location DataPanosNatPolicy#location}
   */
   readonly location: DataPanosNatPolicyLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#rules DataPanosNatPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#rules DataPanosNatPolicy#rules}
   */
   readonly rules: DataPanosNatPolicyRules[] | cdktf.IResolvable;
 }
@@ -22,19 +22,19 @@ export interface DataPanosNatPolicyLocationDeviceGroup {
   /**
   * The device group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#name DataPanosNatPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#name DataPanosNatPolicy#name}
   */
   readonly name?: string;
   /**
   * The panorama device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#panorama_device DataPanosNatPolicy#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#panorama_device DataPanosNatPolicy#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
   * The rulebase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#rulebase DataPanosNatPolicy#rulebase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#rulebase DataPanosNatPolicy#rulebase}
   */
   readonly rulebase?: string;
 }
@@ -188,7 +188,7 @@ export interface DataPanosNatPolicyLocationShared {
   /**
   * Rulebase name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#rulebase DataPanosNatPolicy#rulebase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#rulebase DataPanosNatPolicy#rulebase}
   */
   readonly rulebase?: string;
 }
@@ -284,13 +284,13 @@ export interface DataPanosNatPolicyLocationVsys {
   /**
   * The vsys name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#name DataPanosNatPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#name DataPanosNatPolicy#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#ngfw_device DataPanosNatPolicy#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#ngfw_device DataPanosNatPolicy#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -415,19 +415,19 @@ export interface DataPanosNatPolicyLocation {
   /**
   * Located in a specific device group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#device_group DataPanosNatPolicy#device_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#device_group DataPanosNatPolicy#device_group}
   */
   readonly deviceGroup?: DataPanosNatPolicyLocationDeviceGroup;
   /**
   * Located in a shared rulebase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#shared DataPanosNatPolicy#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#shared DataPanosNatPolicy#shared}
   */
   readonly shared?: DataPanosNatPolicyLocationShared;
   /**
   * Located in a specific vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#vsys DataPanosNatPolicy#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#vsys DataPanosNatPolicy#vsys}
   */
   readonly vsys?: DataPanosNatPolicyLocationVsys;
 }
@@ -581,7 +581,7 @@ export interface DataPanosNatPolicyRulesDestinationTranslationDnsRewrite {
   /**
   * Select direction to apply DNS rewrite
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#direction DataPanosNatPolicy#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#direction DataPanosNatPolicy#direction}
   */
   readonly direction?: string;
 }
@@ -675,15 +675,15 @@ export class DataPanosNatPolicyRulesDestinationTranslationDnsRewriteOutputRefere
 }
 export interface DataPanosNatPolicyRulesDestinationTranslation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#dns_rewrite DataPanosNatPolicy#dns_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#dns_rewrite DataPanosNatPolicy#dns_rewrite}
   */
   readonly dnsRewrite?: DataPanosNatPolicyRulesDestinationTranslationDnsRewrite;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#translated_address DataPanosNatPolicy#translated_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#translated_address DataPanosNatPolicy#translated_address}
   */
   readonly translatedAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#translated_port DataPanosNatPolicy#translated_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#translated_port DataPanosNatPolicy#translated_port}
   */
   readonly translatedPort?: number;
 }
@@ -837,15 +837,15 @@ export interface DataPanosNatPolicyRulesDynamicDestinationTranslation {
   /**
   * Distribution algorithm for destination address pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#distribution DataPanosNatPolicy#distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#distribution DataPanosNatPolicy#distribution}
   */
   readonly distribution?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#translated_address DataPanosNatPolicy#translated_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#translated_address DataPanosNatPolicy#translated_address}
   */
   readonly translatedAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#translated_port DataPanosNatPolicy#translated_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#translated_port DataPanosNatPolicy#translated_port}
   */
   readonly translatedPort?: number;
 }
@@ -999,19 +999,19 @@ export interface DataPanosNatPolicyRulesSourceTranslationDynamicIpFallbackInterf
   /**
   * Floating IP address in HA Active-Active configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#floating_ip DataPanosNatPolicy#floating_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#floating_ip DataPanosNatPolicy#floating_ip}
   */
   readonly floatingIp?: string;
   /**
   * Interface name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#interface DataPanosNatPolicy#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#interface DataPanosNatPolicy#interface}
   */
   readonly interface?: string;
   /**
   * specify exact IP address if interface has multiple addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#ip DataPanosNatPolicy#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#ip DataPanosNatPolicy#ip}
   */
   readonly ip?: string;
 }
@@ -1163,11 +1163,11 @@ export class DataPanosNatPolicyRulesSourceTranslationDynamicIpFallbackInterfaceA
 }
 export interface DataPanosNatPolicyRulesSourceTranslationDynamicIpFallback {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#interface_address DataPanosNatPolicy#interface_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#interface_address DataPanosNatPolicy#interface_address}
   */
   readonly interfaceAddress?: DataPanosNatPolicyRulesSourceTranslationDynamicIpFallbackInterfaceAddress;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#translated_address DataPanosNatPolicy#translated_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#translated_address DataPanosNatPolicy#translated_address}
   */
   readonly translatedAddress?: string[];
 }
@@ -1290,11 +1290,11 @@ export class DataPanosNatPolicyRulesSourceTranslationDynamicIpFallbackOutputRefe
 }
 export interface DataPanosNatPolicyRulesSourceTranslationDynamicIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#fallback DataPanosNatPolicy#fallback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#fallback DataPanosNatPolicy#fallback}
   */
   readonly fallback?: DataPanosNatPolicyRulesSourceTranslationDynamicIpFallback;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#translated_address DataPanosNatPolicy#translated_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#translated_address DataPanosNatPolicy#translated_address}
   */
   readonly translatedAddress?: string[];
 }
@@ -1419,19 +1419,19 @@ export interface DataPanosNatPolicyRulesSourceTranslationDynamicIpAndPortInterfa
   /**
   * Floating IP address in HA Active-Active configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#floating_ip DataPanosNatPolicy#floating_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#floating_ip DataPanosNatPolicy#floating_ip}
   */
   readonly floatingIp?: string;
   /**
   * Interface name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#interface DataPanosNatPolicy#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#interface DataPanosNatPolicy#interface}
   */
   readonly interface?: string;
   /**
   * specify exact IP address if interface has multiple addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#ip DataPanosNatPolicy#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#ip DataPanosNatPolicy#ip}
   */
   readonly ip?: string;
 }
@@ -1583,11 +1583,11 @@ export class DataPanosNatPolicyRulesSourceTranslationDynamicIpAndPortInterfaceAd
 }
 export interface DataPanosNatPolicyRulesSourceTranslationDynamicIpAndPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#interface_address DataPanosNatPolicy#interface_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#interface_address DataPanosNatPolicy#interface_address}
   */
   readonly interfaceAddress?: DataPanosNatPolicyRulesSourceTranslationDynamicIpAndPortInterfaceAddress;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#translated_address DataPanosNatPolicy#translated_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#translated_address DataPanosNatPolicy#translated_address}
   */
   readonly translatedAddress?: string[];
 }
@@ -1712,11 +1712,11 @@ export interface DataPanosNatPolicyRulesSourceTranslationStaticIp {
   /**
   * allow reverse translation from translated address to original address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#bi_directional DataPanosNatPolicy#bi_directional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#bi_directional DataPanosNatPolicy#bi_directional}
   */
   readonly biDirectional?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#translated_address DataPanosNatPolicy#translated_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#translated_address DataPanosNatPolicy#translated_address}
   */
   readonly translatedAddress?: string;
 }
@@ -1839,15 +1839,15 @@ export class DataPanosNatPolicyRulesSourceTranslationStaticIpOutputReference ext
 }
 export interface DataPanosNatPolicyRulesSourceTranslation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#dynamic_ip DataPanosNatPolicy#dynamic_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#dynamic_ip DataPanosNatPolicy#dynamic_ip}
   */
   readonly dynamicIp?: DataPanosNatPolicyRulesSourceTranslationDynamicIp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#dynamic_ip_and_port DataPanosNatPolicy#dynamic_ip_and_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#dynamic_ip_and_port DataPanosNatPolicy#dynamic_ip_and_port}
   */
   readonly dynamicIpAndPort?: DataPanosNatPolicyRulesSourceTranslationDynamicIpAndPort;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#static_ip DataPanosNatPolicy#static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#static_ip DataPanosNatPolicy#static_ip}
   */
   readonly staticIp?: DataPanosNatPolicyRulesSourceTranslationStaticIp;
 }
@@ -1999,7 +1999,7 @@ export class DataPanosNatPolicyRulesSourceTranslationOutputReference extends cdk
 }
 export interface DataPanosNatPolicyRulesTargetDevicesVsys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#name DataPanosNatPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#name DataPanosNatPolicy#name}
   */
   readonly name: string;
 }
@@ -2112,11 +2112,11 @@ export class DataPanosNatPolicyRulesTargetDevicesVsysList extends cdktf.ComplexL
 }
 export interface DataPanosNatPolicyRulesTargetDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#name DataPanosNatPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#name DataPanosNatPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#vsys DataPanosNatPolicy#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#vsys DataPanosNatPolicy#vsys}
   */
   readonly vsys?: DataPanosNatPolicyRulesTargetDevicesVsys[] | cdktf.IResolvable;
 }
@@ -2258,17 +2258,17 @@ export class DataPanosNatPolicyRulesTargetDevicesList extends cdktf.ComplexList 
 }
 export interface DataPanosNatPolicyRulesTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#devices DataPanosNatPolicy#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#devices DataPanosNatPolicy#devices}
   */
   readonly devices?: DataPanosNatPolicyRulesTargetDevices[] | cdktf.IResolvable;
   /**
   * Target to all but these specified devices and tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#negate DataPanosNatPolicy#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#negate DataPanosNatPolicy#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#tags DataPanosNatPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#tags DataPanosNatPolicy#tags}
   */
   readonly tags?: string[];
 }
@@ -2422,77 +2422,77 @@ export interface DataPanosNatPolicyRules {
   /**
   * Device binding configuration in HA Active-Active mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#active_active_device_binding DataPanosNatPolicy#active_active_device_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#active_active_device_binding DataPanosNatPolicy#active_active_device_binding}
   */
   readonly activeActiveDeviceBinding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#description DataPanosNatPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#description DataPanosNatPolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#destination_addresses DataPanosNatPolicy#destination_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#destination_addresses DataPanosNatPolicy#destination_addresses}
   */
   readonly destinationAddresses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#destination_translation DataPanosNatPolicy#destination_translation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#destination_translation DataPanosNatPolicy#destination_translation}
   */
   readonly destinationTranslation?: DataPanosNatPolicyRulesDestinationTranslation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#destination_zone DataPanosNatPolicy#destination_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#destination_zone DataPanosNatPolicy#destination_zone}
   */
   readonly destinationZone?: string[];
   /**
   * Disable the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#disabled DataPanosNatPolicy#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#disabled DataPanosNatPolicy#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#dynamic_destination_translation DataPanosNatPolicy#dynamic_destination_translation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#dynamic_destination_translation DataPanosNatPolicy#dynamic_destination_translation}
   */
   readonly dynamicDestinationTranslation?: DataPanosNatPolicyRulesDynamicDestinationTranslation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#group_tag DataPanosNatPolicy#group_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#group_tag DataPanosNatPolicy#group_tag}
   */
   readonly groupTag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#name DataPanosNatPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#name DataPanosNatPolicy#name}
   */
   readonly name: string;
   /**
   * type of nat
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#nat_type DataPanosNatPolicy#nat_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#nat_type DataPanosNatPolicy#nat_type}
   */
   readonly natType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#service DataPanosNatPolicy#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#service DataPanosNatPolicy#service}
   */
   readonly service?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#source_addresses DataPanosNatPolicy#source_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#source_addresses DataPanosNatPolicy#source_addresses}
   */
   readonly sourceAddresses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#source_translation DataPanosNatPolicy#source_translation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#source_translation DataPanosNatPolicy#source_translation}
   */
   readonly sourceTranslation?: DataPanosNatPolicyRulesSourceTranslation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#source_zones DataPanosNatPolicy#source_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#source_zones DataPanosNatPolicy#source_zones}
   */
   readonly sourceZones?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#tag DataPanosNatPolicy#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#tag DataPanosNatPolicy#tag}
   */
   readonly tag?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#target DataPanosNatPolicy#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#target DataPanosNatPolicy#target}
   */
   readonly target?: DataPanosNatPolicyRulesTarget;
   /**
   * Egress interface from route lookup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#to_interface DataPanosNatPolicy#to_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#to_interface DataPanosNatPolicy#to_interface}
   */
   readonly toInterface?: string;
 }
@@ -3069,7 +3069,7 @@ export class DataPanosNatPolicyRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy panos_nat_policy}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy panos_nat_policy}
 */
 export class DataPanosNatPolicy extends cdktf.TerraformDataSource {
 
@@ -3085,7 +3085,7 @@ export class DataPanosNatPolicy extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPanosNatPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPanosNatPolicy to import
-  * @param importFromId The id of the existing DataPanosNatPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPanosNatPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPanosNatPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3097,7 +3097,7 @@ export class DataPanosNatPolicy extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/nat_policy panos_nat_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/nat_policy panos_nat_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3108,8 +3108,8 @@ export class DataPanosNatPolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'panos_nat_policy',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

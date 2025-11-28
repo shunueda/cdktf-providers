@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,55 +8,55 @@ import * as cdktf from 'cdktf';
 
 export interface DataPanosGlobalprotectLogSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#actions DataPanosGlobalprotectLogSettings#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#actions DataPanosGlobalprotectLogSettings#actions}
   */
   readonly actions?: DataPanosGlobalprotectLogSettingsActions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#description DataPanosGlobalprotectLogSettings#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#description DataPanosGlobalprotectLogSettings#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#email_profiles DataPanosGlobalprotectLogSettings#email_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#email_profiles DataPanosGlobalprotectLogSettings#email_profiles}
   */
   readonly emailProfiles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#filter DataPanosGlobalprotectLogSettings#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#filter DataPanosGlobalprotectLogSettings#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#http_profile DataPanosGlobalprotectLogSettings#http_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#http_profile DataPanosGlobalprotectLogSettings#http_profile}
   */
   readonly httpProfile?: string[];
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#location DataPanosGlobalprotectLogSettings#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#location DataPanosGlobalprotectLogSettings#location}
   */
   readonly location: DataPanosGlobalprotectLogSettingsLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#name DataPanosGlobalprotectLogSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#name DataPanosGlobalprotectLogSettings#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#quarantine DataPanosGlobalprotectLogSettings#quarantine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#quarantine DataPanosGlobalprotectLogSettings#quarantine}
   */
   readonly quarantine?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#send_to_panorama DataPanosGlobalprotectLogSettings#send_to_panorama}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#send_to_panorama DataPanosGlobalprotectLogSettings#send_to_panorama}
   */
   readonly sendToPanorama?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#snmp_profiles DataPanosGlobalprotectLogSettings#snmp_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#snmp_profiles DataPanosGlobalprotectLogSettings#snmp_profiles}
   */
   readonly snmpProfiles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#syslog_profiles DataPanosGlobalprotectLogSettings#syslog_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#syslog_profiles DataPanosGlobalprotectLogSettings#syslog_profiles}
   */
   readonly syslogProfiles?: string[];
 }
 export interface DataPanosGlobalprotectLogSettingsActionsTypeIntegration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#action DataPanosGlobalprotectLogSettings#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#action DataPanosGlobalprotectLogSettings#action}
   */
   readonly action?: string;
 }
@@ -268,7 +268,7 @@ export class DataPanosGlobalprotectLogSettingsActionsTypeTaggingRegistrationPano
 }
 export interface DataPanosGlobalprotectLogSettingsActionsTypeTaggingRegistrationRemote {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#http_profile DataPanosGlobalprotectLogSettings#http_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#http_profile DataPanosGlobalprotectLogSettings#http_profile}
   */
   readonly httpProfile?: string;
 }
@@ -362,15 +362,15 @@ export class DataPanosGlobalprotectLogSettingsActionsTypeTaggingRegistrationRemo
 }
 export interface DataPanosGlobalprotectLogSettingsActionsTypeTaggingRegistration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#localhost DataPanosGlobalprotectLogSettings#localhost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#localhost DataPanosGlobalprotectLogSettings#localhost}
   */
   readonly localhost?: DataPanosGlobalprotectLogSettingsActionsTypeTaggingRegistrationLocalhost;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#panorama DataPanosGlobalprotectLogSettings#panorama}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#panorama DataPanosGlobalprotectLogSettings#panorama}
   */
   readonly panorama?: DataPanosGlobalprotectLogSettingsActionsTypeTaggingRegistrationPanorama;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#remote DataPanosGlobalprotectLogSettings#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#remote DataPanosGlobalprotectLogSettings#remote}
   */
   readonly remote?: DataPanosGlobalprotectLogSettingsActionsTypeTaggingRegistrationRemote;
 }
@@ -522,25 +522,25 @@ export class DataPanosGlobalprotectLogSettingsActionsTypeTaggingRegistrationOutp
 }
 export interface DataPanosGlobalprotectLogSettingsActionsTypeTagging {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#action DataPanosGlobalprotectLogSettings#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#action DataPanosGlobalprotectLogSettings#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#registration DataPanosGlobalprotectLogSettings#registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#registration DataPanosGlobalprotectLogSettings#registration}
   */
   readonly registration?: DataPanosGlobalprotectLogSettingsActionsTypeTaggingRegistration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#tags DataPanosGlobalprotectLogSettings#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#tags DataPanosGlobalprotectLogSettings#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#target DataPanosGlobalprotectLogSettings#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#target DataPanosGlobalprotectLogSettings#target}
   */
   readonly target?: string;
   /**
   * timeout in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#timeout DataPanosGlobalprotectLogSettings#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#timeout DataPanosGlobalprotectLogSettings#timeout}
   */
   readonly timeout?: number;
 }
@@ -750,11 +750,11 @@ export class DataPanosGlobalprotectLogSettingsActionsTypeTaggingOutputReference 
 }
 export interface DataPanosGlobalprotectLogSettingsActionsType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#integration DataPanosGlobalprotectLogSettings#integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#integration DataPanosGlobalprotectLogSettings#integration}
   */
   readonly integration?: DataPanosGlobalprotectLogSettingsActionsTypeIntegration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#tagging DataPanosGlobalprotectLogSettings#tagging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#tagging DataPanosGlobalprotectLogSettings#tagging}
   */
   readonly tagging?: DataPanosGlobalprotectLogSettingsActionsTypeTagging;
 }
@@ -877,11 +877,11 @@ export class DataPanosGlobalprotectLogSettingsActionsTypeOutputReference extends
 }
 export interface DataPanosGlobalprotectLogSettingsActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#name DataPanosGlobalprotectLogSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#name DataPanosGlobalprotectLogSettings#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#type DataPanosGlobalprotectLogSettings#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#type DataPanosGlobalprotectLogSettings#type}
   */
   readonly type?: DataPanosGlobalprotectLogSettingsActionsType;
 }
@@ -1084,13 +1084,13 @@ export interface DataPanosGlobalprotectLogSettingsLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#name DataPanosGlobalprotectLogSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#name DataPanosGlobalprotectLogSettings#name}
   */
   readonly name?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#panorama_device DataPanosGlobalprotectLogSettings#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#panorama_device DataPanosGlobalprotectLogSettings#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -1215,13 +1215,13 @@ export interface DataPanosGlobalprotectLogSettingsLocationTemplateStack {
   /**
   * The template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#name DataPanosGlobalprotectLogSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#name DataPanosGlobalprotectLogSettings#name}
   */
   readonly name?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#panorama_device DataPanosGlobalprotectLogSettings#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#panorama_device DataPanosGlobalprotectLogSettings#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -1346,25 +1346,25 @@ export interface DataPanosGlobalprotectLogSettingsLocationTemplateStackVsys {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#ngfw_device DataPanosGlobalprotectLogSettings#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#ngfw_device DataPanosGlobalprotectLogSettings#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#panorama_device DataPanosGlobalprotectLogSettings#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#panorama_device DataPanosGlobalprotectLogSettings#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
   * The template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#template_stack DataPanosGlobalprotectLogSettings#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#template_stack DataPanosGlobalprotectLogSettings#template_stack}
   */
   readonly templateStack?: string;
   /**
   * The vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#vsys DataPanosGlobalprotectLogSettings#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#vsys DataPanosGlobalprotectLogSettings#vsys}
   */
   readonly vsys?: string;
 }
@@ -1547,25 +1547,25 @@ export interface DataPanosGlobalprotectLogSettingsLocationTemplateVsys {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#ngfw_device DataPanosGlobalprotectLogSettings#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#ngfw_device DataPanosGlobalprotectLogSettings#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#panorama_device DataPanosGlobalprotectLogSettings#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#panorama_device DataPanosGlobalprotectLogSettings#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#template DataPanosGlobalprotectLogSettings#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#template DataPanosGlobalprotectLogSettings#template}
   */
   readonly template?: string;
   /**
   * The vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#vsys DataPanosGlobalprotectLogSettings#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#vsys DataPanosGlobalprotectLogSettings#vsys}
   */
   readonly vsys?: string;
 }
@@ -1748,31 +1748,31 @@ export interface DataPanosGlobalprotectLogSettingsLocation {
   /**
   * Located in a panorama.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#panorama DataPanosGlobalprotectLogSettings#panorama}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#panorama DataPanosGlobalprotectLogSettings#panorama}
   */
   readonly panorama?: DataPanosGlobalprotectLogSettingsLocationPanorama;
   /**
   * A shared resource located within a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#template DataPanosGlobalprotectLogSettings#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#template DataPanosGlobalprotectLogSettings#template}
   */
   readonly template?: DataPanosGlobalprotectLogSettingsLocationTemplate;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#template_stack DataPanosGlobalprotectLogSettings#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#template_stack DataPanosGlobalprotectLogSettings#template_stack}
   */
   readonly templateStack?: DataPanosGlobalprotectLogSettingsLocationTemplateStack;
   /**
   * Located in a specific template, device and vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#template_stack_vsys DataPanosGlobalprotectLogSettings#template_stack_vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#template_stack_vsys DataPanosGlobalprotectLogSettings#template_stack_vsys}
   */
   readonly templateStackVsys?: DataPanosGlobalprotectLogSettingsLocationTemplateStackVsys;
   /**
   * Located in a specific template, device and vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#template_vsys DataPanosGlobalprotectLogSettings#template_vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#template_vsys DataPanosGlobalprotectLogSettings#template_vsys}
   */
   readonly templateVsys?: DataPanosGlobalprotectLogSettingsLocationTemplateVsys;
 }
@@ -1982,7 +1982,7 @@ export class DataPanosGlobalprotectLogSettingsLocationOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings panos_globalprotect_log_settings}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings panos_globalprotect_log_settings}
 */
 export class DataPanosGlobalprotectLogSettings extends cdktf.TerraformDataSource {
 
@@ -1998,7 +1998,7 @@ export class DataPanosGlobalprotectLogSettings extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataPanosGlobalprotectLogSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPanosGlobalprotectLogSettings to import
-  * @param importFromId The id of the existing DataPanosGlobalprotectLogSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPanosGlobalprotectLogSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPanosGlobalprotectLogSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2010,7 +2010,7 @@ export class DataPanosGlobalprotectLogSettings extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_log_settings panos_globalprotect_log_settings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_log_settings panos_globalprotect_log_settings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2021,8 +2021,8 @@ export class DataPanosGlobalprotectLogSettings extends cdktf.TerraformDataSource
       terraformResourceType: 'panos_globalprotect_log_settings',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

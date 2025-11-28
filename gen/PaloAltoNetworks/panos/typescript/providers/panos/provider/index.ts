@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,109 +10,109 @@ export interface PanosProviderConfig {
   /**
   * Additional HTTP headers to send with API calls Environment variable: `PANOS_HEADERS`. JSON config file variable: `additional_headers`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs#additional_headers PanosProvider#additional_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs#additional_headers PanosProvider#additional_headers}
   */
   readonly additionalHeaders?: { [key: string]: string };
   /**
   * The API key for PAN-OS. Either specify this or give both username and password. Environment variable: `PANOS_API_KEY`. JSON config file variable: `api_key`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs#api_key PanosProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs#api_key PanosProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * Send the API key in the request body instead of using the authentication header. Environment variable: `PANOS_API_KEY_IN_REQUEST`. JSON config file variable: `api_key_in_request`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs#api_key_in_request PanosProvider#api_key_in_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs#api_key_in_request PanosProvider#api_key_in_request}
   */
   readonly apiKeyInRequest?: boolean | cdktf.IResolvable;
   /**
   * Filesystem path to a JSON config file that specifies the provider's params. JSON config file variable: `auth_file`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs#auth_file PanosProvider#auth_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs#auth_file PanosProvider#auth_file}
   */
   readonly authFile?: string;
   /**
   * (Local inspection mode) The PAN-OS config file to load read in using `file()` JSON config file variable: `config_file`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs#config_file PanosProvider#config_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs#config_file PanosProvider#config_file}
   */
   readonly configFile?: string;
   /**
   * The hostname or IP address of the PAN-OS instance (NGFW or Panorama). Environment variable: `PANOS_HOSTNAME`. JSON config file variable: `hostname`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs#hostname PanosProvider#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs#hostname PanosProvider#hostname}
   */
   readonly hostname?: string;
   /**
   * Number of operations to send as part of a single MultiConfig update Default: `500`. Environment variable: `PANOS_MULTI_CONFIG_BATCH_SIZE`. JSON config file variable: `multi_config_batch_size`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs#multi_config_batch_size PanosProvider#multi_config_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs#multi_config_batch_size PanosProvider#multi_config_batch_size}
   */
   readonly multiConfigBatchSize?: number;
   /**
   * (Local inspection mode) The version of PAN-OS that exported the config file. This is only used if the root 'config' block does not contain the 'detail-version' attribute. Example: `10.2.3`. JSON config file variable: `panos_version`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs#panos_version PanosProvider#panos_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs#panos_version PanosProvider#panos_version}
   */
   readonly panosVersion?: string;
   /**
   * The password.  This is required if the api_key is not configured. Environment variable: `PANOS_PASSWORD`. JSON config file variable: `password`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs#password PanosProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs#password PanosProvider#password}
   */
   readonly password?: string;
   /**
   * If the port is non-standard for the protocol, the port number to use. Environment variable: `PANOS_PORT`. JSON config file variable: `port`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs#port PanosProvider#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs#port PanosProvider#port}
   */
   readonly port?: number;
   /**
   * The protocol (https or http). Default: `https`. Environment variable: `PANOS_PROTOCOL`. JSON config file variable: `protocol`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs#protocol PanosProvider#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs#protocol PanosProvider#protocol}
   */
   readonly protocol?: string;
   /**
   * Log categories to configure for the PAN-OS SDK library Environment variable: `PANOS_LOG_CATEGORIES`. JSON config file variable: `sdk_log_categories`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs#sdk_log_categories PanosProvider#sdk_log_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs#sdk_log_categories PanosProvider#sdk_log_categories}
   */
   readonly sdkLogCategories?: string;
   /**
   * SDK logging Level for categories Default: `INFO`. Environment variable: `PANOS_LOG_LEVEL`. JSON config file variable: `sdk_log_level`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs#sdk_log_level PanosProvider#sdk_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs#sdk_log_level PanosProvider#sdk_log_level}
   */
   readonly sdkLogLevel?: string;
   /**
   * (For https protocol) Skip verifying the HTTPS certificate. Environment variable: `PANOS_SKIP_VERIFY_CERTIFICATE`. JSON config file variable: `skip_verify_certificate`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs#skip_verify_certificate PanosProvider#skip_verify_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs#skip_verify_certificate PanosProvider#skip_verify_certificate}
   */
   readonly skipVerifyCertificate?: boolean | cdktf.IResolvable;
   /**
   * Target setting (NGFW serial number). Environment variable: `PANOS_TARGET`. JSON config file variable: `target`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs#target PanosProvider#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs#target PanosProvider#target}
   */
   readonly target?: string;
   /**
   * The username.  This is required if api_key is not configured. Environment variable: `PANOS_USERNAME`. JSON config file variable: `username`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs#username PanosProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs#username PanosProvider#username}
   */
   readonly username?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs#alias PanosProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs#alias PanosProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs panos}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs panos}
 */
 export class PanosProvider extends cdktf.TerraformProvider {
 
@@ -128,7 +128,7 @@ export class PanosProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a PanosProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PanosProvider to import
-  * @param importFromId The id of the existing PanosProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PanosProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PanosProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -140,7 +140,7 @@ export class PanosProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs panos} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs panos} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -151,8 +151,8 @@ export class PanosProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'panos',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       terraformProviderSource: 'PaloAltoNetworks/panos'
     });

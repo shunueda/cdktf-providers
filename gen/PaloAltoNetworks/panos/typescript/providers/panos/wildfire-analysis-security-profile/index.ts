@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/wildfire_analysis_security_profile
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/wildfire_analysis_security_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface WildfireAnalysisSecurityProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/wildfire_analysis_security_profile#description WildfireAnalysisSecurityProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/wildfire_analysis_security_profile#description WildfireAnalysisSecurityProfile#description}
   */
   readonly description?: string;
   /**
   * disable object override in child device groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/wildfire_analysis_security_profile#disable_override WildfireAnalysisSecurityProfile#disable_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/wildfire_analysis_security_profile#disable_override WildfireAnalysisSecurityProfile#disable_override}
   */
   readonly disableOverride?: string;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/wildfire_analysis_security_profile#location WildfireAnalysisSecurityProfile#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/wildfire_analysis_security_profile#location WildfireAnalysisSecurityProfile#location}
   */
   readonly location: WildfireAnalysisSecurityProfileLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/wildfire_analysis_security_profile#name WildfireAnalysisSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/wildfire_analysis_security_profile#name WildfireAnalysisSecurityProfile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/wildfire_analysis_security_profile#rules WildfireAnalysisSecurityProfile#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/wildfire_analysis_security_profile#rules WildfireAnalysisSecurityProfile#rules}
   */
   readonly rules?: WildfireAnalysisSecurityProfileRules[] | cdktf.IResolvable;
 }
@@ -36,13 +36,13 @@ export interface WildfireAnalysisSecurityProfileLocationDeviceGroup {
   /**
   * Device Group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/wildfire_analysis_security_profile#name WildfireAnalysisSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/wildfire_analysis_security_profile#name WildfireAnalysisSecurityProfile#name}
   */
   readonly name?: string;
   /**
   * Panorama device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/wildfire_analysis_security_profile#panorama_device WildfireAnalysisSecurityProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/wildfire_analysis_security_profile#panorama_device WildfireAnalysisSecurityProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -226,13 +226,13 @@ export interface WildfireAnalysisSecurityProfileLocation {
   /**
   * Located in a specific Device Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/wildfire_analysis_security_profile#device_group WildfireAnalysisSecurityProfile#device_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/wildfire_analysis_security_profile#device_group WildfireAnalysisSecurityProfile#device_group}
   */
   readonly deviceGroup?: WildfireAnalysisSecurityProfileLocationDeviceGroup;
   /**
   * Panorama shared object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/wildfire_analysis_security_profile#shared WildfireAnalysisSecurityProfile#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/wildfire_analysis_security_profile#shared WildfireAnalysisSecurityProfile#shared}
   */
   readonly shared?: WildfireAnalysisSecurityProfileLocationShared;
 }
@@ -355,23 +355,23 @@ export class WildfireAnalysisSecurityProfileLocationOutputReference extends cdkt
 }
 export interface WildfireAnalysisSecurityProfileRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/wildfire_analysis_security_profile#analysis WildfireAnalysisSecurityProfile#analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/wildfire_analysis_security_profile#analysis WildfireAnalysisSecurityProfile#analysis}
   */
   readonly analysis?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/wildfire_analysis_security_profile#application WildfireAnalysisSecurityProfile#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/wildfire_analysis_security_profile#application WildfireAnalysisSecurityProfile#application}
   */
   readonly application?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/wildfire_analysis_security_profile#direction WildfireAnalysisSecurityProfile#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/wildfire_analysis_security_profile#direction WildfireAnalysisSecurityProfile#direction}
   */
   readonly direction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/wildfire_analysis_security_profile#file_type WildfireAnalysisSecurityProfile#file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/wildfire_analysis_security_profile#file_type WildfireAnalysisSecurityProfile#file_type}
   */
   readonly fileType?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/wildfire_analysis_security_profile#name WildfireAnalysisSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/wildfire_analysis_security_profile#name WildfireAnalysisSecurityProfile#name}
   */
   readonly name: string;
 }
@@ -600,7 +600,7 @@ export class WildfireAnalysisSecurityProfileRulesList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/wildfire_analysis_security_profile panos_wildfire_analysis_security_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/wildfire_analysis_security_profile panos_wildfire_analysis_security_profile}
 */
 export class WildfireAnalysisSecurityProfile extends cdktf.TerraformResource {
 
@@ -616,7 +616,7 @@ export class WildfireAnalysisSecurityProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WildfireAnalysisSecurityProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WildfireAnalysisSecurityProfile to import
-  * @param importFromId The id of the existing WildfireAnalysisSecurityProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/wildfire_analysis_security_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WildfireAnalysisSecurityProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/wildfire_analysis_security_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WildfireAnalysisSecurityProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -628,7 +628,7 @@ export class WildfireAnalysisSecurityProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/wildfire_analysis_security_profile panos_wildfire_analysis_security_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/wildfire_analysis_security_profile panos_wildfire_analysis_security_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -639,8 +639,8 @@ export class WildfireAnalysisSecurityProfile extends cdktf.TerraformResource {
       terraformResourceType: 'panos_wildfire_analysis_security_profile',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/app_connection_ldap
+// https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_ldap
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface AppConnectionLdapConfig extends cdktf.TerraformMetaArguments {
   /**
   * The credentials for the LDAP App Connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/app_connection_ldap#credentials AppConnectionLdap#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_ldap#credentials AppConnectionLdap#credentials}
   */
   readonly credentials: AppConnectionLdapCredentials;
   /**
   * An optional description for the LDAP App Connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/app_connection_ldap#description AppConnectionLdap#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_ldap#description AppConnectionLdap#description}
   */
   readonly description?: string;
   /**
   * The method used to authenticate with LDAP. Possible values are: simple-bind
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/app_connection_ldap#method AppConnectionLdap#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_ldap#method AppConnectionLdap#method}
   */
   readonly method: string;
   /**
   * The name of the LDAP App Connection to create. Must be slug-friendly
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/app_connection_ldap#name AppConnectionLdap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_ldap#name AppConnectionLdap#name}
   */
   readonly name: string;
 }
@@ -36,37 +36,37 @@ export interface AppConnectionLdapCredentials {
   /**
   * The Distinguished Name (DN) or User Principal Name (UPN) of the principal to bind with (e.g., 'CN=John,CN=Users,DC=example,DC=com').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/app_connection_ldap#dn AppConnectionLdap#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_ldap#dn AppConnectionLdap#dn}
   */
   readonly dn: string;
   /**
   * The password to bind with for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/app_connection_ldap#password AppConnectionLdap#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_ldap#password AppConnectionLdap#password}
   */
   readonly password: string;
   /**
   * The LDAP provider (e.g., 'active-directory').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/app_connection_ldap#provider AppConnectionLdap#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_ldap#provider AppConnectionLdap#provider}
   */
   readonly provider: string;
   /**
   * The SSL certificate (PEM format) to use for secure connection when using ldaps:// with a self-signed certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/app_connection_ldap#ssl_certificate AppConnectionLdap#ssl_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_ldap#ssl_certificate AppConnectionLdap#ssl_certificate}
   */
   readonly sslCertificate?: string;
   /**
   * Whether or not to reject unauthorized SSL certificates (true/false) when using ldaps://. Set to false only in test environments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/app_connection_ldap#ssl_reject_unauthorized AppConnectionLdap#ssl_reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_ldap#ssl_reject_unauthorized AppConnectionLdap#ssl_reject_unauthorized}
   */
   readonly sslRejectUnauthorized?: boolean | cdktf.IResolvable;
   /**
   * The LDAP server URL (e.g., 'ldap://example.com:389' or 'ldaps://example.com:636').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/app_connection_ldap#url AppConnectionLdap#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_ldap#url AppConnectionLdap#url}
   */
   readonly url: string;
 }
@@ -293,7 +293,7 @@ export class AppConnectionLdapCredentialsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/app_connection_ldap infisical_app_connection_ldap}
+* Represents a {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_ldap infisical_app_connection_ldap}
 */
 export class AppConnectionLdap extends cdktf.TerraformResource {
 
@@ -309,7 +309,7 @@ export class AppConnectionLdap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppConnectionLdap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppConnectionLdap to import
-  * @param importFromId The id of the existing AppConnectionLdap that should be imported. Refer to the {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/app_connection_ldap#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppConnectionLdap that should be imported. Refer to the {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_ldap#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppConnectionLdap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -321,7 +321,7 @@ export class AppConnectionLdap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/app_connection_ldap infisical_app_connection_ldap} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_ldap infisical_app_connection_ldap} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -332,8 +332,8 @@ export class AppConnectionLdap extends cdktf.TerraformResource {
       terraformResourceType: 'infisical_app_connection_ldap',
       terraformGeneratorMetadata: {
         providerName: 'infisical',
-        providerVersion: '0.15.48',
-        providerVersionConstraint: '0.15.48'
+        providerVersion: '0.15.50',
+        providerVersionConstraint: '0.15.50'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

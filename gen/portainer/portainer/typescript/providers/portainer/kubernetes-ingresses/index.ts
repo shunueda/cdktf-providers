@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/kubernetes_ingresses
+// https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresses
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface KubernetesIngressesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/kubernetes_ingresses#annotations KubernetesIngresses#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresses#annotations KubernetesIngresses#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/kubernetes_ingresses#class_name KubernetesIngresses#class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresses#class_name KubernetesIngresses#class_name}
   */
   readonly className?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/kubernetes_ingresses#environment_id KubernetesIngresses#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresses#environment_id KubernetesIngresses#environment_id}
   */
   readonly environmentId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/kubernetes_ingresses#hosts KubernetesIngresses#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresses#hosts KubernetesIngresses#hosts}
   */
   readonly hosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/kubernetes_ingresses#id KubernetesIngresses#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresses#id KubernetesIngresses#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/kubernetes_ingresses#labels KubernetesIngresses#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresses#labels KubernetesIngresses#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/kubernetes_ingresses#name KubernetesIngresses#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresses#name KubernetesIngresses#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/kubernetes_ingresses#namespace KubernetesIngresses#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresses#namespace KubernetesIngresses#namespace}
   */
   readonly namespace: string;
   /**
   * paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/kubernetes_ingresses#paths KubernetesIngresses#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresses#paths KubernetesIngresses#paths}
   */
   readonly paths?: KubernetesIngressesPaths[] | cdktf.IResolvable;
   /**
   * tls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/kubernetes_ingresses#tls KubernetesIngresses#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresses#tls KubernetesIngresses#tls}
   */
   readonly tls?: KubernetesIngressesTls[] | cdktf.IResolvable;
 }
 export interface KubernetesIngressesPaths {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/kubernetes_ingresses#host KubernetesIngresses#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresses#host KubernetesIngresses#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/kubernetes_ingresses#path KubernetesIngresses#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresses#path KubernetesIngresses#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/kubernetes_ingresses#path_type KubernetesIngresses#path_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresses#path_type KubernetesIngresses#path_type}
   */
   readonly pathType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/kubernetes_ingresses#port KubernetesIngresses#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresses#port KubernetesIngresses#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/kubernetes_ingresses#service_name KubernetesIngresses#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresses#service_name KubernetesIngresses#service_name}
   */
   readonly serviceName: string;
 }
@@ -290,11 +290,11 @@ export class KubernetesIngressesPathsList extends cdktf.ComplexList {
 }
 export interface KubernetesIngressesTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/kubernetes_ingresses#hosts KubernetesIngresses#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresses#hosts KubernetesIngresses#hosts}
   */
   readonly hosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/kubernetes_ingresses#secret_name KubernetesIngresses#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresses#secret_name KubernetesIngresses#secret_name}
   */
   readonly secretName?: string;
 }
@@ -439,7 +439,7 @@ export class KubernetesIngressesTlsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/kubernetes_ingresses portainer_kubernetes_ingresses}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresses portainer_kubernetes_ingresses}
 */
 export class KubernetesIngresses extends cdktf.TerraformResource {
 
@@ -455,7 +455,7 @@ export class KubernetesIngresses extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesIngresses resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesIngresses to import
-  * @param importFromId The id of the existing KubernetesIngresses that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/kubernetes_ingresses#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesIngresses that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresses#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesIngresses to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -467,7 +467,7 @@ export class KubernetesIngresses extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/kubernetes_ingresses portainer_kubernetes_ingresses} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresses portainer_kubernetes_ingresses} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -478,8 +478,8 @@ export class KubernetesIngresses extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_kubernetes_ingresses',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.18.2',
-        providerVersionConstraint: '1.18.2'
+        providerVersion: '1.19.0',
+        providerVersionConstraint: '1.19.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -71,6 +71,7 @@ export * as team from './team';
 export * as teamMembership from './team-membership';
 export * as tls from './tls';
 export * as user from './user';
+export * as userAdmin from './user-admin';
 export * as webhook from './webhook';
 export * as webhookExecute from './webhook-execute';
 export * as provider from './provider';

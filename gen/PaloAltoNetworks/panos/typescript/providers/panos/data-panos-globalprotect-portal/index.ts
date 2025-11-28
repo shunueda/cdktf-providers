@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktf from 'cdktf';
 
 export interface DataPanosGlobalprotectPortalConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#client_config DataPanosGlobalprotectPortal#client_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#client_config DataPanosGlobalprotectPortal#client_config}
   */
   readonly clientConfig?: DataPanosGlobalprotectPortalClientConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#clientless_vpn DataPanosGlobalprotectPortal#clientless_vpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#clientless_vpn DataPanosGlobalprotectPortal#clientless_vpn}
   */
   readonly clientlessVpn?: DataPanosGlobalprotectPortalClientlessVpn;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#location DataPanosGlobalprotectPortal#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#location DataPanosGlobalprotectPortal#location}
   */
   readonly location: DataPanosGlobalprotectPortalLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#portal_config DataPanosGlobalprotectPortal#portal_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#portal_config DataPanosGlobalprotectPortal#portal_config}
   */
   readonly portalConfig?: DataPanosGlobalprotectPortalPortalConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#satellite_config DataPanosGlobalprotectPortal#satellite_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#satellite_config DataPanosGlobalprotectPortal#satellite_config}
   */
   readonly satelliteConfig?: DataPanosGlobalprotectPortalSatelliteConfig;
 }
@@ -95,7 +95,7 @@ export class DataPanosGlobalprotectPortalClientConfigConfigsAgentConfigOutputRef
 }
 export interface DataPanosGlobalprotectPortalClientConfigConfigsAgentUiWelcomePage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#page DataPanosGlobalprotectPortal#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#page DataPanosGlobalprotectPortal#page}
   */
   readonly page?: string;
 }
@@ -191,29 +191,29 @@ export interface DataPanosGlobalprotectPortalClientConfigConfigsAgentUi {
   /**
   * Agent user override duration in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#agent_user_override_timeout DataPanosGlobalprotectPortal#agent_user_override_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#agent_user_override_timeout DataPanosGlobalprotectPortal#agent_user_override_timeout}
   */
   readonly agentUserOverrideTimeout?: number;
   /**
   * Max agent user overrides
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#max_agent_user_overrides DataPanosGlobalprotectPortal#max_agent_user_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#max_agent_user_overrides DataPanosGlobalprotectPortal#max_agent_user_overrides}
   */
   readonly maxAgentUserOverrides?: number;
   /**
   * Passcode required for override
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#passcode DataPanosGlobalprotectPortal#passcode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#passcode DataPanosGlobalprotectPortal#passcode}
   */
   readonly passcode?: string;
   /**
   * Password to uninstall GlobalProtect app
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#uninstall_password DataPanosGlobalprotectPortal#uninstall_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#uninstall_password DataPanosGlobalprotectPortal#uninstall_password}
   */
   readonly uninstallPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#welcome_page DataPanosGlobalprotectPortal#welcome_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#welcome_page DataPanosGlobalprotectPortal#welcome_page}
   */
   readonly welcomePage?: DataPanosGlobalprotectPortalClientConfigConfigsAgentUiWelcomePage;
 }
@@ -425,19 +425,19 @@ export interface DataPanosGlobalprotectPortalClientConfigConfigsAuthenticationOv
   /**
   * Cookie lifetime in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#lifetime_in_days DataPanosGlobalprotectPortal#lifetime_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#lifetime_in_days DataPanosGlobalprotectPortal#lifetime_in_days}
   */
   readonly lifetimeInDays?: number;
   /**
   * Cookie lifetime in hours
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#lifetime_in_hours DataPanosGlobalprotectPortal#lifetime_in_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#lifetime_in_hours DataPanosGlobalprotectPortal#lifetime_in_hours}
   */
   readonly lifetimeInHours?: number;
   /**
   * Cookie lifetime in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#lifetime_in_minutes DataPanosGlobalprotectPortal#lifetime_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#lifetime_in_minutes DataPanosGlobalprotectPortal#lifetime_in_minutes}
   */
   readonly lifetimeInMinutes?: number;
 }
@@ -589,7 +589,7 @@ export class DataPanosGlobalprotectPortalClientConfigConfigsAuthenticationOverri
 }
 export interface DataPanosGlobalprotectPortalClientConfigConfigsAuthenticationOverrideAcceptCookie {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#cookie_lifetime DataPanosGlobalprotectPortal#cookie_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#cookie_lifetime DataPanosGlobalprotectPortal#cookie_lifetime}
   */
   readonly cookieLifetime?: DataPanosGlobalprotectPortalClientConfigConfigsAuthenticationOverrideAcceptCookieCookieLifetime;
 }
@@ -683,19 +683,19 @@ export class DataPanosGlobalprotectPortalClientConfigConfigsAuthenticationOverri
 }
 export interface DataPanosGlobalprotectPortalClientConfigConfigsAuthenticationOverride {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#accept_cookie DataPanosGlobalprotectPortal#accept_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#accept_cookie DataPanosGlobalprotectPortal#accept_cookie}
   */
   readonly acceptCookie?: DataPanosGlobalprotectPortalClientConfigConfigsAuthenticationOverrideAcceptCookie;
   /**
   * Certificate to Encrypt/Decrypt Cookie
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#cookie_encrypt_decrypt_cert DataPanosGlobalprotectPortal#cookie_encrypt_decrypt_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#cookie_encrypt_decrypt_cert DataPanosGlobalprotectPortal#cookie_encrypt_decrypt_cert}
   */
   readonly cookieEncryptDecryptCert?: string;
   /**
   * Generate cookie for authentication override
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#generate_cookie DataPanosGlobalprotectPortal#generate_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#generate_cookie DataPanosGlobalprotectPortal#generate_cookie}
   */
   readonly generateCookie?: boolean | cdktf.IResolvable;
 }
@@ -849,7 +849,7 @@ export interface DataPanosGlobalprotectPortalClientConfigConfigsCertificateCrite
   /**
   * Profile for authenticating client certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#certificate_profile DataPanosGlobalprotectPortal#certificate_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#certificate_profile DataPanosGlobalprotectPortal#certificate_profile}
   */
   readonly certificateProfile?: string;
 }
@@ -943,7 +943,7 @@ export class DataPanosGlobalprotectPortalClientConfigConfigsCertificateCriteriaO
 }
 export interface DataPanosGlobalprotectPortalClientConfigConfigsCertificate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#criteria DataPanosGlobalprotectPortal#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#criteria DataPanosGlobalprotectPortal#criteria}
   */
   readonly criteria?: DataPanosGlobalprotectPortalClientConfigConfigsCertificateCriteria;
 }
@@ -1039,11 +1039,11 @@ export interface DataPanosGlobalprotectPortalClientConfigConfigsClientCertificat
   /**
   * Select Client Certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#local DataPanosGlobalprotectPortal#local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#local DataPanosGlobalprotectPortal#local}
   */
   readonly local?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#scep DataPanosGlobalprotectPortal#scep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#scep DataPanosGlobalprotectPortal#scep}
   */
   readonly scep?: string;
 }
@@ -1166,19 +1166,19 @@ export class DataPanosGlobalprotectPortalClientConfigConfigsClientCertificateOut
 }
 export interface DataPanosGlobalprotectPortalClientConfigConfigsCustomChecksCriteriaPlistKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
   */
   readonly name: string;
   /**
   * Value does not exist or match specified value data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#negate DataPanosGlobalprotectPortal#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#negate DataPanosGlobalprotectPortal#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Key value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#value DataPanosGlobalprotectPortal#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#value DataPanosGlobalprotectPortal#value}
   */
   readonly value?: string;
 }
@@ -1349,17 +1349,17 @@ export class DataPanosGlobalprotectPortalClientConfigConfigsCustomChecksCriteria
 }
 export interface DataPanosGlobalprotectPortalClientConfigConfigsCustomChecksCriteriaPlistStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#key DataPanosGlobalprotectPortal#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#key DataPanosGlobalprotectPortal#key}
   */
   readonly key?: DataPanosGlobalprotectPortalClientConfigConfigsCustomChecksCriteriaPlistKey[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
   */
   readonly name: string;
   /**
   * Plist does not exist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#negate DataPanosGlobalprotectPortal#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#negate DataPanosGlobalprotectPortal#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
 }
@@ -1530,19 +1530,19 @@ export class DataPanosGlobalprotectPortalClientConfigConfigsCustomChecksCriteria
 }
 export interface DataPanosGlobalprotectPortalClientConfigConfigsCustomChecksCriteriaRegistryKeyRegistryValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
   */
   readonly name: string;
   /**
   * Value does not exist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#negate DataPanosGlobalprotectPortal#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#negate DataPanosGlobalprotectPortal#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Registry value data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#value_data DataPanosGlobalprotectPortal#value_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#value_data DataPanosGlobalprotectPortal#value_data}
   */
   readonly valueData?: string;
 }
@@ -1715,21 +1715,21 @@ export interface DataPanosGlobalprotectPortalClientConfigConfigsCustomChecksCrit
   /**
   * Registry key default value data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#default_value_data DataPanosGlobalprotectPortal#default_value_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#default_value_data DataPanosGlobalprotectPortal#default_value_data}
   */
   readonly defaultValueData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
   */
   readonly name: string;
   /**
   * Key does not exist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#negate DataPanosGlobalprotectPortal#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#negate DataPanosGlobalprotectPortal#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#registry_value DataPanosGlobalprotectPortal#registry_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#registry_value DataPanosGlobalprotectPortal#registry_value}
   */
   readonly registryValue?: DataPanosGlobalprotectPortalClientConfigConfigsCustomChecksCriteriaRegistryKeyRegistryValue[] | cdktf.IResolvable;
 }
@@ -1929,11 +1929,11 @@ export class DataPanosGlobalprotectPortalClientConfigConfigsCustomChecksCriteria
 }
 export interface DataPanosGlobalprotectPortalClientConfigConfigsCustomChecksCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#plist DataPanosGlobalprotectPortal#plist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#plist DataPanosGlobalprotectPortal#plist}
   */
   readonly plist?: DataPanosGlobalprotectPortalClientConfigConfigsCustomChecksCriteriaPlistStruct[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#registry_key DataPanosGlobalprotectPortal#registry_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#registry_key DataPanosGlobalprotectPortal#registry_key}
   */
   readonly registryKey?: DataPanosGlobalprotectPortalClientConfigConfigsCustomChecksCriteriaRegistryKey[] | cdktf.IResolvable;
 }
@@ -2056,7 +2056,7 @@ export class DataPanosGlobalprotectPortalClientConfigConfigsCustomChecksCriteria
 }
 export interface DataPanosGlobalprotectPortalClientConfigConfigsCustomChecks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#criteria DataPanosGlobalprotectPortal#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#criteria DataPanosGlobalprotectPortal#criteria}
   */
   readonly criteria?: DataPanosGlobalprotectPortalClientConfigConfigsCustomChecksCriteria;
 }
@@ -2152,13 +2152,13 @@ export interface DataPanosGlobalprotectPortalClientConfigConfigsGatewaysExternal
   /**
   * IPv4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#ipv4 DataPanosGlobalprotectPortal#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#ipv4 DataPanosGlobalprotectPortal#ipv4}
   */
   readonly ipv4?: string;
   /**
   * IPv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#ipv6 DataPanosGlobalprotectPortal#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#ipv6 DataPanosGlobalprotectPortal#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -2281,13 +2281,13 @@ export class DataPanosGlobalprotectPortalClientConfigConfigsGatewaysExternalList
 }
 export interface DataPanosGlobalprotectPortalClientConfigConfigsGatewaysExternalListPriorityRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
   */
   readonly name: string;
   /**
   * Priority of GlobalProtect gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#priority DataPanosGlobalprotectPortal#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#priority DataPanosGlobalprotectPortal#priority}
   */
   readonly priority?: string;
 }
@@ -2431,25 +2431,25 @@ export interface DataPanosGlobalprotectPortalClientConfigConfigsGatewaysExternal
   /**
   * fqdn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#fqdn DataPanosGlobalprotectPortal#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#fqdn DataPanosGlobalprotectPortal#fqdn}
   */
   readonly fqdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#ip DataPanosGlobalprotectPortal#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#ip DataPanosGlobalprotectPortal#ip}
   */
   readonly ip?: DataPanosGlobalprotectPortalClientConfigConfigsGatewaysExternalListIp;
   /**
   * If this GlobalProtect gateway can be manually selected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#manual DataPanosGlobalprotectPortal#manual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#manual DataPanosGlobalprotectPortal#manual}
   */
   readonly manual?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#priority_rule DataPanosGlobalprotectPortal#priority_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#priority_rule DataPanosGlobalprotectPortal#priority_rule}
   */
   readonly priorityRule?: DataPanosGlobalprotectPortalClientConfigConfigsGatewaysExternalListPriorityRule[] | cdktf.IResolvable;
 }
@@ -2680,11 +2680,11 @@ export interface DataPanosGlobalprotectPortalClientConfigConfigsGatewaysExternal
   /**
   * Gateway discovery cutoff time in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#cutoff_time DataPanosGlobalprotectPortal#cutoff_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#cutoff_time DataPanosGlobalprotectPortal#cutoff_time}
   */
   readonly cutoffTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#list DataPanosGlobalprotectPortal#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#list DataPanosGlobalprotectPortal#list}
   */
   readonly list?: DataPanosGlobalprotectPortalClientConfigConfigsGatewaysExternalListStruct[] | cdktf.IResolvable;
 }
@@ -2809,13 +2809,13 @@ export interface DataPanosGlobalprotectPortalClientConfigConfigsGatewaysInternal
   /**
   * IPv4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#ipv4 DataPanosGlobalprotectPortal#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#ipv4 DataPanosGlobalprotectPortal#ipv4}
   */
   readonly ipv4?: string;
   /**
   * IPv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#ipv6 DataPanosGlobalprotectPortal#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#ipv6 DataPanosGlobalprotectPortal#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -2940,19 +2940,19 @@ export interface DataPanosGlobalprotectPortalClientConfigConfigsGatewaysInternal
   /**
   * fqdn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#fqdn DataPanosGlobalprotectPortal#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#fqdn DataPanosGlobalprotectPortal#fqdn}
   */
   readonly fqdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#ip DataPanosGlobalprotectPortal#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#ip DataPanosGlobalprotectPortal#ip}
   */
   readonly ip?: DataPanosGlobalprotectPortalClientConfigConfigsGatewaysInternalListIp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#source_ip DataPanosGlobalprotectPortal#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#source_ip DataPanosGlobalprotectPortal#source_ip}
   */
   readonly sourceIp?: string[];
 }
@@ -3152,11 +3152,11 @@ export class DataPanosGlobalprotectPortalClientConfigConfigsGatewaysInternalList
 }
 export interface DataPanosGlobalprotectPortalClientConfigConfigsGatewaysInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#dhcp_option_code DataPanosGlobalprotectPortal#dhcp_option_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#dhcp_option_code DataPanosGlobalprotectPortal#dhcp_option_code}
   */
   readonly dhcpOptionCode?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#list DataPanosGlobalprotectPortal#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#list DataPanosGlobalprotectPortal#list}
   */
   readonly list?: DataPanosGlobalprotectPortalClientConfigConfigsGatewaysInternalListStruct[] | cdktf.IResolvable;
 }
@@ -3279,11 +3279,11 @@ export class DataPanosGlobalprotectPortalClientConfigConfigsGatewaysInternalOutp
 }
 export interface DataPanosGlobalprotectPortalClientConfigConfigsGateways {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#external DataPanosGlobalprotectPortal#external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#external DataPanosGlobalprotectPortal#external}
   */
   readonly external?: DataPanosGlobalprotectPortalClientConfigConfigsGatewaysExternal;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#internal DataPanosGlobalprotectPortal#internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#internal DataPanosGlobalprotectPortal#internal}
   */
   readonly internal?: DataPanosGlobalprotectPortalClientConfigConfigsGatewaysInternal;
 }
@@ -3406,11 +3406,11 @@ export class DataPanosGlobalprotectPortalClientConfigConfigsGatewaysOutputRefere
 }
 export interface DataPanosGlobalprotectPortalClientConfigConfigsGpAppConfigConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#value DataPanosGlobalprotectPortal#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#value DataPanosGlobalprotectPortal#value}
   */
   readonly value?: string[];
 }
@@ -3552,7 +3552,7 @@ export class DataPanosGlobalprotectPortalClientConfigConfigsGpAppConfigConfigLis
 }
 export interface DataPanosGlobalprotectPortalClientConfigConfigsGpAppConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#config DataPanosGlobalprotectPortal#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#config DataPanosGlobalprotectPortal#config}
   */
   readonly config?: DataPanosGlobalprotectPortalClientConfigConfigsGpAppConfigConfig[] | cdktf.IResolvable;
 }
@@ -3646,7 +3646,7 @@ export class DataPanosGlobalprotectPortalClientConfigConfigsGpAppConfigOutputRef
 }
 export interface DataPanosGlobalprotectPortalClientConfigConfigsHipCollectionCustomChecksLinux {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#process_list DataPanosGlobalprotectPortal#process_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#process_list DataPanosGlobalprotectPortal#process_list}
   */
   readonly processList?: string[];
 }
@@ -3740,11 +3740,11 @@ export class DataPanosGlobalprotectPortalClientConfigConfigsHipCollectionCustomC
 }
 export interface DataPanosGlobalprotectPortalClientConfigConfigsHipCollectionCustomChecksMacOsPlistStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#key DataPanosGlobalprotectPortal#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#key DataPanosGlobalprotectPortal#key}
   */
   readonly key?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
   */
   readonly name: string;
 }
@@ -3886,11 +3886,11 @@ export class DataPanosGlobalprotectPortalClientConfigConfigsHipCollectionCustomC
 }
 export interface DataPanosGlobalprotectPortalClientConfigConfigsHipCollectionCustomChecksMacOs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#plist DataPanosGlobalprotectPortal#plist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#plist DataPanosGlobalprotectPortal#plist}
   */
   readonly plist?: DataPanosGlobalprotectPortalClientConfigConfigsHipCollectionCustomChecksMacOsPlistStruct[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#process_list DataPanosGlobalprotectPortal#process_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#process_list DataPanosGlobalprotectPortal#process_list}
   */
   readonly processList?: string[];
 }
@@ -4013,11 +4013,11 @@ export class DataPanosGlobalprotectPortalClientConfigConfigsHipCollectionCustomC
 }
 export interface DataPanosGlobalprotectPortalClientConfigConfigsHipCollectionCustomChecksWindowsRegistryKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#registry_value DataPanosGlobalprotectPortal#registry_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#registry_value DataPanosGlobalprotectPortal#registry_value}
   */
   readonly registryValue?: string[];
 }
@@ -4159,11 +4159,11 @@ export class DataPanosGlobalprotectPortalClientConfigConfigsHipCollectionCustomC
 }
 export interface DataPanosGlobalprotectPortalClientConfigConfigsHipCollectionCustomChecksWindows {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#process_list DataPanosGlobalprotectPortal#process_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#process_list DataPanosGlobalprotectPortal#process_list}
   */
   readonly processList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#registry_key DataPanosGlobalprotectPortal#registry_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#registry_key DataPanosGlobalprotectPortal#registry_key}
   */
   readonly registryKey?: DataPanosGlobalprotectPortalClientConfigConfigsHipCollectionCustomChecksWindowsRegistryKey[] | cdktf.IResolvable;
 }
@@ -4286,15 +4286,15 @@ export class DataPanosGlobalprotectPortalClientConfigConfigsHipCollectionCustomC
 }
 export interface DataPanosGlobalprotectPortalClientConfigConfigsHipCollectionCustomChecks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#linux DataPanosGlobalprotectPortal#linux}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#linux DataPanosGlobalprotectPortal#linux}
   */
   readonly linux?: DataPanosGlobalprotectPortalClientConfigConfigsHipCollectionCustomChecksLinux;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#mac_os DataPanosGlobalprotectPortal#mac_os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#mac_os DataPanosGlobalprotectPortal#mac_os}
   */
   readonly macOs?: DataPanosGlobalprotectPortalClientConfigConfigsHipCollectionCustomChecksMacOs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#windows DataPanosGlobalprotectPortal#windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#windows DataPanosGlobalprotectPortal#windows}
   */
   readonly windows?: DataPanosGlobalprotectPortalClientConfigConfigsHipCollectionCustomChecksWindows;
 }
@@ -4446,11 +4446,11 @@ export class DataPanosGlobalprotectPortalClientConfigConfigsHipCollectionCustomC
 }
 export interface DataPanosGlobalprotectPortalClientConfigConfigsHipCollectionExclusionCategoryVendor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#product DataPanosGlobalprotectPortal#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#product DataPanosGlobalprotectPortal#product}
   */
   readonly product?: string[];
 }
@@ -4592,11 +4592,11 @@ export class DataPanosGlobalprotectPortalClientConfigConfigsHipCollectionExclusi
 }
 export interface DataPanosGlobalprotectPortalClientConfigConfigsHipCollectionExclusionCategory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#vendor DataPanosGlobalprotectPortal#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#vendor DataPanosGlobalprotectPortal#vendor}
   */
   readonly vendor?: DataPanosGlobalprotectPortalClientConfigConfigsHipCollectionExclusionCategoryVendor[] | cdktf.IResolvable;
 }
@@ -4738,7 +4738,7 @@ export class DataPanosGlobalprotectPortalClientConfigConfigsHipCollectionExclusi
 }
 export interface DataPanosGlobalprotectPortalClientConfigConfigsHipCollectionExclusion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#category DataPanosGlobalprotectPortal#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#category DataPanosGlobalprotectPortal#category}
   */
   readonly category?: DataPanosGlobalprotectPortalClientConfigConfigsHipCollectionExclusionCategory[] | cdktf.IResolvable;
 }
@@ -4834,27 +4834,27 @@ export interface DataPanosGlobalprotectPortalClientConfigConfigsHipCollection {
   /**
   * Profile for authenticating client certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#certificate_profile DataPanosGlobalprotectPortal#certificate_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#certificate_profile DataPanosGlobalprotectPortal#certificate_profile}
   */
   readonly certificateProfile?: string;
   /**
   * Collect HIP Data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#collect_hip_data DataPanosGlobalprotectPortal#collect_hip_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#collect_hip_data DataPanosGlobalprotectPortal#collect_hip_data}
   */
   readonly collectHipData?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#custom_checks DataPanosGlobalprotectPortal#custom_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#custom_checks DataPanosGlobalprotectPortal#custom_checks}
   */
   readonly customChecks?: DataPanosGlobalprotectPortalClientConfigConfigsHipCollectionCustomChecks;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#exclusion DataPanosGlobalprotectPortal#exclusion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#exclusion DataPanosGlobalprotectPortal#exclusion}
   */
   readonly exclusion?: DataPanosGlobalprotectPortalClientConfigConfigsHipCollectionExclusion;
   /**
   * Max Wait Time (Sec)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#max_wait_time DataPanosGlobalprotectPortal#max_wait_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#max_wait_time DataPanosGlobalprotectPortal#max_wait_time}
   */
   readonly maxWaitTime?: number;
 }
@@ -5066,13 +5066,13 @@ export interface DataPanosGlobalprotectPortalClientConfigConfigsInternalHostDete
   /**
   * Host name of the IPv4 in DNS record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#hostname DataPanosGlobalprotectPortal#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#hostname DataPanosGlobalprotectPortal#hostname}
   */
   readonly hostname?: string;
   /**
   * Internal IPv4 address of a host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#ip_address DataPanosGlobalprotectPortal#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#ip_address DataPanosGlobalprotectPortal#ip_address}
   */
   readonly ipAddress?: string;
 }
@@ -5197,13 +5197,13 @@ export interface DataPanosGlobalprotectPortalClientConfigConfigsInternalHostDete
   /**
   * Host name of the IPv6 in DNS record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#hostname DataPanosGlobalprotectPortal#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#hostname DataPanosGlobalprotectPortal#hostname}
   */
   readonly hostname?: string;
   /**
   * Internal IPv6 address of a host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#ip_address DataPanosGlobalprotectPortal#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#ip_address DataPanosGlobalprotectPortal#ip_address}
   */
   readonly ipAddress?: string;
 }
@@ -5444,11 +5444,11 @@ export class DataPanosGlobalprotectPortalClientConfigConfigsMachineAccountExists
 }
 export interface DataPanosGlobalprotectPortalClientConfigConfigsMachineAccountExistsWithSerialno {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#no DataPanosGlobalprotectPortal#no}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#no DataPanosGlobalprotectPortal#no}
   */
   readonly no?: DataPanosGlobalprotectPortalClientConfigConfigsMachineAccountExistsWithSerialnoNo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#yes DataPanosGlobalprotectPortal#yes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#yes DataPanosGlobalprotectPortal#yes}
   */
   readonly yes?: DataPanosGlobalprotectPortalClientConfigConfigsMachineAccountExistsWithSerialnoYes;
 }
@@ -5571,115 +5571,115 @@ export class DataPanosGlobalprotectPortalClientConfigConfigsMachineAccountExists
 }
 export interface DataPanosGlobalprotectPortalClientConfigConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#agent_config DataPanosGlobalprotectPortal#agent_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#agent_config DataPanosGlobalprotectPortal#agent_config}
   */
   readonly agentConfig?: DataPanosGlobalprotectPortalClientConfigConfigsAgentConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#agent_ui DataPanosGlobalprotectPortal#agent_ui}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#agent_ui DataPanosGlobalprotectPortal#agent_ui}
   */
   readonly agentUi?: DataPanosGlobalprotectPortalClientConfigConfigsAgentUi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#authentication_override DataPanosGlobalprotectPortal#authentication_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#authentication_override DataPanosGlobalprotectPortal#authentication_override}
   */
   readonly authenticationOverride?: DataPanosGlobalprotectPortalClientConfigConfigsAuthenticationOverride;
   /**
   * Auto Discovery External Gateway Authentication OTP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#auto_discovery_external_gateway_2fa DataPanosGlobalprotectPortal#auto_discovery_external_gateway_2fa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#auto_discovery_external_gateway_2fa DataPanosGlobalprotectPortal#auto_discovery_external_gateway_2fa}
   */
   readonly autoDiscoveryExternalGateway2Fa?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#certificate DataPanosGlobalprotectPortal#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#certificate DataPanosGlobalprotectPortal#certificate}
   */
   readonly certificate?: DataPanosGlobalprotectPortalClientConfigConfigsCertificate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#client_certificate DataPanosGlobalprotectPortal#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#client_certificate DataPanosGlobalprotectPortal#client_certificate}
   */
   readonly clientCertificate?: DataPanosGlobalprotectPortalClientConfigConfigsClientCertificate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#custom_checks DataPanosGlobalprotectPortal#custom_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#custom_checks DataPanosGlobalprotectPortal#custom_checks}
   */
   readonly customChecks?: DataPanosGlobalprotectPortalClientConfigConfigsCustomChecks;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#gateways DataPanosGlobalprotectPortal#gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#gateways DataPanosGlobalprotectPortal#gateways}
   */
   readonly gateways?: DataPanosGlobalprotectPortalClientConfigConfigsGateways;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#gp_app_config DataPanosGlobalprotectPortal#gp_app_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#gp_app_config DataPanosGlobalprotectPortal#gp_app_config}
   */
   readonly gpAppConfig?: DataPanosGlobalprotectPortalClientConfigConfigsGpAppConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#hip_collection DataPanosGlobalprotectPortal#hip_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#hip_collection DataPanosGlobalprotectPortal#hip_collection}
   */
   readonly hipCollection?: DataPanosGlobalprotectPortalClientConfigConfigsHipCollection;
   /**
   * Internal Gateway Authentication OTP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#internal_gateway_2fa DataPanosGlobalprotectPortal#internal_gateway_2fa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#internal_gateway_2fa DataPanosGlobalprotectPortal#internal_gateway_2fa}
   */
   readonly internalGateway2Fa?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#internal_host_detection DataPanosGlobalprotectPortal#internal_host_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#internal_host_detection DataPanosGlobalprotectPortal#internal_host_detection}
   */
   readonly internalHostDetection?: DataPanosGlobalprotectPortalClientConfigConfigsInternalHostDetection;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#internal_host_detection_v6 DataPanosGlobalprotectPortal#internal_host_detection_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#internal_host_detection_v6 DataPanosGlobalprotectPortal#internal_host_detection_v6}
   */
   readonly internalHostDetectionV6?: DataPanosGlobalprotectPortalClientConfigConfigsInternalHostDetectionV6;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#machine_account_exists_with_serialno DataPanosGlobalprotectPortal#machine_account_exists_with_serialno}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#machine_account_exists_with_serialno DataPanosGlobalprotectPortal#machine_account_exists_with_serialno}
   */
   readonly machineAccountExistsWithSerialno?: DataPanosGlobalprotectPortalClientConfigConfigsMachineAccountExistsWithSerialno;
   /**
   * Manual Only External Gateway Authentication OTP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#manual_only_gateway_2fa DataPanosGlobalprotectPortal#manual_only_gateway_2fa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#manual_only_gateway_2fa DataPanosGlobalprotectPortal#manual_only_gateway_2fa}
   */
   readonly manualOnlyGateway2Fa?: boolean | cdktf.IResolvable;
   /**
   * IP address or hostname for GlobalProtect MDM server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#mdm_address DataPanosGlobalprotectPortal#mdm_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#mdm_address DataPanosGlobalprotectPortal#mdm_address}
   */
   readonly mdmAddress?: string;
   /**
   * MDM enrollment port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#mdm_enrollment_port DataPanosGlobalprotectPortal#mdm_enrollment_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#mdm_enrollment_port DataPanosGlobalprotectPortal#mdm_enrollment_port}
   */
   readonly mdmEnrollmentPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#os DataPanosGlobalprotectPortal#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#os DataPanosGlobalprotectPortal#os}
   */
   readonly os?: string[];
   /**
   * Portal Authentication OTP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#portal_2fa DataPanosGlobalprotectPortal#portal_2fa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#portal_2fa DataPanosGlobalprotectPortal#portal_2fa}
   */
   readonly portal2Fa?: boolean | cdktf.IResolvable;
   /**
   * Enable portal config refresh
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#refresh_config DataPanosGlobalprotectPortal#refresh_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#refresh_config DataPanosGlobalprotectPortal#refresh_config}
   */
   readonly refreshConfig?: boolean | cdktf.IResolvable;
   /**
   * Save User Credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#save_user_credentials DataPanosGlobalprotectPortal#save_user_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#save_user_credentials DataPanosGlobalprotectPortal#save_user_credentials}
   */
   readonly saveUserCredentials?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#source_user DataPanosGlobalprotectPortal#source_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#source_user DataPanosGlobalprotectPortal#source_user}
   */
   readonly sourceUser?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#third_party_vpn_clients DataPanosGlobalprotectPortal#third_party_vpn_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#third_party_vpn_clients DataPanosGlobalprotectPortal#third_party_vpn_clients}
   */
   readonly thirdPartyVpnClients?: string[];
 }
@@ -6461,11 +6461,11 @@ export interface DataPanosGlobalprotectPortalClientConfigRootCa {
   /**
   * Install in Trusted CA Certificate Store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#install_in_cert_store DataPanosGlobalprotectPortal#install_in_cert_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#install_in_cert_store DataPanosGlobalprotectPortal#install_in_cert_store}
   */
   readonly installInCertStore?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
   */
   readonly name: string;
 }
@@ -6609,15 +6609,15 @@ export interface DataPanosGlobalprotectPortalClientConfig {
   /**
   * Agent user override ticket key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#agent_user_override_key DataPanosGlobalprotectPortal#agent_user_override_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#agent_user_override_key DataPanosGlobalprotectPortal#agent_user_override_key}
   */
   readonly agentUserOverrideKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#configs DataPanosGlobalprotectPortal#configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#configs DataPanosGlobalprotectPortal#configs}
   */
   readonly configs?: DataPanosGlobalprotectPortalClientConfigConfigs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#root_ca DataPanosGlobalprotectPortal#root_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#root_ca DataPanosGlobalprotectPortal#root_ca}
   */
   readonly rootCa?: DataPanosGlobalprotectPortalClientConfigRootCa[] | cdktf.IResolvable;
 }
@@ -6769,27 +6769,27 @@ export class DataPanosGlobalprotectPortalClientConfigOutputReference extends cdk
 }
 export interface DataPanosGlobalprotectPortalClientlessVpnAppsToUserMapping {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#applications DataPanosGlobalprotectPortal#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#applications DataPanosGlobalprotectPortal#applications}
   */
   readonly applications?: string[];
   /**
   * Display Global Protect Agent download link
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#display_global_protect_agent_download_link DataPanosGlobalprotectPortal#display_global_protect_agent_download_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#display_global_protect_agent_download_link DataPanosGlobalprotectPortal#display_global_protect_agent_download_link}
   */
   readonly displayGlobalProtectAgentDownloadLink?: boolean | cdktf.IResolvable;
   /**
   * URL browse bar to access unpublished clientless VPN applications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#enable_custom_app_u_r_l_address_bar DataPanosGlobalprotectPortal#enable_custom_app_u_r_l_address_bar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#enable_custom_app_u_r_l_address_bar DataPanosGlobalprotectPortal#enable_custom_app_u_r_l_address_bar}
   */
   readonly enableCustomAppURLAddressBar?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#source_user DataPanosGlobalprotectPortal#source_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#source_user DataPanosGlobalprotectPortal#source_user}
   */
   readonly sourceUser?: string[];
 }
@@ -7020,25 +7020,25 @@ export interface DataPanosGlobalprotectPortalClientlessVpnCryptoSettingsServerCe
   /**
   * whether to block sessions if server's certificate is expired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#block_expired_certificate DataPanosGlobalprotectPortal#block_expired_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#block_expired_certificate DataPanosGlobalprotectPortal#block_expired_certificate}
   */
   readonly blockExpiredCertificate?: boolean | cdktf.IResolvable;
   /**
   * whether to block a session if cert. status can't be retrieved within timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#block_timeout_cert DataPanosGlobalprotectPortal#block_timeout_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#block_timeout_cert DataPanosGlobalprotectPortal#block_timeout_cert}
   */
   readonly blockTimeoutCert?: boolean | cdktf.IResolvable;
   /**
   * whether to block a session if cert. status is unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#block_unknown_cert DataPanosGlobalprotectPortal#block_unknown_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#block_unknown_cert DataPanosGlobalprotectPortal#block_unknown_cert}
   */
   readonly blockUnknownCert?: boolean | cdktf.IResolvable;
   /**
   * whether to block sessions if server's certificate is issued by untrusted CA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#block_untrusted_issuer DataPanosGlobalprotectPortal#block_untrusted_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#block_untrusted_issuer DataPanosGlobalprotectPortal#block_untrusted_issuer}
   */
   readonly blockUntrustedIssuer?: boolean | cdktf.IResolvable;
 }
@@ -7221,87 +7221,87 @@ export interface DataPanosGlobalprotectPortalClientlessVpnCryptoSettingsSslProto
   /**
   * Allow authentication MD5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#auth_algo_md5 DataPanosGlobalprotectPortal#auth_algo_md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#auth_algo_md5 DataPanosGlobalprotectPortal#auth_algo_md5}
   */
   readonly authAlgoMd5?: boolean | cdktf.IResolvable;
   /**
   * Allow authentication SHA1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#auth_algo_sha1 DataPanosGlobalprotectPortal#auth_algo_sha1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#auth_algo_sha1 DataPanosGlobalprotectPortal#auth_algo_sha1}
   */
   readonly authAlgoSha1?: boolean | cdktf.IResolvable;
   /**
   * Allow authentication SHA256
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#auth_algo_sha256 DataPanosGlobalprotectPortal#auth_algo_sha256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#auth_algo_sha256 DataPanosGlobalprotectPortal#auth_algo_sha256}
   */
   readonly authAlgoSha256?: boolean | cdktf.IResolvable;
   /**
   * Allow authentication SHA384
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#auth_algo_sha384 DataPanosGlobalprotectPortal#auth_algo_sha384}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#auth_algo_sha384 DataPanosGlobalprotectPortal#auth_algo_sha384}
   */
   readonly authAlgoSha384?: boolean | cdktf.IResolvable;
   /**
   * Allow algorithm 3DES
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#enc_algo_3des DataPanosGlobalprotectPortal#enc_algo_3des}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#enc_algo_3des DataPanosGlobalprotectPortal#enc_algo_3des}
   */
   readonly encAlgo3Des?: boolean | cdktf.IResolvable;
   /**
   * Allow algorithm AES-128-CBC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#enc_algo_aes_128_cbc DataPanosGlobalprotectPortal#enc_algo_aes_128_cbc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#enc_algo_aes_128_cbc DataPanosGlobalprotectPortal#enc_algo_aes_128_cbc}
   */
   readonly encAlgoAes128Cbc?: boolean | cdktf.IResolvable;
   /**
   * Allow algorithm AES-128-GCM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#enc_algo_aes_128_gcm DataPanosGlobalprotectPortal#enc_algo_aes_128_gcm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#enc_algo_aes_128_gcm DataPanosGlobalprotectPortal#enc_algo_aes_128_gcm}
   */
   readonly encAlgoAes128Gcm?: boolean | cdktf.IResolvable;
   /**
   * Allow algorithm AES-256-CBC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#enc_algo_aes_256_cbc DataPanosGlobalprotectPortal#enc_algo_aes_256_cbc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#enc_algo_aes_256_cbc DataPanosGlobalprotectPortal#enc_algo_aes_256_cbc}
   */
   readonly encAlgoAes256Cbc?: boolean | cdktf.IResolvable;
   /**
   * Allow algorithm AES-256-GCM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#enc_algo_aes_256_gcm DataPanosGlobalprotectPortal#enc_algo_aes_256_gcm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#enc_algo_aes_256_gcm DataPanosGlobalprotectPortal#enc_algo_aes_256_gcm}
   */
   readonly encAlgoAes256Gcm?: boolean | cdktf.IResolvable;
   /**
   * Allow algorithm RC4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#enc_algo_rc4 DataPanosGlobalprotectPortal#enc_algo_rc4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#enc_algo_rc4 DataPanosGlobalprotectPortal#enc_algo_rc4}
   */
   readonly encAlgoRc4?: boolean | cdktf.IResolvable;
   /**
   * Allow algorithm DHE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#keyxchg_algo_dhe DataPanosGlobalprotectPortal#keyxchg_algo_dhe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#keyxchg_algo_dhe DataPanosGlobalprotectPortal#keyxchg_algo_dhe}
   */
   readonly keyxchgAlgoDhe?: boolean | cdktf.IResolvable;
   /**
   * Allow algorithm ECDHE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#keyxchg_algo_ecdhe DataPanosGlobalprotectPortal#keyxchg_algo_ecdhe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#keyxchg_algo_ecdhe DataPanosGlobalprotectPortal#keyxchg_algo_ecdhe}
   */
   readonly keyxchgAlgoEcdhe?: boolean | cdktf.IResolvable;
   /**
   * Allow algorithm RSA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#keyxchg_algo_rsa DataPanosGlobalprotectPortal#keyxchg_algo_rsa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#keyxchg_algo_rsa DataPanosGlobalprotectPortal#keyxchg_algo_rsa}
   */
   readonly keyxchgAlgoRsa?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#max_version DataPanosGlobalprotectPortal#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#max_version DataPanosGlobalprotectPortal#max_version}
   */
   readonly maxVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#min_version DataPanosGlobalprotectPortal#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#min_version DataPanosGlobalprotectPortal#min_version}
   */
   readonly minVersion?: string;
 }
@@ -7801,11 +7801,11 @@ export class DataPanosGlobalprotectPortalClientlessVpnCryptoSettingsSslProtocolO
 }
 export interface DataPanosGlobalprotectPortalClientlessVpnCryptoSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#server_cert_verification DataPanosGlobalprotectPortal#server_cert_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#server_cert_verification DataPanosGlobalprotectPortal#server_cert_verification}
   */
   readonly serverCertVerification?: DataPanosGlobalprotectPortalClientlessVpnCryptoSettingsServerCertVerification;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#ssl_protocol DataPanosGlobalprotectPortal#ssl_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#ssl_protocol DataPanosGlobalprotectPortal#ssl_protocol}
   */
   readonly sslProtocol?: DataPanosGlobalprotectPortalClientlessVpnCryptoSettingsSslProtocol;
 }
@@ -7930,13 +7930,13 @@ export interface DataPanosGlobalprotectPortalClientlessVpnInactivityLogout {
   /**
   * specify inactivity time in hours
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#hours DataPanosGlobalprotectPortal#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#hours DataPanosGlobalprotectPortal#hours}
   */
   readonly hours?: number;
   /**
   * specify inactivity time in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#minutes DataPanosGlobalprotectPortal#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#minutes DataPanosGlobalprotectPortal#minutes}
   */
   readonly minutes?: number;
 }
@@ -8061,13 +8061,13 @@ export interface DataPanosGlobalprotectPortalClientlessVpnLoginLifetime {
   /**
   * specify lifetime in hours
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#hours DataPanosGlobalprotectPortal#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#hours DataPanosGlobalprotectPortal#hours}
   */
   readonly hours?: number;
   /**
   * specify lifetime in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#minutes DataPanosGlobalprotectPortal#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#minutes DataPanosGlobalprotectPortal#minutes}
   */
   readonly minutes?: number;
 }
@@ -8192,25 +8192,25 @@ export interface DataPanosGlobalprotectPortalClientlessVpnProxyServerSettingProx
   /**
   * Proxy password to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#password DataPanosGlobalprotectPortal#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#password DataPanosGlobalprotectPortal#password}
   */
   readonly password?: string;
   /**
   * Port for proxy server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#port DataPanosGlobalprotectPortal#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#port DataPanosGlobalprotectPortal#port}
   */
   readonly port?: number;
   /**
   * Proxy server to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#server DataPanosGlobalprotectPortal#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#server DataPanosGlobalprotectPortal#server}
   */
   readonly server?: string;
   /**
   * Proxy user name to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#user DataPanosGlobalprotectPortal#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#user DataPanosGlobalprotectPortal#user}
   */
   readonly user?: string;
 }
@@ -8391,21 +8391,21 @@ export class DataPanosGlobalprotectPortalClientlessVpnProxyServerSettingProxySer
 }
 export interface DataPanosGlobalprotectPortalClientlessVpnProxyServerSetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#domains DataPanosGlobalprotectPortal#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#domains DataPanosGlobalprotectPortal#domains}
   */
   readonly domains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#proxy_server DataPanosGlobalprotectPortal#proxy_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#proxy_server DataPanosGlobalprotectPortal#proxy_server}
   */
   readonly proxyServer?: DataPanosGlobalprotectPortalClientlessVpnProxyServerSettingProxyServer;
   /**
   * Whether to use proxy server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#use_proxy DataPanosGlobalprotectPortal#use_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#use_proxy DataPanosGlobalprotectPortal#use_proxy}
   */
   readonly useProxy?: boolean | cdktf.IResolvable;
 }
@@ -8605,51 +8605,51 @@ export class DataPanosGlobalprotectPortalClientlessVpnProxyServerSettingList ext
 }
 export interface DataPanosGlobalprotectPortalClientlessVpn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#apps_to_user_mapping DataPanosGlobalprotectPortal#apps_to_user_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#apps_to_user_mapping DataPanosGlobalprotectPortal#apps_to_user_mapping}
   */
   readonly appsToUserMapping?: DataPanosGlobalprotectPortalClientlessVpnAppsToUserMapping[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#crypto_settings DataPanosGlobalprotectPortal#crypto_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#crypto_settings DataPanosGlobalprotectPortal#crypto_settings}
   */
   readonly cryptoSettings?: DataPanosGlobalprotectPortalClientlessVpnCryptoSettings;
   /**
   * DNS proxy object used for resolving clientless-vpn application hostnames
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#dns_proxy DataPanosGlobalprotectPortal#dns_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#dns_proxy DataPanosGlobalprotectPortal#dns_proxy}
   */
   readonly dnsProxy?: string;
   /**
   * FQDN or IP address of GlobalProtect Portal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#hostname DataPanosGlobalprotectPortal#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#hostname DataPanosGlobalprotectPortal#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#inactivity_logout DataPanosGlobalprotectPortal#inactivity_logout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#inactivity_logout DataPanosGlobalprotectPortal#inactivity_logout}
   */
   readonly inactivityLogout?: DataPanosGlobalprotectPortalClientlessVpnInactivityLogout;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#login_lifetime DataPanosGlobalprotectPortal#login_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#login_lifetime DataPanosGlobalprotectPortal#login_lifetime}
   */
   readonly loginLifetime?: DataPanosGlobalprotectPortalClientlessVpnLoginLifetime;
   /**
   * max number of concurrent logined users to GlobalProtect portal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#max_user DataPanosGlobalprotectPortal#max_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#max_user DataPanosGlobalprotectPortal#max_user}
   */
   readonly maxUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#proxy_server_setting DataPanosGlobalprotectPortal#proxy_server_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#proxy_server_setting DataPanosGlobalprotectPortal#proxy_server_setting}
   */
   readonly proxyServerSetting?: DataPanosGlobalprotectPortalClientlessVpnProxyServerSetting[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#rewrite_exclude_domain_list DataPanosGlobalprotectPortal#rewrite_exclude_domain_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#rewrite_exclude_domain_list DataPanosGlobalprotectPortal#rewrite_exclude_domain_list}
   */
   readonly rewriteExcludeDomainList?: string[];
   /**
   * Zone to be used for clientless-vpn traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#security_zone DataPanosGlobalprotectPortal#security_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#security_zone DataPanosGlobalprotectPortal#security_zone}
   */
   readonly securityZone?: string;
 }
@@ -9006,19 +9006,19 @@ export interface DataPanosGlobalprotectPortalLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#ngfw_device DataPanosGlobalprotectPortal#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#ngfw_device DataPanosGlobalprotectPortal#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#panorama_device DataPanosGlobalprotectPortal#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#panorama_device DataPanosGlobalprotectPortal#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -9172,19 +9172,19 @@ export interface DataPanosGlobalprotectPortalLocationTemplateStack {
   /**
   * Specific Panorama template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#ngfw_device DataPanosGlobalprotectPortal#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#ngfw_device DataPanosGlobalprotectPortal#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#panorama_device DataPanosGlobalprotectPortal#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#panorama_device DataPanosGlobalprotectPortal#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -9338,25 +9338,25 @@ export interface DataPanosGlobalprotectPortalLocationTemplateStackVsys {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#ngfw_device DataPanosGlobalprotectPortal#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#ngfw_device DataPanosGlobalprotectPortal#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#panorama_device DataPanosGlobalprotectPortal#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#panorama_device DataPanosGlobalprotectPortal#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
   * The template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#template_stack DataPanosGlobalprotectPortal#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#template_stack DataPanosGlobalprotectPortal#template_stack}
   */
   readonly templateStack?: string;
   /**
   * The vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#vsys DataPanosGlobalprotectPortal#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#vsys DataPanosGlobalprotectPortal#vsys}
   */
   readonly vsys?: string;
 }
@@ -9539,25 +9539,25 @@ export interface DataPanosGlobalprotectPortalLocationTemplateVsys {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#ngfw_device DataPanosGlobalprotectPortal#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#ngfw_device DataPanosGlobalprotectPortal#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#panorama_device DataPanosGlobalprotectPortal#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#panorama_device DataPanosGlobalprotectPortal#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#template DataPanosGlobalprotectPortal#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#template DataPanosGlobalprotectPortal#template}
   */
   readonly template?: string;
   /**
   * The vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#vsys DataPanosGlobalprotectPortal#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#vsys DataPanosGlobalprotectPortal#vsys}
   */
   readonly vsys?: string;
 }
@@ -9740,13 +9740,13 @@ export interface DataPanosGlobalprotectPortalLocationVsys {
   /**
   * The Virtual System name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
   */
   readonly name?: string;
   /**
   * The NGFW device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#ngfw_device DataPanosGlobalprotectPortal#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#ngfw_device DataPanosGlobalprotectPortal#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -9871,31 +9871,31 @@ export interface DataPanosGlobalprotectPortalLocation {
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#template DataPanosGlobalprotectPortal#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#template DataPanosGlobalprotectPortal#template}
   */
   readonly template?: DataPanosGlobalprotectPortalLocationTemplate;
   /**
   * Located in a specific template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#template_stack DataPanosGlobalprotectPortal#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#template_stack DataPanosGlobalprotectPortal#template_stack}
   */
   readonly templateStack?: DataPanosGlobalprotectPortalLocationTemplateStack;
   /**
   * Located in a specific template, device and vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#template_stack_vsys DataPanosGlobalprotectPortal#template_stack_vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#template_stack_vsys DataPanosGlobalprotectPortal#template_stack_vsys}
   */
   readonly templateStackVsys?: DataPanosGlobalprotectPortalLocationTemplateStackVsys;
   /**
   * Located in a specific template, device and vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#template_vsys DataPanosGlobalprotectPortal#template_vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#template_vsys DataPanosGlobalprotectPortal#template_vsys}
   */
   readonly templateVsys?: DataPanosGlobalprotectPortalLocationTemplateVsys;
   /**
   * Located in a specific Virtual System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#vsys DataPanosGlobalprotectPortal#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#vsys DataPanosGlobalprotectPortal#vsys}
   */
   readonly vsys?: DataPanosGlobalprotectPortalLocationVsys;
 }
@@ -10107,47 +10107,47 @@ export interface DataPanosGlobalprotectPortalPortalConfigClientAuth {
   /**
   * Authentication Message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#authentication_message DataPanosGlobalprotectPortal#authentication_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#authentication_message DataPanosGlobalprotectPortal#authentication_message}
   */
   readonly authenticationMessage?: string;
   /**
   * authentication profile used for this GlobalProtect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#authentication_profile DataPanosGlobalprotectPortal#authentication_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#authentication_profile DataPanosGlobalprotectPortal#authentication_profile}
   */
   readonly authenticationProfile?: string;
   /**
   * Automatically retrieve passcode from SoftToken application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#auto_retrieve_passcode DataPanosGlobalprotectPortal#auto_retrieve_passcode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#auto_retrieve_passcode DataPanosGlobalprotectPortal#auto_retrieve_passcode}
   */
   readonly autoRetrievePasscode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
   */
   readonly name: string;
   /**
   * Client OS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#os DataPanosGlobalprotectPortal#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#os DataPanosGlobalprotectPortal#os}
   */
   readonly os?: string;
   /**
   * Password Label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#password_label DataPanosGlobalprotectPortal#password_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#password_label DataPanosGlobalprotectPortal#password_label}
   */
   readonly passwordLabel?: string;
   /**
   * Allow Authentication with User Credentials OR Client Certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#user_credential_or_client_cert_required DataPanosGlobalprotectPortal#user_credential_or_client_cert_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#user_credential_or_client_cert_required DataPanosGlobalprotectPortal#user_credential_or_client_cert_required}
   */
   readonly userCredentialOrClientCertRequired?: string;
   /**
   * Username Label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#username_label DataPanosGlobalprotectPortal#username_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#username_label DataPanosGlobalprotectPortal#username_label}
   */
   readonly usernameLabel?: string;
 }
@@ -10463,11 +10463,11 @@ export class DataPanosGlobalprotectPortalPortalConfigClientAuthList extends cdkt
 }
 export interface DataPanosGlobalprotectPortalPortalConfigConfigSelectionCustomChecksMacOsPlistStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#key DataPanosGlobalprotectPortal#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#key DataPanosGlobalprotectPortal#key}
   */
   readonly key?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
   */
   readonly name: string;
 }
@@ -10609,7 +10609,7 @@ export class DataPanosGlobalprotectPortalPortalConfigConfigSelectionCustomChecks
 }
 export interface DataPanosGlobalprotectPortalPortalConfigConfigSelectionCustomChecksMacOs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#plist DataPanosGlobalprotectPortal#plist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#plist DataPanosGlobalprotectPortal#plist}
   */
   readonly plist?: DataPanosGlobalprotectPortalPortalConfigConfigSelectionCustomChecksMacOsPlistStruct[] | cdktf.IResolvable;
 }
@@ -10703,11 +10703,11 @@ export class DataPanosGlobalprotectPortalPortalConfigConfigSelectionCustomChecks
 }
 export interface DataPanosGlobalprotectPortalPortalConfigConfigSelectionCustomChecksWindowsRegistryKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#registry_value DataPanosGlobalprotectPortal#registry_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#registry_value DataPanosGlobalprotectPortal#registry_value}
   */
   readonly registryValue?: string[];
 }
@@ -10849,7 +10849,7 @@ export class DataPanosGlobalprotectPortalPortalConfigConfigSelectionCustomChecks
 }
 export interface DataPanosGlobalprotectPortalPortalConfigConfigSelectionCustomChecksWindows {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#registry_key DataPanosGlobalprotectPortal#registry_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#registry_key DataPanosGlobalprotectPortal#registry_key}
   */
   readonly registryKey?: DataPanosGlobalprotectPortalPortalConfigConfigSelectionCustomChecksWindowsRegistryKey[] | cdktf.IResolvable;
 }
@@ -10943,11 +10943,11 @@ export class DataPanosGlobalprotectPortalPortalConfigConfigSelectionCustomChecks
 }
 export interface DataPanosGlobalprotectPortalPortalConfigConfigSelectionCustomChecks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#mac_os DataPanosGlobalprotectPortal#mac_os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#mac_os DataPanosGlobalprotectPortal#mac_os}
   */
   readonly macOs?: DataPanosGlobalprotectPortalPortalConfigConfigSelectionCustomChecksMacOs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#windows DataPanosGlobalprotectPortal#windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#windows DataPanosGlobalprotectPortal#windows}
   */
   readonly windows?: DataPanosGlobalprotectPortalPortalConfigConfigSelectionCustomChecksWindows;
 }
@@ -11072,11 +11072,11 @@ export interface DataPanosGlobalprotectPortalPortalConfigConfigSelection {
   /**
   * Profile for authenticating client certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#certificate_profile DataPanosGlobalprotectPortal#certificate_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#certificate_profile DataPanosGlobalprotectPortal#certificate_profile}
   */
   readonly certificateProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#custom_checks DataPanosGlobalprotectPortal#custom_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#custom_checks DataPanosGlobalprotectPortal#custom_checks}
   */
   readonly customChecks?: DataPanosGlobalprotectPortalPortalConfigConfigSelectionCustomChecks;
 }
@@ -11201,13 +11201,13 @@ export interface DataPanosGlobalprotectPortalPortalConfigLocalAddressFloatingIp 
   /**
   * Floating IPv4 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#ipv4 DataPanosGlobalprotectPortal#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#ipv4 DataPanosGlobalprotectPortal#ipv4}
   */
   readonly ipv4?: string;
   /**
   * Floating IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#ipv6 DataPanosGlobalprotectPortal#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#ipv6 DataPanosGlobalprotectPortal#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -11332,13 +11332,13 @@ export interface DataPanosGlobalprotectPortalPortalConfigLocalAddressIp {
   /**
   * IPv4 addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#ipv4 DataPanosGlobalprotectPortal#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#ipv4 DataPanosGlobalprotectPortal#ipv4}
   */
   readonly ipv4?: string;
   /**
   * IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#ipv6 DataPanosGlobalprotectPortal#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#ipv6 DataPanosGlobalprotectPortal#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -11461,23 +11461,23 @@ export class DataPanosGlobalprotectPortalPortalConfigLocalAddressIpOutputReferen
 }
 export interface DataPanosGlobalprotectPortalPortalConfigLocalAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#floating_ip DataPanosGlobalprotectPortal#floating_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#floating_ip DataPanosGlobalprotectPortal#floating_ip}
   */
   readonly floatingIp?: DataPanosGlobalprotectPortalPortalConfigLocalAddressFloatingIp;
   /**
   * local gateway end-point
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#interface DataPanosGlobalprotectPortal#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#interface DataPanosGlobalprotectPortal#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#ip DataPanosGlobalprotectPortal#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#ip DataPanosGlobalprotectPortal#ip}
   */
   readonly ip?: DataPanosGlobalprotectPortalPortalConfigLocalAddressIp;
   /**
   * specify the family of the local address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#ip_address_family DataPanosGlobalprotectPortal#ip_address_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#ip_address_family DataPanosGlobalprotectPortal#ip_address_family}
   */
   readonly ipAddressFamily?: string;
 }
@@ -11660,53 +11660,53 @@ export interface DataPanosGlobalprotectPortalPortalConfig {
   /**
   * Profile for authenticating client certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#certificate_profile DataPanosGlobalprotectPortal#certificate_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#certificate_profile DataPanosGlobalprotectPortal#certificate_profile}
   */
   readonly certificateProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#client_auth DataPanosGlobalprotectPortal#client_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#client_auth DataPanosGlobalprotectPortal#client_auth}
   */
   readonly clientAuth?: DataPanosGlobalprotectPortalPortalConfigClientAuth[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#config_selection DataPanosGlobalprotectPortal#config_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#config_selection DataPanosGlobalprotectPortal#config_selection}
   */
   readonly configSelection?: DataPanosGlobalprotectPortalPortalConfigConfigSelection;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#custom_help_page DataPanosGlobalprotectPortal#custom_help_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#custom_help_page DataPanosGlobalprotectPortal#custom_help_page}
   */
   readonly customHelpPage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#custom_home_page DataPanosGlobalprotectPortal#custom_home_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#custom_home_page DataPanosGlobalprotectPortal#custom_home_page}
   */
   readonly customHomePage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#custom_login_page DataPanosGlobalprotectPortal#custom_login_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#custom_login_page DataPanosGlobalprotectPortal#custom_login_page}
   */
   readonly customLoginPage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#local_address DataPanosGlobalprotectPortal#local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#local_address DataPanosGlobalprotectPortal#local_address}
   */
   readonly localAddress?: DataPanosGlobalprotectPortalPortalConfigLocalAddress;
   /**
   * Log unsuccessful TLS handshakes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#log_fail DataPanosGlobalprotectPortal#log_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#log_fail DataPanosGlobalprotectPortal#log_fail}
   */
   readonly logFail?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#log_setting DataPanosGlobalprotectPortal#log_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#log_setting DataPanosGlobalprotectPortal#log_setting}
   */
   readonly logSetting?: string;
   /**
   * Log successful TLS handshakes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#log_success DataPanosGlobalprotectPortal#log_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#log_success DataPanosGlobalprotectPortal#log_success}
   */
   readonly logSuccess?: boolean | cdktf.IResolvable;
   /**
   * SSL TLS service profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#ssl_tls_service_profile DataPanosGlobalprotectPortal#ssl_tls_service_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#ssl_tls_service_profile DataPanosGlobalprotectPortal#ssl_tls_service_profile}
   */
   readonly sslTlsServiceProfile?: string;
 }
@@ -12092,25 +12092,25 @@ export interface DataPanosGlobalprotectPortalSatelliteConfigClientCertificateLoc
   /**
   * Issued GlobalProtect satellite certificate life time in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#certificate_life_time DataPanosGlobalprotectPortal#certificate_life_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#certificate_life_time DataPanosGlobalprotectPortal#certificate_life_time}
   */
   readonly certificateLifeTime?: number;
   /**
   * GlobalProtect satellite certificate renewal period in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#certificate_renewal_period DataPanosGlobalprotectPortal#certificate_renewal_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#certificate_renewal_period DataPanosGlobalprotectPortal#certificate_renewal_period}
   */
   readonly certificateRenewalPeriod?: number;
   /**
   * Issuing certificate to issue GlobalProtect satellite certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#issuing_certificate DataPanosGlobalprotectPortal#issuing_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#issuing_certificate DataPanosGlobalprotectPortal#issuing_certificate}
   */
   readonly issuingCertificate?: string;
   /**
   * OCSP responder
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#ocsp_responder DataPanosGlobalprotectPortal#ocsp_responder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#ocsp_responder DataPanosGlobalprotectPortal#ocsp_responder}
   */
   readonly ocspResponder?: string;
 }
@@ -12293,11 +12293,11 @@ export interface DataPanosGlobalprotectPortalSatelliteConfigClientCertificateSce
   /**
   * GlobalProtect satellite certificate renewal period in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#certificate_renewal_period DataPanosGlobalprotectPortal#certificate_renewal_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#certificate_renewal_period DataPanosGlobalprotectPortal#certificate_renewal_period}
   */
   readonly certificateRenewalPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#scep DataPanosGlobalprotectPortal#scep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#scep DataPanosGlobalprotectPortal#scep}
   */
   readonly scep?: string;
 }
@@ -12420,11 +12420,11 @@ export class DataPanosGlobalprotectPortalSatelliteConfigClientCertificateScepOut
 }
 export interface DataPanosGlobalprotectPortalSatelliteConfigClientCertificate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#local DataPanosGlobalprotectPortal#local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#local DataPanosGlobalprotectPortal#local}
   */
   readonly local?: DataPanosGlobalprotectPortalSatelliteConfigClientCertificateLocal;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#scep DataPanosGlobalprotectPortal#scep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#scep DataPanosGlobalprotectPortal#scep}
   */
   readonly scep?: DataPanosGlobalprotectPortalSatelliteConfigClientCertificateScep;
 }
@@ -12549,13 +12549,13 @@ export interface DataPanosGlobalprotectPortalSatelliteConfigConfigsGatewaysIp {
   /**
   * IPv4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#ipv4 DataPanosGlobalprotectPortal#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#ipv4 DataPanosGlobalprotectPortal#ipv4}
   */
   readonly ipv4?: string;
   /**
   * IPv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#ipv6 DataPanosGlobalprotectPortal#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#ipv6 DataPanosGlobalprotectPortal#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -12680,27 +12680,27 @@ export interface DataPanosGlobalprotectPortalSatelliteConfigConfigsGateways {
   /**
   * fqdn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#fqdn DataPanosGlobalprotectPortal#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#fqdn DataPanosGlobalprotectPortal#fqdn}
   */
   readonly fqdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#ip DataPanosGlobalprotectPortal#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#ip DataPanosGlobalprotectPortal#ip}
   */
   readonly ip?: DataPanosGlobalprotectPortalSatelliteConfigConfigsGatewaysIp;
   /**
   * IPv6 Preferred
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#ipv6_preferred DataPanosGlobalprotectPortal#ipv6_preferred}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#ipv6_preferred DataPanosGlobalprotectPortal#ipv6_preferred}
   */
   readonly ipv6Preferred?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
   */
   readonly name: string;
   /**
   * Priority of GlobalProtect gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#priority DataPanosGlobalprotectPortal#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#priority DataPanosGlobalprotectPortal#priority}
   */
   readonly priority?: number;
 }
@@ -12931,23 +12931,23 @@ export interface DataPanosGlobalprotectPortalSatelliteConfigConfigs {
   /**
   * GlobalProtect satellite configuration refresh interval in hours
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#config_refresh_interval DataPanosGlobalprotectPortal#config_refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#config_refresh_interval DataPanosGlobalprotectPortal#config_refresh_interval}
   */
   readonly configRefreshInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#devices DataPanosGlobalprotectPortal#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#devices DataPanosGlobalprotectPortal#devices}
   */
   readonly devices?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#gateways DataPanosGlobalprotectPortal#gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#gateways DataPanosGlobalprotectPortal#gateways}
   */
   readonly gateways?: DataPanosGlobalprotectPortalSatelliteConfigConfigsGateways[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#name DataPanosGlobalprotectPortal#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#source_user DataPanosGlobalprotectPortal#source_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#source_user DataPanosGlobalprotectPortal#source_user}
   */
   readonly sourceUser?: string[];
 }
@@ -13176,15 +13176,15 @@ export class DataPanosGlobalprotectPortalSatelliteConfigConfigsList extends cdkt
 }
 export interface DataPanosGlobalprotectPortalSatelliteConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#client_certificate DataPanosGlobalprotectPortal#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#client_certificate DataPanosGlobalprotectPortal#client_certificate}
   */
   readonly clientCertificate?: DataPanosGlobalprotectPortalSatelliteConfigClientCertificate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#configs DataPanosGlobalprotectPortal#configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#configs DataPanosGlobalprotectPortal#configs}
   */
   readonly configs?: DataPanosGlobalprotectPortalSatelliteConfigConfigs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#root_ca DataPanosGlobalprotectPortal#root_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#root_ca DataPanosGlobalprotectPortal#root_ca}
   */
   readonly rootCa?: string[];
 }
@@ -13336,7 +13336,7 @@ export class DataPanosGlobalprotectPortalSatelliteConfigOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal panos_globalprotect_portal}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal panos_globalprotect_portal}
 */
 export class DataPanosGlobalprotectPortal extends cdktf.TerraformDataSource {
 
@@ -13352,7 +13352,7 @@ export class DataPanosGlobalprotectPortal extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPanosGlobalprotectPortal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPanosGlobalprotectPortal to import
-  * @param importFromId The id of the existing DataPanosGlobalprotectPortal that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPanosGlobalprotectPortal that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPanosGlobalprotectPortal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -13364,7 +13364,7 @@ export class DataPanosGlobalprotectPortal extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/globalprotect_portal panos_globalprotect_portal} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/data-sources/globalprotect_portal panos_globalprotect_portal} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -13375,8 +13375,8 @@ export class DataPanosGlobalprotectPortal extends cdktf.TerraformDataSource {
       terraformResourceType: 'panos_globalprotect_portal',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

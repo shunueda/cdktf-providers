@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings
+// https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,130 +8,130 @@ import * as cdktf from 'cdktf';
 
 export interface SettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#authentication_method Settings#authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#authentication_method Settings#authentication_method}
   */
   readonly authenticationMethod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#disable_kube_roles_sync Settings#disable_kube_roles_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#disable_kube_roles_sync Settings#disable_kube_roles_sync}
   */
   readonly disableKubeRolesSync?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#disable_kube_shell Settings#disable_kube_shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#disable_kube_shell Settings#disable_kube_shell}
   */
   readonly disableKubeShell?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#disable_kubeconfig_download Settings#disable_kubeconfig_download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#disable_kubeconfig_download Settings#disable_kubeconfig_download}
   */
   readonly disableKubeconfigDownload?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#display_donation_header Settings#display_donation_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#display_donation_header Settings#display_donation_header}
   */
   readonly displayDonationHeader?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#display_external_contributors Settings#display_external_contributors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#display_external_contributors Settings#display_external_contributors}
   */
   readonly displayExternalContributors?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#edge_agent_checkin_interval Settings#edge_agent_checkin_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#edge_agent_checkin_interval Settings#edge_agent_checkin_interval}
   */
   readonly edgeAgentCheckinInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#edge_portainer_url Settings#edge_portainer_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#edge_portainer_url Settings#edge_portainer_url}
   */
   readonly edgePortainerUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#enable_edge_compute_features Settings#enable_edge_compute_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#enable_edge_compute_features Settings#enable_edge_compute_features}
   */
   readonly enableEdgeComputeFeatures?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#enable_telemetry Settings#enable_telemetry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#enable_telemetry Settings#enable_telemetry}
   */
   readonly enableTelemetry?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#enforce_edge_id Settings#enforce_edge_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#enforce_edge_id Settings#enforce_edge_id}
   */
   readonly enforceEdgeId?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#helm_repository_url Settings#helm_repository_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#helm_repository_url Settings#helm_repository_url}
   */
   readonly helmRepositoryUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#id Settings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#id Settings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#is_docker_desktop_extension Settings#is_docker_desktop_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#is_docker_desktop_extension Settings#is_docker_desktop_extension}
   */
   readonly isDockerDesktopExtension?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#kubeconfig_expiry Settings#kubeconfig_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#kubeconfig_expiry Settings#kubeconfig_expiry}
   */
   readonly kubeconfigExpiry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#kubectl_shell_image Settings#kubectl_shell_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#kubectl_shell_image Settings#kubectl_shell_image}
   */
   readonly kubectlShellImage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#logo_url Settings#logo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#logo_url Settings#logo_url}
   */
   readonly logoUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#snapshot_interval Settings#snapshot_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#snapshot_interval Settings#snapshot_interval}
   */
   readonly snapshotInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#templates_url Settings#templates_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#templates_url Settings#templates_url}
   */
   readonly templatesUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#trust_on_first_connect Settings#trust_on_first_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#trust_on_first_connect Settings#trust_on_first_connect}
   */
   readonly trustOnFirstConnect?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#user_session_timeout Settings#user_session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#user_session_timeout Settings#user_session_timeout}
   */
   readonly userSessionTimeout?: string;
   /**
   * black_listed_labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#black_listed_labels Settings#black_listed_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#black_listed_labels Settings#black_listed_labels}
   */
   readonly blackListedLabels?: SettingsBlackListedLabels[] | cdktf.IResolvable;
   /**
   * global_deployment_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#global_deployment_options Settings#global_deployment_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#global_deployment_options Settings#global_deployment_options}
   */
   readonly globalDeploymentOptions?: SettingsGlobalDeploymentOptions;
   /**
   * internal_auth_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#internal_auth_settings Settings#internal_auth_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#internal_auth_settings Settings#internal_auth_settings}
   */
   readonly internalAuthSettings?: SettingsInternalAuthSettings;
   /**
   * ldap_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#ldap_settings Settings#ldap_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#ldap_settings Settings#ldap_settings}
   */
   readonly ldapSettings?: SettingsLdapSettings;
   /**
   * oauth_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#oauth_settings Settings#oauth_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#oauth_settings Settings#oauth_settings}
   */
   readonly oauthSettings?: SettingsOauthSettings;
 }
 export interface SettingsBlackListedLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#name Settings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#name Settings#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#value Settings#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#value Settings#value}
   */
   readonly value: string;
 }
@@ -270,7 +270,7 @@ export class SettingsBlackListedLabelsList extends cdktf.ComplexList {
 }
 export interface SettingsGlobalDeploymentOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#hide_stacks_functionality Settings#hide_stacks_functionality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#hide_stacks_functionality Settings#hide_stacks_functionality}
   */
   readonly hideStacksFunctionality?: boolean | cdktf.IResolvable;
 }
@@ -354,7 +354,7 @@ export class SettingsGlobalDeploymentOptionsOutputReference extends cdktf.Comple
 }
 export interface SettingsInternalAuthSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#required_password_length Settings#required_password_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#required_password_length Settings#required_password_length}
   */
   readonly requiredPasswordLength?: number;
 }
@@ -438,15 +438,15 @@ export class SettingsInternalAuthSettingsOutputReference extends cdktf.ComplexOb
 }
 export interface SettingsLdapSettingsGroupSearchSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#group_attribute Settings#group_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#group_attribute Settings#group_attribute}
   */
   readonly groupAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#group_base_dn Settings#group_base_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#group_base_dn Settings#group_base_dn}
   */
   readonly groupBaseDn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#group_filter Settings#group_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#group_filter Settings#group_filter}
   */
   readonly groupFilter?: string;
 }
@@ -620,15 +620,15 @@ export class SettingsLdapSettingsGroupSearchSettingsList extends cdktf.ComplexLi
 }
 export interface SettingsLdapSettingsSearchSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#base_dn Settings#base_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#base_dn Settings#base_dn}
   */
   readonly baseDn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#filter Settings#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#filter Settings#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#user_name_attribute Settings#user_name_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#user_name_attribute Settings#user_name_attribute}
   */
   readonly userNameAttribute?: string;
 }
@@ -802,23 +802,23 @@ export class SettingsLdapSettingsSearchSettingsList extends cdktf.ComplexList {
 }
 export interface SettingsLdapSettingsTlsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#tls Settings#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#tls Settings#tls}
   */
   readonly tls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#tls_ca_cert Settings#tls_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#tls_ca_cert Settings#tls_ca_cert}
   */
   readonly tlsCaCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#tls_cert Settings#tls_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#tls_cert Settings#tls_cert}
   */
   readonly tlsCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#tls_key Settings#tls_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#tls_key Settings#tls_key}
   */
   readonly tlsKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#tls_skip_verify Settings#tls_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#tls_skip_verify Settings#tls_skip_verify}
   */
   readonly tlsSkipVerify?: boolean | cdktf.IResolvable;
 }
@@ -1018,45 +1018,45 @@ export class SettingsLdapSettingsTlsConfigOutputReference extends cdktf.ComplexO
 }
 export interface SettingsLdapSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#anonymous_mode Settings#anonymous_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#anonymous_mode Settings#anonymous_mode}
   */
   readonly anonymousMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#auto_create_users Settings#auto_create_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#auto_create_users Settings#auto_create_users}
   */
   readonly autoCreateUsers?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#password Settings#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#password Settings#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#reader_dn Settings#reader_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#reader_dn Settings#reader_dn}
   */
   readonly readerDn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#start_tls Settings#start_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#start_tls Settings#start_tls}
   */
   readonly startTls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#url Settings#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#url Settings#url}
   */
   readonly url?: string;
   /**
   * group_search_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#group_search_settings Settings#group_search_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#group_search_settings Settings#group_search_settings}
   */
   readonly groupSearchSettings?: SettingsLdapSettingsGroupSearchSettings[] | cdktf.IResolvable;
   /**
   * search_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#search_settings Settings#search_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#search_settings Settings#search_settings}
   */
   readonly searchSettings?: SettingsLdapSettingsSearchSettings[] | cdktf.IResolvable;
   /**
   * tls_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#tls_config Settings#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#tls_config Settings#tls_config}
   */
   readonly tlsConfig?: SettingsLdapSettingsTlsConfig;
 }
@@ -1372,11 +1372,11 @@ export class SettingsLdapSettingsOutputReference extends cdktf.ComplexObject {
 }
 export interface SettingsOauthSettingsTeamMembershipsOauthClaimMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#claim_val_regex Settings#claim_val_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#claim_val_regex Settings#claim_val_regex}
   */
   readonly claimValRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#team Settings#team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#team Settings#team}
   */
   readonly team?: number;
 }
@@ -1521,21 +1521,21 @@ export class SettingsOauthSettingsTeamMembershipsOauthClaimMappingsList extends 
 }
 export interface SettingsOauthSettingsTeamMemberships {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#admin_auto_populate Settings#admin_auto_populate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#admin_auto_populate Settings#admin_auto_populate}
   */
   readonly adminAutoPopulate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#admin_group_claims_regex_list Settings#admin_group_claims_regex_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#admin_group_claims_regex_list Settings#admin_group_claims_regex_list}
   */
   readonly adminGroupClaimsRegexList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#oauth_claim_name Settings#oauth_claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#oauth_claim_name Settings#oauth_claim_name}
   */
   readonly oauthClaimName?: string;
   /**
   * oauth_claim_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#oauth_claim_mappings Settings#oauth_claim_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#oauth_claim_mappings Settings#oauth_claim_mappings}
   */
   readonly oauthClaimMappings?: SettingsOauthSettingsTeamMembershipsOauthClaimMappings[] | cdktf.IResolvable;
 }
@@ -1706,77 +1706,77 @@ export class SettingsOauthSettingsTeamMembershipsOutputReference extends cdktf.C
 }
 export interface SettingsOauthSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#access_token_uri Settings#access_token_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#access_token_uri Settings#access_token_uri}
   */
   readonly accessTokenUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#auth_style Settings#auth_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#auth_style Settings#auth_style}
   */
   readonly authStyle?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#authorization_uri Settings#authorization_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#authorization_uri Settings#authorization_uri}
   */
   readonly authorizationUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#client_id Settings#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#client_id Settings#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#client_secret Settings#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#client_secret Settings#client_secret}
   */
   readonly clientSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#default_team_id Settings#default_team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#default_team_id Settings#default_team_id}
   */
   readonly defaultTeamId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#hide_internal_auth Settings#hide_internal_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#hide_internal_auth Settings#hide_internal_auth}
   */
   readonly hideInternalAuth?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#kube_secret_key Settings#kube_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#kube_secret_key Settings#kube_secret_key}
   */
   readonly kubeSecretKey?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#logout_uri Settings#logout_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#logout_uri Settings#logout_uri}
   */
   readonly logoutUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#microsoft_tenant_id Settings#microsoft_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#microsoft_tenant_id Settings#microsoft_tenant_id}
   */
   readonly microsoftTenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#oauth_auto_create_users Settings#oauth_auto_create_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#oauth_auto_create_users Settings#oauth_auto_create_users}
   */
   readonly oauthAutoCreateUsers?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#oauth_auto_map_team_memberships Settings#oauth_auto_map_team_memberships}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#oauth_auto_map_team_memberships Settings#oauth_auto_map_team_memberships}
   */
   readonly oauthAutoMapTeamMemberships?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#redirect_uri Settings#redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#redirect_uri Settings#redirect_uri}
   */
   readonly redirectUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#resource_uri Settings#resource_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#resource_uri Settings#resource_uri}
   */
   readonly resourceUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#scopes Settings#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#scopes Settings#scopes}
   */
   readonly scopes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#sso Settings#sso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#sso Settings#sso}
   */
   readonly sso?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#user_identifier Settings#user_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#user_identifier Settings#user_identifier}
   */
   readonly userIdentifier?: string;
   /**
   * team_memberships block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#team_memberships Settings#team_memberships}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#team_memberships Settings#team_memberships}
   */
   readonly teamMemberships?: SettingsOauthSettingsTeamMemberships;
 }
@@ -2353,7 +2353,7 @@ export class SettingsOauthSettingsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings portainer_settings}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings portainer_settings}
 */
 export class Settings extends cdktf.TerraformResource {
 
@@ -2369,7 +2369,7 @@ export class Settings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Settings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Settings to import
-  * @param importFromId The id of the existing Settings that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Settings that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Settings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2381,7 +2381,7 @@ export class Settings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs/resources/settings portainer_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/settings portainer_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2392,8 +2392,8 @@ export class Settings extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_settings',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.18.2',
-        providerVersionConstraint: '1.18.2'
+        providerVersion: '1.19.0',
+        providerVersionConstraint: '1.19.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

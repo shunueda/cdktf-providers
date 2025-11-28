@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/data-sources/schedule
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/data-sources/schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataRootlyScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Filter by date range using 'lt' and 'gt'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/data-sources/schedule#created_at DataRootlySchedule#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/data-sources/schedule#created_at DataRootlySchedule#created_at}
   */
   readonly createdAt?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/data-sources/schedule#name DataRootlySchedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/data-sources/schedule#name DataRootlySchedule#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/data-sources/schedule rootly_schedule}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/data-sources/schedule rootly_schedule}
 */
 export class DataRootlySchedule extends cdktf.TerraformDataSource {
 
@@ -36,7 +36,7 @@ export class DataRootlySchedule extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRootlySchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRootlySchedule to import
-  * @param importFromId The id of the existing DataRootlySchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/data-sources/schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRootlySchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/data-sources/schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRootlySchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -48,7 +48,7 @@ export class DataRootlySchedule extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/data-sources/schedule rootly_schedule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/data-sources/schedule rootly_schedule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -59,8 +59,8 @@ export class DataRootlySchedule extends cdktf.TerraformDataSource {
       terraformResourceType: 'rootly_schedule',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.8',
-        providerVersionConstraint: '4.3.8'
+        providerVersion: '4.3.9',
+        providerVersionConstraint: '4.3.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

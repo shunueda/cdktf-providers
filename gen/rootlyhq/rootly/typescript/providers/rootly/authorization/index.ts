@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/authorization
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/authorization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface AuthorizationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The id of the resource being accessed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/authorization#authorizable_id Authorization#authorizable_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/authorization#authorizable_id Authorization#authorizable_id}
   */
   readonly authorizableId: string;
   /**
   * The type of resource being accessed.. Value must be one of `Dashboard`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/authorization#authorizable_type Authorization#authorizable_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/authorization#authorizable_type Authorization#authorizable_type}
   */
   readonly authorizableType?: string;
   /**
   * The resource id granted access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/authorization#grantee_id Authorization#grantee_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/authorization#grantee_id Authorization#grantee_id}
   */
   readonly granteeId: string;
   /**
   * The type of resource granted access.. Value must be one of `User`, `Team`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/authorization#grantee_type Authorization#grantee_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/authorization#grantee_type Authorization#grantee_type}
   */
   readonly granteeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/authorization#id Authorization#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/authorization#id Authorization#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,13 +41,13 @@ export interface AuthorizationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Value must be one of `read`, `update`, `authorize`, `destroy`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/authorization#permissions Authorization#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/authorization#permissions Authorization#permissions}
   */
   readonly permissions: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/authorization rootly_authorization}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/authorization rootly_authorization}
 */
 export class Authorization extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class Authorization extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Authorization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Authorization to import
-  * @param importFromId The id of the existing Authorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/authorization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Authorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/authorization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Authorization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class Authorization extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/authorization rootly_authorization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/authorization rootly_authorization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class Authorization extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_authorization',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.8',
-        providerVersionConstraint: '4.3.8'
+        providerVersion: '4.3.9',
+        providerVersionConstraint: '4.3.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

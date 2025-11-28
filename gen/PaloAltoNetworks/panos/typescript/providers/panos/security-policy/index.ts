@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SecurityPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#location SecurityPolicy#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#location SecurityPolicy#location}
   */
   readonly location: SecurityPolicyLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#rules SecurityPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#rules SecurityPolicy#rules}
   */
   readonly rules: SecurityPolicyRules[] | cdktf.IResolvable;
 }
@@ -22,19 +22,19 @@ export interface SecurityPolicyLocationDeviceGroup {
   /**
   * The device group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#name SecurityPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#name SecurityPolicy#name}
   */
   readonly name?: string;
   /**
   * The panorama device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#panorama_device SecurityPolicy#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#panorama_device SecurityPolicy#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
   * The rulebase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#rulebase SecurityPolicy#rulebase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#rulebase SecurityPolicy#rulebase}
   */
   readonly rulebase?: string;
 }
@@ -188,7 +188,7 @@ export interface SecurityPolicyLocationShared {
   /**
   * Rulebase name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#rulebase SecurityPolicy#rulebase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#rulebase SecurityPolicy#rulebase}
   */
   readonly rulebase?: string;
 }
@@ -284,13 +284,13 @@ export interface SecurityPolicyLocationVsys {
   /**
   * The vsys name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#name SecurityPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#name SecurityPolicy#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#ngfw_device SecurityPolicy#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#ngfw_device SecurityPolicy#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -415,19 +415,19 @@ export interface SecurityPolicyLocation {
   /**
   * Located in a specific device group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#device_group SecurityPolicy#device_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#device_group SecurityPolicy#device_group}
   */
   readonly deviceGroup?: SecurityPolicyLocationDeviceGroup;
   /**
   * Located in a shared rulebase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#shared SecurityPolicy#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#shared SecurityPolicy#shared}
   */
   readonly shared?: SecurityPolicyLocationShared;
   /**
   * Located in a specific vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#vsys SecurityPolicy#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#vsys SecurityPolicy#vsys}
   */
   readonly vsys?: SecurityPolicyLocationVsys;
 }
@@ -579,39 +579,39 @@ export class SecurityPolicyLocationOutputReference extends cdktf.ComplexObject {
 }
 export interface SecurityPolicyRulesProfileSettingProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#data_filtering SecurityPolicy#data_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#data_filtering SecurityPolicy#data_filtering}
   */
   readonly dataFiltering?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#file_blocking SecurityPolicy#file_blocking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#file_blocking SecurityPolicy#file_blocking}
   */
   readonly fileBlocking?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#gtp SecurityPolicy#gtp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#gtp SecurityPolicy#gtp}
   */
   readonly gtp?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#sctp SecurityPolicy#sctp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#sctp SecurityPolicy#sctp}
   */
   readonly sctp?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#spyware SecurityPolicy#spyware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#spyware SecurityPolicy#spyware}
   */
   readonly spyware?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#url_filtering SecurityPolicy#url_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#url_filtering SecurityPolicy#url_filtering}
   */
   readonly urlFiltering?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#virus SecurityPolicy#virus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#virus SecurityPolicy#virus}
   */
   readonly virus?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#vulnerability SecurityPolicy#vulnerability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#vulnerability SecurityPolicy#vulnerability}
   */
   readonly vulnerability?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#wildfire_analysis SecurityPolicy#wildfire_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#wildfire_analysis SecurityPolicy#wildfire_analysis}
   */
   readonly wildfireAnalysis?: string[];
 }
@@ -937,11 +937,11 @@ export class SecurityPolicyRulesProfileSettingProfilesOutputReference extends cd
 }
 export interface SecurityPolicyRulesProfileSetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#group SecurityPolicy#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#group SecurityPolicy#group}
   */
   readonly group?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#profiles SecurityPolicy#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#profiles SecurityPolicy#profiles}
   */
   readonly profiles?: SecurityPolicyRulesProfileSettingProfiles;
 }
@@ -1123,19 +1123,19 @@ export class SecurityPolicyRulesQosMarkingFollowC2SFlowOutputReference extends c
 }
 export interface SecurityPolicyRulesQosMarking {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#follow_c2s_flow SecurityPolicy#follow_c2s_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#follow_c2s_flow SecurityPolicy#follow_c2s_flow}
   */
   readonly followC2SFlow?: SecurityPolicyRulesQosMarkingFollowC2SFlow;
   /**
   * IP DSCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#ip_dscp SecurityPolicy#ip_dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#ip_dscp SecurityPolicy#ip_dscp}
   */
   readonly ipDscp?: string;
   /**
   * IP Precedence
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#ip_precedence SecurityPolicy#ip_precedence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#ip_precedence SecurityPolicy#ip_precedence}
   */
   readonly ipPrecedence?: string;
 }
@@ -1287,7 +1287,7 @@ export class SecurityPolicyRulesQosMarkingOutputReference extends cdktf.ComplexO
 }
 export interface SecurityPolicyRulesQos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#marking SecurityPolicy#marking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#marking SecurityPolicy#marking}
   */
   readonly marking?: SecurityPolicyRulesQosMarking;
 }
@@ -1381,7 +1381,7 @@ export class SecurityPolicyRulesQosOutputReference extends cdktf.ComplexObject {
 }
 export interface SecurityPolicyRulesTargetDevicesVsys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#name SecurityPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#name SecurityPolicy#name}
   */
   readonly name: string;
 }
@@ -1494,11 +1494,11 @@ export class SecurityPolicyRulesTargetDevicesVsysList extends cdktf.ComplexList 
 }
 export interface SecurityPolicyRulesTargetDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#name SecurityPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#name SecurityPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#vsys SecurityPolicy#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#vsys SecurityPolicy#vsys}
   */
   readonly vsys?: SecurityPolicyRulesTargetDevicesVsys[] | cdktf.IResolvable;
 }
@@ -1640,17 +1640,17 @@ export class SecurityPolicyRulesTargetDevicesList extends cdktf.ComplexList {
 }
 export interface SecurityPolicyRulesTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#devices SecurityPolicy#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#devices SecurityPolicy#devices}
   */
   readonly devices?: SecurityPolicyRulesTargetDevices[] | cdktf.IResolvable;
   /**
   * Target to all but these specified devices and tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#negate SecurityPolicy#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#negate SecurityPolicy#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#tags SecurityPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#tags SecurityPolicy#tags}
   */
   readonly tags?: string[];
 }
@@ -1802,141 +1802,141 @@ export class SecurityPolicyRulesTargetOutputReference extends cdktf.ComplexObjec
 }
 export interface SecurityPolicyRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#action SecurityPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#action SecurityPolicy#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#applications SecurityPolicy#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#applications SecurityPolicy#applications}
   */
   readonly applications?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#category SecurityPolicy#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#category SecurityPolicy#category}
   */
   readonly category?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#description SecurityPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#description SecurityPolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#destination_addresses SecurityPolicy#destination_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#destination_addresses SecurityPolicy#destination_addresses}
   */
   readonly destinationAddresses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#destination_hip SecurityPolicy#destination_hip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#destination_hip SecurityPolicy#destination_hip}
   */
   readonly destinationHip?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#destination_zones SecurityPolicy#destination_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#destination_zones SecurityPolicy#destination_zones}
   */
   readonly destinationZones?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#disable_inspect SecurityPolicy#disable_inspect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#disable_inspect SecurityPolicy#disable_inspect}
   */
   readonly disableInspect?: boolean | cdktf.IResolvable;
   /**
   * Disable inspection of server side traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#disable_server_response_inspection SecurityPolicy#disable_server_response_inspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#disable_server_response_inspection SecurityPolicy#disable_server_response_inspection}
   */
   readonly disableServerResponseInspection?: boolean | cdktf.IResolvable;
   /**
   * Disable the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#disabled SecurityPolicy#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#disabled SecurityPolicy#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#group_tag SecurityPolicy#group_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#group_tag SecurityPolicy#group_tag}
   */
   readonly groupTag?: string;
   /**
   * Send ICMP unreachable error when action is drop or reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#icmp_unreachable SecurityPolicy#icmp_unreachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#icmp_unreachable SecurityPolicy#icmp_unreachable}
   */
   readonly icmpUnreachable?: boolean | cdktf.IResolvable;
   /**
   * Log at session end (required for certain ACC tables)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#log_end SecurityPolicy#log_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#log_end SecurityPolicy#log_end}
   */
   readonly logEnd?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#log_setting SecurityPolicy#log_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#log_setting SecurityPolicy#log_setting}
   */
   readonly logSetting?: string;
   /**
   * Log at session start
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#log_start SecurityPolicy#log_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#log_start SecurityPolicy#log_start}
   */
   readonly logStart?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#name SecurityPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#name SecurityPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#negate_destination SecurityPolicy#negate_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#negate_destination SecurityPolicy#negate_destination}
   */
   readonly negateDestination?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#negate_source SecurityPolicy#negate_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#negate_source SecurityPolicy#negate_source}
   */
   readonly negateSource?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#profile_setting SecurityPolicy#profile_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#profile_setting SecurityPolicy#profile_setting}
   */
   readonly profileSetting?: SecurityPolicyRulesProfileSetting;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#qos SecurityPolicy#qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#qos SecurityPolicy#qos}
   */
   readonly qos?: SecurityPolicyRulesQos;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#rule_type SecurityPolicy#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#rule_type SecurityPolicy#rule_type}
   */
   readonly ruleType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#schedule SecurityPolicy#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#schedule SecurityPolicy#schedule}
   */
   readonly schedule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#services SecurityPolicy#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#services SecurityPolicy#services}
   */
   readonly services?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#source_addresses SecurityPolicy#source_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#source_addresses SecurityPolicy#source_addresses}
   */
   readonly sourceAddresses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#source_hip SecurityPolicy#source_hip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#source_hip SecurityPolicy#source_hip}
   */
   readonly sourceHip?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#source_imei SecurityPolicy#source_imei}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#source_imei SecurityPolicy#source_imei}
   */
   readonly sourceImei?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#source_imsi SecurityPolicy#source_imsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#source_imsi SecurityPolicy#source_imsi}
   */
   readonly sourceImsi?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#source_nw_slice SecurityPolicy#source_nw_slice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#source_nw_slice SecurityPolicy#source_nw_slice}
   */
   readonly sourceNwSlice?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#source_users SecurityPolicy#source_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#source_users SecurityPolicy#source_users}
   */
   readonly sourceUsers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#source_zones SecurityPolicy#source_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#source_zones SecurityPolicy#source_zones}
   */
   readonly sourceZones?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#tag SecurityPolicy#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#tag SecurityPolicy#tag}
   */
   readonly tag?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#target SecurityPolicy#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#target SecurityPolicy#target}
   */
   readonly target?: SecurityPolicyRulesTarget;
 }
@@ -2948,7 +2948,7 @@ export class SecurityPolicyRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy panos_security_policy}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy panos_security_policy}
 */
 export class SecurityPolicy extends cdktf.TerraformResource {
 
@@ -2964,7 +2964,7 @@ export class SecurityPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityPolicy to import
-  * @param importFromId The id of the existing SecurityPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2976,7 +2976,7 @@ export class SecurityPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/security_policy panos_security_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.7/docs/resources/security_policy panos_security_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2987,8 +2987,8 @@ export class SecurityPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'panos_security_policy',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.6',
-        providerVersionConstraint: '2.0.6'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
