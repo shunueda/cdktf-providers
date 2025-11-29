@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_opsgenie
+// https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_opsgenie
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktf from 'cdktf';
 
 export interface IntegrationOpsgenieConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_opsgenie#api_endpoint IntegrationOpsgenie#api_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_opsgenie#api_endpoint IntegrationOpsgenie#api_endpoint}
   */
   readonly apiEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_opsgenie#api_key IntegrationOpsgenie#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_opsgenie#api_key IntegrationOpsgenie#api_key}
   */
   readonly apiKey: string;
   /**
   * Automatically resolve incident once the check is back up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_opsgenie#auto_resolve IntegrationOpsgenie#auto_resolve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_opsgenie#auto_resolve IntegrationOpsgenie#auto_resolve}
   */
   readonly autoResolve?: boolean | cdktf.IResolvable;
   /**
@@ -26,29 +26,29 @@ export interface IntegrationOpsgenieConfig extends cdktf.TerraformMetaArguments 
   * Each contact group can contain multiple contacts (email addresses, phone numbers, or integrations) 
   * that will be notified when alerts are triggered. Defaults to ['Default'] if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_opsgenie#contact_groups IntegrationOpsgenie#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_opsgenie#contact_groups IntegrationOpsgenie#contact_groups}
   */
   readonly contactGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_opsgenie#name IntegrationOpsgenie#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_opsgenie#name IntegrationOpsgenie#name}
   */
   readonly name: string;
   /**
   * A comma separated list of labels attached to the alert. You may overwrite the quiet hours setting for urgent alerts by adding the OverwriteQuietHours tag. Leave blank to automatically pull the tags from the check instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_opsgenie#tags IntegrationOpsgenie#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_opsgenie#tags IntegrationOpsgenie#tags}
   */
   readonly tags?: string;
   /**
   * A comma separated list of team names which will be responsible for the alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_opsgenie#teams IntegrationOpsgenie#teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_opsgenie#teams IntegrationOpsgenie#teams}
   */
   readonly teams?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_opsgenie uptime_integration_opsgenie}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_opsgenie uptime_integration_opsgenie}
 */
 export class IntegrationOpsgenie extends cdktf.TerraformResource {
 
@@ -64,7 +64,7 @@ export class IntegrationOpsgenie extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationOpsgenie resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationOpsgenie to import
-  * @param importFromId The id of the existing IntegrationOpsgenie that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_opsgenie#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationOpsgenie that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_opsgenie#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationOpsgenie to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -76,7 +76,7 @@ export class IntegrationOpsgenie extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_opsgenie uptime_integration_opsgenie} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_opsgenie uptime_integration_opsgenie} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -87,8 +87,8 @@ export class IntegrationOpsgenie extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_integration_opsgenie',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.18.0',
-        providerVersionConstraint: '2.18.0'
+        providerVersion: '2.18.1',
+        providerVersionConstraint: '2.18.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

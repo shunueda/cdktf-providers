@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard
+// https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface DashboardConfig extends cdktf.TerraformMetaArguments {
   /**
   * Alerts related attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#alerts Dashboard#alerts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#alerts Dashboard#alerts}
   */
   readonly alerts: DashboardAlerts;
   /**
   * Whether the dashboard is pinned to the top of the dashboard list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#is_pinned Dashboard#is_pinned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#is_pinned Dashboard#is_pinned}
   */
   readonly isPinned?: boolean | cdktf.IResolvable;
   /**
   * Metrics related attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#metrics Dashboard#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#metrics Dashboard#metrics}
   */
   readonly metrics?: DashboardMetrics;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#name Dashboard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#name Dashboard#name}
   */
   readonly name: string;
   /**
   * Where to place the dashboard in the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#ordering Dashboard#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#ordering Dashboard#ordering}
   */
   readonly ordering?: number;
   /**
   * Selected services to show on the dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#selected Dashboard#selected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#selected Dashboard#selected}
   */
   readonly selected: DashboardSelected;
   /**
   * Services related attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#services Dashboard#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#services Dashboard#services}
   */
   readonly services: DashboardServices;
 }
@@ -52,13 +52,13 @@ export interface DashboardAlertsInclude {
   /**
   * Whether to include ignored alerts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#ignored Dashboard#ignored}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#ignored Dashboard#ignored}
   */
   readonly ignored?: boolean | cdktf.IResolvable;
   /**
   * Whether to include resolved alerts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#resolved Dashboard#resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#resolved Dashboard#resolved}
   */
   readonly resolved?: boolean | cdktf.IResolvable;
 }
@@ -183,25 +183,25 @@ export interface DashboardAlerts {
   /**
   * Whether to show block for all checks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#for_all_checks Dashboard#for_all_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#for_all_checks Dashboard#for_all_checks}
   */
   readonly forAllChecks?: boolean | cdktf.IResolvable;
   /**
   * Alerts related attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#include Dashboard#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#include Dashboard#include}
   */
   readonly include?: DashboardAlertsInclude;
   /**
   * The number of entities to show
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#num_to_show Dashboard#num_to_show}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#num_to_show Dashboard#num_to_show}
   */
   readonly numToShow?: number;
   /**
   * Whether to show the section
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#show_section Dashboard#show_section}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#show_section Dashboard#show_section}
   */
   readonly showSection?: boolean | cdktf.IResolvable;
 }
@@ -384,13 +384,13 @@ export interface DashboardMetrics {
   /**
   * Whether to show block for all checks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#for_all_checks Dashboard#for_all_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#for_all_checks Dashboard#for_all_checks}
   */
   readonly forAllChecks?: boolean | cdktf.IResolvable;
   /**
   * Whether to show the section
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#show_section Dashboard#show_section}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#show_section Dashboard#show_section}
   */
   readonly showSection?: boolean | cdktf.IResolvable;
 }
@@ -515,7 +515,7 @@ export interface DashboardSelected {
   /**
   * The services collection to show on the dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#services Dashboard#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#services Dashboard#services}
   */
   readonly services?: string[];
   /**
@@ -525,7 +525,7 @@ export interface DashboardSelected {
   * Common use cases include tagging by team ('dev-team', 'ops'), environment ('production', 'staging'), 
   * or purpose ('api', 'customer-facing'). Defaults to an empty list if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#tags Dashboard#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#tags Dashboard#tags}
   */
   readonly tags?: string[];
 }
@@ -650,25 +650,25 @@ export interface DashboardServicesInclude {
   /**
   * Whether to include down services
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#down Dashboard#down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#down Dashboard#down}
   */
   readonly down?: boolean | cdktf.IResolvable;
   /**
   * Whether to include services in maintenance mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#maintenance Dashboard#maintenance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#maintenance Dashboard#maintenance}
   */
   readonly maintenance?: boolean | cdktf.IResolvable;
   /**
   * Whether to include paused services
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#paused Dashboard#paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#paused Dashboard#paused}
   */
   readonly paused?: boolean | cdktf.IResolvable;
   /**
   * Whether to include up services
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#up Dashboard#up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#up Dashboard#up}
   */
   readonly up?: boolean | cdktf.IResolvable;
 }
@@ -851,13 +851,13 @@ export interface DashboardServicesShow {
   /**
   * Whether to show response time for services
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#response_time Dashboard#response_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#response_time Dashboard#response_time}
   */
   readonly responseTime?: boolean | cdktf.IResolvable;
   /**
   * Whether to show uptime for services
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#uptime Dashboard#uptime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#uptime Dashboard#uptime}
   */
   readonly uptime?: boolean | cdktf.IResolvable;
 }
@@ -982,13 +982,13 @@ export interface DashboardServicesSort {
   /**
   * The primary sort for services
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#primary Dashboard#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#primary Dashboard#primary}
   */
   readonly primary?: string;
   /**
   * The secondary sort for services
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#secondary Dashboard#secondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#secondary Dashboard#secondary}
   */
   readonly secondary?: string;
 }
@@ -1113,31 +1113,31 @@ export interface DashboardServices {
   /**
   * Which services to include
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#include Dashboard#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#include Dashboard#include}
   */
   readonly include?: DashboardServicesInclude;
   /**
   * The number of entities to show
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#num_to_show Dashboard#num_to_show}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#num_to_show Dashboard#num_to_show}
   */
   readonly numToShow?: number;
   /**
   * Which service attributes to show
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#show Dashboard#show}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#show Dashboard#show}
   */
   readonly show: DashboardServicesShow;
   /**
   * Whether to show the section
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#show_section Dashboard#show_section}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#show_section Dashboard#show_section}
   */
   readonly showSection?: boolean | cdktf.IResolvable;
   /**
   * How to sort services
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#sort Dashboard#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#sort Dashboard#sort}
   */
   readonly sort: DashboardServicesSort;
 }
@@ -1341,7 +1341,7 @@ export class DashboardServicesOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard uptime_dashboard}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard uptime_dashboard}
 */
 export class Dashboard extends cdktf.TerraformResource {
 
@@ -1357,7 +1357,7 @@ export class Dashboard extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Dashboard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Dashboard to import
-  * @param importFromId The id of the existing Dashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Dashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Dashboard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1369,7 +1369,7 @@ export class Dashboard extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/dashboard uptime_dashboard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/dashboard uptime_dashboard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1380,8 +1380,8 @@ export class Dashboard extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_dashboard',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.18.0',
-        providerVersionConstraint: '2.18.0'
+        providerVersion: '2.18.1',
+        providerVersionConstraint: '2.18.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

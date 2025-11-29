@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings
+// https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface AuthSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#allow_guest AuthSettings#allow_guest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#allow_guest AuthSettings#allow_guest}
   */
   readonly allowGuest: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#collapse_login_form AuthSettings#collapse_login_form}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#collapse_login_form AuthSettings#collapse_login_form}
   */
   readonly collapseLoginForm: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#email_verification AuthSettings#email_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#email_verification AuthSettings#email_verification}
   */
   readonly emailVerification: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#guest_username AuthSettings#guest_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#guest_username AuthSettings#guest_username}
   */
   readonly guestUsername: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#modules AuthSettings#modules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#modules AuthSettings#modules}
   */
   readonly modules: AuthSettingsModules;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#per_project_permissions AuthSettings#per_project_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#per_project_permissions AuthSettings#per_project_permissions}
   */
   readonly perProjectPermissions: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#welcome_text AuthSettings#welcome_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#welcome_text AuthSettings#welcome_text}
   */
   readonly welcomeText: string;
 }
@@ -97,15 +97,15 @@ export class AuthSettingsModulesBasicHttpOutputReference extends cdktf.ComplexOb
 }
 export interface AuthSettingsModulesBuiltIn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#change_passwords AuthSettings#change_passwords}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#change_passwords AuthSettings#change_passwords}
   */
   readonly changePasswords: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#registration AuthSettings#registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#registration AuthSettings#registration}
   */
   readonly registration: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#reset_passwords AuthSettings#reset_passwords}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#reset_passwords AuthSettings#reset_passwords}
   */
   readonly resetPasswords?: boolean | cdktf.IResolvable;
 }
@@ -251,11 +251,11 @@ export class AuthSettingsModulesBuiltInOutputReference extends cdktf.ComplexObje
 }
 export interface AuthSettingsModulesGithub {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#create_new_users AuthSettings#create_new_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#create_new_users AuthSettings#create_new_users}
   */
   readonly createNewUsers: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#organizations AuthSettings#organizations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#organizations AuthSettings#organizations}
   */
   readonly organizations: string;
 }
@@ -372,11 +372,11 @@ export class AuthSettingsModulesGithubOutputReference extends cdktf.ComplexObjec
 }
 export interface AuthSettingsModulesGithubApp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#create_new_users AuthSettings#create_new_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#create_new_users AuthSettings#create_new_users}
   */
   readonly createNewUsers: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#organizations AuthSettings#organizations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#organizations AuthSettings#organizations}
   */
   readonly organizations: string;
 }
@@ -493,11 +493,11 @@ export class AuthSettingsModulesGithubAppOutputReference extends cdktf.ComplexOb
 }
 export interface AuthSettingsModulesGithubEnterprise {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#create_new_users AuthSettings#create_new_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#create_new_users AuthSettings#create_new_users}
   */
   readonly createNewUsers: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#organizations AuthSettings#organizations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#organizations AuthSettings#organizations}
   */
   readonly organizations: string;
 }
@@ -614,15 +614,15 @@ export class AuthSettingsModulesGithubEnterpriseOutputReference extends cdktf.Co
 }
 export interface AuthSettingsModulesGoogle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#all_domains AuthSettings#all_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#all_domains AuthSettings#all_domains}
   */
   readonly allDomains: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#create_new_users AuthSettings#create_new_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#create_new_users AuthSettings#create_new_users}
   */
   readonly createNewUsers: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#domains AuthSettings#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#domains AuthSettings#domains}
   */
   readonly domains?: string;
 }
@@ -768,7 +768,7 @@ export class AuthSettingsModulesGoogleOutputReference extends cdktf.ComplexObjec
 }
 export interface AuthSettingsModulesJetbrainsSpace {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#create_new_users AuthSettings#create_new_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#create_new_users AuthSettings#create_new_users}
   */
   readonly createNewUsers: boolean | cdktf.IResolvable;
 }
@@ -859,7 +859,7 @@ export class AuthSettingsModulesJetbrainsSpaceOutputReference extends cdktf.Comp
 }
 export interface AuthSettingsModulesLdap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#create_new_users AuthSettings#create_new_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#create_new_users AuthSettings#create_new_users}
   */
   readonly createNewUsers: boolean | cdktf.IResolvable;
 }
@@ -1009,39 +1009,39 @@ export class AuthSettingsModulesTokenOutputReference extends cdktf.ComplexObject
 }
 export interface AuthSettingsModules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#basic_http AuthSettings#basic_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#basic_http AuthSettings#basic_http}
   */
   readonly basicHttp?: AuthSettingsModulesBasicHttp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#built_in AuthSettings#built_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#built_in AuthSettings#built_in}
   */
   readonly builtIn?: AuthSettingsModulesBuiltIn;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#github AuthSettings#github}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#github AuthSettings#github}
   */
   readonly github?: AuthSettingsModulesGithub;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#github_app AuthSettings#github_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#github_app AuthSettings#github_app}
   */
   readonly githubApp?: AuthSettingsModulesGithubApp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#github_enterprise AuthSettings#github_enterprise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#github_enterprise AuthSettings#github_enterprise}
   */
   readonly githubEnterprise?: AuthSettingsModulesGithubEnterprise;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#google AuthSettings#google}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#google AuthSettings#google}
   */
   readonly google?: AuthSettingsModulesGoogle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#jetbrains_space AuthSettings#jetbrains_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#jetbrains_space AuthSettings#jetbrains_space}
   */
   readonly jetbrainsSpace?: AuthSettingsModulesJetbrainsSpace;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#ldap AuthSettings#ldap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#ldap AuthSettings#ldap}
   */
   readonly ldap?: AuthSettingsModulesLdap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#token AuthSettings#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#token AuthSettings#token}
   */
   readonly token: AuthSettingsModulesToken;
 }
@@ -1364,7 +1364,7 @@ export class AuthSettingsModulesOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings teamcity_auth_settings}
+* Represents a {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings teamcity_auth_settings}
 */
 export class AuthSettings extends cdktf.TerraformResource {
 
@@ -1380,7 +1380,7 @@ export class AuthSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AuthSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuthSettings to import
-  * @param importFromId The id of the existing AuthSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuthSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuthSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1392,7 +1392,7 @@ export class AuthSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/auth_settings teamcity_auth_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/auth_settings teamcity_auth_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1403,8 +1403,8 @@ export class AuthSettings extends cdktf.TerraformResource {
       terraformResourceType: 'teamcity_auth_settings',
       terraformGeneratorMetadata: {
         providerName: 'teamcity',
-        providerVersion: '0.0.85',
-        providerVersionConstraint: '0.0.85'
+        providerVersion: '0.0.86',
+        providerVersionConstraint: '0.0.86'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

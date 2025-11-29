@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/versioned_settings
+// https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/versioned_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktf from 'cdktf';
 
 export interface VersionedSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/versioned_settings#allow_ui_editing VersionedSettings#allow_ui_editing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/versioned_settings#allow_ui_editing VersionedSettings#allow_ui_editing}
   */
   readonly allowUiEditing: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/versioned_settings#project_id VersionedSettings#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/versioned_settings#project_id VersionedSettings#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/versioned_settings#settings VersionedSettings#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/versioned_settings#settings VersionedSettings#settings}
   */
   readonly settings: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/versioned_settings#show_changes VersionedSettings#show_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/versioned_settings#show_changes VersionedSettings#show_changes}
   */
   readonly showChanges: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/versioned_settings#vcsroot_id VersionedSettings#vcsroot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/versioned_settings#vcsroot_id VersionedSettings#vcsroot_id}
   */
   readonly vcsrootId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/versioned_settings teamcity_versioned_settings}
+* Represents a {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/versioned_settings teamcity_versioned_settings}
 */
 export class VersionedSettings extends cdktf.TerraformResource {
 
@@ -46,7 +46,7 @@ export class VersionedSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VersionedSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VersionedSettings to import
-  * @param importFromId The id of the existing VersionedSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/versioned_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VersionedSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/versioned_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VersionedSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -58,7 +58,7 @@ export class VersionedSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/versioned_settings teamcity_versioned_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/versioned_settings teamcity_versioned_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -69,8 +69,8 @@ export class VersionedSettings extends cdktf.TerraformResource {
       terraformResourceType: 'teamcity_versioned_settings',
       terraformGeneratorMetadata: {
         providerName: 'teamcity',
-        providerVersion: '0.0.85',
-        providerVersionConstraint: '0.0.85'
+        providerVersion: '0.0.86',
+        providerVersionConstraint: '0.0.86'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

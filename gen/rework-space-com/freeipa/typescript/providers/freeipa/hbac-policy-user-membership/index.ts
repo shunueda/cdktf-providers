@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/hbac_policy_user_membership
+// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hbac_policy_user_membership
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface HbacPolicyUserMembershipConfig extends cdktf.TerraformMetaArgum
   /**
   * **deprecated** User group to add to the HBAC policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/hbac_policy_user_membership#group HbacPolicyUserMembership#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hbac_policy_user_membership#group HbacPolicyUserMembership#group}
   */
   readonly group?: string;
   /**
   * List of user groups to add to the HBAC policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/hbac_policy_user_membership#groups HbacPolicyUserMembership#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hbac_policy_user_membership#groups HbacPolicyUserMembership#groups}
   */
   readonly groups?: string[];
   /**
   * Unique identifier to differentiate multiple HBAC policy user membership resources on the same HBAC policy. Manadatory for using users/groups configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/hbac_policy_user_membership#identifier HbacPolicyUserMembership#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hbac_policy_user_membership#identifier HbacPolicyUserMembership#identifier}
   */
   readonly identifier?: string;
   /**
   * HBAC policy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/hbac_policy_user_membership#name HbacPolicyUserMembership#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hbac_policy_user_membership#name HbacPolicyUserMembership#name}
   */
   readonly name: string;
   /**
   * **deprecated** User FDQN the policy is applied to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/hbac_policy_user_membership#user HbacPolicyUserMembership#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hbac_policy_user_membership#user HbacPolicyUserMembership#user}
   */
   readonly user?: string;
   /**
   * List of user FQDNs to add to the HBAC policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/hbac_policy_user_membership#users HbacPolicyUserMembership#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hbac_policy_user_membership#users HbacPolicyUserMembership#users}
   */
   readonly users?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/hbac_policy_user_membership freeipa_hbac_policy_user_membership}
+* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hbac_policy_user_membership freeipa_hbac_policy_user_membership}
 */
 export class HbacPolicyUserMembership extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class HbacPolicyUserMembership extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HbacPolicyUserMembership resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HbacPolicyUserMembership to import
-  * @param importFromId The id of the existing HbacPolicyUserMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/hbac_policy_user_membership#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HbacPolicyUserMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hbac_policy_user_membership#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HbacPolicyUserMembership to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class HbacPolicyUserMembership extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/hbac_policy_user_membership freeipa_hbac_policy_user_membership} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hbac_policy_user_membership freeipa_hbac_policy_user_membership} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class HbacPolicyUserMembership extends cdktf.TerraformResource {
       terraformResourceType: 'freeipa_hbac_policy_user_membership',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.1.4',
-        providerVersionConstraint: '5.1.4'
+        providerVersion: '5.2.0',
+        providerVersionConstraint: '5.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

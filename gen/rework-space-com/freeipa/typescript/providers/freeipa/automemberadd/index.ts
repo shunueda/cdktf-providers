@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/automemberadd
+// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/automemberadd
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface AutomemberaddConfig extends cdktf.TerraformMetaArguments {
   /**
   * Add an attribute/value pair. Format is attr=value. The attribute must be part of the schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/automemberadd#addattr Automemberadd#addattr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/automemberadd#addattr Automemberadd#addattr}
   */
   readonly addattr?: string[];
   /**
   * Automember rule description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/automemberadd#description Automemberadd#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/automemberadd#description Automemberadd#description}
   */
   readonly description?: string;
   /**
   * Automember rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/automemberadd#name Automemberadd#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/automemberadd#name Automemberadd#name}
   */
   readonly name: string;
   /**
   * Set an attribute to a name/value pair. Format is attr=value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/automemberadd#setattr Automemberadd#setattr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/automemberadd#setattr Automemberadd#setattr}
   */
   readonly setattr?: string[];
   /**
   * Automember rule type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/automemberadd#type Automemberadd#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/automemberadd#type Automemberadd#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/automemberadd freeipa_automemberadd}
+* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/automemberadd freeipa_automemberadd}
 */
 export class Automemberadd extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class Automemberadd extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Automemberadd resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Automemberadd to import
-  * @param importFromId The id of the existing Automemberadd that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/automemberadd#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Automemberadd that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/automemberadd#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Automemberadd to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class Automemberadd extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/automemberadd freeipa_automemberadd} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/automemberadd freeipa_automemberadd} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class Automemberadd extends cdktf.TerraformResource {
       terraformResourceType: 'freeipa_automemberadd',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.1.4',
-        providerVersionConstraint: '5.1.4'
+        providerVersion: '5.2.0',
+        providerVersionConstraint: '5.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

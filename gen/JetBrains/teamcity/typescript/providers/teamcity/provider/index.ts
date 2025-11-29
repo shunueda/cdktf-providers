@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs
+// https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface TeamcityProviderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs#host TeamcityProvider#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs#host TeamcityProvider#host}
   */
   readonly host?: string;
   /**
   * Maximum number of retries for requests to the server. Default is 12 (1 min). Each retry waits 5 seconds by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs#max_retries TeamcityProvider#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs#max_retries TeamcityProvider#max_retries}
   */
   readonly maxRetries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs#password TeamcityProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs#password TeamcityProvider#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs#token TeamcityProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs#token TeamcityProvider#token}
   */
   readonly token?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs#username TeamcityProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs#username TeamcityProvider#username}
   */
   readonly username?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs#alias TeamcityProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs#alias TeamcityProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs teamcity}
+* Represents a {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs teamcity}
 */
 export class TeamcityProvider extends cdktf.TerraformProvider {
 
@@ -54,7 +54,7 @@ export class TeamcityProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a TeamcityProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeamcityProvider to import
-  * @param importFromId The id of the existing TeamcityProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeamcityProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeamcityProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -66,7 +66,7 @@ export class TeamcityProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs teamcity} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs teamcity} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -77,8 +77,8 @@ export class TeamcityProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'teamcity',
       terraformGeneratorMetadata: {
         providerName: 'teamcity',
-        providerVersion: '0.0.85',
-        providerVersionConstraint: '0.0.85'
+        providerVersion: '0.0.86',
+        providerVersionConstraint: '0.0.86'
       },
       terraformProviderSource: 'JetBrains/teamcity'
     });

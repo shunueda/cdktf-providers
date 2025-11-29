@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/sudo_rule_runasuser_membership
+// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_runasuser_membership
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface SudoRuleRunasuserMembershipConfig extends cdktf.TerraformMetaAr
   /**
   * Unique identifier to differentiate multiple sudo rule runasuser membership resources on the same sudo rule. Manadatory for using runasusers configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/sudo_rule_runasuser_membership#identifier SudoRuleRunasuserMembership#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_runasuser_membership#identifier SudoRuleRunasuserMembership#identifier}
   */
   readonly identifier?: string;
   /**
   * Sudo rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/sudo_rule_runasuser_membership#name SudoRuleRunasuserMembership#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_runasuser_membership#name SudoRuleRunasuserMembership#name}
   */
   readonly name: string;
   /**
   * **deprecated** Run As User to add to the sudo rule. Can be an external user (local user of ipa clients)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/sudo_rule_runasuser_membership#runasuser SudoRuleRunasuserMembership#runasuser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_runasuser_membership#runasuser SudoRuleRunasuserMembership#runasuser}
   */
   readonly runasuser?: string;
   /**
   * List of Run As User to add to the sudo rule. Can be an external user (local user of ipa clients)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/sudo_rule_runasuser_membership#runasusers SudoRuleRunasuserMembership#runasusers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_runasuser_membership#runasusers SudoRuleRunasuserMembership#runasusers}
   */
   readonly runasusers?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/sudo_rule_runasuser_membership freeipa_sudo_rule_runasuser_membership}
+* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_runasuser_membership freeipa_sudo_rule_runasuser_membership}
 */
 export class SudoRuleRunasuserMembership extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class SudoRuleRunasuserMembership extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SudoRuleRunasuserMembership resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SudoRuleRunasuserMembership to import
-  * @param importFromId The id of the existing SudoRuleRunasuserMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/sudo_rule_runasuser_membership#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SudoRuleRunasuserMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_runasuser_membership#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SudoRuleRunasuserMembership to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class SudoRuleRunasuserMembership extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/sudo_rule_runasuser_membership freeipa_sudo_rule_runasuser_membership} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_runasuser_membership freeipa_sudo_rule_runasuser_membership} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class SudoRuleRunasuserMembership extends cdktf.TerraformResource {
       terraformResourceType: 'freeipa_sudo_rule_runasuser_membership',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.1.4',
-        providerVersionConstraint: '5.1.4'
+        providerVersion: '5.2.0',
+        providerVersionConstraint: '5.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_jira_servicedesk
+// https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_jira_servicedesk
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface IntegrationJiraServicedeskConfig extends cdktf.TerraformMetaArg
   /**
   * Email address for JIRA API authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_jira_servicedesk#api_email IntegrationJiraServicedesk#api_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_jira_servicedesk#api_email IntegrationJiraServicedesk#api_email}
   */
   readonly apiEmail: string;
   /**
   * API token for JIRA authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_jira_servicedesk#api_token IntegrationJiraServicedesk#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_jira_servicedesk#api_token IntegrationJiraServicedesk#api_token}
   */
   readonly apiToken: string;
   /**
@@ -24,59 +24,59 @@ export interface IntegrationJiraServicedeskConfig extends cdktf.TerraformMetaArg
   * Each contact group can contain multiple contacts (email addresses, phone numbers, or integrations) 
   * that will be notified when alerts are triggered. Defaults to ['Default'] if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_jira_servicedesk#contact_groups IntegrationJiraServicedesk#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_jira_servicedesk#contact_groups IntegrationJiraServicedesk#contact_groups}
   */
   readonly contactGroups?: string[];
   /**
   * Custom field ID for account name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_jira_servicedesk#custom_field_id_account_name IntegrationJiraServicedesk#custom_field_id_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_jira_servicedesk#custom_field_id_account_name IntegrationJiraServicedesk#custom_field_id_account_name}
   */
   readonly customFieldIdAccountName?: number;
   /**
   * Custom field ID for check name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_jira_servicedesk#custom_field_id_check_name IntegrationJiraServicedesk#custom_field_id_check_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_jira_servicedesk#custom_field_id_check_name IntegrationJiraServicedesk#custom_field_id_check_name}
   */
   readonly customFieldIdCheckName?: number;
   /**
   * Custom field ID for check URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_jira_servicedesk#custom_field_id_check_url IntegrationJiraServicedesk#custom_field_id_check_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_jira_servicedesk#custom_field_id_check_url IntegrationJiraServicedesk#custom_field_id_check_url}
   */
   readonly customFieldIdCheckUrl?: number;
   /**
   * Additional custom fields as JSON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_jira_servicedesk#custom_fields_json IntegrationJiraServicedesk#custom_fields_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_jira_servicedesk#custom_fields_json IntegrationJiraServicedesk#custom_fields_json}
   */
   readonly customFieldsJson?: string;
   /**
   * JIRA subdomain (e.g., 'mycompany' for mycompany.atlassian.net)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_jira_servicedesk#jira_subdomain IntegrationJiraServicedesk#jira_subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_jira_servicedesk#jira_subdomain IntegrationJiraServicedesk#jira_subdomain}
   */
   readonly jiraSubdomain: string;
   /**
   * Comma-separated list of labels to add to created issues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_jira_servicedesk#labels IntegrationJiraServicedesk#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_jira_servicedesk#labels IntegrationJiraServicedesk#labels}
   */
   readonly labels?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_jira_servicedesk#name IntegrationJiraServicedesk#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_jira_servicedesk#name IntegrationJiraServicedesk#name}
   */
   readonly name: string;
   /**
   * JIRA project key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_jira_servicedesk#project_key IntegrationJiraServicedesk#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_jira_servicedesk#project_key IntegrationJiraServicedesk#project_key}
   */
   readonly projectKey: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_jira_servicedesk uptime_integration_jira_servicedesk}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_jira_servicedesk uptime_integration_jira_servicedesk}
 */
 export class IntegrationJiraServicedesk extends cdktf.TerraformResource {
 
@@ -92,7 +92,7 @@ export class IntegrationJiraServicedesk extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationJiraServicedesk resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationJiraServicedesk to import
-  * @param importFromId The id of the existing IntegrationJiraServicedesk that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_jira_servicedesk#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationJiraServicedesk that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_jira_servicedesk#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationJiraServicedesk to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -104,7 +104,7 @@ export class IntegrationJiraServicedesk extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_jira_servicedesk uptime_integration_jira_servicedesk} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_jira_servicedesk uptime_integration_jira_servicedesk} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -115,8 +115,8 @@ export class IntegrationJiraServicedesk extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_integration_jira_servicedesk',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.18.0',
-        providerVersionConstraint: '2.18.0'
+        providerVersion: '2.18.1',
+        providerVersionConstraint: '2.18.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

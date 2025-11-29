@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/check_rdap
+// https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_rdap
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface CheckRdapConfig extends cdktf.TerraformMetaArguments {
   * Must start and end with alphanumeric characters, can contain hyphens but not at the start or end, 
   * and must have at least one dot separator between valid DNS labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/check_rdap#address CheckRdap#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_rdap#address CheckRdap#address}
   */
   readonly address: string;
   /**
@@ -20,43 +20,43 @@ export interface CheckRdapConfig extends cdktf.TerraformMetaArguments {
   * Each contact group can contain multiple contacts (email addresses, phone numbers, or integrations) 
   * that will be notified when alerts are triggered. Defaults to ['Default'] if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/check_rdap#contact_groups CheckRdap#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_rdap#contact_groups CheckRdap#contact_groups}
   */
   readonly contactGroups?: string[];
   /**
   * String to expect in server response (may be repeated)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/check_rdap#expect_string CheckRdap#expect_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_rdap#expect_string CheckRdap#expect_string}
   */
   readonly expectString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/check_rdap#is_paused CheckRdap#is_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_rdap#is_paused CheckRdap#is_paused}
   */
   readonly isPaused?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/check_rdap#name CheckRdap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_rdap#name CheckRdap#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/check_rdap#notes CheckRdap#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_rdap#notes CheckRdap#notes}
   */
   readonly notes?: string;
   /**
   * How many times the check should be retried before a location is considered down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/check_rdap#num_retries CheckRdap#num_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_rdap#num_retries CheckRdap#num_retries}
   */
   readonly numRetries?: number;
   /**
   * Whether to send notifications when the check recovers from a down state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/check_rdap#send_resolved_notifications CheckRdap#send_resolved_notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_rdap#send_resolved_notifications CheckRdap#send_resolved_notifications}
   */
   readonly sendResolvedNotifications?: boolean | cdktf.IResolvable;
   /**
   * SLA related attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/check_rdap#sla CheckRdap#sla}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_rdap#sla CheckRdap#sla}
   */
   readonly sla?: CheckRdapSla;
   /**
@@ -66,13 +66,13 @@ export interface CheckRdapConfig extends cdktf.TerraformMetaArguments {
   * Common use cases include tagging by team ('dev-team', 'ops'), environment ('production', 'staging'), 
   * or purpose ('api', 'customer-facing'). Defaults to an empty list if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/check_rdap#tags CheckRdap#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_rdap#tags CheckRdap#tags}
   */
   readonly tags?: string[];
   /**
   * Raise an alert if there are less than this many days before the domain needs to be renewed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/check_rdap#threshold CheckRdap#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_rdap#threshold CheckRdap#threshold}
   */
   readonly threshold?: number;
 }
@@ -80,13 +80,13 @@ export interface CheckRdapSla {
   /**
   * The maximum average response time. Unit is mandatory (e.g. 1500ms or 1.5s or 1s500ms).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/check_rdap#latency CheckRdap#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_rdap#latency CheckRdap#latency}
   */
   readonly latency?: string;
   /**
   * The minimum uptime percentage. \nMust be a fraction with exactly 4 decimal places (e.g. 0.9995 for 99.95% uptime)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/check_rdap#uptime CheckRdap#uptime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_rdap#uptime CheckRdap#uptime}
   */
   readonly uptime?: string;
 }
@@ -209,7 +209,7 @@ export class CheckRdapSlaOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/check_rdap uptime_check_rdap}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_rdap uptime_check_rdap}
 */
 export class CheckRdap extends cdktf.TerraformResource {
 
@@ -225,7 +225,7 @@ export class CheckRdap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckRdap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckRdap to import
-  * @param importFromId The id of the existing CheckRdap that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/check_rdap#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckRdap that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_rdap#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckRdap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -237,7 +237,7 @@ export class CheckRdap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/check_rdap uptime_check_rdap} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_rdap uptime_check_rdap} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -248,8 +248,8 @@ export class CheckRdap extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_check_rdap',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.18.0',
-        providerVersionConstraint: '2.18.0'
+        providerVersion: '2.18.1',
+        providerVersionConstraint: '2.18.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

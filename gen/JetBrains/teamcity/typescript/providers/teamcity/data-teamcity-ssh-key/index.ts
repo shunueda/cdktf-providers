@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/data-sources/ssh_key
+// https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/data-sources/ssh_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktf from 'cdktf';
 
 export interface DataTeamcitySshKeyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/data-sources/ssh_key#name DataTeamcitySshKey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/data-sources/ssh_key#name DataTeamcitySshKey#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/data-sources/ssh_key#project_id DataTeamcitySshKey#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/data-sources/ssh_key#project_id DataTeamcitySshKey#project_id}
   */
   readonly projectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/data-sources/ssh_key teamcity_ssh_key}
+* Represents a {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/data-sources/ssh_key teamcity_ssh_key}
 */
 export class DataTeamcitySshKey extends cdktf.TerraformDataSource {
 
@@ -34,7 +34,7 @@ export class DataTeamcitySshKey extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTeamcitySshKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTeamcitySshKey to import
-  * @param importFromId The id of the existing DataTeamcitySshKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/data-sources/ssh_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTeamcitySshKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/data-sources/ssh_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTeamcitySshKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -46,7 +46,7 @@ export class DataTeamcitySshKey extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/data-sources/ssh_key teamcity_ssh_key} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/data-sources/ssh_key teamcity_ssh_key} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -57,8 +57,8 @@ export class DataTeamcitySshKey extends cdktf.TerraformDataSource {
       terraformResourceType: 'teamcity_ssh_key',
       terraformGeneratorMetadata: {
         providerName: 'teamcity',
-        providerVersion: '0.0.85',
-        providerVersionConstraint: '0.0.85'
+        providerVersion: '0.0.86',
+        providerVersionConstraint: '0.0.86'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

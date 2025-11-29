@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/metric
+// https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/metric
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface MetricConfig extends cdktf.TerraformMetaArguments {
   /**
   * The list of aggregations to perform on the metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/metric#aggregations Metric#aggregations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/metric#aggregations Metric#aggregations}
   */
   readonly aggregations: string[];
   /**
   * The name of this metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/metric#name Metric#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/metric#name Metric#name}
   */
   readonly name: string;
   /**
   * The ID of the source this metric belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/metric#source_id Metric#source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/metric#source_id Metric#source_id}
   */
   readonly sourceId: string;
   /**
   * The SQL expression used to extract the metric value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/metric#sql_expression Metric#sql_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/metric#sql_expression Metric#sql_expression}
   */
   readonly sqlExpression: string;
   /**
   * Used to specify the team the resource should be created in when using global tokens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/metric#team_name Metric#team_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/metric#team_name Metric#team_name}
   */
   readonly teamName?: string;
   /**
   * The type of the metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/metric#type Metric#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/metric#type Metric#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/metric logtail_metric}
+* Represents a {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/metric logtail_metric}
 */
 export class Metric extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class Metric extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Metric resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Metric to import
-  * @param importFromId The id of the existing Metric that should be imported. Refer to the {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/metric#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Metric that should be imported. Refer to the {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/metric#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Metric to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class Metric extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/metric logtail_metric} Resource
+  * Create a new {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/metric logtail_metric} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class Metric extends cdktf.TerraformResource {
       terraformResourceType: 'logtail_metric',
       terraformGeneratorMetadata: {
         providerName: 'logtail',
-        providerVersion: '0.6.4',
-        providerVersionConstraint: '0.6.4'
+        providerVersion: '0.7.1',
+        providerVersionConstraint: '0.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

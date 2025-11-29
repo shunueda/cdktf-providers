@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "teamcity": "0.0.85"
+    "teamcity": "0.0.86"
   }
 }

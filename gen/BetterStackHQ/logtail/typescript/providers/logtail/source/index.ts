@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/source
+// https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface SourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Data region or private cluster name to create the source in. Permitted values for most plans are: `us_east`, `us_west`, `germany`, `singapore`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/source#data_region Source#data_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/source#data_region Source#data_region}
   */
   readonly dataRegion?: string;
   /**
   * This property allows you to temporarily pause data ingesting for this source (e.g., when you are reaching your plan's usage quota and you want to prioritize some sources over others).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/source#ingesting_paused Source#ingesting_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/source#ingesting_paused Source#ingesting_paused}
   */
   readonly ingestingPaused?: boolean | cdktf.IResolvable;
   /**
   * Freeform text template for formatting Live tail output with columns wrapped in {column} brackets. Example: "PID: {message_json.pid} {level} {message}"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/source#live_tail_pattern Source#live_tail_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/source#live_tail_pattern Source#live_tail_pattern}
   */
   readonly liveTailPattern?: string;
   /**
   * Data retention for logs in days. There might be additional charges for longer retention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/source#logs_retention Source#logs_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/source#logs_retention Source#logs_retention}
   */
   readonly logsRetention?: number;
   /**
   * Data retention for metrics in days. There might be additional charges for longer retention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/source#metrics_retention Source#metrics_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/source#metrics_retention Source#metrics_retention}
   */
   readonly metricsRetention?: number;
   /**
   * The name of this source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/source#name Source#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/source#name Source#name}
   */
   readonly name: string;
   /**
@@ -95,61 +95,61 @@ export interface SourceConfig extends cdktf.TerraformMetaArguments {
   *     - `vector`
   *     - `vercel_integration`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/source#platform Source#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/source#platform Source#platform}
   */
   readonly platform: string;
   /**
   * For scrape platform types, how often to scrape the URLs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/source#scrape_frequency_secs Source#scrape_frequency_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/source#scrape_frequency_secs Source#scrape_frequency_secs}
   */
   readonly scrapeFrequencySecs?: number;
   /**
   * Basic auth password for scraping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/source#scrape_request_basic_auth_password Source#scrape_request_basic_auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/source#scrape_request_basic_auth_password Source#scrape_request_basic_auth_password}
   */
   readonly scrapeRequestBasicAuthPassword?: string;
   /**
   * Basic auth username for scraping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/source#scrape_request_basic_auth_user Source#scrape_request_basic_auth_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/source#scrape_request_basic_auth_user Source#scrape_request_basic_auth_user}
   */
   readonly scrapeRequestBasicAuthUser?: string;
   /**
   * An array of request headers, each containing `name` and `value` fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/source#scrape_request_headers Source#scrape_request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/source#scrape_request_headers Source#scrape_request_headers}
   */
   readonly scrapeRequestHeaders?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * For scrape platform types, the set of urls to scrape.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/source#scrape_urls Source#scrape_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/source#scrape_urls Source#scrape_urls}
   */
   readonly scrapeUrls?: string[];
   /**
   * The ID of the source group this source belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/source#source_group_id Source#source_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/source#source_group_id Source#source_group_id}
   */
   readonly sourceGroupId?: number;
   /**
   * Used to specify the team the resource should be created in when using global tokens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/source#team_name Source#team_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/source#team_name Source#team_name}
   */
   readonly teamName?: string;
   /**
   * The VRL code that's used to transform events. Read more about [VRL transformations](https://betterstack.com/docs/logs/using-logtail/transforming-ingested-data/logs-vrl/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/source#vrl_transformation Source#vrl_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/source#vrl_transformation Source#vrl_transformation}
   */
   readonly vrlTransformation?: string;
   /**
   * custom_bucket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/source#custom_bucket Source#custom_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/source#custom_bucket Source#custom_bucket}
   */
   readonly customBucket?: SourceCustomBucket;
 }
@@ -157,31 +157,31 @@ export interface SourceCustomBucket {
   /**
   * Access key ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/source#access_key_id Source#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/source#access_key_id Source#access_key_id}
   */
   readonly accessKeyId: string;
   /**
   * Bucket endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/source#endpoint Source#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/source#endpoint Source#endpoint}
   */
   readonly endpoint: string;
   /**
   * Whether we should keep data in the bucket after the retention period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/source#keep_data_after_retention Source#keep_data_after_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/source#keep_data_after_retention Source#keep_data_after_retention}
   */
   readonly keepDataAfterRetention?: boolean | cdktf.IResolvable;
   /**
   * Bucket name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/source#name Source#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/source#name Source#name}
   */
   readonly name: string;
   /**
   * Secret access key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/source#secret_access_key Source#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/source#secret_access_key Source#secret_access_key}
   */
   readonly secretAccessKey: string;
 }
@@ -369,7 +369,7 @@ export class SourceCustomBucketOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/source logtail_source}
+* Represents a {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/source logtail_source}
 */
 export class Source extends cdktf.TerraformResource {
 
@@ -385,7 +385,7 @@ export class Source extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Source resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Source to import
-  * @param importFromId The id of the existing Source that should be imported. Refer to the {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Source that should be imported. Refer to the {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Source to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -397,7 +397,7 @@ export class Source extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/resources/source logtail_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/source logtail_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -408,8 +408,8 @@ export class Source extends cdktf.TerraformResource {
       terraformResourceType: 'logtail_source',
       terraformGeneratorMetadata: {
         providerName: 'logtail',
-        providerVersion: '0.6.4',
-        providerVersionConstraint: '0.6.4'
+        providerVersion: '0.7.1',
+        providerVersionConstraint: '0.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

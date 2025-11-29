@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/sudo_rule_option
+// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_option
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface SudoRuleOptionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Sudo rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/sudo_rule_option#name SudoRuleOption#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_option#name SudoRuleOption#name}
   */
   readonly name: string;
   /**
   * Sudo option to add to the sudo rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/sudo_rule_option#option SudoRuleOption#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_option#option SudoRuleOption#option}
   */
   readonly option: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/sudo_rule_option freeipa_sudo_rule_option}
+* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_option freeipa_sudo_rule_option}
 */
 export class SudoRuleOption extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class SudoRuleOption extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SudoRuleOption resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SudoRuleOption to import
-  * @param importFromId The id of the existing SudoRuleOption that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/sudo_rule_option#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SudoRuleOption that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_option#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SudoRuleOption to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class SudoRuleOption extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/sudo_rule_option freeipa_sudo_rule_option} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_option freeipa_sudo_rule_option} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class SudoRuleOption extends cdktf.TerraformResource {
       terraformResourceType: 'freeipa_sudo_rule_option',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.1.4',
-        providerVersionConstraint: '5.1.4'
+        providerVersion: '5.2.0',
+        providerVersionConstraint: '5.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

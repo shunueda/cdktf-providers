@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/hbac_policy
+// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hbac_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface HbacPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * HBAC policy description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/hbac_policy#description HbacPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hbac_policy#description HbacPolicy#description}
   */
   readonly description?: string;
   /**
   * Enable this hbac policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/hbac_policy#enabled HbacPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hbac_policy#enabled HbacPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Host category the hbac policy is applied to (allowed value: all)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/hbac_policy#hostcategory HbacPolicy#hostcategory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hbac_policy#hostcategory HbacPolicy#hostcategory}
   */
   readonly hostcategory?: string;
   /**
   * Name of the hbac policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/hbac_policy#name HbacPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hbac_policy#name HbacPolicy#name}
   */
   readonly name: string;
   /**
   * Service category the hbac policy is applied to (allowed value: all)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/hbac_policy#servicecategory HbacPolicy#servicecategory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hbac_policy#servicecategory HbacPolicy#servicecategory}
   */
   readonly servicecategory?: string;
   /**
   * User category the hbac policy is applied to (allowed value: all)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/hbac_policy#usercategory HbacPolicy#usercategory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hbac_policy#usercategory HbacPolicy#usercategory}
   */
   readonly usercategory?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/hbac_policy freeipa_hbac_policy}
+* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hbac_policy freeipa_hbac_policy}
 */
 export class HbacPolicy extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class HbacPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HbacPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HbacPolicy to import
-  * @param importFromId The id of the existing HbacPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/hbac_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HbacPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hbac_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HbacPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class HbacPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/hbac_policy freeipa_hbac_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hbac_policy freeipa_hbac_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class HbacPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'freeipa_hbac_policy',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.1.4',
-        providerVersionConstraint: '5.1.4'
+        providerVersion: '5.2.0',
+        providerVersionConstraint: '5.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

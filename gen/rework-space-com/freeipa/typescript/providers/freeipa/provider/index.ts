@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs
+// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface FreeipaProviderConfig {
   /**
   * Path to the server's SSL CA certificate. Can be set through the environment variable `FREEIPA_CA_CERT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs#ca_certificate FreeipaProvider#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs#ca_certificate FreeipaProvider#ca_certificate}
   */
   readonly caCertificate?: string;
   /**
   * The FreeIPA host. Can be set through the environment variable `FREEIPA_HOST`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs#host FreeipaProvider#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs#host FreeipaProvider#host}
   */
   readonly host: string;
   /**
   * Whether to verify the server's SSL certificate. Can be set through the environment variable `FREEIPA_INSECURE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs#insecure FreeipaProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs#insecure FreeipaProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Password to use for connection. Can be set through the environment variable `FREEIPA_PASSWORD`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs#password FreeipaProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs#password FreeipaProvider#password}
   */
   readonly password?: string;
   /**
   * Username to use for connection. Can be set through the environment variable `FREEIPA_USERNAME`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs#username FreeipaProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs#username FreeipaProvider#username}
   */
   readonly username?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs#alias FreeipaProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs#alias FreeipaProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs freeipa}
+* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs freeipa}
 */
 export class FreeipaProvider extends cdktf.TerraformProvider {
 
@@ -62,7 +62,7 @@ export class FreeipaProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a FreeipaProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FreeipaProvider to import
-  * @param importFromId The id of the existing FreeipaProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FreeipaProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FreeipaProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class FreeipaProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs freeipa} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs freeipa} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class FreeipaProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'freeipa',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.1.4',
-        providerVersionConstraint: '5.1.4'
+        providerVersion: '5.2.0',
+        providerVersionConstraint: '5.2.0'
       },
       terraformProviderSource: 'rework-space-com/freeipa'
     });

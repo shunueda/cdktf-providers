@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/data-sources/application_keys
+// https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.3/docs/data-sources/application_keys
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -105,7 +105,7 @@ export class DataWarpstreamApplicationKeysApplicationKeysList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/data-sources/application_keys warpstream_application_keys}
+* Represents a {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.3/docs/data-sources/application_keys warpstream_application_keys}
 */
 export class DataWarpstreamApplicationKeys extends cdktf.TerraformDataSource {
 
@@ -121,7 +121,7 @@ export class DataWarpstreamApplicationKeys extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataWarpstreamApplicationKeys resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataWarpstreamApplicationKeys to import
-  * @param importFromId The id of the existing DataWarpstreamApplicationKeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/data-sources/application_keys#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataWarpstreamApplicationKeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.3/docs/data-sources/application_keys#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataWarpstreamApplicationKeys to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -133,7 +133,7 @@ export class DataWarpstreamApplicationKeys extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/data-sources/application_keys warpstream_application_keys} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.3/docs/data-sources/application_keys warpstream_application_keys} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -144,8 +144,8 @@ export class DataWarpstreamApplicationKeys extends cdktf.TerraformDataSource {
       terraformResourceType: 'warpstream_application_keys',
       terraformGeneratorMetadata: {
         providerName: 'warpstream',
-        providerVersion: '2.3.2',
-        providerVersionConstraint: '2.3.2'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

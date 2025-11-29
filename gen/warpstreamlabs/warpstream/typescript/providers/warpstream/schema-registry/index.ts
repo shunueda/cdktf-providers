@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/resources/schema_registry
+// https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.3/docs/resources/schema_registry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface SchemaRegistryConfig extends cdktf.TerraformMetaArguments {
   /**
   * Virtual Cluster Cloud Location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/resources/schema_registry#cloud SchemaRegistry#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.3/docs/resources/schema_registry#cloud SchemaRegistry#cloud}
   */
   readonly cloud?: SchemaRegistryCloud;
   /**
   * Schema Registry Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/resources/schema_registry#name SchemaRegistry#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.3/docs/resources/schema_registry#name SchemaRegistry#name}
   */
   readonly name: string;
 }
@@ -119,13 +119,13 @@ export interface SchemaRegistryCloud {
   /**
   * Cloud Provider. Valid providers are: `aws` (default), `gcp`, and `azure`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/resources/schema_registry#provider SchemaRegistry#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.3/docs/resources/schema_registry#provider SchemaRegistry#provider}
   */
   readonly provider?: string;
   /**
   * Cloud Region. Defaults to `us-east-1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/resources/schema_registry#region SchemaRegistry#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.3/docs/resources/schema_registry#region SchemaRegistry#region}
   */
   readonly region?: string;
 }
@@ -248,7 +248,7 @@ export class SchemaRegistryCloudOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/resources/schema_registry warpstream_schema_registry}
+* Represents a {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.3/docs/resources/schema_registry warpstream_schema_registry}
 */
 export class SchemaRegistry extends cdktf.TerraformResource {
 
@@ -264,7 +264,7 @@ export class SchemaRegistry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SchemaRegistry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SchemaRegistry to import
-  * @param importFromId The id of the existing SchemaRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/resources/schema_registry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SchemaRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.3/docs/resources/schema_registry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SchemaRegistry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -276,7 +276,7 @@ export class SchemaRegistry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/resources/schema_registry warpstream_schema_registry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.3/docs/resources/schema_registry warpstream_schema_registry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -287,8 +287,8 @@ export class SchemaRegistry extends cdktf.TerraformResource {
       terraformResourceType: 'warpstream_schema_registry',
       terraformGeneratorMetadata: {
         providerName: 'warpstream',
-        providerVersion: '2.3.2',
-        providerVersionConstraint: '2.3.2'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

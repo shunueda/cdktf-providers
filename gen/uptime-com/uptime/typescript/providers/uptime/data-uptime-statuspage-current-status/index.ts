@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/data-sources/statuspage_current_status
+// https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/data-sources/statuspage_current_status
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataUptimeStatuspageCurrentStatusConfig extends cdktf.Terraform
   /**
   * ID of the status page to retrieve current status for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/data-sources/statuspage_current_status#statuspage_id DataUptimeStatuspageCurrentStatus#statuspage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/data-sources/statuspage_current_status#statuspage_id DataUptimeStatuspageCurrentStatus#statuspage_id}
   */
   readonly statuspageId: number;
 }
@@ -106,7 +106,7 @@ export class DataUptimeStatuspageCurrentStatusComponentsList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/data-sources/statuspage_current_status uptime_statuspage_current_status}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/data-sources/statuspage_current_status uptime_statuspage_current_status}
 */
 export class DataUptimeStatuspageCurrentStatus extends cdktf.TerraformDataSource {
 
@@ -122,7 +122,7 @@ export class DataUptimeStatuspageCurrentStatus extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataUptimeStatuspageCurrentStatus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataUptimeStatuspageCurrentStatus to import
-  * @param importFromId The id of the existing DataUptimeStatuspageCurrentStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/data-sources/statuspage_current_status#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataUptimeStatuspageCurrentStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/data-sources/statuspage_current_status#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataUptimeStatuspageCurrentStatus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -134,7 +134,7 @@ export class DataUptimeStatuspageCurrentStatus extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/data-sources/statuspage_current_status uptime_statuspage_current_status} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/data-sources/statuspage_current_status uptime_statuspage_current_status} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -145,8 +145,8 @@ export class DataUptimeStatuspageCurrentStatus extends cdktf.TerraformDataSource
       terraformResourceType: 'uptime_statuspage_current_status',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.18.0',
-        providerVersionConstraint: '2.18.0'
+        providerVersion: '2.18.1',
+        providerVersionConstraint: '2.18.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

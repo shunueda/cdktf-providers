@@ -1,3 +1,3 @@
 # `warpstream_pipeline`
 
-Refer to the Terraform Registry for docs: [`warpstream_pipeline`](https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/resources/pipeline).
+Refer to the Terraform Registry for docs: [`warpstream_pipeline`](https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.3/docs/resources/pipeline).

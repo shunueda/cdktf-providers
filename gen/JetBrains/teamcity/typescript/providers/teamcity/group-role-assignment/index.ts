@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/group_role_assignment
+// https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/group_role_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface GroupRoleAssignmentConfig extends cdktf.TerraformMetaArguments 
   /**
   * The ID or key of the group to assign the role to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/group_role_assignment#group_id GroupRoleAssignment#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/group_role_assignment#group_id GroupRoleAssignment#group_id}
   */
   readonly groupId: string;
   /**
   * The ID of the role to assign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/group_role_assignment#role_id GroupRoleAssignment#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/group_role_assignment#role_id GroupRoleAssignment#role_id}
   */
   readonly roleId: string;
   /**
   * The scope of the role assignment. Use 'g' for global scope or 'p:PROJECT_ID' for project-specific scope. Defaults to global if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/group_role_assignment#scope GroupRoleAssignment#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/group_role_assignment#scope GroupRoleAssignment#scope}
   */
   readonly scope?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/group_role_assignment teamcity_group_role_assignment}
+* Represents a {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/group_role_assignment teamcity_group_role_assignment}
 */
 export class GroupRoleAssignment extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class GroupRoleAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GroupRoleAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GroupRoleAssignment to import
-  * @param importFromId The id of the existing GroupRoleAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/group_role_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GroupRoleAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/group_role_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GroupRoleAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class GroupRoleAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.85/docs/resources/group_role_assignment teamcity_group_role_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/group_role_assignment teamcity_group_role_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class GroupRoleAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'teamcity_group_role_assignment',
       terraformGeneratorMetadata: {
         providerName: 'teamcity',
-        providerVersion: '0.0.85',
-        providerVersionConstraint: '0.0.85'
+        providerVersion: '0.0.86',
+        providerVersionConstraint: '0.0.86'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

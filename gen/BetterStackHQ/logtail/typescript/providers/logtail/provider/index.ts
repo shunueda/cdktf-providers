@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs
+// https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface LogtailProviderConfig {
   /**
   * Better Stack Telemetry API token. The value can be omitted if `LOGTAIL_API_TOKEN` environment variable is set. See https://betterstack.com/docs/logs/api/getting-started/#get-an-logs-api-token on how to obtain the API token for your team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs#api_token LogtailProvider#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs#api_token LogtailProvider#api_token}
   */
   readonly apiToken: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs#alias LogtailProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs#alias LogtailProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs logtail}
+* Represents a {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs logtail}
 */
 export class LogtailProvider extends cdktf.TerraformProvider {
 
@@ -38,7 +38,7 @@ export class LogtailProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a LogtailProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogtailProvider to import
-  * @param importFromId The id of the existing LogtailProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogtailProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogtailProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class LogtailProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs logtail} Resource
+  * Create a new {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs logtail} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class LogtailProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'logtail',
       terraformGeneratorMetadata: {
         providerName: 'logtail',
-        providerVersion: '0.6.4',
-        providerVersionConstraint: '0.6.4'
+        providerVersion: '0.7.1',
+        providerVersionConstraint: '0.7.1'
       },
       terraformProviderSource: 'BetterStackHQ/logtail'
     });

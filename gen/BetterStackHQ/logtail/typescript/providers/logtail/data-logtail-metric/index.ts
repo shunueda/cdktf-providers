@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/data-sources/metric
+// https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/data-sources/metric
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataLogtailMetricConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of this metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/data-sources/metric#name DataLogtailMetric#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/data-sources/metric#name DataLogtailMetric#name}
   */
   readonly name: string;
   /**
   * The ID of the source this metric belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/data-sources/metric#source_id DataLogtailMetric#source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/data-sources/metric#source_id DataLogtailMetric#source_id}
   */
   readonly sourceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/data-sources/metric logtail_metric}
+* Represents a {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/data-sources/metric logtail_metric}
 */
 export class DataLogtailMetric extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataLogtailMetric extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLogtailMetric resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLogtailMetric to import
-  * @param importFromId The id of the existing DataLogtailMetric that should be imported. Refer to the {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/data-sources/metric#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLogtailMetric that should be imported. Refer to the {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/data-sources/metric#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLogtailMetric to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataLogtailMetric extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.6.4/docs/data-sources/metric logtail_metric} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/data-sources/metric logtail_metric} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataLogtailMetric extends cdktf.TerraformDataSource {
       terraformResourceType: 'logtail_metric',
       terraformGeneratorMetadata: {
         providerName: 'logtail',
-        providerVersion: '0.6.4',
-        providerVersionConstraint: '0.6.4'
+        providerVersion: '0.7.1',
+        providerVersionConstraint: '0.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_datadog
+// https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_datadog
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface IntegrationDatadogConfig extends cdktf.TerraformMetaArguments {
   /**
   * Datadog API key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_datadog#api_key IntegrationDatadog#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_datadog#api_key IntegrationDatadog#api_key}
   */
   readonly apiKey: string;
   /**
   * Datadog application key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_datadog#app_key IntegrationDatadog#app_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_datadog#app_key IntegrationDatadog#app_key}
   */
   readonly appKey: string;
   /**
@@ -24,23 +24,23 @@ export interface IntegrationDatadogConfig extends cdktf.TerraformMetaArguments {
   * Each contact group can contain multiple contacts (email addresses, phone numbers, or integrations) 
   * that will be notified when alerts are triggered. Defaults to ['Default'] if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_datadog#contact_groups IntegrationDatadog#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_datadog#contact_groups IntegrationDatadog#contact_groups}
   */
   readonly contactGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_datadog#name IntegrationDatadog#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_datadog#name IntegrationDatadog#name}
   */
   readonly name: string;
   /**
   * Datadog region (e.g., 'us', 'eu')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_datadog#region IntegrationDatadog#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_datadog#region IntegrationDatadog#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_datadog uptime_integration_datadog}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_datadog uptime_integration_datadog}
 */
 export class IntegrationDatadog extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class IntegrationDatadog extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationDatadog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationDatadog to import
-  * @param importFromId The id of the existing IntegrationDatadog that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_datadog#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationDatadog that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_datadog#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationDatadog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class IntegrationDatadog extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_datadog uptime_integration_datadog} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_datadog uptime_integration_datadog} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class IntegrationDatadog extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_integration_datadog',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.18.0',
-        providerVersionConstraint: '2.18.0'
+        providerVersion: '2.18.1',
+        providerVersionConstraint: '2.18.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

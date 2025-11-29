@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_pagerduty
+// https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_pagerduty
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface IntegrationPagerdutyConfig extends cdktf.TerraformMetaArguments
   /**
   * Automatically resolve incident once the check is back up
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_pagerduty#auto_resolve IntegrationPagerduty#auto_resolve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_pagerduty#auto_resolve IntegrationPagerduty#auto_resolve}
   */
   readonly autoResolve?: boolean | cdktf.IResolvable;
   /**
@@ -18,23 +18,23 @@ export interface IntegrationPagerdutyConfig extends cdktf.TerraformMetaArguments
   * Each contact group can contain multiple contacts (email addresses, phone numbers, or integrations) 
   * that will be notified when alerts are triggered. Defaults to ['Default'] if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_pagerduty#contact_groups IntegrationPagerduty#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_pagerduty#contact_groups IntegrationPagerduty#contact_groups}
   */
   readonly contactGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_pagerduty#name IntegrationPagerduty#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_pagerduty#name IntegrationPagerduty#name}
   */
   readonly name: string;
   /**
   * PagerDuty service integration key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_pagerduty#service_key IntegrationPagerduty#service_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_pagerduty#service_key IntegrationPagerduty#service_key}
   */
   readonly serviceKey: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_pagerduty uptime_integration_pagerduty}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_pagerduty uptime_integration_pagerduty}
 */
 export class IntegrationPagerduty extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class IntegrationPagerduty extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationPagerduty resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationPagerduty to import
-  * @param importFromId The id of the existing IntegrationPagerduty that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_pagerduty#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationPagerduty that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_pagerduty#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationPagerduty to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class IntegrationPagerduty extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/integration_pagerduty uptime_integration_pagerduty} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_pagerduty uptime_integration_pagerduty} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class IntegrationPagerduty extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_integration_pagerduty',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.18.0',
-        providerVersionConstraint: '2.18.0'
+        providerVersion: '2.18.1',
+        providerVersionConstraint: '2.18.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

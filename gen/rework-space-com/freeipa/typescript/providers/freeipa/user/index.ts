@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user
+// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,147 +8,153 @@ import * as cdktf from 'cdktf';
 
 export interface UserConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Account disabled
+  * Account disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#account_disabled User#account_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#account_disabled User#account_disabled}
   */
   readonly accountDisabled?: boolean | cdktf.IResolvable;
   /**
+  * Add an attribute/value pair. Format is attr=value. The attribute must be part of the LDAP schema.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#addattr User#addattr}
+  */
+  readonly addattr?: string[];
+  /**
   * User authentication type. Possible values of the elements are (password, radius, otp, pkinit, hardened, idp, passkey)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#auth_type User#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#auth_type User#auth_type}
   */
   readonly authType?: string[];
   /**
   * Car Licenses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#car_license User#car_license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#car_license User#car_license}
   */
   readonly carLicense?: string[];
   /**
   * City
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#city User#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#city User#city}
   */
   readonly city?: string;
   /**
   * Display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#display_name User#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#display_name User#display_name}
   */
   readonly displayName?: string;
   /**
   * Email address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#email_address User#email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#email_address User#email_address}
   */
   readonly emailAddress?: string[];
   /**
   * Employee Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#employee_number User#employee_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#employee_number User#employee_number}
   */
   readonly employeeNumber?: string;
   /**
   * Employee Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#employee_type User#employee_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#employee_type User#employee_type}
   */
   readonly employeeType?: string;
   /**
   * External IdP configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#external_idp_config User#external_idp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#external_idp_config User#external_idp_config}
   */
   readonly externalIdpConfig?: string;
   /**
   * External IdP user identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#external_idp_username User#external_idp_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#external_idp_username User#external_idp_username}
   */
   readonly externalIdpUsername?: string;
   /**
   * First name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#first_name User#first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#first_name User#first_name}
   */
   readonly firstName: string;
   /**
   * Full name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#full_name User#full_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#full_name User#full_name}
   */
   readonly fullName?: string;
   /**
   * GECOS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#gecos User#gecos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#gecos User#gecos}
   */
   readonly gecos?: string;
   /**
   * Group ID Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#gid_number User#gid_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#gid_number User#gid_number}
   */
   readonly gidNumber?: number;
   /**
   * Home Directory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#home_directory User#home_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#home_directory User#home_directory}
   */
   readonly homeDirectory?: string;
   /**
   * Initials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#initials User#initials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#initials User#initials}
   */
   readonly initials?: string;
   /**
   * Job Title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#job_title User#job_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#job_title User#job_title}
   */
   readonly jobTitle?: string;
   /**
   * User password expiration [RFC3339](https://datatracker.ietf.org/doc/html/rfc3339#section-5.8) format (see [RFC3339 time string](https://tools.ietf.org/html/rfc3339#section-5.8) e.g., `YYYY-MM-DDTHH:MM:SSZ`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#krb_password_expiration User#krb_password_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#krb_password_expiration User#krb_password_expiration}
   */
   readonly krbPasswordExpiration?: string;
   /**
   * Kerberos principal expiration [RFC3339](https://datatracker.ietf.org/doc/html/rfc3339#section-5.8) format (see [RFC3339 time string](https://tools.ietf.org/html/rfc3339#section-5.8) e.g., `YYYY-MM-DDTHH:MM:SSZ`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#krb_principal_expiration User#krb_principal_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#krb_principal_expiration User#krb_principal_expiration}
   */
   readonly krbPrincipalExpiration?: string;
   /**
   * Principal alias
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#krb_principal_name User#krb_principal_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#krb_principal_name User#krb_principal_name}
   */
   readonly krbPrincipalName?: string[];
   /**
   * Last name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#last_name User#last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#last_name User#last_name}
   */
   readonly lastName: string;
   /**
   * Login Shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#login_shell User#login_shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#login_shell User#login_shell}
   */
   readonly loginShell?: string;
   /**
   * Manager
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#manager User#manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#manager User#manager}
   */
   readonly manager?: string;
   /**
   * Mobile Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#mobile_numbers User#mobile_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#mobile_numbers User#mobile_numbers}
   */
   readonly mobileNumbers?: string[];
   /**
@@ -159,97 +165,109 @@ export interface UserConfig extends cdktf.TerraformMetaArguments {
   * 	- The name must not start with a special character.
   * 	- A user and a group cannot have the same name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#name User#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#name User#name}
   */
   readonly name: string;
   /**
   * Org. Unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#organisation_unit User#organisation_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#organisation_unit User#organisation_unit}
   */
   readonly organisationUnit?: string;
   /**
   * Postal code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#postal_code User#postal_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#postal_code User#postal_code}
   */
   readonly postalCode?: string;
   /**
   * Preferred Language
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#preferred_language User#preferred_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#preferred_language User#preferred_language}
   */
   readonly preferredLanguage?: string;
   /**
   * Province/State/Country
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#province User#province}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#province User#province}
   */
   readonly province?: string;
   /**
   * RADIUS proxy configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#radius_proxy_config User#radius_proxy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#radius_proxy_config User#radius_proxy_config}
   */
   readonly radiusProxyConfig?: string;
   /**
   * RADIUS proxy username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#radius_proxy_username User#radius_proxy_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#radius_proxy_username User#radius_proxy_username}
   */
   readonly radiusProxyUsername?: string;
   /**
   * Generate a random user password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#random_password User#random_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#random_password User#random_password}
   */
   readonly randomPassword?: boolean | cdktf.IResolvable;
   /**
+  * Set an attribute to a name/value pair. Format is attr=value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#setattr User#setattr}
+  */
+  readonly setattr?: string[];
+  /**
   * List of SSH public keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#ssh_public_key User#ssh_public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#ssh_public_key User#ssh_public_key}
   */
   readonly sshPublicKey?: string[];
   /**
+  * The current state of the user, can be `active`, `disabled`, `staged`, or `preserved`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#state User#state}
+  */
+  readonly state?: string;
+  /**
   * Street address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#street_address User#street_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#street_address User#street_address}
   */
   readonly streetAddress?: string;
   /**
   * Telephone Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#telephone_numbers User#telephone_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#telephone_numbers User#telephone_numbers}
   */
   readonly telephoneNumbers?: string[];
   /**
   * User ID Number (system will assign one if not provided)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#uid_number User#uid_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#uid_number User#uid_number}
   */
   readonly uidNumber?: number;
   /**
   * List of Base-64 encoded user certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#user_certificates User#user_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#user_certificates User#user_certificates}
   */
   readonly userCertificates?: string[];
   /**
   * User category (semantics placed on this attribute are for local interpretation)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#userclass User#userclass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#userclass User#userclass}
   */
   readonly userclass?: string[];
   /**
   * Prompt to set the user password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#userpassword User#userpassword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#userpassword User#userpassword}
   */
   readonly userpassword?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user freeipa_user}
+* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user freeipa_user}
 */
 export class User extends cdktf.TerraformResource {
 
@@ -265,7 +283,7 @@ export class User extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a User resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the User to import
-  * @param importFromId The id of the existing User that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing User that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the User to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -277,7 +295,7 @@ export class User extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user freeipa_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/user freeipa_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -288,8 +306,8 @@ export class User extends cdktf.TerraformResource {
       terraformResourceType: 'freeipa_user',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.1.4',
-        providerVersionConstraint: '5.1.4'
+        providerVersion: '5.2.0',
+        providerVersionConstraint: '5.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -300,6 +318,7 @@ export class User extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._accountDisabled = config.accountDisabled;
+    this._addattr = config.addattr;
     this._authType = config.authType;
     this._carLicense = config.carLicense;
     this._city = config.city;
@@ -331,7 +350,9 @@ export class User extends cdktf.TerraformResource {
     this._radiusProxyConfig = config.radiusProxyConfig;
     this._radiusProxyUsername = config.radiusProxyUsername;
     this._randomPassword = config.randomPassword;
+    this._setattr = config.setattr;
     this._sshPublicKey = config.sshPublicKey;
+    this._state = config.state;
     this._streetAddress = config.streetAddress;
     this._telephoneNumbers = config.telephoneNumbers;
     this._uidNumber = config.uidNumber;
@@ -358,6 +379,22 @@ export class User extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get accountDisabledInput() {
     return this._accountDisabled;
+  }
+
+  // addattr - computed: false, optional: true, required: false
+  private _addattr?: string[]; 
+  public get addattr() {
+    return this.getListAttribute('addattr');
+  }
+  public set addattr(value: string[]) {
+    this._addattr = value;
+  }
+  public resetAddattr() {
+    this._addattr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addattrInput() {
+    return this._addattr;
   }
 
   // auth_type - computed: false, optional: true, required: false
@@ -852,6 +889,22 @@ export class User extends cdktf.TerraformResource {
     return this._randomPassword;
   }
 
+  // setattr - computed: false, optional: true, required: false
+  private _setattr?: string[]; 
+  public get setattr() {
+    return this.getListAttribute('setattr');
+  }
+  public set setattr(value: string[]) {
+    this._setattr = value;
+  }
+  public resetSetattr() {
+    this._setattr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get setattrInput() {
+    return this._setattr;
+  }
+
   // ssh_public_key - computed: false, optional: true, required: false
   private _sshPublicKey?: string[]; 
   public get sshPublicKey() {
@@ -866,6 +919,22 @@ export class User extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get sshPublicKeyInput() {
     return this._sshPublicKey;
+  }
+
+  // state - computed: true, optional: true, required: false
+  private _state?: string; 
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+  public set state(value: string) {
+    this._state = value;
+  }
+  public resetState() {
+    this._state = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get stateInput() {
+    return this._state;
   }
 
   // street_address - computed: false, optional: true, required: false
@@ -971,6 +1040,7 @@ export class User extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       account_disabled: cdktf.booleanToTerraform(this._accountDisabled),
+      addattr: cdktf.listMapper(cdktf.stringToTerraform, false)(this._addattr),
       auth_type: cdktf.listMapper(cdktf.stringToTerraform, false)(this._authType),
       car_license: cdktf.listMapper(cdktf.stringToTerraform, false)(this._carLicense),
       city: cdktf.stringToTerraform(this._city),
@@ -1002,7 +1072,9 @@ export class User extends cdktf.TerraformResource {
       radius_proxy_config: cdktf.stringToTerraform(this._radiusProxyConfig),
       radius_proxy_username: cdktf.stringToTerraform(this._radiusProxyUsername),
       random_password: cdktf.booleanToTerraform(this._randomPassword),
+      setattr: cdktf.listMapper(cdktf.stringToTerraform, false)(this._setattr),
       ssh_public_key: cdktf.listMapper(cdktf.stringToTerraform, false)(this._sshPublicKey),
+      state: cdktf.stringToTerraform(this._state),
       street_address: cdktf.stringToTerraform(this._streetAddress),
       telephone_numbers: cdktf.listMapper(cdktf.stringToTerraform, false)(this._telephoneNumbers),
       uid_number: cdktf.numberToTerraform(this._uidNumber),
@@ -1019,6 +1091,12 @@ export class User extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
+      },
+      addattr: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._addattr),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
       },
       auth_type: {
         value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._authType),
@@ -1206,11 +1284,23 @@ export class User extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "boolean",
       },
+      setattr: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._setattr),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
       ssh_public_key: {
         value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._sshPublicKey),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
+      },
+      state: {
+        value: cdktf.stringToHclTerraform(this._state),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       street_address: {
         value: cdktf.stringToHclTerraform(this._streetAddress),

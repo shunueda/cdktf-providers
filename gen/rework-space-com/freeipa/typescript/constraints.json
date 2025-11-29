@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "freeipa": "5.1.4"
+    "freeipa": "5.2.0"
   }
 }

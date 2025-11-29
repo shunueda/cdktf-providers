@@ -1,3 +1,3 @@
 # `warpstream_acl`
 
-Refer to the Terraform Registry for docs: [`warpstream_acl`](https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/resources/acl).
+Refer to the Terraform Registry for docs: [`warpstream_acl`](https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.3/docs/resources/acl).

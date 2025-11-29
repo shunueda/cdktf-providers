@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/data-sources/sla_reports
+// https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/data-sources/sla_reports
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -145,7 +145,7 @@ export class DataUptimeSlaReportsSlaReportsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/data-sources/sla_reports uptime_sla_reports}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/data-sources/sla_reports uptime_sla_reports}
 */
 export class DataUptimeSlaReports extends cdktf.TerraformDataSource {
 
@@ -161,7 +161,7 @@ export class DataUptimeSlaReports extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataUptimeSlaReports resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataUptimeSlaReports to import
-  * @param importFromId The id of the existing DataUptimeSlaReports that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/data-sources/sla_reports#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataUptimeSlaReports that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/data-sources/sla_reports#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataUptimeSlaReports to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -173,7 +173,7 @@ export class DataUptimeSlaReports extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/data-sources/sla_reports uptime_sla_reports} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/data-sources/sla_reports uptime_sla_reports} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -184,8 +184,8 @@ export class DataUptimeSlaReports extends cdktf.TerraformDataSource {
       terraformResourceType: 'uptime_sla_reports',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.18.0',
-        providerVersionConstraint: '2.18.0'
+        providerVersion: '2.18.1',
+        providerVersionConstraint: '2.18.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
